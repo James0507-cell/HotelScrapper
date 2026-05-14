@@ -1,71 +1,5 @@
 [
   {
-    "name": "Solace Hotel",
-    "price": "₱1,217",
-    "currency": "₱",
-    "rating": "4.2",
-    "review_count": "352",
-    "stars": "3-star hotel",
-    "address": "9639 Kamagong, Makati, 1203 Kalakhang Maynila(02) 8553 5808",
-    "phone": "(02) 8553 5808",
-    "website": "https://solace-hotel.com/?sa=X&ved=2ahUKEwjczLOZl7iUAxUljWYCHQEEO2YQyK4DegUIAxCoBA",
-    "about": "On a side street surrounded by cafes, bars and eateries, this unfussy budget hotel is a 15-minute walk from Vito Cruz train station and 8 km from the National Museum Complex.",
-    "amenities": {
-      "Popular amenities": [
-        "Parkingfree",
-        "Wi-Fifree",
-        "Air conditioning",
-        "Breakfast"
-      ],
-      "Internet": [
-        "Wi-Fifree"
-      ],
-      "Services": [
-        "Front desk24 hour",
-        "Full-service laundry"
-      ],
-      "Pools": [
-        "No pools",
-        "No hot tub"
-      ],
-      "Wellness": [
-        "No fitness center"
-      ],
-      "Food & drink": [
-        "Restaurant",
-        "Room service",
-        "Breakfast"
-      ],
-      "Children": [
-        "Kid-friendly"
-      ],
-      "Parking & transportation": [
-        "Parkingfree",
-        "Airport shuttleextra charge"
-      ],
-      "Rooms": [
-        "Air conditioning"
-      ]
-    },
-    "nearby_places": [],
-    "check_in": "2:00 PM",
-    "check_out": "12:00 PM",
-    "photos": [
-      "https://www.gstatic.com/images/travel/tips/where_to_stay.svg",
-      "https://www.gstatic.com/images/travel/tips/when_to_visit.svg",
-      "https://www.gstatic.com/images/travel/tips/what_youll_pay.svg",
-      "https://www.gstatic.com/images/travel/general/plan_your_stay@2x.png",
-      "https://www.gstatic.com/images/travel/prompt/no_destination@2x.png",
-      "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKCwpdQJCINxZ5CVmDe4njiv-cLsdmPBVSpwbZ4OphkBOQspDcq1FpKosX6e7t4DUv9svCUHixW3w5Fjil-YzwaRqo7uSQxE3a_3f_sydzGoPCJ03fJ_6qTL9ZhwD9Ql4KgOQwQA=s287-w287-h192-n-k-no-v1",
-      "https://lh6.googleusercontent.com/proxy/_3E7WX3TV_r5DSU7T9LASvQ8KKPT32uIFSbSg7yD4nZoonrlFpW4pdMgS8ouM44Ygo9KldPLkDa_q55inNi4fkfS10RPuqQ1oVek2Hd366eLjiFaBm9--LrSdI9tOTpIW-t9eUot_tW0u-eEnwS-G8kIK8jQDg=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHiIbNnjmiInDQ0pOy-MVk8bL40PVyqp0stss6BQjGnkr4wEYyvVNAwRuZkFZagf_NHwRpvOhtvUHM37FyYwYm5LrIDhZp-SW63YbdwtevO3UBmT9rhhEcGpReP_rPYxzyD14nEIVcCyhW2=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHxE8fw4kCRSl1zNPBQ_wWssknGPWP02cNYtPvWE44FgpmilqWEzew81VSF1J_bO6ZtEV79IQSB5ZJ5u-LOiIPj-elwOXxMuOtYaWxXHfMZRWtUb1ZNthCp4XLaJ04NFaxBPYo4=s287-w287-h192-n-k-no-v1"
-    ],
-    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahcKEwjA8ISal7iUAxUAAAAAHQAAAAAQZQ&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
-    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MihDaG9JbjZHN2lieVE2Y21CQVJvTkwyY3ZNVEZpTjNrNVptZG1jeEFCOAA&ved=2ahUKEwjvlveUl7iUAxX5p2YCHXRYDsQQrsMEegQIAxBV&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA"
-  },
-  {
     "name": "Diamond Hotel Philippines",
     "price": "₱5,970",
     "currency": "₱",
@@ -156,77 +90,201 @@
       "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
       "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKCwpdQJCINxZ5CVmDe4njiv-cLsdmPBVSpwbZ4OphkBOQspDcq1FpKosX6e7t4DUv9svCUHixW3w5Fjil-YzwaRqo7uSQxE3a_3f_sydzGoPCJ03fJ_6qTL9ZhwD9Ql4KgOQwQA=s287-w287-h192-n-k-no-v1",
       "https://lh6.googleusercontent.com/proxy/_3E7WX3TV_r5DSU7T9LASvQ8KKPT32uIFSbSg7yD4nZoonrlFpW4pdMgS8ouM44Ygo9KldPLkDa_q55inNi4fkfS10RPuqQ1oVek2Hd366eLjiFaBm9--LrSdI9tOTpIW-t9eUot_tW0u-eEnwS-G8kIK8jQDg=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHiIbNnjmiInDQ0pOy-MVk8bL40PVyqp0stss6BQjGnkr4wEYyvVNAwRuZkFZagf_NHwRpvOhtvUHM37FyYwYm5LrIDhZp-SW63YbdwtevO3UBmT9rhhEcGpReP_rPYxzyD14nEIVcCyhW2=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHxE8fw4kCRSl1zNPBQ_wWssknGPWP02cNYtPvWE44FgpmilqWEzew81VSF1J_bO6ZtEV79IQSB5ZJ5u-LOiIPj-elwOXxMuOtYaWxXHfMZRWtUb1ZNthCp4XLaJ04NFaxBPYo4=s287-w287-h192-n-k-no-v1"
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrUMJAqIzREET4QuwZIQMXYbIL1nweSMbM0rw0LEzOqJPBrQVfjC1wQ0TTJFwy2C2MwUtiBY3XhDCA-V4PvMb7wYlLpXeZ0Jo3_xpjZ3tu57D6VWxv1iE5WRUOW5IFryZFqL8i=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/Ou657zG53yZiJaADtWqOQo3PDroZRFqaQ7Tc70aNxBMIVsjVSAIwS7Mps_3a7darjBwu6hyx5n74p488wzVDkHehKj9ki4aVxgQd9by87kkYHz_rWrDER5AAmoD_wf7Vr9xP91MXFCpZxEafNnOws7G7iyF-qA=s287-w287-h192-n-k-no-v1"
     ],
-    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahgKEwiY-9Sgl7iUAxUAAAAAHQAAAAAQhgE&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
-    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUTgA&ved=2ahUKEwjvlveUl7iUAxX5p2YCHXRYDsQQrsMEegQIAxBy&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA"
+    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahgKEwiI8ZrUqriUAxUAAAAAHQAAAAAQiQE&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
+    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUTgA&ved=2ahUKEwjh9ZDPqriUAxVBkmYCHUPJKngQrsMEegQIAxBX&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA",
+    "adults": 2,
+    "children": 0
   },
   {
-    "name": "Time Travellers Hotel",
-    "price": "₱922",
+    "name": "Oxford Suites Makati",
+    "price": "₱1,445",
     "currency": "₱",
     "rating": "3.6",
-    "review_count": "291",
-    "stars": "4-star hotel",
-    "address": "Sponsored·Manila",
-    "phone": null,
-    "website": "http://www.timetravellershotel.com/?sa=X&ved=2ahUKEwidsYmnl7iUAxUBoGYCHW5IG1EQyK4DegUIAxCbBQ",
-    "about": null,
+    "review_count": "938",
+    "stars": "3-star hotel",
+    "address": "518 P. Burgos, corner Durban, Street, Makati City, 1210 Metro Manila(02) 8899 7888",
+    "phone": "(02) 8899 7888",
+    "website": "http://www.oxfordsuitesmakati.com/?sa=X&ved=2ahUKEwj74rzaqriUAxXQiGYCHYU8NRoQyK4DegUIAxCTBg",
+    "about": "Set in a 27-story yellow tower, this modern hotel is 1.9 km from shopping at the Ayala Center and 7 km from Manila Bay.",
     "amenities": {
       "Popular amenities": [
+        "Parkingfree",
         "Wi-Fifree",
         "Air conditioning",
-        "Airport shuttle",
-        "Restaurant"
+        "Breakfast"
       ],
       "Internet": [
         "Wi-Fifree"
       ],
       "Services": [
-        "Front desk24 hour"
+        "Front desk24 hour",
+        "Full-service laundry"
       ],
       "Pools": [
-        "No pools",
-        "No hot tub"
+        "No pools"
+      ],
+      "Wellness": [
+        "Fitness center"
       ],
       "Pets": [
         "No pets"
       ],
-      "Rooms": [
-        "Air conditioning"
-      ],
       "Food & drink": [
-        "Restaurant"
+        "Restaurant",
+        "Bar",
+        "Room service",
+        "Breakfast"
       ],
       "Children": [
         "Kid-friendly"
       ],
       "Parking & transportation": [
-        "Airport shuttleextra charge"
+        "Parkingfree"
       ],
-      "Wellness": [
-        "No fitness center",
-        "No spa"
+      "Accessibility": [
+        "Accessible"
+      ],
+      "Rooms": [
+        "Air conditioning"
       ]
     },
     "nearby_places": [],
-    "check_in": null,
-    "check_out": null,
+    "check_in": "2:00 PM",
+    "check_out": "12:00 PM",
     "photos": [
+      "https://www.gstatic.com/images/travel/tips/where_to_stay.svg",
+      "https://www.gstatic.com/images/travel/tips/when_to_visit.svg",
+      "https://www.gstatic.com/images/travel/tips/what_youll_pay.svg",
       "https://www.gstatic.com/images/travel/general/plan_your_stay@2x.png",
       "https://www.gstatic.com/images/travel/prompt/no_destination@2x.png",
       "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
       "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKCwpdQJCINxZ5CVmDe4njiv-cLsdmPBVSpwbZ4OphkBOQspDcq1FpKosX6e7t4DUv9svCUHixW3w5Fjil-YzwaRqo7uSQxE3a_3f_sydzGoPCJ03fJ_6qTL9ZhwD9Ql4KgOQwQA=s287-w287-h192-n-k-no-v1",
       "https://lh6.googleusercontent.com/proxy/_3E7WX3TV_r5DSU7T9LASvQ8KKPT32uIFSbSg7yD4nZoonrlFpW4pdMgS8ouM44Ygo9KldPLkDa_q55inNi4fkfS10RPuqQ1oVek2Hd366eLjiFaBm9--LrSdI9tOTpIW-t9eUot_tW0u-eEnwS-G8kIK8jQDg=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHiIbNnjmiInDQ0pOy-MVk8bL40PVyqp0stss6BQjGnkr4wEYyvVNAwRuZkFZagf_NHwRpvOhtvUHM37FyYwYm5LrIDhZp-SW63YbdwtevO3UBmT9rhhEcGpReP_rPYxzyD14nEIVcCyhW2=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHxE8fw4kCRSl1zNPBQ_wWssknGPWP02cNYtPvWE44FgpmilqWEzew81VSF1J_bO6ZtEV79IQSB5ZJ5u-LOiIPj-elwOXxMuOtYaWxXHfMZRWtUb1ZNthCp4XLaJ04NFaxBPYo4=s287-w287-h192-n-k-no-v1",
       "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrUMJAqIzREET4QuwZIQMXYbIL1nweSMbM0rw0LEzOqJPBrQVfjC1wQ0TTJFwy2C2MwUtiBY3XhDCA-V4PvMb7wYlLpXeZ0Jo3_xpjZ3tu57D6VWxv1iE5WRUOW5IFryZFqL8i=s287-w287-h192-n-k-no-v1",
-      "https://lh5.googleusercontent.com/proxy/Ou657zG53yZiJaADtWqOQo3PDroZRFqaQ7Tc70aNxBMIVsjVSAIwS7Mps_3a7darjBwu6hyx5n74p488wzVDkHehKj9ki4aVxgQd9by87kkYHz_rWrDER5AAmoD_wf7Vr9xP91MXFCpZxEafNnOws7G7iyF-qA=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERQuUowpXLEl3h44-slwDU9LOh_jQx9T1zaoVp6rz5r17_Eu9IbXGXwoxdy0i7LEVuKeGTrlmoQNaw7sOdXmtRmukzOssluOWwiCLsiMPR29a5RGHN6xHmzK1ofxOR71N7gIR6LhyiDcAU=s287-w287-h192-n-k-no-v1"
+      "https://lh5.googleusercontent.com/proxy/Ou657zG53yZiJaADtWqOQo3PDroZRFqaQ7Tc70aNxBMIVsjVSAIwS7Mps_3a7darjBwu6hyx5n74p488wzVDkHehKj9ki4aVxgQd9by87kkYHz_rWrDER5AAmoD_wf7Vr9xP91MXFCpZxEafNnOws7G7iyF-qA=s287-w287-h192-n-k-no-v1"
     ],
-    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahcKEwjA4d-nl7iUAxUAAAAAHQAAAAAQcg&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
-    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MidDaGtJNWJERGxzckZrYVoxR2cwdlp5OHhNV0o1WDJoeGQzcHJFQUU4AA&ved=2ahUKEwjvlveUl7iUAxX5p2YCHXRYDsQQrsMEegUIAxCMAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA"
+    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahgKEwiA9qDbqriUAxUAAAAAHQAAAAAQhAE&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
+    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MiNDaFlJcXJuQnFhdUlsdDU3R2dvdmJTOHdkMlptZVRGbkVBRTgA&ved=2ahUKEwjh9ZDPqriUAxVBkmYCHUPJKngQrsMEegQIAxBx&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA",
+    "adults": 2,
+    "children": 0
+  },
+  {
+    "name": "The Manila Hotel",
+    "price": "₱6,520",
+    "currency": "₱",
+    "rating": "4.6",
+    "review_count": "9.8K",
+    "stars": "5-star hotel",
+    "address": "1 Rizal Park, Ermita, Manila, 0913 Metro Manila(02) 8527 0011",
+    "phone": "(02) 8527 0011",
+    "website": "http://manila-hotel.com.ph/?sa=X&ved=2ahUKEwiVn63hqriUAxVyiWYCHe2fE_8QyK4DegUIAxCoBw",
+    "about": "Overlooking the South Harbor, this iconic luxury hotel is an 11-minute walk from landscaped gardens in Rizal Park, and 2 km from both the National Museum of the Philippines and Fort Santiago.",
+    "amenities": {
+      "Popular amenities": [
+        "Pool",
+        "Spa",
+        "Hot tub",
+        "Parkingfree"
+      ],
+      "Internet": [
+        "Wi-Fi"
+      ],
+      "Services": [
+        "Front desk24 hour",
+        "Full-service laundry"
+      ],
+      "Children": [
+        "Kid-friendly"
+      ],
+      "Parking & transportation": [
+        "Parkingfree",
+        "Valet parking",
+        "Airport shuttle",
+        "Local shuttle"
+      ],
+      "Accessibility": [
+        "Accessible"
+      ],
+      "Pets": [
+        "No pets"
+      ],
+      "Food & drink": [
+        "Restaurant",
+        "Bar",
+        "Buffet dinner",
+        "Room service",
+        "Breakfast buffet"
+      ],
+      "Pools": [
+        "Outdoor pool",
+        "Hot tub"
+      ],
+      "Wellness": [
+        "Fitness center",
+        "Sauna",
+        "Spa"
+      ],
+      "Business & events": [
+        "Business center"
+      ],
+      "Rooms": [
+        "Air conditioning"
+      ]
+    },
+    "nearby_places": [],
+    "check_in": "2:00 PM",
+    "check_out": "12:00 PM",
+    "photos": [
+      "https://www.gstatic.com/images/travel/tips/where_to_stay.svg",
+      "https://www.gstatic.com/images/travel/tips/when_to_visit.svg",
+      "https://www.gstatic.com/images/travel/tips/what_youll_pay.svg",
+      "https://www.gstatic.com/images/travel/general/plan_your_stay@2x.png",
+      "https://www.gstatic.com/images/travel/prompt/no_destination@2x.png",
+      "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKCwpdQJCINxZ5CVmDe4njiv-cLsdmPBVSpwbZ4OphkBOQspDcq1FpKosX6e7t4DUv9svCUHixW3w5Fjil-YzwaRqo7uSQxE3a_3f_sydzGoPCJ03fJ_6qTL9ZhwD9Ql4KgOQwQA=s287-w287-h192-n-k-no-v1",
+      "https://lh6.googleusercontent.com/proxy/_3E7WX3TV_r5DSU7T9LASvQ8KKPT32uIFSbSg7yD4nZoonrlFpW4pdMgS8ouM44Ygo9KldPLkDa_q55inNi4fkfS10RPuqQ1oVek2Hd366eLjiFaBm9--LrSdI9tOTpIW-t9eUot_tW0u-eEnwS-G8kIK8jQDg=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrUMJAqIzREET4QuwZIQMXYbIL1nweSMbM0rw0LEzOqJPBrQVfjC1wQ0TTJFwy2C2MwUtiBY3XhDCA-V4PvMb7wYlLpXeZ0Jo3_xpjZ3tu57D6VWxv1iE5WRUOW5IFryZFqL8i=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/Ou657zG53yZiJaADtWqOQo3PDroZRFqaQ7Tc70aNxBMIVsjVSAIwS7Mps_3a7darjBwu6hyx5n74p488wzVDkHehKj9ki4aVxgQd9by87kkYHz_rWrDER5AAmoD_wf7Vr9xP91MXFCpZxEafNnOws7G7iyF-qA=s287-w287-h192-n-k-no-v1"
+    ],
+    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahcKEwig8ZfiqriUAxUAAAAAHQAAAAAQTw&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
+    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MiNDaFlJekwyal80M0ExLWNmR2dvdmJTOHdNbm94YzJwc0VBRTgA&ved=2ahUKEwjh9ZDPqriUAxVBkmYCHUPJKngQrsMEegUIAxCLAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA",
+    "adults": 2,
+    "children": 0
+  },
+  {
+    "name": "LivStudios Manila Bay",
+    "price": "₱1,693",
+    "currency": "₱",
+    "rating": "4.5",
+    "review_count": "30.2K",
+    "stars": "3-star hotel",
+    "address": "Birch Tower Condominium, 1622 Bocobo St, Malate, Manila, 1004 Metro Manila0960 830 1572",
+    "phone": "0960 830 1572",
+    "website": "https://livstudiosmanila.com/?sa=X&ved=2ahUKEwjg2MDoqriUAxUZlWYCHW01GWYQyK4DegUIAxChAw",
+    "about": null,
+    "amenities": {},
+    "nearby_places": [],
+    "check_in": null,
+    "check_out": null,
+    "photos": [
+      "https://www.gstatic.com/images/travel/tips/where_to_stay.svg",
+      "https://www.gstatic.com/images/travel/tips/when_to_visit.svg",
+      "https://www.gstatic.com/images/travel/tips/what_youll_pay.svg",
+      "https://www.gstatic.com/images/travel/general/plan_your_stay@2x.png",
+      "https://www.gstatic.com/images/travel/prompt/no_destination@2x.png",
+      "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKCwpdQJCINxZ5CVmDe4njiv-cLsdmPBVSpwbZ4OphkBOQspDcq1FpKosX6e7t4DUv9svCUHixW3w5Fjil-YzwaRqo7uSQxE3a_3f_sydzGoPCJ03fJ_6qTL9ZhwD9Ql4KgOQwQA=s287-w287-h192-n-k-no-v1",
+      "https://lh6.googleusercontent.com/proxy/_3E7WX3TV_r5DSU7T9LASvQ8KKPT32uIFSbSg7yD4nZoonrlFpW4pdMgS8ouM44Ygo9KldPLkDa_q55inNi4fkfS10RPuqQ1oVek2Hd366eLjiFaBm9--LrSdI9tOTpIW-t9eUot_tW0u-eEnwS-G8kIK8jQDg=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrUMJAqIzREET4QuwZIQMXYbIL1nweSMbM0rw0LEzOqJPBrQVfjC1wQ0TTJFwy2C2MwUtiBY3XhDCA-V4PvMb7wYlLpXeZ0Jo3_xpjZ3tu57D6VWxv1iE5WRUOW5IFryZFqL8i=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/Ou657zG53yZiJaADtWqOQo3PDroZRFqaQ7Tc70aNxBMIVsjVSAIwS7Mps_3a7darjBwu6hyx5n74p488wzVDkHehKj9ki4aVxgQd9by87kkYHz_rWrDER5AAmoD_wf7Vr9xP91MXFCpZxEafNnOws7G7iyF-qA=s287-w287-h192-n-k-no-v1"
+    ],
+    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahgKEwiYtYnpqriUAxUAAAAAHQAAAAAQlgE&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
+    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MihDaG9JbUlId2hOT2xpcXpVQVJvTkwyY3ZNVEY1Y25vM2VXaG9PQkFCOAA&ved=2ahUKEwjh9ZDPqriUAxVBkmYCHUPJKngQrsMEegUIAxCoAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA",
+    "adults": 2,
+    "children": 0
   },
   {
     "name": "Hotel H2O",
@@ -237,7 +295,7 @@
     "stars": "4-star hotel",
     "address": "Manila Ocean Park, Behind the Quirino Grandstand, Rizal Park, Manila, 1000 Metro Manila(02) 7238 6100",
     "phone": "(02) 7238 6100",
-    "website": "https://manilaoceanpark.com/hotel-h2o/?sa=X&ved=2ahUKEwjBua-sl7iUAxVtiGYCHdiTOKsQyK4DegUIAxD8BQ",
+    "website": "https://manilaoceanpark.com/hotel-h2o/?sa=X&ved=2ahUKEwjK9-3uqriUAxUGi2YCHQXSLogQyK4DegUIAxDiBQ",
     "about": "Part of the waterfront Manila Ocean Park complex next to Manila Bay, this sleek hotel is 7 minutes' walk from the Rizal Park and 3 km from Paco train station.",
     "amenities": {
       "Popular amenities": [
@@ -301,83 +359,12 @@
       "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
       "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKCwpdQJCINxZ5CVmDe4njiv-cLsdmPBVSpwbZ4OphkBOQspDcq1FpKosX6e7t4DUv9svCUHixW3w5Fjil-YzwaRqo7uSQxE3a_3f_sydzGoPCJ03fJ_6qTL9ZhwD9Ql4KgOQwQA=s287-w287-h192-n-k-no-v1",
       "https://lh6.googleusercontent.com/proxy/_3E7WX3TV_r5DSU7T9LASvQ8KKPT32uIFSbSg7yD4nZoonrlFpW4pdMgS8ouM44Ygo9KldPLkDa_q55inNi4fkfS10RPuqQ1oVek2Hd366eLjiFaBm9--LrSdI9tOTpIW-t9eUot_tW0u-eEnwS-G8kIK8jQDg=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHiIbNnjmiInDQ0pOy-MVk8bL40PVyqp0stss6BQjGnkr4wEYyvVNAwRuZkFZagf_NHwRpvOhtvUHM37FyYwYm5LrIDhZp-SW63YbdwtevO3UBmT9rhhEcGpReP_rPYxzyD14nEIVcCyhW2=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHxE8fw4kCRSl1zNPBQ_wWssknGPWP02cNYtPvWE44FgpmilqWEzew81VSF1J_bO6ZtEV79IQSB5ZJ5u-LOiIPj-elwOXxMuOtYaWxXHfMZRWtUb1ZNthCp4XLaJ04NFaxBPYo4=s287-w287-h192-n-k-no-v1"
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrUMJAqIzREET4QuwZIQMXYbIL1nweSMbM0rw0LEzOqJPBrQVfjC1wQ0TTJFwy2C2MwUtiBY3XhDCA-V4PvMb7wYlLpXeZ0Jo3_xpjZ3tu57D6VWxv1iE5WRUOW5IFryZFqL8i=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/Ou657zG53yZiJaADtWqOQo3PDroZRFqaQ7Tc70aNxBMIVsjVSAIwS7Mps_3a7darjBwu6hyx5n74p488wzVDkHehKj9ki4aVxgQd9by87kkYHz_rWrDER5AAmoD_wf7Vr9xP91MXFCpZxEafNnOws7G7iyF-qA=s287-w287-h192-n-k-no-v1"
     ],
-    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahcKEwiQyYetl7iUAxUAAAAAHQAAAAAQRQ&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
-    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MiZDaGdJZzgyQnU4aVhodWtmR2d3dlp5OHhNbkZvTTJZME5YRVFBUTgA&ved=2ahUKEwjvlveUl7iUAxX5p2YCHXRYDsQQrsMEegUIAxCpAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA"
-  },
-  {
-    "name": "The Pearl Manila Hotel",
-    "price": "₱1,859",
-    "currency": "₱",
-    "rating": "3.8",
-    "review_count": "670",
-    "stars": "3-star hotel",
-    "address": "1155 Gen. Luna Street corner Taft and, United Nations Ave, Ermita, Manila, 1000 Metro Manila(02) 8400 0088",
-    "phone": "(02) 8400 0088",
-    "website": "https://www.thepearlmanilahotellaris.com/?sa=X&ved=2ahUKEwiJ2pmzl7iUAxXcoGYCHe6rFngQyK4DegUIAxDtBQ",
-    "about": "among shops and eateries in the Ermita neighborhood, this unpretentious hotel in a modern concrete and glass building is a minute's walk from the United Nations light rail station and 2 km from the aquatic shows at Manila Ocean Park.",
-    "amenities": {
-      "Popular amenities": [
-        "Pool",
-        "Parkingfree",
-        "Wi-Fifree",
-        "Air conditioning"
-      ],
-      "Internet": [
-        "Wi-Fifree"
-      ],
-      "Services": [
-        "Front desk24 hour",
-        "Full-service laundry"
-      ],
-      "Pools": [
-        "Outdoor pool",
-        "No hot tub"
-      ],
-      "Wellness": [
-        "Fitness center"
-      ],
-      "Pets": [
-        "No pets"
-      ],
-      "Food & drink": [
-        "Restaurant",
-        "Bar",
-        "Room service"
-      ],
-      "Children": [
-        "Kid-friendly"
-      ],
-      "Parking & transportation": [
-        "Parkingfree",
-        "Airport shuttleextra charge",
-        "Local shuttle"
-      ],
-      "Accessibility": [
-        "Accessible"
-      ],
-      "Rooms": [
-        "Air conditioning"
-      ]
-    },
-    "nearby_places": [],
-    "check_in": "2:00 PM",
-    "check_out": "12:00 PM",
-    "photos": [
-      "https://www.gstatic.com/images/travel/tips/where_to_stay.svg",
-      "https://www.gstatic.com/images/travel/tips/when_to_visit.svg",
-      "https://www.gstatic.com/images/travel/tips/what_youll_pay.svg",
-      "https://www.gstatic.com/images/travel/general/plan_your_stay@2x.png",
-      "https://www.gstatic.com/images/travel/prompt/no_destination@2x.png",
-      "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKCwpdQJCINxZ5CVmDe4njiv-cLsdmPBVSpwbZ4OphkBOQspDcq1FpKosX6e7t4DUv9svCUHixW3w5Fjil-YzwaRqo7uSQxE3a_3f_sydzGoPCJ03fJ_6qTL9ZhwD9Ql4KgOQwQA=s287-w287-h192-n-k-no-v1",
-      "https://lh6.googleusercontent.com/proxy/_3E7WX3TV_r5DSU7T9LASvQ8KKPT32uIFSbSg7yD4nZoonrlFpW4pdMgS8ouM44Ygo9KldPLkDa_q55inNi4fkfS10RPuqQ1oVek2Hd366eLjiFaBm9--LrSdI9tOTpIW-t9eUot_tW0u-eEnwS-G8kIK8jQDg=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHiIbNnjmiInDQ0pOy-MVk8bL40PVyqp0stss6BQjGnkr4wEYyvVNAwRuZkFZagf_NHwRpvOhtvUHM37FyYwYm5LrIDhZp-SW63YbdwtevO3UBmT9rhhEcGpReP_rPYxzyD14nEIVcCyhW2=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHxE8fw4kCRSl1zNPBQ_wWssknGPWP02cNYtPvWE44FgpmilqWEzew81VSF1J_bO6ZtEV79IQSB5ZJ5u-LOiIPj-elwOXxMuOtYaWxXHfMZRWtUb1ZNthCp4XLaJ04NFaxBPYo4=s287-w287-h192-n-k-no-v1"
-    ],
-    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahcKEwiY_pe0l7iUAxUAAAAAHQAAAAAQfA&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
-    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MiZDaGdJck5ieThwM1B6ZktlQVJvTEwyY3ZNWFJtYW00MmVtd1FBUTgA&ved=2ahUKEwjvlveUl7iUAxX5p2YCHXRYDsQQrsMEegUIAxDDAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA"
+    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahcKEwiIytPvqriUAxUAAAAAHQAAAAAQSA&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
+    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MiZDaGdJZzgyQnU4aVhodWtmR2d3dlp5OHhNbkZvTTJZME5YRVFBUTgA&ved=2ahUKEwjh9ZDPqriUAxVBkmYCHUPJKngQrsMEegUIAxC_AQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA",
+    "adults": 2,
+    "children": 0
   }
 ]

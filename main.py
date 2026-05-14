@@ -36,6 +36,8 @@ class HotelRecord:
     photos: list[str] = field(default_factory=list)
     source_url: str | None = None
     listing_url: str | None = None
+    adults: int = 2
+    children: int = 0
 
 
 def unique_strings(items: list[str]) -> list[str]:
@@ -853,13 +855,51 @@ def extract_detail_page(
     return record
 
 
-def open_listing_page(context, source: str) -> Page:
+def open_listing_page(context, source: str, adults: int = 2, children: int = 0) -> Page:
     page = context.new_page()
     target_url = source if source.startswith("http") else build_search_url(source)
     page.goto(target_url, wait_until="domcontentloaded", timeout=60000)
     page.wait_for_timeout(3000)
     accept_google_dialogs(page)
     dismiss_google_dialogs(page)
+    
+    # Handle occupancy (Adults and Children) via UI interactions
+    if adults != 2 or children > 0:
+        try:
+            # Find the travelers button (usually shows a number like "2")
+            travelers_btn = page.evaluate_handle('''() => {
+                const buttons = Array.from(document.querySelectorAll('button, [role="button"]'));
+                return buttons.find(b => b.innerText.match(/^\\d+$/) || (b.getAttribute('aria-label') && b.getAttribute('aria-label').includes('traveler')));
+            }''')
+            
+            if travelers_btn.as_element():
+                travelers_btn.as_element().click()
+                page.wait_for_timeout(1000)
+                
+                # Helper to click a button multiple times
+                def adjust_count(label: str, target: int, current: int):
+                    if target > current:
+                        btn = page.locator(f'button[aria-label="Add {label}"]')
+                        for _ in range(target - current):
+                            if btn.count(): btn.click(); page.wait_for_timeout(200)
+                    elif target < current:
+                        btn = page.locator(f'button[aria-label="Remove {label}"]')
+                        for _ in range(current - target):
+                            if btn.count(): btn.click(); page.wait_for_timeout(200)
+
+                # Google defaults to 2 adults, 0 children
+                adjust_count("adult", adults, 2)
+                adjust_count("child", children, 0)
+                
+                # Click Done
+                done_btn = page.locator('button:has-text("Done"), [role="button"]:has-text("Done")').first
+                if done_btn.count():
+                    done_btn.click()
+                    page.wait_for_timeout(2000) # Wait for prices to refresh
+                    print(f"[info] adjusted occupancy to {adults} adults, {children} children")
+        except Exception as e:
+            print(f"[warn] failed to adjust occupancy: {e}")
+
     return page
 
 
@@ -903,6 +943,8 @@ def scrape_hotels(
     headless: bool,
     download_images: bool,
     image_dir: Path,
+    adults: int = 2,
+    children: int = 0,
 ) -> list[HotelRecord]:
     records: list[HotelRecord] = []
 
@@ -917,13 +959,15 @@ def scrape_hotels(
             ),
         )
         Stealth().apply_stealth_sync(context)
-        page = open_listing_page(context, source)
+        page = open_listing_page(context, source, adults=adults, children=children)
 
         # Check if we are already on a detail page
         if "/travel/hotels/" in page.url and ("qs=" in page.url or "q=" not in page.url):
             try:
                 record = extract_detail_page(page, url=None, photo_limit=photo_limit)
                 if record.name:
+                    record.adults = adults
+                    record.children = children
                     records.append(record)
                     if download_images:
                         download_photos(record, image_dir)
@@ -937,6 +981,8 @@ def scrape_hotels(
         page.close()
 
         for index, initial_record in enumerate(hotel_listings, start=1):
+            initial_record.adults = adults
+            initial_record.children = children
             detail_page = context.new_page()
             try:
                 record = extract_detail_page(
@@ -1004,6 +1050,18 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Run a visible browser instead of headless mode.",
     )
+    parser.add_argument(
+        "--adults",
+        type=int,
+        default=2,
+        help="number of adults (default: 2)",
+    )
+    parser.add_argument(
+        "--children",
+        type=int,
+        default=0,
+        help="number of children (default: 0)",
+    )
     return parser.parse_args()
 
 
@@ -1022,12 +1080,15 @@ def main() -> None:
         headless=not args.headed,
         download_images=args.download_images,
         image_dir=image_dir,
+        adults=args.adults,
+        children=args.children,
     )
     payload: list[dict[str, Any]] = [asdict(record) for record in records]
     output_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
     duration = time.time() - started
     print(f"saved {len(records)} hotel records to {output_path} in {duration:.1f}s")
+    print(f"Occupancy settings: {args.adults} adults, {args.children} children")
 
 
 if __name__ == "__main__":

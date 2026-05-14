@@ -1,0 +1,1432 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button [ref=e6064] [cursor=pointer]:
+          - img [ref=e7]
+        - link [ref=e6065] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e15]:
+        - button [ref=e6066]
+        - button [ref=e6067]
+        - navigation [ref=e23]:
+          - link [ref=e6068]:
+            - img [ref=e29]
+          - link [ref=e6069]:
+            - img [ref=e38]
+          - link [ref=e6070]:
+            - img [ref=e46]
+          - link [ref=e6071]:
+            - img [ref=e54]
+          - link [ref=e6072]:
+            - img [ref=e65]
+      - generic [ref=e74]:
+        - button [ref=e6073] [cursor=pointer]:
+          - img [ref=e79]
+        - link [ref=e6074] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3DDiamond%2520Hotel%2520Philippines%26ts%3DCAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ%26qs%3DMiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUQ%26ap%3DugEGcHJpY2Vz%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3DDiamond%2520Hotel%2520Philippines%26ts%3DCAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ%26qs%3DMiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUQ%26ap%3DugEGcHJpY2Vz%26utm_source%3Dsign_in_ogb&ec=GAZAlQM
+          - text: Sign in
+  - generic [ref=e88]:
+    - generic [ref=e91]:
+      - generic [ref=e2885]:
+        - generic [ref=e2886]:
+          - generic [ref=e2893]:
+            - img [ref=e2895]
+            - combobox [ref=e6075]
+          - button:
+            - generic: Skip to main content
+          - generic [ref=e2899]:
+            - button [ref=e6076]:
+              - img [ref=e2904]
+              - generic [ref=e2906]: All filters
+            - button [ref=e6077]:
+              - generic [ref=e2911]:
+                - text: Expand
+                - img [ref=e2912]
+        - generic [ref=e2915]:
+          - generic [ref=e2916]:
+            - img [ref=e2918]
+            - heading [level=1] [ref=e6078]: Malate · 805 results
+          - generic [ref=e2925]:
+            - generic [ref=e2926] [cursor=pointer]:
+              - link [ref=e6079]:
+                - /url: /aclk?sa=l&ai=DChsSEwjnluywm7iUAxUQjWYCHYFaHO8YACICCAEQBxoCc20&co=1&ase=2&gclid=EAIaIQobChMI55bssJu4lAMVEI1mAh2BWhzvEA0YASABEgLCiPD_BwE&cid=CAASugHkaI0A2_P-DMm1ykl3D3ueFMh46nEex4XV9oIhpTt6_JTLQuOeLe4DMXvjJtHLRfU1vjNy06-jUaqfuDW-FRQ6z9Ws-A4e1tnX3uULVyW8YsH53uvKqAySD5HPsQCkAFTzohAOWL9hfQoqibzNAw1Aiqmh27QwB8SFTgmwVCZCMGNdJKlVyZQ0QrVFMCGg_pvX3UIcZeJ3VdlXppcILtubPPOo5C8A1aauD6K1tUIAOaC4DAvQ4EahFvk&category=acrcp_v1_48&sig=AOD64_1IKXILmuSjh014V4WMT-WgH3xkRA&adurl=
+                - generic [ref=e2928]:
+                  - generic [ref=e2929]:
+                    - generic [ref=e2930]: Sponsored·
+                    - generic [ref=e2931]:
+                      - img [ref=e6080]
+                      - text: Agoda
+                  - button [ref=e6081]:
+                    - img [ref=e2936]
+                - generic [ref=e2939]:
+                  - heading [level=2] [ref=e6082]: Century Park Hotel
+                  - generic [ref=e2942]: ₱3,368 ·
+                  - img [ref=e6083]:
+                    - generic [ref=e2944]:
+                      - generic [ref=e2945]: "4.2"
+                      - img [ref=e2946]
+                      - generic [ref=e2948]: (4.5K)
+                  - list [ref=e2949]: 4-star hotel · Hot tub
+              - button [ref=e6084]:
+                - generic [ref=e2955]: Visit Agoda
+            - generic [ref=e2956] [cursor=pointer]:
+              - link [ref=e6085]:
+                - /url: /aclk?sa=l&ai=DChsSEwjnluywm7iUAxUQjWYCHYFaHO8YACICCAEQERoCc20&co=1&ase=2&gclid=EAIaIQobChMI55bssJu4lAMVEI1mAh2BWhzvEA0YAiABEgKV3fD_BwE&cid=CAASugHkaI0A2_P-DMm1ykl3D3ueFMh46nEex4XV9oIhpTt6_JTLQuOeLe4DMXvjJtHLRfU1vjNy06-jUaqfuDW-FRQ6z9Ws-A4e1tnX3uULVyW8YsH53uvKqAySD5HPsQCkAFTzohAOWL9hfQoqibzNAw1Aiqmh27QwB8SFTgmwVCZCMGNdJKlVyZQ0QrVFMCGg_pvX3UIcZeJ3VdlXppcILtubPPOo5C8A1aauD6K1tUIAOaC4DAvQ4EahFvk&category=acrcp_v1_48&sig=AOD64_13re38XV_PgvhVp1mtACdCSBG56w&adurl=
+                - generic [ref=e2958]:
+                  - generic [ref=e2959]:
+                    - generic [ref=e2960]: Sponsored·
+                    - generic [ref=e2961]:
+                      - img [ref=e6086]
+                      - text: Booking.com
+                  - button [ref=e6087]:
+                    - img [ref=e2966]
+                - generic [ref=e2969]:
+                  - heading [level=2] [ref=e6088]: Starlight Bed And Breakfast
+                  - generic [ref=e2972]: ₱1,336 ·
+                  - img [ref=e6089]:
+                    - generic [ref=e2974]:
+                      - generic [ref=e2975]: "4.2"
+                      - img [ref=e2976]
+                      - generic [ref=e2978]: (275)
+                  - list [ref=e2979]: 3-star hotel · Kid-friendly
+              - button [ref=e6090]:
+                - generic [ref=e2985]: Visit Booking.com
+            - generic [ref=e2986] [cursor=pointer]:
+              - link [ref=e6091]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MihDaG9RaEp1VDNZT3FpT1RyQVJvTkwyY3ZNVEY2TWpGbmJEWm9ZeEFD&ved=0CA0Qh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e2988]:
+                  - heading [level=2] [ref=e6092]: Orangenest Apartelle
+                  - generic [ref=e2991]: ₱1,067 ·
+                  - img [ref=e6093]:
+                    - generic [ref=e2993]:
+                      - generic [ref=e2994]: "3.0"
+                      - img [ref=e2995]
+                      - generic [ref=e2997]: (191)
+                  - list [ref=e2998]:
+                    - text: Vacation rental ·
+                    - listitem [ref=e2999]:
+                      - img [ref=e3001]
+                      - generic [ref=e3004]: Smoke-free
+              - button [ref=e6094]:
+                - generic [ref=e3010]: View details
+            - generic [ref=e3011] [cursor=pointer]:
+              - link [ref=e6095]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MidDaGtReTZ6YzVKUGVtY3M3R2cwdlp5OHhNVzR6YTJ0c1p6TnVFQUk&ved=0CA8Qh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3013]:
+                  - heading [level=2] [ref=e6096]: Malate Bayview Mansion City View and Seaview - Apartment
+                  - generic [ref=e3016]: ₱2,121
+                  - list [ref=e3017]:
+                    - text: Vacation rental ·
+                    - listitem [ref=e3018]:
+                      - img [ref=e3020]
+                      - generic [ref=e3022]: Air conditioning
+              - button [ref=e6097]:
+                - generic [ref=e3028]: View details
+            - generic [ref=e3029] [cursor=pointer]:
+              - link [ref=e6098]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MidDaGtRb2NmVTVJT1c1Y3NIR2cwdlp5OHhNWGw2T1RRNWVHeHhFQUk&ved=0CBEQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3031]:
+                  - heading [level=2] [ref=e6099]: Serena's House Malate Bayview Mansion Studio
+                  - generic [ref=e3034]: ₱1,782
+                  - list [ref=e3035]:
+                    - text: Vacation rental ·
+                    - listitem [ref=e3036]:
+                      - img [ref=e3038]
+                      - generic [ref=e3040]: Air conditioning
+              - button [ref=e6100]:
+                - generic [ref=e3046]: View details
+            - generic [ref=e3047] [cursor=pointer]:
+              - link [ref=e6101]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MihDaG9Ra2VTc3Y0ZTB1SkxqQVJvTkwyY3ZNVEY0Tm14NmFqQnpZeEFD&ved=0CBMQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3049]:
+                  - heading [level=2] [ref=e6102]: Hoya- Malate Bayview Mansion Studio w/ Washing
+                  - generic [ref=e3052]: ₱1,739
+                  - list [ref=e3053]:
+                    - text: Vacation rental ·
+                    - listitem [ref=e3054]:
+                      - img [ref=e3056]
+                      - generic [ref=e3058]: Balcony
+                  - generic [ref=e3059]: GREAT PRICE with a pool
+              - button [ref=e6103]:
+                - generic [ref=e3065]: View details
+            - generic [ref=e3066] [cursor=pointer]:
+              - link [ref=e6104]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MidDaGtRbzcyWWs1emVvdU11R2cwdlp5OHhNWGw0YkdJelgyUTNFQUk&ved=0CBYQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3068]:
+                  - heading [level=2] [ref=e6105]: Floor Malate Bayview Mansion 30I
+                  - generic [ref=e3071]: ₱1,694 ·
+                  - img [ref=e6106]:
+                    - generic [ref=e3073]:
+                      - generic [ref=e3074]: "3.9"
+                      - img [ref=e3075]
+                      - generic [ref=e3077]: (6)
+                  - list [ref=e3078]:
+                    - text: Vacation rental ·
+                    - listitem [ref=e3079]:
+                      - img [ref=e3081]
+                      - generic [ref=e3083]: Balcony
+                  - generic [ref=e3084]: GREAT PRICE with a pool
+              - button [ref=e6107]:
+                - generic [ref=e3090]: View details
+            - generic [ref=e3091] [cursor=pointer]:
+              - link [ref=e6108]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MidDaGtJb19UenlaV204clZrR2cwdlp5OHhNV280ZEc0d04zWXdFQUU&ved=0CBkQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3093]:
+                  - heading [level=2] [ref=e6109]: RedDoorz @ The Providence Tower
+                  - generic [ref=e3096]: ₱988 ·
+                  - img [ref=e6110]:
+                    - generic [ref=e3098]:
+                      - generic [ref=e3099]: "3.6"
+                      - img [ref=e3100]
+                      - generic [ref=e3102]: (87)
+                  - list [ref=e3103]:
+                    - text: 2-star hotel ·
+                    - listitem [ref=e3104]:
+                      - img [ref=e3106]
+                      - generic [ref=e3108]: Wi-Fi
+                  - generic [ref=e3109]: DEAL 20% less than usual
+              - button [ref=e6111]:
+                - generic [ref=e3115]: View prices
+            - generic [ref=e3116] [cursor=pointer]:
+              - link [ref=e6112]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MidDaGtJd3Nma3ZmZVFpSVJfR2cwdlp5OHhNV1kxTnprMlozRnVFQUU&ved=0CBwQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3118]:
+                  - heading [level=2] [ref=e6113]: Stay Malate Hostel
+                  - generic [ref=e3121]: ₱735 ·
+                  - img [ref=e6114]:
+                    - generic [ref=e3123]:
+                      - generic [ref=e3124]: "3.8"
+                      - img [ref=e3125]
+                      - generic [ref=e3127]: (314)
+                  - list [ref=e3128]:
+                    - text: 2-star hotel ·
+                    - listitem [ref=e3129]:
+                      - img [ref=e3131]
+                      - generic [ref=e3133]: Free Wi-Fi
+              - button [ref=e6115]:
+                - generic [ref=e3139]: View prices
+            - generic [ref=e3140] [cursor=pointer]:
+              - link [ref=e6116]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MidDaGtJeC0ySjlNVEppWW1FQVJvTUwyY3ZNV2hvWjJoMk9ETnRFQUU&ved=0CB4Qh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3142]:
+                  - heading [level=2] [ref=e6117]: Armada Hotel Manila
+                  - generic [ref=e3145]: ₱1,952 ·
+                  - img [ref=e6118]:
+                    - generic [ref=e3147]:
+                      - generic [ref=e3148]: "3.8"
+                      - img [ref=e3149]
+                      - generic [ref=e3151]: (1.0K)
+                  - list [ref=e3152]:
+                    - text: 4-star hotel ·
+                    - listitem [ref=e3153]:
+                      - img [ref=e3155]
+                      - generic [ref=e3157]: Breakfast
+              - button [ref=e6119]:
+                - generic [ref=e3163]: View prices
+            - generic [ref=e3164] [cursor=pointer]:
+              - link [ref=e6120]:
+                - /url: /aclk?sa=l&ai=DChsSEwjnluywm7iUAxUQjWYCHYFaHO8YACICCAEQBRoCc20&co=1&ase=2&gclid=EAIaIQobChMI55bssJu4lAMVEI1mAh2BWhzvEA0YAyABEgJFsvD_BwE&cid=CAASugHkaI0A2_P-DMm1ykl3D3ueFMh46nEex4XV9oIhpTt6_JTLQuOeLe4DMXvjJtHLRfU1vjNy06-jUaqfuDW-FRQ6z9Ws-A4e1tnX3uULVyW8YsH53uvKqAySD5HPsQCkAFTzohAOWL9hfQoqibzNAw1Aiqmh27QwB8SFTgmwVCZCMGNdJKlVyZQ0QrVFMCGg_pvX3UIcZeJ3VdlXppcILtubPPOo5C8A1aauD6K1tUIAOaC4DAvQ4EahFvk&category=acrcp_v1_48&sig=AOD64_2OLYWq8sAfv3wQKDreI9VDMoF1zQ&adurl=
+                - generic [ref=e3166]:
+                  - generic [ref=e3167]:
+                    - generic [ref=e3168]: Sponsored·
+                    - generic [ref=e3169]:
+                      - img [ref=e6121]
+                      - text: Booking.com
+                  - button [ref=e6122]:
+                    - img [ref=e3174]
+                - generic [ref=e3177]:
+                  - heading [level=2] [ref=e6123]: Hop Inn Hotel Ermita Manila
+                  - generic [ref=e3180]: ₱1,895 ·
+                  - img [ref=e6124]:
+                    - generic [ref=e3182]:
+                      - generic [ref=e3183]: "4.1"
+                      - img [ref=e3184]
+                      - generic [ref=e3186]: (1.6K)
+                  - list [ref=e3187]: 3-star hotel · Kid-friendly
+              - button [ref=e6125]:
+                - generic [ref=e3193]: Visit Booking.com
+            - generic [ref=e3194] [cursor=pointer]:
+              - link [ref=e6126]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MiNDaFlJZzRfSjd0Mk03V1lhQ3k5bkx6RjBaRFpqWDI1aUVBRQ&ved=0CCMQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3196]:
+                  - heading [level=2] [ref=e6127]: Manila Manor Hotel
+                  - generic [ref=e3199]: ₱1,168 ·
+                  - img [ref=e6128]:
+                    - generic [ref=e3201]:
+                      - generic [ref=e3202]: "3.1"
+                      - img [ref=e3203]
+                      - generic [ref=e3205]: (766)
+                  - list [ref=e3206]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e3207]:
+                      - img [ref=e3209]
+                      - generic [ref=e3211]: Breakfast
+              - button [ref=e6129]:
+                - generic [ref=e3217]: View prices
+            - generic [ref=e3218] [cursor=pointer]:
+              - link [ref=e6130]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MiRDaGNJeTdtajM2M0V2ZGMzR2dzdlp5OHhkR1p3ZUdOMmRCQUI&ved=0CCUQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3220]:
+                  - heading [level=2] [ref=e6131]: Hotel Ava Malate
+                  - generic [ref=e3223]: ₱1,440 ·
+                  - img [ref=e6132]:
+                    - generic [ref=e3225]:
+                      - generic [ref=e3226]: "4.2"
+                      - img [ref=e3227]
+                      - generic [ref=e3229]: (493)
+                  - list [ref=e3230]:
+                    - text: 2-star hotel ·
+                    - listitem [ref=e3231]:
+                      - img [ref=e3233]
+                      - generic [ref=e3235]: Breakfast
+              - button [ref=e6133]:
+                - generic [ref=e3241]: View prices
+            - generic [ref=e3242] [cursor=pointer]:
+              - link [ref=e6134]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MidDaGtJb3YzbHA4WGsyOGNhR2cwdlp5OHhNV2hrZG5Sa09HUjRFQUU&ved=0CCcQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3244]:
+                  - heading [level=2] [ref=e6135]: Hotel Sogo - Malate
+                  - generic [ref=e3247]: ₱1,196 ·
+                  - img [ref=e6136]:
+                    - generic [ref=e3249]:
+                      - generic [ref=e3250]: "4.2"
+                      - img [ref=e3251]
+                      - generic [ref=e3253]: (448)
+                  - list [ref=e3254]:
+                    - text: 4-star hotel ·
+                    - listitem [ref=e3255]:
+                      - img [ref=e3257]
+                      - generic [ref=e3259]: Free Wi-Fi
+              - button [ref=e6137]:
+                - generic [ref=e3265]: View prices
+            - generic [ref=e3266] [cursor=pointer]:
+              - link [ref=e6138]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MiZDaGdJcFBueXNOTEQ5TXEwQVJvTEwyY3ZNWFJzWXpWc2VIUVFBUQ&ved=0CCkQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3268]:
+                  - heading [level=2] [ref=e6139]: Pearl Lane Hotel Manila
+                  - generic [ref=e3271]: ₱1,261 ·
+                  - img [ref=e6140]:
+                    - generic [ref=e3273]:
+                      - generic [ref=e3274]: "3.9"
+                      - img [ref=e3275]
+                      - generic [ref=e3277]: (154)
+                  - list [ref=e3278]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e3279]:
+                      - img [ref=e3281]
+                      - generic [ref=e3283]: Breakfast
+              - button [ref=e6141]:
+                - generic [ref=e3289]: View prices
+            - generic [ref=e3290] [cursor=pointer]:
+              - link [ref=e6142]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MidDaGtJLThESXlyRDA5NTBkR2cwdlp5OHhNV0ozTW1jMGQzZHFFQUU&ved=0CCsQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3292]:
+                  - heading [level=2] [ref=e6143]: Victoria Mansions
+                  - generic [ref=e3295]: ₱1,014 ·
+                  - img [ref=e6144]:
+                    - generic [ref=e3297]:
+                      - generic [ref=e3298]: "3.5"
+                      - img [ref=e3299]
+                      - generic [ref=e3301]: (45)
+                  - list [ref=e3302]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e3303]:
+                      - img [ref=e3305]
+                      - generic [ref=e3307]: Free Wi-Fi
+                  - generic [ref=e3308]: DEAL 19% less than usual
+              - button [ref=e6145]:
+                - generic [ref=e3314]: View prices
+            - generic [ref=e3315] [cursor=pointer]:
+              - link [ref=e6146]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MiZDaGdJLTZyMWtyYm51cERVQVJvTEwyY3ZNWFJtWm14M2NsOFFBUQ&ved=0CC4Qh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3317]:
+                  - heading [level=2] [ref=e6147]: Orchid Garden Suites - Manila
+                  - generic [ref=e3320]: ₱1,770 ·
+                  - img [ref=e6148]:
+                    - generic [ref=e3322]:
+                      - generic [ref=e3323]: "4.1"
+                      - img [ref=e3324]
+                      - generic [ref=e3326]: (713)
+                  - list [ref=e3327]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e3328]:
+                      - img [ref=e3330]
+                      - generic [ref=e3332]: Breakfast
+                  - generic [ref=e3333]: GREAT PRICE with a pool
+              - button [ref=e6149]:
+                - generic [ref=e3339]: View prices
+            - generic [ref=e3340] [cursor=pointer]:
+              - link [ref=e6150]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MiRDaGNJOHJ1a21QUzBpTFFSR2dzdlp5OHhkR042TlhaNGF4QUI&ved=0CDEQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3342]:
+                  - heading [level=2] [ref=e6151]: 1775 Adriatico Suites Manila
+                  - generic [ref=e3345]: ₱1,921 ·
+                  - img [ref=e6152]:
+                    - generic [ref=e3347]:
+                      - generic [ref=e3348]: "4.1"
+                      - img [ref=e3349]
+                      - generic [ref=e3351]: (331)
+                  - list [ref=e3352]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e3353]:
+                      - img [ref=e3355]
+                      - generic [ref=e3357]: Breakfast
+              - button [ref=e6153]:
+                - generic [ref=e3363]: View prices
+            - generic [ref=e3364] [cursor=pointer]:
+              - link [ref=e6154]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MidDaGtJNDZ1OHc0eUM2TzhOR2cwdlp5OHhNV0o1YzJwMmVqTnVFQUU&ved=0CDMQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3366]:
+                  - heading [level=2] [ref=e6155]: Red Planet Manila Malate Mabini
+                  - generic [ref=e3369]: ₱1,525 ·
+                  - img [ref=e6156]:
+                    - generic [ref=e3371]:
+                      - generic [ref=e3372]: "3.9"
+                      - img [ref=e3373]
+                      - generic [ref=e3375]: (1.7K)
+                  - list [ref=e3376]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e3377]:
+                      - img [ref=e3379]
+                      - generic [ref=e3381]: Wi-Fi
+              - button [ref=e6157]:
+                - generic [ref=e3387]: View prices
+            - generic [ref=e3388] [cursor=pointer]:
+              - link [ref=e6158]:
+                - /url: /aclk?sa=l&ai=DChsSEwjnluywm7iUAxUQjWYCHYFaHO8YACICCAEQCRoCc20&co=1&ase=2&gclid=EAIaIQobChMI55bssJu4lAMVEI1mAh2BWhzvEA0YBCABEgLYJ_D_BwE&cid=CAASugHkaI0A2_P-DMm1ykl3D3ueFMh46nEex4XV9oIhpTt6_JTLQuOeLe4DMXvjJtHLRfU1vjNy06-jUaqfuDW-FRQ6z9Ws-A4e1tnX3uULVyW8YsH53uvKqAySD5HPsQCkAFTzohAOWL9hfQoqibzNAw1Aiqmh27QwB8SFTgmwVCZCMGNdJKlVyZQ0QrVFMCGg_pvX3UIcZeJ3VdlXppcILtubPPOo5C8A1aauD6K1tUIAOaC4DAvQ4EahFvk&category=acrcp_v1_48&sig=AOD64_3HuAdXYJdMLcKC607PEVWaR-gTcg&adurl=
+                - generic [ref=e3390]:
+                  - generic [ref=e3391]:
+                    - generic [ref=e3392]: Sponsored·
+                    - generic [ref=e3393]:
+                      - img [ref=e6159]
+                      - text: Agoda
+                  - button [ref=e6160]:
+                    - img [ref=e3398]
+                - generic [ref=e3401]:
+                  - heading [level=2] [ref=e6161]: The Pearl Manila Hotel
+                  - generic [ref=e3404]: ₱1,769 ·
+                  - img [ref=e6162]:
+                    - generic [ref=e3406]:
+                      - generic [ref=e3407]: "3.8"
+                      - img [ref=e3408]
+                      - generic [ref=e3410]: (670)
+                  - list [ref=e3411]: 3-star hotel · Pool
+              - button [ref=e6163]:
+                - generic [ref=e3417]: Visit Agoda
+            - generic [ref=e3418] [cursor=pointer]:
+              - link [ref=e6164]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MidDaGtJZ3JMeV90RFpuUDlHR2cwdlp5OHhNV3MwZVhObWJHb3dFQUU&ved=0CDgQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3420]:
+                  - heading [level=2] [ref=e6165]: JjimJBang Hotel Spa
+                  - generic [ref=e3423]: ₱1,627 ·
+                  - img [ref=e6166]:
+                    - generic [ref=e3425]:
+                      - generic [ref=e3426]: "3.3"
+                      - img [ref=e3427]
+                      - generic [ref=e3429]: (204)
+              - button [ref=e6167]:
+                - generic [ref=e3435]: View prices
+            - generic [ref=e3436] [cursor=pointer]:
+              - link [ref=e6168]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MiZDaGdJM1pla3g3VDBzOGh0R2d3dlp5OHhjSFI2WkRONWQzb1FBUQ&ved=0CDoQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3438]:
+                  - heading [level=2] [ref=e6169]: Executive Hotel Manila
+                  - generic [ref=e3441]: ₱2,036 ·
+                  - img [ref=e6170]:
+                    - generic [ref=e3443]:
+                      - generic [ref=e3444]: "3.8"
+                      - img [ref=e3445]
+                      - generic [ref=e3447]: (499)
+                  - list [ref=e3448]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e3449]:
+                      - img [ref=e3451]
+                      - generic [ref=e3453]: Breakfast ($)
+              - button [ref=e6171]:
+                - generic [ref=e3459]: View prices
+            - generic [ref=e3460] [cursor=pointer]:
+              - link [ref=e6172]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MihDaG9JNU55ZGdjMndub1hQQVJvTkwyY3ZNVEZqTlRJME4zSjBhaEFC&ved=0CDwQh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3462]:
+                  - heading [level=2] [ref=e6173]: Hop Inn Hotel Ermita Manila
+                  - generic [ref=e3465]: ₱1,895 ·
+                  - img [ref=e6174]:
+                    - generic [ref=e3467]:
+                      - generic [ref=e3468]: "4.1"
+                      - img [ref=e3469]
+                      - generic [ref=e3471]: (1.6K)
+                  - list [ref=e3472]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e3473]:
+                      - img [ref=e3475]
+                      - generic [ref=e3477]: Free Wi-Fi
+              - button [ref=e6175]:
+                - generic [ref=e3483]: View prices
+            - generic [ref=e3484] [cursor=pointer]:
+              - link [ref=e6176]:
+                - /url: /travel/search?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&qs=MiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUQ&ved=0CD4Qh-kJahcKEwiA8Yawm7iUAxUAAAAAHQAAAAAQSQ
+                - generic [ref=e3486]:
+                  - heading [level=2] [ref=e6177]: Diamond Hotel Philippines
+                  - generic [ref=e3489]: ₱6,722 ·
+                  - img [ref=e6178]:
+                    - generic [ref=e3491]:
+                      - generic [ref=e3492]: "4.5"
+                      - img [ref=e3493]
+                      - generic [ref=e3495]: (4.9K)
+                  - list [ref=e3496]:
+                    - text: 5-star hotel ·
+                    - listitem [ref=e3497]:
+                      - img [ref=e3499]
+                      - generic [ref=e3501]: Free breakfast
+              - button [ref=e6179]:
+                - generic [ref=e3507]: View prices
+          - button [ref=e6180]:
+            - generic [ref=e3511]: More results
+            - img [ref=e3512]
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - heading [level=1] [ref=e6181]: Diamond Hotel Philippines
+          - generic [ref=e121]:
+            - button:
+              - generic: Back to list of all results
+            - link [ref=e6182] [cursor=pointer]:
+              - /url: /travel/hotels/entity/ChgI8__pj-vvhoHHARoLL2cvMXRkbTV2dDYQAQ?q=Diamond%20Hotel%20Philippines&ts=CAAaGhIYEhIKBwjqDxAFGA4SBwjqDxAFGA8yAggCKgcKBToDUEhQ&ved=2ahUKEwiG8Nqum7iUAxWHjGYCHXmVLLgQvukIegQIAxAC
+              - generic [ref=e123]:
+                - button [ref=e6183]:
+                  - img [ref=e125]
+                - tooltip [ref=e127]: Open Diamond Hotel Philippines in a new tab.
+            - button [ref=e6184]:
+              - generic [ref=e135]:
+                - img [ref=e137]
+                - generic [ref=e140]: Close
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - tablist [ref=e147]:
+              - tab [ref=e6185] [cursor=pointer]:
+                - generic [ref=e149]: Overview
+              - tab [active] [selected] [ref=e6186] [cursor=pointer]:
+                - generic [ref=e152]: Prices
+              - tab [ref=e6187] [cursor=pointer]:
+                - generic [ref=e154]: Reviews
+              - tab [ref=e6188] [cursor=pointer]:
+                - generic [ref=e156]: Photos
+              - tab [ref=e6189] [cursor=pointer]:
+                - generic [ref=e158]: About
+            - generic [ref=e160]:
+              - text: · · · · · ·
+              - tabpanel [ref=e4823]:
+                - generic [ref=e4824]:
+                  - generic [ref=e4827]:
+                    - generic [ref=e4828]:
+                      - generic [ref=e4831]:
+                        - generic [ref=e4832]: Check-in
+                        - generic [ref=e4834]:
+                          - textbox [ref=e6190]:
+                            - /placeholder: Check-in
+                            - text: Thu, May 14
+                          - generic [ref=e4836]:
+                            - button [disabled]:
+                              - generic:
+                                - img
+                          - button [ref=e4840]:
+                            - img [ref=e4843]
+                        - generic [ref=e4846]: Check-out
+                        - generic [ref=e4848]:
+                          - textbox [ref=e6191]:
+                            - /placeholder: Check-out
+                            - text: Fri, May 15
+                          - generic [ref=e4850]:
+                            - button [disabled]:
+                              - generic:
+                                - img
+                          - button [ref=e4854]:
+                            - img [ref=e4857]
+                      - button [ref=e6192] [cursor=pointer]:
+                        - img [ref=e4865]
+                        - generic [ref=e4867]: "2"
+                        - img [ref=e4868]
+                      - generic [ref=e4870]:
+                        - button [ref=e6193]:
+                          - generic [ref=e4877]: Nightly total
+                          - img [ref=e4879]
+                        - generic [ref=e4881]:
+                          - generic [ref=e4882]: Free cancellation only
+                          - switch [ref=e6194] [cursor=pointer]:
+                            - generic [ref=e4888]:
+                              - img [ref=e4889]
+                              - img [ref=e4891]
+                    - generic [ref=e4894]:
+                      - generic [ref=e4897]:
+                        - generic [ref=e4898]:
+                          - generic [ref=e4899]:
+                            - heading [level=2] [ref=e6195]:
+                              - generic [ref=e4901]: Sponsored·
+                              - text: Featured options
+                            - button [ref=e6196] [cursor=pointer]:
+                              - img [ref=e4904]
+                          - generic [ref=e4908]:
+                            - generic [ref=e4912]:
+                              - link [ref=e6197] [cursor=pointer]:
+                                - /url: /aclk?sa=l&ai=DChsSEwj7zLaxm7iUAxXtmGYCHVwaMQwYACICCAEQAxoCc20&co=1&ase=2&gclid=EAIaIQobChMI-8y2sZu4lAMV7ZhmAh1cGjEMEAoYASABEgKfKPD_BwE&cid=CAASugHkaOSI7c9UG9_JdkO9QNSeL9bvRVRGvyngYhQf1pd9NM4V9lz5WJpy4sf5Zq5b6Uhpe5PcixPECap7fPeaVEVItF25_piF87pOrBqjF8OZVk3XhdXlZa0N6Pk412p00TUY94nuilBnxQlWUa2Ddytk7nAYpmvKHvwAtsfiX3zuwsRcQr3lmohq7mPdQ7cfv7hv3edR1ZdSQQN-21W1VXF-1_KJyCuT6JuhOb_cBczmcr7t6QT1Pgr85X8&category=acrcp_v1_48&sig=AOD64_1kaaEfWcKA5iN35uSgcRa8oxyH0Q&adurl=
+                                - generic [ref=e4915]:
+                                  - generic [ref=e4917]:
+                                    - heading [level=3] [ref=e6198]: Agoda
+                                    - generic [ref=e4922]: Free breakfast
+                                  - generic [ref=e4923]:
+                                    - generic [ref=e4924]: ₱9,395
+                                    - link [ref=e6199]:
+                                      - generic [ref=e4928]: Visit site
+                              - generic [ref=e4929]:
+                                - link [ref=e6200] [cursor=pointer]:
+                                  - /url: /aclk?sa=l&ai=DChsSEwj7zLaxm7iUAxXtmGYCHVwaMQwYACICCAEQBRoCc20&co=1&ase=2&gclid=EAIaIQobChMI-8y2sZu4lAMV7ZhmAh1cGjEMEAoYASADEgKtKvD_BwE&cid=CAASugHkaOSI7c9UG9_JdkO9QNSeL9bvRVRGvyngYhQf1pd9NM4V9lz5WJpy4sf5Zq5b6Uhpe5PcixPECap7fPeaVEVItF25_piF87pOrBqjF8OZVk3XhdXlZa0N6Pk412p00TUY94nuilBnxQlWUa2Ddytk7nAYpmvKHvwAtsfiX3zuwsRcQr3lmohq7mPdQ7cfv7hv3edR1ZdSQQN-21W1VXF-1_KJyCuT6JuhOb_cBczmcr7t6QT1Pgr85X8&category=acrcp_v1_48&sig=AOD64_3Q04uJM8pihgZOkpFgPkSitys3bA&adurl=
+                                  - generic [ref=e4931]:
+                                    - generic [ref=e4932]:
+                                      - heading [level=4] [ref=e6201]: Diamond Club King - Non-Smoking
+                                      - generic [ref=e4935]: 1 king bed · breakfast
+                                    - generic [ref=e4937]:
+                                      - generic [ref=e4938]: ₱9,547
+                                      - link [ref=e6202]:
+                                        - generic [ref=e4942]: Visit site
+                                - link [ref=e6203] [cursor=pointer]:
+                                  - /url: /aclk?sa=l&ai=DChsSEwj7zLaxm7iUAxXtmGYCHVwaMQwYACICCAEQBhoCc20&co=1&ase=2&gclid=EAIaIQobChMI-8y2sZu4lAMV7ZhmAh1cGjEMEAoYASAEEgIhqPD_BwE&cid=CAASugHkaOSI7c9UG9_JdkO9QNSeL9bvRVRGvyngYhQf1pd9NM4V9lz5WJpy4sf5Zq5b6Uhpe5PcixPECap7fPeaVEVItF25_piF87pOrBqjF8OZVk3XhdXlZa0N6Pk412p00TUY94nuilBnxQlWUa2Ddytk7nAYpmvKHvwAtsfiX3zuwsRcQr3lmohq7mPdQ7cfv7hv3edR1ZdSQQN-21W1VXF-1_KJyCuT6JuhOb_cBczmcr7t6QT1Pgr85X8&category=acrcp_v1_48&sig=AOD64_1fLVtVEOr0AatG8yg5KPoZag0kjQ&adurl=
+                                  - generic [ref=e4944]:
+                                    - generic [ref=e4945]:
+                                      - heading [level=4] [ref=e6204]: Diamond Club Twin - Non-Smoking
+                                      - generic [ref=e4948]: 1 single bed · breakfast
+                                    - generic [ref=e4950]:
+                                      - generic [ref=e4951]: ₱9,547
+                                      - link [ref=e6205]:
+                                        - generic [ref=e4955]: Visit site
+                                - link [ref=e6206] [cursor=pointer]:
+                                  - /url: /aclk?sa=l&ai=DChsSEwj7zLaxm7iUAxXtmGYCHVwaMQwYACICCAEQBxoCc20&co=1&ase=2&gclid=EAIaIQobChMI-8y2sZu4lAMV7ZhmAh1cGjEMEAoYASAFEgL1YfD_BwE&cid=CAASugHkaOSI7c9UG9_JdkO9QNSeL9bvRVRGvyngYhQf1pd9NM4V9lz5WJpy4sf5Zq5b6Uhpe5PcixPECap7fPeaVEVItF25_piF87pOrBqjF8OZVk3XhdXlZa0N6Pk412p00TUY94nuilBnxQlWUa2Ddytk7nAYpmvKHvwAtsfiX3zuwsRcQr3lmohq7mPdQ7cfv7hv3edR1ZdSQQN-21W1VXF-1_KJyCuT6JuhOb_cBczmcr7t6QT1Pgr85X8&category=acrcp_v1_48&sig=AOD64_3td_GcSPmM5LKzR-06PvcgSpgDvw&adurl=
+                                  - generic [ref=e4957]:
+                                    - generic [ref=e4958]:
+                                      - heading [level=4] [ref=e6207]: Diamond Club Room
+                                      - generic [ref=e4961]: breakfast
+                                    - generic [ref=e4963]:
+                                      - generic [ref=e4964]: ₱9,773
+                                      - link [ref=e6208]:
+                                        - generic [ref=e4968]: Visit site
+                                - link [ref=e6209] [cursor=pointer]:
+                                  - /url: /aclk?sa=l&ai=DChsSEwj7zLaxm7iUAxXtmGYCHVwaMQwYACICCAEQCBoCc20&co=1&ase=2&gclid=EAIaIQobChMI-8y2sZu4lAMV7ZhmAh1cGjEMEAoYASAGEgKJKPD_BwE&cid=CAASugHkaOSI7c9UG9_JdkO9QNSeL9bvRVRGvyngYhQf1pd9NM4V9lz5WJpy4sf5Zq5b6Uhpe5PcixPECap7fPeaVEVItF25_piF87pOrBqjF8OZVk3XhdXlZa0N6Pk412p00TUY94nuilBnxQlWUa2Ddytk7nAYpmvKHvwAtsfiX3zuwsRcQr3lmohq7mPdQ7cfv7hv3edR1ZdSQQN-21W1VXF-1_KJyCuT6JuhOb_cBczmcr7t6QT1Pgr85X8&category=acrcp_v1_48&sig=AOD64_3_-28Wa1yBVsy0vHoFK425bvFfXA&adurl=
+                                  - generic [ref=e4970]:
+                                    - generic [ref=e4971]:
+                                      - heading [level=4] [ref=e6210]: Executive Suite Non Smoking
+                                      - generic [ref=e4974]: Suite · breakfast · Suite
+                                    - generic [ref=e4976]:
+                                      - generic [ref=e4977]: ₱11,816
+                                      - link [ref=e6211]:
+                                        - generic [ref=e4981]: Visit site
+                            - link [ref=e6212] [cursor=pointer]:
+                              - /url: /aclk?sa=l&ai=DChsSEwj7zLaxm7iUAxXtmGYCHVwaMQwYACICCAEQChoCc20&co=1&ase=2&gclid=EAIaIQobChMI-8y2sZu4lAMV7ZhmAh1cGjEMEAoYAiABEgL5W_D_BwE&cid=CAASugHkaOSI7c9UG9_JdkO9QNSeL9bvRVRGvyngYhQf1pd9NM4V9lz5WJpy4sf5Zq5b6Uhpe5PcixPECap7fPeaVEVItF25_piF87pOrBqjF8OZVk3XhdXlZa0N6Pk412p00TUY94nuilBnxQlWUa2Ddytk7nAYpmvKHvwAtsfiX3zuwsRcQr3lmohq7mPdQ7cfv7hv3edR1ZdSQQN-21W1VXF-1_KJyCuT6JuhOb_cBczmcr7t6QT1Pgr85X8&category=acrcp_v1_48&sig=AOD64_0ui92WRI0OeZc2QLMYc43-dYgWgg&adurl=
+                              - generic [ref=e4988]:
+                                - generic [ref=e4990]:
+                                  - heading [level=3] [ref=e6213]: Booking.com
+                                  - generic [ref=e4995]: Free Wi-Fi · Free breakfast
+                                - generic [ref=e4996]:
+                                  - generic [ref=e4997]: ₱10,775
+                                  - link [ref=e6214]:
+                                    - generic [ref=e5001]: Visit site
+                            - link [ref=e6215] [cursor=pointer]:
+                              - /url: /aclk?sa=l&ai=DChsSEwj7zLaxm7iUAxXtmGYCHVwaMQwYACICCAEQARoCc20&co=1&ase=2&gclid=EAIaIQobChMI-8y2sZu4lAMV7ZhmAh1cGjEMEAoYAyABEgJiEvD_BwE&cid=CAASugHkaOSI7c9UG9_JdkO9QNSeL9bvRVRGvyngYhQf1pd9NM4V9lz5WJpy4sf5Zq5b6Uhpe5PcixPECap7fPeaVEVItF25_piF87pOrBqjF8OZVk3XhdXlZa0N6Pk412p00TUY94nuilBnxQlWUa2Ddytk7nAYpmvKHvwAtsfiX3zuwsRcQr3lmohq7mPdQ7cfv7hv3edR1ZdSQQN-21W1VXF-1_KJyCuT6JuhOb_cBczmcr7t6QT1Pgr85X8&category=acrcp_v1_48&sig=AOD64_3ra32uVioGmrbjofbpg4KNawWRnA&adurl=
+                              - generic [ref=e5008]:
+                                - generic [ref=e5010]:
+                                  - heading [level=3] [ref=e6216]: Skyscanner
+                                  - generic [ref=e5015]: Free breakfast
+                                - generic [ref=e5016]:
+                                  - generic [ref=e5017]: ₱6,722
+                                  - link [ref=e6217]:
+                                    - generic [ref=e5021]: Visit site
+                        - generic [ref=e5022]:
+                          - heading [level=2] [ref=e6218]: All options
+                          - generic [ref=e5028]:
+                            - link [ref=e6219] [cursor=pointer]:
+                              - /url: /travel/clk?pc=AA80OsxX7PeCdWLm-bTZdjY2RQJW_G3XAZhT2-Qhs1p46gDO5ewCVhv_T0dIoTCo0kgHvwOf14S0rIqPlonyJhBab-m_KDhTGDgE2XQPf6xzxDFNX3DtTPiLiroOuNkKCWpyTVG9CsLPg7UT0u5RImQQvzcp9Ni_JDmKKTeRkRm0Qhln-YU_lhYZDNS6NftwrtM4UzaXetK6DpAyMwN7hk0A4VstX8afO1vXDF-h5es&pcurl=https://booking.diamondhotel.com/?p%3D1%26hotelID%3D133%26check_in_date%3D2026-05-14%26check_out_date%3D2026-05-15%26length_of_stay%3D1%26num_of_adults%3D2%26num_of_child%3D0%26gads_campaign_id%3D%26user_country%3DPH%26user_currency%3DPHP%26user_device%3Ddesktop%26user_language%3Den%26package_id%3D8052%26room_id%3D6%26utm_source%3Dgoogle%26utm_medium%3Dgoogle_hotels&s=AD1XQnmpG6Xu-CYKj0svzxVYuro2&ap=1
+                              - generic [ref=e5035]:
+                                - generic [ref=e5038]:
+                                  - text: Diamond Hotel Philippines
+                                  - generic [ref=e5040]:
+                                    - img [ref=e5042]
+                                    - text: Official Site
+                                - generic [ref=e5048]: ₱9,800
+                                - button [ref=e6220]:
+                                  - generic [ref=e5052]: Visit site
+                            - link [ref=e6221] [cursor=pointer]:
+                              - /url: /travel/clk?pc=AA80OszAhorLz1lG2gFO6RJLtaS9Iblflxho4FamyB9YYYEmbl4VFm4F1xmkJGYVviX_MdhZBOfegUjBqlVwsZZuGazmZi-URF83zVV_bOlNw7UEF2TSIKSwXWF4aCuRHurgwGOdk-itY9PFpEAH4fS9zSORg-b9vwr_bawOiL4Ya_RB0S6ZXTS1kDVrZaXpB_mVi9kC&pcurl=https://www.skyscanner.net/hotels/search?entity_id%3D47013969%26upsort_hotels%3D47013969%26adults%3D2%26checkin%3D2026-05-14%26checkout%3D2026-05-15%26currency%3DPHP%26market%3DPH%26device%3Ddesktop%26utm_medium%3Dhpa%26utm_source%3Dgoogle_free%26utm_campaign%3Dgoogle_free_click%26associateID%3DHPA_HTL_01975_00000%26source%3DGoogleHpa%26hpa_verification%3Dfalse%26trace_info%3DQHTBRtNpsGQXU1RwzIjmxUFOeceJMKgT_jXx_R0zSUMEl6-on6dTspGTInGqSDX-_wVqibWV9NudtjrWchskj7i0gjG_BHpsW409e2tQzEs_wGSrS_Ef2YldDp6ER2LixfPZXxfHo3PVfhnSR2LtL0hbyYA1aYAp7uWD1MWlIQ%3D%3D%26user_country%3DPH%26extra_trace_info%3D%26hotel_campaign%3D%26gclid%3D%7Bgclid%7D%26date_type%3Dselected&s=AD1XQnnUKo0n_cmnok5W7GYn4AQg&ap=1
+                              - generic [ref=e5059]:
+                                - generic [ref=e5062]: Skyscanner
+                                - generic [ref=e5067]: ₱6,722
+                                - button [ref=e6222]:
+                                  - generic [ref=e5071]: Visit site
+                            - link [ref=e6223] [cursor=pointer]:
+                              - /url: /travel/clk?pc=AA80Osw45a8QrDZpo4b-HE8pUmdOvDyG80WHnTWGuy7vEAB7P06zEjKxLf3L6pycIZQXrMm-G9rnEyVaPB_ikSPQcXpb3Azaq0KV9JdOkTxki75hnO6m9J0xFU0iHRvE7zC6MZuqtRDyxaY5moT0Xlfjt6oHr1qaqrH_GF3b01dynioQmhL-iDu_fuBhyA&pcurl=https://www.bluepillow.ph/search/618287e19e3163a56a243d25?begin%3D2026-05-14%26end%3D2026-05-15%26block_id%3D-b,V_OaN5eXeb1I1W-tiwQontdYsk_yRPj-0gmQXBP49Pf75TNotJ0pZt4AJK5kEuQi,-bpag-Hotel%26adults%3D2%26childs%3D0%26infants%3D0%26childrens%3D0%26country%3DPH%26currency%3DPHP%26language%3Den%26source%3Dlocaluniversal%26utm_campaign%3Dhotel%26prid%3Ddomestic&s=AD1XQnmkyrlG2aYaYjmgswpTpf-g&ap=1
+                              - generic [ref=e5078]:
+                                - generic [ref=e5081]: Bluepillow.ph
+                                - generic [ref=e5086]: ₱6,734
+                                - button [ref=e6224]:
+                                  - generic [ref=e5090]: Visit site
+                            - link [ref=e6225] [cursor=pointer]:
+                              - /url: /travel/clk?pc=AA80OsxGl6HOODH4PTgSxhvhsk0tXTBLzho4FoeiBwHCm3N4_ElQUbZdZExwzuvn6kRb-tnslIklaiQIVmEqomJ_Dj7UwLFttqNq-6P0O6rDv1Ga2qV3-l-PaeS3gl5QlFm8obEBnOgApwc1FdXmI746K4fX8j0hwTD4giSOyLt90vowfmI98FE&pcurl=https://ph.trip.com/hotels/redirect?hotelid%3D992672%26city%3D364%26shoppingid%3DM9jpJGDLrOtY%26adult%3D2%26children%3D0%26ages%3D%26checkin%3D2026-05-14%26checkout%3D2026-05-15%26curr%3DPHP%26Allianceid%3D15214%26Sid%3D1349480%26prid%3DLANG_PH%26trip_sub1%3D14_05_2026_1_localuniversal_992672_PH_desktop_selected___0_0-LANG_PH-landing%26hpaopts%3Dstand%5BH4sIAAAAAAAA_-Py5WKSYBJi4mCUcuY4MrN9EZsQo5HBQaEZjAtO2-xgZDrAyHSRsVpknfvB4kMODxnTgGDZ3aMOXUyMCp0s69wfVom01TosZBUBM7scpHh8LbMKvNxdfIr8SyIVWDT6Xky9wObBGMRmYmFm4GwaJcPF7OkSJBiwZn7xwVhLeynmAI8AxUNty8NPGe2xT2JNzdMN8MhoEu1iZPJgXMXI8ImRD9nAeAMAGQJ697AAAAA%5Dfgt%5B1%5D%26br%3D11195.30%26tf%3D1747.79%26display%3Dincavg%26locale%3Den_ph%26crn%3D1%26roomid%3D1682033860&s=AD1XQnmp9w51WuWp2Np24n9LfN4g&ap=1
+                              - generic [ref=e5097]:
+                                - generic [ref=e5100]: Trip.com
+                                - generic [ref=e5105]: ₱11,195
+                                - button [ref=e6226]:
+                                  - generic [ref=e5109]: Visit site
+                            - link [ref=e6227] [cursor=pointer]:
+                              - /url: /travel/clk?pc=AA80Osziq7Y03wEZwn7sZ1s91My3z0zkGLW_QYCyVbykN5uybIq7umLusdSVv_xUEMkG1xomoXjTttoFdLh5Udx9k6iGAKACQ2kNSg0le3cBkeQWivXV637WGWscFuW_iH4fkiCWhnAYnRFFoW4qhii5jIA825EN_XTb7a9NxMuHSFQC3xPJ9Ok&pcurl=https://api.klktech.com/v1/meta/hotels/detail/96347/?hotelid%3D96347%26check_in%3D2026-05-14%26check_out%3D2026-05-15%26aid%3D28539%26campaignid%3D%26adult_num%3D2%26lead_time%3D0%26child_num%3D0%26childages%3D%26room_num%3D1%26google_site%3Dlocaluniversal%26length_of_stay%3D1%26partner_currency%3DPHP%26click_type%3Dhotel%26click_price_total%3D9971.50%26price_tax%3D1898.10%26price_fees%3D0.00%26rate_key%3D1-14-158278681016%26user_country%3DPH%26click_currency%3DPHP%26_currency%3DPHP%26device%3Ddesktop%26partner_hotelid%3D96347%26language%3Den%26audience_list%3D%26verification%3Dfalse%26booking_source%3Dcpc%26isPromoted%3D0%26utm_source%3DMSE%26utm_medium%3DGoogle%26utm_campaign%3D28539%26utm_term%3D96347%26utm_content%3DPHP%26isAdClick%3D0%26prid%3DDomestic-Other%26arrival_fees%3D0.000%26mse_trace_id%3DNTRkOWRkYy1kMDY4ZmY4LTE3Nzg3NDE1MDIuZC5vOjA6MDoyOjA6MToxMzM6MTM0OlBI%26mse_search_token%3DNTRkOWRkYy1kMDY4ZmY4LTE3Nzg3NDE1MDIuZC5vOjA6MDoyOjA6MToxMzM6MTM0OlBI%26price_total%3DPHP-9971.500%26price_type%3DDomestic-desktop%26klc_l1%3DMSE%26klc_l2%3DGoogle%26age%3D&s=AD1XQnmc6Nx8daQ3sol9nnpTkspY&ap=1
+                              - generic [ref=e5116]:
+                                - generic [ref=e5119]: klook
+                                - generic [ref=e5124]: ₱9,972
+                                - button [ref=e6228]:
+                                  - generic [ref=e5128]: Visit site
+                            - link [ref=e6229] [cursor=pointer]:
+                              - /url: /travel/clk?pc=AA80OszlRTsGA-CpKwKoXYb4WpJvHP7lAS3RQqFmLb651WcWB4IGrWyle2xJKzufn_BkkjAKtKom_dafpv3ZwnSH9TLAfw5qVx31ZkiH6G-djkuJxABDitpyeMHIP9hTdK03BRoE9HRRR0oHWn_8WgtpWaktggXxLH8xlkdBF73Eg7vDNknWFJ-6kyf9NfZKexgN9Uw&pcurl=https://www.priceline.com/r/?channel%3Dmeta%26product%3Dhotel%26theme%3Dghalistings%26refid%3DPLGOOGLEMSS%26refclickid%3DPH_HP%257C3037405_localuniversal_1%257C20260514%257Cdesktop%257Cuserdate%7Cpublic%7C%7C%7C0%257C2%257C0%7C0%7CEN%26hotelid%3D3037405%26checkin%3D20260514%26checkout%3D20260515%26rooms%3D1%26currency%3DPHP%26displayedCurr%3DPHP%26POSCountryCode%3DPH%26taxDisplayMode%3DBP%26cityID%3D3000040031%26adults%3D2%26land%3DL%26metaid%3Dg5ddmD9eW1z-04jkELb_cI4lO-O-c5Yv_8nMPJNfNb2uES1VF3mHxRphxNY-VTqjbosKqiud-Y-9QYGA_hkHdWF16n0r6Oyk6NSUqMw3IJRPPl-2a9S1MqLnFaAD_9VjhqZaBiyzgrbrQZvR3Ahy1gz27DD8YxK0ZZpLWMXHxV37bNrBJ0oWbnfGxvm5tH6Ncg6Xbg2bkgzJUjexa9DeWf9U2fe3uM3O8Jz67pgVarYYOr0oFDT2aKqHEJpil_TEzFF-iwqUofTyCEjFErd1UTAAy6NkC0dbWsTlqSRQ01MDMrMb5kl4YlP5_aeBTU4DcrFH291sncMkY5yHuxSyfZLDo3DH0oTj7NGvPQucrP9N90hwbmCFnMoWFgWB7uqGw95gBc4wKUy5NGB8Ll0ddXQCgjtAKs4Q8k-1tyuCEJgnYr0k9rIPCYLwoXR-rSdT9J4c7ShV0Mx9h6swfP5pXQ%26dblcnt%3Dtrue%26user_num_adults%3D2%26hc%3D1%26pdtax%3D2646.50%26pdf%3D1126.00%26pdt%3D14527.50%26locale%3Den-us%26ad-src%3D%26numChild%3D0&s=AD1XQnnhpewaTwc7UQlT2CCJKKcC&ap=1
+                              - generic [ref=e5135]:
+                                - generic [ref=e5138]: Priceline
+                                - generic [ref=e5143]: ₱14,528
+                                - button [ref=e6230]:
+                                  - generic [ref=e5147]: Visit site
+                            - link [ref=e6231] [cursor=pointer]:
+                              - /url: /travel/clk?pc=AA80OsyqbyPsRV3uA7mUyazclNUJSsB_W140D-iAB3kXUvxJTKrA5BuNd3TuF0ZkUsECEC7iUz_FzbgAW2x_NlsmErK7lYpMa_covMld4qb4m6AZ0_gzNc_t97Jd8XVg1PChxIPW0QkItqu8GHRwmapTdDO-U31BiygKjrdXQG7JC4znFPG6RLojMsf7&pcurl=https://www.traveloka.com/en-ph/hotel/search?spec%3D14-05-2026.15-05-2026.1.1.HOTEL_GEO.30011417.Metro%2520Manila.2%26hotelId%3D1000000143368%26contexts%3D%257B%2522accessCode%2522:%252290975GHAD1305desktop%2522%252C%2522metasearchRequestId%2522%253A%252279cba9c7-a246-4e15-aeb7-7cfbe4f53dca%2522%252C%2522dateSelectionType%2522%253A%2522selected%2522%257D%26metasearchId%3DGoogleHotelAdsUser%26metasearchRateId%3Ddesktop%26metasearchRatekey%3DsgyUU2M0LrnnpXh1LPwoI%26priceDisplay%3DTOTAL%26metasearchRefid%3D12345678910abcdefghijk@-%26adType%3D0%26PPA%3D0%26hotelCampaign%3D1&s=AD1XQnlSO9kGE7PUhdTlny34MexF&ap=1
+                              - generic [ref=e5154]:
+                                - generic [ref=e5157]: Traveloka.com
+                                - generic [ref=e5162]: ₱12,517
+                                - button [ref=e6232]:
+                                  - generic [ref=e5166]: Visit site
+                            - link [ref=e6233] [cursor=pointer]:
+                              - /url: /travel/clk?pc=AA80Osyfb0UEuj2za6c1Hf6FuNFSUGkl1KDjzGoTJII7KvagUTmkLOc0VKt7KROAcWstPKZBwtkQ6G2Ljp_kIWYsm2S9pVpu1Lkzmc-F-m8KiGwistCE_HlVmX3pkJwbLYmW8ENybX0HK6PlI5r3kOeokmPGqMvyD8PoYoYQK9ulLal2qIA0WE3AuahDkFwQgp4Vtw&pcurl=https://evendo.com/stays/diamond-hotel-philippines/67188807?check_in%3D2026-05-14%26check_out%3D2026-05-15%26who%3D%255B%257B%2522adults%2522:2,%2522children%2522:%255B%255D%257D%255D%26currency%3DPHP%26language%3Den%26country%3DPH%26utm_source%3Dgoogle%26utm_medium%3Dgooglehotels%26utm_campaign%3Dlocaluniversal%26pdtax%3D1534.57%26pdtotal%3D9829.54%26prid%3D&s=AD1XQnlyv861mhqBFNNbf8h7VTxF&ap=1
+                              - generic [ref=e5173]:
+                                - generic [ref=e5176]: Evendo
+                                - generic [ref=e5181]: ₱9,830
+                                - button [ref=e6234]:
+                                  - generic [ref=e5185]: Visit site
+                            - link [ref=e6235] [cursor=pointer]:
+                              - /url: /travel/clk?pc=AA80OsxvTtxGVXEYyS15Ue8wk9IP_hlSvBJIPXIqFMTtfOXNIFRSOhu7JfzqqE8S8LEEWGI6qtdhSE8ZPu_W0hDyq3NwRL1enmRqd5KGqI96DyNsG6JpM4dkki_Bep7QEcI97rHtNpGKuFs6sN4EUCR2gXUluWPtqlnvnKa-Gg6XZ6hmRps6_zOk4ejcx5gj&pcurl=https://halalbooking.com/en/p/31077?checkin%3D2026-05-14%26checkout%3D2026-05-15%26groups%255B%255D%3D2%26currency%3DPHP%26PH%26localuniversal%26%26adType%3D0&s=AD1XQnn_N7d_TcgXBWcHQT2k7F9A&ap=1
+                              - generic [ref=e5192]:
+                                - generic [ref=e5195]: Halalbooking
+                                - generic [ref=e5200]: ₱13,177
+                                - button [ref=e6236]:
+                                  - generic [ref=e5204]: Visit site
+                            - link [ref=e6237] [cursor=pointer]:
+                              - /url: /travel/clk?pc=AA80OsyCr29lzttHs1AKSBG1g-5IEbQxma6TYd-Jz2-oIiLaxdYG02RpImqR2mOjR90cRQgJ64i72dMubh7Kpg5UjP29ECmc4lEsb7Sf0F5jZrwwVcJqU_jYp0Dw5W8X4XHXV37XBqCpu0IAIwDOZJ0DM_y-IsTzzWtK5ZxTDhoQXFdIUbtn4vf5j-FI_EQTOA&pcurl=https://www.tripening.com/hotels/-/4649186-diamond-hotel?checkin-date%3D2026-05-14%26checkout-date%3D2026-05-15%26adults%3D2%26currency%3DPHP%26lang%3Den%26google-package-id%3D%26rate-rule-id%3D%26google-displayed-price%3D16289.64%26children%3D0%26google-displayed-tax%3D0.00%26google-displayed-currency%3DPHP%26utm_source%3Dgoogle_hotel_ads%26utm_medium%3Dfree%26utm_campaign%3Dgha_property&s=AD1XQnlPwMzJzr-qYdeqAROFZx0R&ap=1
+                              - generic [ref=e5211]:
+                                - generic [ref=e5214]: Tripening Hotels
+                                - generic [ref=e5219]: ₱16,290
+                                - button [ref=e6238]:
+                                  - generic [ref=e5223]: Visit site
+                            - button [ref=e6239] [cursor=pointer]:
+                              - img [ref=e5230]
+                              - generic [ref=e5232]: View more options from ₱10,580
+                      - progressbar [ref=e5234]
+                  - generic [ref=e5242]:
+                    - generic [ref=e5243]:
+                      - img [ref=e5245]
+                      - generic [ref=e5247]:
+                        - link [ref=e6240] [cursor=pointer]:
+                          - /url: ./travel/subscriptions/list/hotels
+                          - text: Track this hotel
+                        - button [ref=e6241]:
+                          - img
+                        - generic [ref=e5257]: Get emails about price changes
+                    - switch [ref=e6242] [cursor=pointer]:
+                      - generic [ref=e5265]:
+                        - img [ref=e5266]
+                        - img [ref=e5268]
+                  - generic [ref=e5274]:
+                    - heading [level=2] [ref=e6243]: People also viewed
+                    - list [ref=e5281]:
+                      - listitem [ref=e5282]:
+                        - generic [ref=e5283] [cursor=pointer]:
+                          - generic [ref=e5285]: ₱6,118
+                          - generic [ref=e5286]:
+                            - generic [ref=e5287]: New Coast Hotel Manila
+                            - generic [ref=e5288]:
+                              - img [ref=e6244]:
+                                - generic [ref=e5291]:
+                                  - generic [ref=e5292]: "4.3"
+                                  - generic [ref=e5293]:
+                                    - generic [ref=e5294]:
+                                      - img [ref=e5296]
+                                      - img [ref=e5299]
+                                      - img [ref=e5302]
+                                      - img [ref=e5305]
+                                      - img [ref=e5308]
+                                    - generic [ref=e5310]:
+                                      - img [ref=e5312]
+                                      - img [ref=e5315]
+                                      - img [ref=e5318]
+                                      - img [ref=e5321]
+                                      - img [ref=e5324]
+                                  - generic [ref=e5326]: (3.4K)
+                              - generic [ref=e5327]: Also a 5-star hotel, for ₱604 less
+                              - generic [ref=e5328]: 0.1 km away
+                      - listitem [ref=e5329]:
+                        - generic [ref=e5330] [cursor=pointer]:
+                          - generic [ref=e5332]: ₱9,926
+                          - generic [ref=e5333]:
+                            - generic [ref=e5334]: Sheraton Manila Bay
+                            - generic [ref=e5335]:
+                              - img [ref=e6245]:
+                                - generic [ref=e5338]:
+                                  - generic [ref=e5339]: "4.4"
+                                  - generic [ref=e5340]:
+                                    - generic [ref=e5341]:
+                                      - img [ref=e5343]
+                                      - img [ref=e5346]
+                                      - img [ref=e5349]
+                                      - img [ref=e5352]
+                                      - img [ref=e5355]
+                                    - generic [ref=e5357]:
+                                      - img [ref=e5359]
+                                      - img [ref=e5362]
+                                      - img [ref=e5365]
+                                      - img [ref=e5368]
+                                      - img [ref=e5371]
+                                  - generic [ref=e5373]: (1.7K)
+                              - generic [ref=e5374]: Upmarket hotel with dining & a pool
+                              - generic [ref=e5375]: 0.2 km away
+                      - listitem [ref=e5376]:
+                        - generic [ref=e5377] [cursor=pointer]:
+                          - generic [ref=e5379]: ₱3,900
+                          - generic [ref=e5380]:
+                            - generic [ref=e5381]: City Garden GRAND Hotel Makati
+                            - generic [ref=e5382]:
+                              - img [ref=e6246]:
+                                - generic [ref=e5385]:
+                                  - generic [ref=e5386]: "4.4"
+                                  - generic [ref=e5387]:
+                                    - generic [ref=e5388]:
+                                      - img [ref=e5390]
+                                      - img [ref=e5393]
+                                      - img [ref=e5396]
+                                      - img [ref=e5399]
+                                      - img [ref=e5402]
+                                    - generic [ref=e5404]:
+                                      - img [ref=e5406]
+                                      - img [ref=e5409]
+                                      - img [ref=e5412]
+                                      - img [ref=e5415]
+                                      - img [ref=e5418]
+                                  - generic [ref=e5420]: (4.4K)
+                              - generic [ref=e5421]: Also a 5-star hotel, for ₱2,822 less
+                              - generic [ref=e5422]: 5.1 km away
+                      - listitem [ref=e5423]:
+                        - generic [ref=e5424] [cursor=pointer]:
+                          - generic [ref=e5426]: ₱5,039
+                          - generic [ref=e5427]:
+                            - generic [ref=e5428]: The Alpha Suites
+                            - generic [ref=e5429]:
+                              - img [ref=e6247]:
+                                - generic [ref=e5432]:
+                                  - generic [ref=e5433]: "4.4"
+                                  - generic [ref=e5434]:
+                                    - generic [ref=e5435]:
+                                      - img [ref=e5437]
+                                      - img [ref=e5440]
+                                      - img [ref=e5443]
+                                      - img [ref=e5446]
+                                      - img [ref=e5449]
+                                    - generic [ref=e5451]:
+                                      - img [ref=e5453]
+                                      - img [ref=e5456]
+                                      - img [ref=e5459]
+                                      - img [ref=e5462]
+                                      - img [ref=e5465]
+                                  - generic [ref=e5467]: (577)
+                              - generic [ref=e5468]: Also a 5-star hotel, for ₱1,683 less
+                              - generic [ref=e5469]: 3.8 km away
+                      - listitem [ref=e5470]:
+                        - generic [ref=e5471] [cursor=pointer]:
+                          - generic [ref=e5473]: ₱6,500
+                          - generic [ref=e5474]:
+                            - generic [ref=e5475]: The Manila Hotel
+                            - generic [ref=e5476]:
+                              - img [ref=e6248]:
+                                - generic [ref=e5479]:
+                                  - generic [ref=e5480]: "4.6"
+                                  - generic [ref=e5481]:
+                                    - generic [ref=e5482]:
+                                      - img [ref=e5484]
+                                      - img [ref=e5487]
+                                      - img [ref=e5490]
+                                      - img [ref=e5493]
+                                      - img [ref=e5496]
+                                    - generic [ref=e5498]:
+                                      - img [ref=e5500]
+                                      - img [ref=e5503]
+                                      - img [ref=e5506]
+                                      - img [ref=e5509]
+                                      - img [ref=e5512]
+                                  - generic [ref=e5514]: (9.8K)
+                              - generic [ref=e5515]: Luxe lodging with posh dining & a lounge
+                              - generic [ref=e5516]: 1.5 km away
+                      - listitem [ref=e5517]:
+                        - generic [ref=e5518] [cursor=pointer]:
+                          - generic [ref=e5520]: ₱7,448
+                          - generic [ref=e5521]:
+                            - generic [ref=e5522]: New World Makati Hotel
+                            - generic [ref=e5523]:
+                              - img [ref=e6249]:
+                                - generic [ref=e5526]:
+                                  - generic [ref=e5527]: "4.6"
+                                  - generic [ref=e5528]:
+                                    - generic [ref=e5529]:
+                                      - img [ref=e5531]
+                                      - img [ref=e5534]
+                                      - img [ref=e5537]
+                                      - img [ref=e5540]
+                                      - img [ref=e5543]
+                                    - generic [ref=e5545]:
+                                      - img [ref=e5547]
+                                      - img [ref=e5550]
+                                      - img [ref=e5553]
+                                      - img [ref=e5556]
+                                      - img [ref=e5559]
+                                  - generic [ref=e5561]: (3.8K)
+                              - generic [ref=e5562]: Upscale option with a fitness center
+                              - generic [ref=e5563]: 4.8 km away
+                  - generic [ref=e5566]:
+                    - heading [level=2] [ref=e6250]: Popular hotels
+                    - list [ref=e5573]:
+                      - listitem [ref=e5574]:
+                        - generic [ref=e5575] [cursor=pointer]:
+                          - generic [ref=e5577]: ₱9,211
+                          - generic [ref=e5578]:
+                            - generic [ref=e5579]: Admiral Hotel Manila - MGallery Collection
+                            - generic [ref=e5580]:
+                              - img [ref=e6251]:
+                                - generic [ref=e5583]:
+                                  - generic [ref=e5584]: "4.9"
+                                  - generic [ref=e5585]:
+                                    - generic [ref=e5586]:
+                                      - img [ref=e5588]
+                                      - img [ref=e5591]
+                                      - img [ref=e5594]
+                                      - img [ref=e5597]
+                                      - img [ref=e5600]
+                                    - generic [ref=e5602]:
+                                      - img [ref=e5604]
+                                      - img [ref=e5607]
+                                      - img [ref=e5610]
+                                      - img [ref=e5613]
+                                      - img [ref=e5616]
+                                  - generic [ref=e5618]: (6.4K)
+                              - generic [ref=e5619]: Elegant hotel with a restaurant
+                              - generic [ref=e5620]: 0.9 km away
+                      - listitem [ref=e5621]:
+                        - generic [ref=e5622] [cursor=pointer]:
+                          - generic [ref=e5624]: ₱3,364
+                          - generic [ref=e5625]:
+                            - generic [ref=e5626]: Century Park Hotel
+                            - generic [ref=e5627]:
+                              - img [ref=e6252]:
+                                - generic [ref=e5630]:
+                                  - generic [ref=e5631]: "4.2"
+                                  - generic [ref=e5632]:
+                                    - generic [ref=e5633]:
+                                      - img [ref=e5635]
+                                      - img [ref=e5638]
+                                      - img [ref=e5641]
+                                      - img [ref=e5644]
+                                      - img [ref=e5647]
+                                    - generic [ref=e5649]:
+                                      - img [ref=e5651]
+                                      - img [ref=e5654]
+                                      - img [ref=e5657]
+                                      - img [ref=e5660]
+                                      - img [ref=e5663]
+                                  - generic [ref=e5665]: (4.5K)
+                              - generic [ref=e5666]: 4-star hotel for ₱3,358 less
+                              - generic [ref=e5667]: 1.6 km away
+                      - listitem [ref=e5668]:
+                        - generic [ref=e5669] [cursor=pointer]:
+                          - generic [ref=e5671]: ₱3,212
+                          - generic [ref=e5672]:
+                            - generic [ref=e5673]: Hotel H2O
+                            - generic [ref=e5674]:
+                              - img [ref=e6253]:
+                                - generic [ref=e5677]:
+                                  - generic [ref=e5678]: "4.1"
+                                  - generic [ref=e5679]:
+                                    - generic [ref=e5680]:
+                                      - img [ref=e5682]
+                                      - img [ref=e5685]
+                                      - img [ref=e5688]
+                                      - img [ref=e5691]
+                                      - img [ref=e5694]
+                                    - generic [ref=e5696]:
+                                      - img [ref=e5698]
+                                      - img [ref=e5701]
+                                      - img [ref=e5704]
+                                      - img [ref=e5707]
+                                      - img [ref=e5710]
+                                  - generic [ref=e5712]: (2.2K)
+                              - generic [ref=e5713]: 4-star hotel for ₱3,510 less
+                              - generic [ref=e5714]: 1.3 km away
+                      - listitem [ref=e5715]:
+                        - generic [ref=e5716] [cursor=pointer]:
+                          - generic [ref=e5718]: ₱2,322
+                          - generic [ref=e5719]:
+                            - generic [ref=e5720]: Bayview Park Hotel Manila
+                            - generic [ref=e5721]:
+                              - img [ref=e6254]:
+                                - generic [ref=e5724]:
+                                  - generic [ref=e5725]: "4.1"
+                                  - generic [ref=e5726]:
+                                    - generic [ref=e5727]:
+                                      - img [ref=e5729]
+                                      - img [ref=e5732]
+                                      - img [ref=e5735]
+                                      - img [ref=e5738]
+                                      - img [ref=e5741]
+                                    - generic [ref=e5743]:
+                                      - img [ref=e5745]
+                                      - img [ref=e5748]
+                                      - img [ref=e5751]
+                                      - img [ref=e5754]
+                                      - img [ref=e5757]
+                                  - generic [ref=e5759]: (2.8K)
+                              - generic [ref=e5760]: 3-star hotel for ₱4,400 less
+                              - generic [ref=e5761]: 0.8 km away
+                      - listitem [ref=e5762]:
+                        - generic [ref=e5763] [cursor=pointer]:
+                          - generic [ref=e5765]: ₱2,475
+                          - generic [ref=e5766]:
+                            - generic [ref=e5767]: Manila Prince Hotel
+                            - generic [ref=e5768]:
+                              - img [ref=e6255]:
+                                - generic [ref=e5771]:
+                                  - generic [ref=e5772]: "4.4"
+                                  - generic [ref=e5773]:
+                                    - generic [ref=e5774]:
+                                      - img [ref=e5776]
+                                      - img [ref=e5779]
+                                      - img [ref=e5782]
+                                      - img [ref=e5785]
+                                      - img [ref=e5788]
+                                    - generic [ref=e5790]:
+                                      - img [ref=e5792]
+                                      - img [ref=e5795]
+                                      - img [ref=e5798]
+                                      - img [ref=e5801]
+                                      - img [ref=e5804]
+                                  - generic [ref=e5806]: (1.8K)
+                              - generic [ref=e5807]: 3-star hotel for ₱4,247 less
+                              - generic [ref=e5808]: 1.4 km away
+                      - listitem [ref=e5809]:
+                        - generic [ref=e5810] [cursor=pointer]:
+                          - generic [ref=e5812]: ₱2,526
+                          - generic [ref=e5813]:
+                            - generic [ref=e5814]: City Garden Suites Manila
+                            - generic [ref=e5815]:
+                              - img [ref=e6256]:
+                                - generic [ref=e5818]:
+                                  - generic [ref=e5819]: "4.1"
+                                  - generic [ref=e5820]:
+                                    - generic [ref=e5821]:
+                                      - img [ref=e5823]
+                                      - img [ref=e5826]
+                                      - img [ref=e5829]
+                                      - img [ref=e5832]
+                                      - img [ref=e5835]
+                                    - generic [ref=e5837]:
+                                      - img [ref=e5839]
+                                      - img [ref=e5842]
+                                      - img [ref=e5845]
+                                      - img [ref=e5848]
+                                      - img [ref=e5851]
+                                  - generic [ref=e5853]: (1.3K)
+                              - generic [ref=e5854]: 3-star hotel for ₱4,196 less
+                              - generic [ref=e5855]: 0.7 km away
+                  - generic [ref=e5858]:
+                    - heading [level=2] [ref=e6257]: Vacation rentals nearby
+                    - list [ref=e5865]:
+                      - listitem [ref=e5866]:
+                        - generic [ref=e5867] [cursor=pointer]:
+                          - generic [ref=e5869]: ₱3,402
+                          - generic [ref=e5870]:
+                            - generic [ref=e5871]: Suites de Marina Manila with Netflix
+                            - generic [ref=e5872]:
+                              - generic [ref=e5873]: 1 bedroom·Sleeps 3
+                              - generic [ref=e5874]: 0.5 km away
+                      - listitem [ref=e5875]:
+                        - generic [ref=e5876] [cursor=pointer]:
+                          - generic [ref=e5878]: ₱2,104
+                          - generic [ref=e5879]:
+                            - generic [ref=e5880]: Birchtower by Jeizel Manila City
+                            - generic [ref=e5881]:
+                              - generic [ref=e5882]: 1 bedroom·Sleeps 2
+                              - generic [ref=e5883]: 0.75 km away
+                      - listitem [ref=e5884]:
+                        - generic [ref=e5885] [cursor=pointer]:
+                          - generic [ref=e5887]: ₱2,076
+                          - generic [ref=e5888]:
+                            - generic [ref=e5889]: Manila BayView Luxury Rental
+                            - generic [ref=e5890]:
+                              - generic [ref=e5891]: 10 bedrooms·Sleeps 15
+                              - generic [ref=e5892]: 0.5 km away
+                      - listitem [ref=e5893]:
+                        - generic [ref=e5894] [cursor=pointer]:
+                          - generic [ref=e5896]: ₱4,921
+                          - generic [ref=e5897]:
+                            - generic [ref=e5898]: Embassy Waves Retreat
+                            - generic [ref=e5899]:
+                              - generic [ref=e5900]: 1 bedroom·Sleeps 2
+                              - generic [ref=e5901]: 1.5 km away
+                      - listitem [ref=e5902]:
+                        - generic [ref=e5903] [cursor=pointer]:
+                          - generic [ref=e5905]: ₱789
+                          - generic [ref=e5906]:
+                            - generic [ref=e5907]: 88Ap Lodging House San Marcelino - Budget Double Room
+                            - generic [ref=e5908]:
+                              - generic [ref=e5909]: 1 bedroom·Sleeps 2
+                              - generic [ref=e5910]: 1.1 km away
+                      - listitem [ref=e5911]:
+                        - generic [ref=e5912] [cursor=pointer]:
+                          - generic [ref=e5914]: ₱6,152
+                          - generic [ref=e5915]:
+                            - generic [ref=e5916]: Pent house Staycation at Coast Residences 4001
+                            - generic [ref=e5917]:
+                              - generic [ref=e5918]: Sleeps 6
+                              - generic [ref=e5919]: 2 km away
+                - generic [ref=e5921]:
+                  - generic [ref=e5922]:
+                    - heading [level=2] [ref=e6258]: Frequently asked questions about Diamond Hotel Philippines
+                    - generic [ref=e5925] [cursor=pointer]:
+                      - generic [ref=e5926]: What are the check-in and check-out times for Diamond Hotel Philippines?
+                      - button [ref=e6259]:
+                        - img [ref=e5932]
+                    - generic [ref=e5935] [cursor=pointer]:
+                      - generic [ref=e5936]: What are the main amenities at Diamond Hotel Philippines?
+                      - button [ref=e6260]:
+                        - img [ref=e5942]
+                    - generic [ref=e5945] [cursor=pointer]:
+                      - generic [ref=e5946]: Does Diamond Hotel Philippines offer free Wi-Fi?
+                      - button [ref=e6261]:
+                        - img [ref=e5952]
+                    - generic [ref=e5955] [cursor=pointer]:
+                      - generic [ref=e5956]: Does Diamond Hotel Philippines have a pool?
+                      - button [ref=e6262]:
+                        - img [ref=e5962]
+                    - generic [ref=e5965] [cursor=pointer]:
+                      - generic [ref=e5966]: Is parking available at Diamond Hotel Philippines, and is it free?
+                      - button [ref=e6263]:
+                        - img [ref=e5972]
+                    - generic [ref=e5975] [cursor=pointer]:
+                      - generic [ref=e5976]: How long does it take to get from Diamond Hotel Philippines to Rizal Park?
+                      - button [ref=e6264]:
+                        - img [ref=e5982]
+                    - generic [ref=e5985] [cursor=pointer]:
+                      - generic [ref=e5986]: How long does it take to get from Diamond Hotel Philippines to Ninoy Aquino International Airport?
+                      - button [ref=e6265]:
+                        - img [ref=e5992]
+                    - generic [ref=e5995] [cursor=pointer]:
+                      - generic [ref=e5996]: What is the official star rating of Diamond Hotel Philippines?
+                      - button [ref=e6266]:
+                        - img [ref=e6002]
+                  - generic [ref=e6004]:
+                    - heading [level=2] [ref=e6267]: Similar hotels
+                    - generic [ref=e6006]:
+                      - generic [ref=e6007]:
+                        - link [ref=e6268] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/ChcItNvTianA7tVaGgsvZy8xdjlsODh4cBAB
+                          - text: New Coast Hotel Manila
+                        - link [ref=e6269] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/ChoIo4fjwKKF2u2pARoNL2cvMTFmbjA0eGxuchAB
+                          - text: Sheraton Manila Bay
+                        - link [ref=e6270] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/ChoItfzL98T79LijARoNL2cvMTFja3FyY180dBAB
+                          - text: City Garden GRAND Hotel Makati
+                      - generic [ref=e6011]:
+                        - link [ref=e6271] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/ChoIuY23sea9mK_hARoNL2cvMTFmNjZ0YzZwcBAB
+                          - text: The Alpha Suites
+                        - link [ref=e6272] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/ChYIzL2j_43A1-cfGgovbS8wMnoxc2psEAE
+                          - text: The Manila Hotel
+                        - link [ref=e6273] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/ChgI1YOqzpGh2e-ZARoLL2cvMXRkd3M2MnEQAQ
+                          - text: New World Makati Hotel
+                    - heading [level=2] [ref=e6274]: Vacation rentals nearby
+                    - generic [ref=e6016]:
+                      - generic [ref=e6017]:
+                        - link [ref=e6275] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CiQI2s23ja381_b0ARCAu5Xo9rTr0hEaDS9nLzExdHhxbGxkbHEQAg
+                          - text: Suites de Marina Manila with Netflix
+                        - link [ref=e6276] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CiUI3MCr2IDNkYGeARCRkNP-zZKU0Z0BGg0vZy8xMWxtY3NnNXhkEAI
+                          - text: Birchtower by Jeizel Manila City
+                        - link [ref=e6277] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CiQI1_qz2NmA9sd7EO6vm4TQ07-s1AEaDS9nLzExbWt5cmxyeHEQAg
+                          - text: Manila BayView Luxury Rental
+                      - generic [ref=e6021]:
+                        - link [ref=e6278] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CiUIr7uU2p6On6-6ARDmv7326Ne9-IMBGg0vZy8xMXk0eW42MjVqEAI
+                          - text: Embassy Waves Retreat
+                        - link [ref=e6279] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CiUIpOjjkc3895P6ARDHmsqqkLXIv-IBGg0vZy8xMXhjX19qMjlmEAI
+                          - text: 88Ap Lodging House San Marcelino - Budget Double Room
+                        - link [ref=e6280] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CiQIuuXmycmGtKyzARCrktKLjdjRpVkaDS9nLzExeTN6X3J6cGsQAg
+                          - text: Pent house Staycation at Coast Residences 4001
+                    - heading [level=2] [ref=e6281]: Popular hotels
+                    - generic [ref=e6026]:
+                      - generic [ref=e6027]:
+                        - link [ref=e6282] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CgsIvcuE2ZXSlJXgARAB
+                          - text: Admiral Hotel Manila - MGallery Collection
+                        - link [ref=e6283] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CgsIhpmJuYniw7nXARAB
+                          - text: Century Park Hotel
+                        - link [ref=e6284] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CgoIg82Bu8iXhukfEAE
+                          - text: Hotel H2O
+                      - generic [ref=e6031]:
+                        - link [ref=e6285] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CgsIotaxxKid8q_HARAB
+                          - text: Bayview Park Hotel Manila
+                        - link [ref=e6286] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CgoI9IOVsuyM9rRGEAE
+                          - text: Manila Prince Hotel
+                        - link [ref=e6287] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CgsI5MTItPG5r8j4ARAB
+                          - text: City Garden Suites Manila
+                - contentinfo [ref=e6038]:
+                  - button [ref=e6288]:
+                    - generic [ref=e6043]: Currency·PHP
+                    - img [ref=e6044]
+                  - generic [ref=e6046]:
+                    - generic [ref=e6047]: Talomo, Davao City, Philippines - From your Internet address
+                    - link [ref=e6289] [cursor=pointer]:
+                      - /url: https://support.google.com/websearch/answer/179386?gl=PH&hl=en-US
+                      - text: Learn more
+                  - generic [ref=e6050]:
+                    - link [ref=e6290] [cursor=pointer]:
+                      - /url: https://about.google/?hl=en-US
+                      - text: About
+                    - link [ref=e6291] [cursor=pointer]:
+                      - /url: https://policies.google.com/privacy?hl=en-US
+                      - text: Privacy
+                    - link [ref=e6292] [cursor=pointer]:
+                      - /url: https://policies.google.com/terms?hl=en-US
+                      - text: Terms
+                    - link [ref=e6293] [cursor=pointer]:
+                      - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ1%26productTag%3Dothr%26campaignDate%3DMarch2020%26referral_code%3DUXDT415223&Q_Language=en-US
+                      - text: Join user studies
+                    - link [ref=e6294] [cursor=pointer]:
+                      - /url: ./#0
+                      - text: Feedback
+                    - link [ref=e6295] [cursor=pointer]: Pricing issues
+                    - link [ref=e6296] [cursor=pointer]:
+                      - /url: https://support.google.com/travel/?hl=en-US#topic=7687750
+                      - text: Help Center
+                    - link [ref=e6297] [cursor=pointer]:
+                      - /url: https://support.google.com/local-listings?p=how_google_sources&gl=PH&hl=en-US
+                      - text: About this data
+                    - link [ref=e6298] [cursor=pointer]:
+                      - /url: /search?q=Diamond%20Hotel%20Philippines&gl=PH&hl=en-US
+                      - text: Web results
+                  - paragraph [ref=e6062]:
+                    - text: Displayed currencies may differ from the currencies used to book properties.
+                    - link [ref=e6299] [cursor=pointer]:
+                      - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PH
+                      - text: Learn more
+          - generic [ref=e2736]:
+            - generic [ref=e2737]: Diamond Hotel Philippines
+            - generic [ref=e2738]:
+              - generic [ref=e4402] [cursor=pointer]:
+                - generic [ref=e4404]: ₱6,722
+                - generic [ref=e4405]: •
+                - generic [ref=e4406]: May 14 – 15
+              - button [ref=e6300]:
+                - generic [ref=e2750]: View prices
+    - generic [ref=e2754]:
+      - generic:
+        - button [ref=e6301] [cursor=pointer]:
+          - img [ref=e2758]
+        - generic [ref=e2761]:
+          - button [ref=e6302] [cursor=pointer]:
+            - img [ref=e2763]
+          - button [ref=e6303] [cursor=pointer]:
+            - img [ref=e2767]
+      - generic [ref=e2769]:
+        - switch [ref=e6304] [cursor=pointer]:
+          - generic [ref=e2775]:
+            - img [ref=e2776]
+            - img [ref=e2778]
+        - button [ref=e6305]:
+          - generic [ref=e2785]:
+            - img [ref=e2786]
+            - generic [ref=e2788]: "Off"
+            - img [ref=e2789]
+        - generic:
+          - button:
+            - generic:
+              - img
+              - text: Walk
+          - button:
+            - generic:
+              - img
+              - text: Drive
+        - generic [ref=e2797] [cursor=pointer]:
+          - slider: "0"
+      - generic [ref=e2800]:
+        - generic [ref=e2802]:
+          - button [ref=e6306] [cursor=pointer]:
+            - img [ref=e2806]
+          - tooltip [ref=e2810]: Transit
+        - generic [ref=e2812]:
+          - button [ref=e6307] [cursor=pointer]:
+            - img [ref=e2816]
+          - tooltip [ref=e2818]: Areas for dining
+        - generic [ref=e2820]:
+          - button [ref=e6308] [cursor=pointer]:
+            - img [ref=e2824]
+          - tooltip [ref=e2826]: Attractions
+        - generic [ref=e2828]:
+          - button [ref=e6309] [cursor=pointer]:
+            - img [ref=e2832]
+          - tooltip [ref=e2835]: Areas for shopping
+      - generic [ref=e2837]:
+        - region [ref=e6310]
+        - generic [ref=e2839]:
+          - generic [ref=e2866]:
+            - generic [ref=e2869]:
+              - generic [ref=e2870]:
+                - img [ref=e2872]
+                - generic [ref=e2878]: ₱6,722
+              - img [ref=e2879]
+            - generic [ref=e4433]:
+              - img [ref=e4435]
+              - generic [ref=e4443]: ₱1,633
+            - generic [ref=e4445]:
+              - generic [ref=e4446]:
+                - img [ref=e4448]
+                - generic [ref=e4456]: ₱2,020
+              - img [ref=e4457]
+            - generic [ref=e4461]:
+              - generic [ref=e4462]:
+                - img [ref=e4464]
+                - generic [ref=e4472]: ₱1,826
+              - img [ref=e4473]
+            - generic [ref=e4477]:
+              - generic [ref=e4478]:
+                - img [ref=e4480]
+                - generic [ref=e4486]: ₱2,042
+              - img [ref=e4487]
+            - generic [ref=e4491]:
+              - generic [ref=e4492]:
+                - img [ref=e4494]
+                - generic [ref=e4500]: ₱1,168
+              - img [ref=e4501]
+            - generic [ref=e4505]:
+              - generic [ref=e4506]:
+                - img [ref=e4508]
+                - generic [ref=e4514]: ₱2,036
+              - img [ref=e4515]
+            - generic [ref=e4519]:
+              - generic [ref=e4520]:
+                - img [ref=e4522]
+                - generic [ref=e4528]: ₱1,525
+              - img [ref=e4529]
+            - generic [ref=e4533]:
+              - generic [ref=e4534]:
+                - img [ref=e4536]
+                - generic [ref=e4542]: ₱1,921
+              - img [ref=e4543]
+            - generic [ref=e4547]:
+              - generic [ref=e4548]:
+                - img [ref=e4550]
+                - generic [ref=e4556]: ₱2,148
+              - img [ref=e4557]
+            - generic [ref=e4561]:
+              - generic [ref=e4562]:
+                - img [ref=e4564]
+                - generic [ref=e4570]: ₱1,537
+              - img [ref=e4571]
+            - generic [ref=e4575]:
+              - generic [ref=e4576]:
+                - img [ref=e4578]
+                - generic [ref=e4584]: ₱1,852
+              - img [ref=e4585]
+            - generic [ref=e4589]:
+              - generic [ref=e4590]:
+                - img [ref=e4592]
+                - generic [ref=e4598]: ₱1,916
+              - img [ref=e4599]
+            - generic [ref=e4603]:
+              - generic [ref=e4604]:
+                - img [ref=e4606]
+                - generic [ref=e4612]: ₱6,118
+              - img [ref=e4613]
+            - generic [ref=e4617]:
+              - generic [ref=e4618]:
+                - img [ref=e4620]
+                - generic [ref=e4626]: ₱1,259
+              - img [ref=e4627]
+            - generic [ref=e4631]:
+              - generic [ref=e4632]:
+                - img [ref=e4634]
+                - generic [ref=e4640]: ₱1,680
+              - img [ref=e4641]
+            - generic [ref=e4645]:
+              - generic [ref=e4646]:
+                - img [ref=e4648]
+                - generic [ref=e4654]: ₱1,870
+              - img [ref=e4655]
+            - generic [ref=e4659]:
+              - generic [ref=e4660]:
+                - img [ref=e4662]
+                - generic [ref=e4668]: ₱1,989
+              - img [ref=e4669]
+            - generic [ref=e4673]:
+              - generic [ref=e4674]:
+                - img [ref=e4676]
+                - generic [ref=e4682]: ₱1,489
+              - img [ref=e4683]
+            - generic [ref=e4687]:
+              - generic [ref=e4688]:
+                - img [ref=e4690]
+                - generic [ref=e4696]: ₱1,439
+              - img [ref=e4697]
+            - generic [ref=e4701]:
+              - generic [ref=e4702]:
+                - img [ref=e4704]
+                - generic [ref=e4710]: ₱1,895
+              - img [ref=e4711]
+            - generic [ref=e4715]:
+              - generic [ref=e4716]:
+                - img [ref=e4718]
+                - generic [ref=e4724]: ₱2,350
+              - img [ref=e4725]
+            - generic [ref=e4729]:
+              - generic [ref=e4730]:
+                - img [ref=e4732]
+                - generic [ref=e4738]: ₱1,633
+              - img [ref=e4739]
+            - generic [ref=e4743]:
+              - generic [ref=e4744]:
+                - img [ref=e4746]
+                - generic [ref=e4752]: ₱1,423
+              - img [ref=e4753]
+            - generic [ref=e4757]:
+              - generic [ref=e4758]:
+                - img [ref=e4760]
+                - generic [ref=e4766]: ₱1,812
+              - img [ref=e4767]
+            - generic [ref=e4781]:
+              - generic [ref=e4782]:
+                - img [ref=e4784]
+                - generic [ref=e4790]: ₱1,548
+              - img [ref=e4791]
+          - iframe [ref=e2882]:
+            
+          - generic [ref=e4794]:
+            - button [ref=e6342] [cursor=pointer]: Keyboard shortcuts
+            - generic [ref=e4805]: Map data ©2026 Google
+            - button [ref=e6343] [cursor=pointer]:
+              - generic [ref=e4809]: 50 m
+            - link [ref=e6344] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en-US_PH/help/terms_maps.html
+              - text: Terms
