@@ -890,38 +890,38 @@ async def open_listing_page(context, source: str, adults: int = 2, children: int
             ci_input = page.locator('input[placeholder="Check-in"]').first
             if await ci_input.count():
                 await ci_input.click(force=True)
-                await page.wait_for_timeout(600)
+                await page.wait_for_timeout(500)
                 
                 if check_in:
                     # Focus and type check-in
                     await ci_input.click(force=True)
                     await page.keyboard.press("Control+A")
                     await page.keyboard.press("Backspace")
-                    await page.keyboard.type(check_in, delay=30)
-                    await page.wait_for_timeout(500)
+                    await page.keyboard.type(check_in, delay=20)
+                    await page.wait_for_timeout(300)
                 
                 if check_out:
                     # Explicitly click check-out to ensure focus
                     co_input = page.locator('input[placeholder="Check-out"]').filter(visible=True).first
                     if await co_input.count():
                         await co_input.click(force=True)
-                        await page.wait_for_timeout(500)
+                        await page.wait_for_timeout(300)
                         await page.keyboard.press("Control+A")
                         await page.keyboard.press("Backspace")
-                        await page.keyboard.type(check_out, delay=30)
+                        await page.keyboard.type(check_out, delay=20)
                         await page.keyboard.press("Enter")
-                        await page.wait_for_timeout(500)
+                        await page.wait_for_timeout(300)
             
             # Explicitly click Done in the date picker modal
             done_btn = page.locator('button:has-text("Done"), [role="button"]:has-text("Done")').filter(visible=True).first
             if await done_btn.count():
                 await done_btn.click()
-                await page.wait_for_timeout(800)
+                # Reduced wait here significantly - we'll proceed to occupancy right away
+                await page.wait_for_timeout(500)
             else:
                 await page.keyboard.press("Escape")
             
             print(f"[info] set dates to {check_in} - {check_out}")
-            await page.wait_for_timeout(1500)
         except Exception as e:
             print(f"[warn] failed to set dates: {e}")
 
@@ -931,23 +931,23 @@ async def open_listing_page(context, source: str, adults: int = 2, children: int
             # Find the travelers button (usually has an aria-label like "Number of travelers...")
             travelers_btn = page.locator('button[aria-label*="traveler"], button[aria-label*="Traveler"]').first
             if not await travelers_btn.count():
-                # Fallback: Find a button with just a number, but avoid common calendar numbers by checking aria-label
+                # Fallback: Find a button with just a number, but avoid common calendar numbers
                 travelers_btn = page.locator('button, [role="button"]').filter(has_text=re.compile(r"^\d+$")).filter(has_not=page.locator('[aria-label*="May"], [aria-label*="June"]')).first
             
             if await travelers_btn.count():
                 await travelers_btn.click()
-                await page.wait_for_timeout(1000)
+                await page.wait_for_timeout(600) # Shorter wait for modal
                 
                 # Helper to click a button multiple times
                 async def adjust_count(label: str, target: int, current: int):
                     if target > current:
                         btn = page.locator(f'button[aria-label="Add {label}"], button[aria-label="Increase {label}s"]').filter(visible=True).first
                         for _ in range(target - current):
-                            if await btn.count(): await btn.click(); await page.wait_for_timeout(250)
+                            if await btn.count(): await btn.click(); await page.wait_for_timeout(150) # Faster clicks
                     elif target < current:
                         btn = page.locator(f'button[aria-label="Remove {label}"], button[aria-label="Decrease {label}s"]').filter(visible=True).first
                         for _ in range(current - target):
-                            if await btn.count(): await btn.click(); await page.wait_for_timeout(250)
+                            if await btn.count(): await btn.click(); await page.wait_for_timeout(150) # Faster clicks
 
                 # Google defaults to 2 adults, 0 children
                 await adjust_count("adult", adults, 2)
@@ -957,19 +957,20 @@ async def open_listing_page(context, source: str, adults: int = 2, children: int
                 age_select = page.locator('select').filter(visible=True).first
                 if await age_select.count():
                     await age_select.select_option("5")
-                    await page.wait_for_timeout(400)
+                    await page.wait_for_timeout(200)
 
                 # Click Done in the traveler modal
                 done_btn = page.locator('button:has-text("Done"), [role="button"]:has-text("Done")').filter(visible=True).first
                 if await done_btn.count():
                     await done_btn.click()
-                    await page.wait_for_timeout(1500)
                     print(f"[info] adjusted occupancy to {adults} adults, {children} children")
                 else:
                     await page.keyboard.press("Escape")
         except Exception as e:
             print(f"[warn] failed to adjust occupancy: {e}")
 
+    # Final combined wait for everything to settle
+    await page.wait_for_timeout(2500)
     return page
 
 
