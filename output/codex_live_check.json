@@ -1,0 +1,35 @@
+{
+  "hotel_names": [
+    "Diamond Hotel Philippines"
+  ],
+  "record": {
+    "name": "Diamond Hotel Philippines",
+    "price": "₱5,758",
+    "currency": "₱",
+    "rating": "4.5",
+    "review_count": "4,943",
+    "stars": "5-star hotel",
+    "address": null,
+    "about": null,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "Free parking",
+      "Outdoor pool",
+      "Hot tub",
+      "Air conditioning",
+      "Fitness center",
+      "Spa"
+    ],
+    "nearby_places": [],
+    "check_in": null,
+    "check_out": null,
+    "photos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKCwpdQJCINxZ5CVmDe4njiv-cLsdmPBVSpwbZ4OphkBOQspDcq1FpKosX6e7t4DUv9svCUHixW3w5Fjil-YzwaRqo7uSQxE3a_3f_sydzGoPCJ03fJ_6qTL9ZhwD9Ql4KgOQwQA=s287-w287-h192-n-k-no-v1",
+      "https://lh6.googleusercontent.com/proxy/_3E7WX3TV_r5DSU7T9LASvQ8KKPT32uIFSbSg7yD4nZoonrlFpW4pdMgS8ouM44Ygo9KldPLkDa_q55inNi4fkfS10RPuqQ1oVek2Hd366eLjiFaBm9--LrSdI9tOTpIW-t9eUot_tW0u-eEnwS-G8kIK8jQDg=s287-w287-h192-n-k-no-v1",
+      "https://lh6.googleusercontent.com/proxy/ydwap7Kup1Rbz-QmTliFlK2PU6BKieVZuL9oLj16UiBC11rqZxfF9HCEFpchwTObvF1WUIR1NYB4fwiG3nRUtLbSb6UlKNfEMHqpfnuDfSoZzrvEYeskwFDuVkZmUX5l-KCs6VbfX093VesdjcI9zLwVPW6qDw=s287-w287-h192-n-k-no-v1"
+    ],
+    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20manila&qs=OAA&ved=0CAAQ5JsGahgKEwjon4zJ57eUAxUAAAAAHQAAAAAQpAE&ap=KigKEglgUtd0WhEtQBHqLokzjzxeQBISCfada5gmSS1AEeouiTO2Ql5AMAA",
+    "listing_url": null
+  }
+}

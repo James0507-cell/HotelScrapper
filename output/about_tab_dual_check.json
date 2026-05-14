@@ -1,0 +1,54 @@
+[
+  {
+    "hotel": "Diamond Hotel Philippines",
+    "opened": true,
+    "record": {
+      "name": "Diamond Hotel Philippines",
+      "price": "₱5,758",
+      "currency": "₱",
+      "rating": "4.5",
+      "review_count": "4,943",
+      "stars": "5-star hotel",
+      "address": "4.5 (4.9K)•5-star hotelRoxas Boulevard, Corner Dr. J. Quintos Street, Manila, 1000 Metro Manila•(02) 8528 3000₱5,758₱5,758 total1 night with taxes + fees₱5,758May 16 – 17WebsiteDirectionsShareCheck availability... spacious room, stunning Manila Bay view, delicious breakfast, and super friendly staff.The restrooms are very clean.View more photosEnter a date or use the arrow keys to change the current date.Check-inCheck-out2AdultsRemove adult22Add adultChildrenRemove child00Add childCancelDoneNightly totalFree cancellation onlySponsored·Featured optionsBooking.comFree Wi-Fi₱10,078₱10,078₱10,078Visit siteDeluxe King Room Non-Smoking1 king bed · Suite₱10,078₱10,078₱10,078Visit siteAgodaFree Wi-Fi₱5,758₱5,758₱5,758Visit siteAll optionsDiamond Hotel Philippines",
+      "contact_info": [
+        "(02) 8528 3000"
+      ],
+      "about": "An 11-minute walk from the Embassy of the United States, this upscale tower-style hotel is 12 minutes on foot from the gardens at Rizal Park.",
+      "amenities": [],
+      "nearby_places": [],
+      "check_in": "2:00 PM",
+      "check_out": "12:00 PM",
+      "photos": [
+        "https://lh3.googleusercontent.com/a/ACg8ocLi-5Y8-GVVzSC3nPYPOUZNnRqc2kkZNxutMdP0giBvfJRv2Q=s120-c-rp-mo-ba2-br100"
+      ],
+      "source_url": "https://www.google.com/travel/search?q=hotels%20in%20manila&qs=OAA&ved=0CAAQ5JsGahgKEwigkeLD-LeUAxUAAAAAHQAAAAAQrAE&ap=KigKEgmToNSYPBYtQBHqLokzjzxeQBISCf8v-B0ITi1AEeouiTO2Ql5AMAA",
+      "listing_url": null
+    }
+  },
+  {
+    "hotel": "Swiss-Belhotel Blulane",
+    "opened": true,
+    "record": {
+      "name": "Swiss-Belhotel Blulane",
+      "price": "₱1,572",
+      "currency": "₱",
+      "rating": "4.7",
+      "review_count": "2,351",
+      "stars": null,
+      "address": "4.7 (2.4K)609 Tomas Mapua St, Santa Cruz, Manila, 1003 Metro Manila",
+      "contact_info": [
+        "(02) 8777 2258"
+      ],
+      "about": "Surrounded by shops and restaurants, this casual hotel is 3 km from Rizal Park, the landmark Fort Santiago and the presidential Malacañang Palace.",
+      "amenities": [],
+      "nearby_places": [],
+      "check_in": "2:00 PM",
+      "check_out": "12:00 PM",
+      "photos": [
+        "https://lh3.googleusercontent.com/p/AF1QipP3KlK3-P8BB0XZeNp1VjxoD11fnA0Pq-RKNYbw=w252-h168-k-no"
+      ],
+      "source_url": "https://www.google.com/travel/search?q=hotels%20in%20manila&qs=OAA&ved=0CAAQ5JsGahgKEwiwra7M-LeUAxUAAAAAHQAAAAAQpQE&ap=KigKEgmToNSYPBYtQBHqLokzjzxeQBISCf8v-B0ITi1AEeouiTO2Ql5AMAA",
+      "listing_url": null
+    }
+  }
+]

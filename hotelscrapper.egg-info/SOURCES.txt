@@ -1,0 +1,7 @@
+main.py
+pyproject.toml
+hotelscrapper.egg-info/PKG-INFO
+hotelscrapper.egg-info/SOURCES.txt
+hotelscrapper.egg-info/dependency_links.txt
+hotelscrapper.egg-info/requires.txt
+hotelscrapper.egg-info/top_level.txt
