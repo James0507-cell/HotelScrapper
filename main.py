@@ -883,45 +883,56 @@ def open_listing_page(context, source: str, adults: int = 2, children: int = 0, 
             ci_input = page.locator('input[placeholder="Check-in"]').first
             if ci_input.count():
                 ci_input.click(force=True)
-                page.wait_for_timeout(800)
+                page.wait_for_timeout(1200) # Wait for modal to fully settle
                 
                 if check_in:
-                    # Type check-in
+                    # Focus and type check-in
+                    ci_input.click(force=True)
+                    page.wait_for_timeout(500)
                     page.keyboard.press("Control+A")
                     page.keyboard.press("Backspace")
-                    page.keyboard.type(check_in)
-                    page.keyboard.press("Tab") # Move focus to check-out
-                    page.wait_for_timeout(500)
+                    page.wait_for_timeout(300)
+                    page.keyboard.type(check_in, delay=50) # Type slightly slower
+                    page.wait_for_timeout(1000) # Give Google time to process the first date
                 
                 if check_out:
-                    # Type check-out
-                    page.keyboard.press("Control+A")
-                    page.keyboard.press("Backspace")
-                    page.keyboard.type(check_out)
-                    page.keyboard.press("Enter")
-                    page.wait_for_timeout(500)
+                    # Explicitly click check-out to ensure focus moves away from check-in
+                    co_input = page.locator('input[placeholder="Check-out"]').filter(visible=True).first
+                    if co_input.count():
+                        co_input.click(force=True)
+                        page.wait_for_timeout(500)
+                        page.keyboard.press("Control+A")
+                        page.keyboard.press("Backspace")
+                        page.wait_for_timeout(300)
+                        page.keyboard.type(check_out, delay=50)
+                        page.keyboard.press("Enter")
+                        page.wait_for_timeout(1000)
             
             # Explicitly click Done in the date picker modal
             done_btn = page.locator('button:has-text("Done"), [role="button"]:has-text("Done")').filter(visible=True).first
             if done_btn.count():
                 done_btn.click()
-                page.wait_for_timeout(1000)
+                page.wait_for_timeout(1500)
             else:
                 page.keyboard.press("Escape")
             
             print(f"[info] set dates to {check_in} - {check_out}")
-            page.wait_for_timeout(2000) # Wait for prices to refresh
+            page.wait_for_timeout(3000) # Wait for prices to refresh
         except Exception as e:
             print(f"[warn] failed to set dates: {e}")
 
     # Handle occupancy (Adults and Children) via UI interactions
     if adults != 2 or children > 0:
         try:
-            # Find the travelers button (shows a number like "2")
-            travelers_btn = page.locator('button, [role="button"]').filter(has_text=re.compile(r"^\d+$")).first
+            # Find the travelers button (usually has an aria-label like "Number of travelers...")
+            travelers_btn = page.locator('button[aria-label*="traveler"], button[aria-label*="Traveler"]').first
+            if not travelers_btn.count():
+                # Fallback: Find a button with just a number, but avoid common calendar numbers by checking aria-label
+                travelers_btn = page.locator('button, [role="button"]').filter(has_text=re.compile(r"^\d+$")).filter(has_not=page.locator('[aria-label*="May"], [aria-label*="June"]')).first
+            
             if travelers_btn.count():
                 travelers_btn.click()
-                page.wait_for_timeout(1000)
+                page.wait_for_timeout(1500)
                 
                 # Helper to click a button multiple times
                 def adjust_count(label: str, target: int, current: int):
