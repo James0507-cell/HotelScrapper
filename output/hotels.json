@@ -1,50 +1,38 @@
 [
   {
-    "name": "Diamond Hotel Philippines",
-    "price": "₱5,970",
+    "name": "Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛",
+    "price": "₱3,534",
+    "total_price": null,
     "currency": "₱",
-    "rating": "4.5",
-    "review_count": "4.9K",
-    "stars": "5-star hotel",
-    "address": "Roxas Boulevard, Corner Dr. J. Quintos Street, Manila, 1000 Metro Manila(02) 8528 3000",
-    "phone": "(02) 8528 3000",
-    "website": "https://diamondhotel.com/",
-    "about": "An 11-minute walk from the Embassy of the United States, this upscale tower-style hotel is 12 minutes on foot from the gardens at Rizal Park.",
+    "rating": "4.2",
+    "review_count": "1.7K",
+    "stars": "3-star hotel",
+    "address": null,
+    "phone": null,
+    "website": "https://www.mahagiriresortnusalembongan.com/?sa=X&ved=2ahUKEwjJjOLMtLiUAxWDm2YCHT5AN5gQyK4DegUIAxDGBA",
+    "about": null,
     "amenities": {
       "Popular amenities": [
         "Pool",
-        "Spa",
+        "Wi-Fifree",
         "Parkingfree",
-        "Breakfastfree"
+        "Beach front"
       ],
       "Internet": [
         "Wi-Fifree"
       ],
       "Activities": [
-        "Nightclub"
+        "Beach front",
+        "Snorkeling"
       ],
       "Services": [
-        "Front desk24 hour",
-        "Concierge",
-        "Full-service laundry",
-        "Elevator",
-        "Wake up calls",
-        "Housekeepingdaily",
-        "Turndown service"
+        "Front desk24 hour"
       ],
-      "Parking & transportation": [
-        "Parkingfree",
-        "Self parkingfree",
-        "Valet parkingextra charge",
-        "Private car serviceextra charge",
-        "Car rental onsite",
-        "Local shuttle"
+      "Pools": [
+        "Outdoor pool"
       ],
-      "Accessibility": [
-        "Accessible"
-      ],
-      "Pets": [
-        "No pets"
+      "Wellness": [
+        "No fitness center"
       ],
       "Rooms": [
         "Air conditioning"
@@ -52,30 +40,129 @@
       "Food & drink": [
         "Restaurant",
         "Bar",
-        "Table service",
-        "Buffet dinner",
-        "Room service24 hour",
+        "Room service",
+        "Breakfast",
         "Breakfast buffet"
       ],
       "Children": [
         "Kid-friendly"
       ],
+      "Parking & transportation": [
+        "Parkingfree",
+        "Airport shuttleextra charge",
+        "Local shuttle"
+      ],
+      "Pets": [
+        "No pets"
+      ]
+    },
+    "nearby_places": [],
+    "check_in": null,
+    "check_out": null,
+    "photos": [
+      "https://www.gstatic.com/images/travel/general/plan_your_stay@2x.png",
+      "https://www.gstatic.com/images/travel/prompt/no_destination@2x.png",
+      "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHBCU08o0tYseELcBaVL8jhCOx8aBzdf8wBjvO9kar-S3B4Nwlh9U-YFTFVPKlqv_repDgwUKvXhEAOBmeJdR6q9dvnHPZYe-5DSgzRwNkmMc8naeYxYhXSEBfXURuDtd3XpgZtkrEuWHy=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHf5EFk_y9rjRaX8j0smLvhd0pBqHxGCbS2NoWwqCyjDKrTQjCNVLzN4wMZYod2k0yHS1NH_NycYO1ptlL5IkqXsUi3b-7RAbQ2wFOZtf1cbI_n7Y9ItQfaSmbzc6u1vcbraqdP=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGv8z_QM5VsVd7c4kcy4egiLxF60L6Kj9rRq5Dj5i-GV3MjOqRmdq4XyE47ovpB0-lZYhir7sN-B0-dld109tQeBHgbOzIBJ8H16uiItdEAwp4-g5VXEy-yCmnT19l3qs7ppdCK=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESphVVA2FxE-wNjzfeNpS7ErHp12BfhMzx3zrXBptYIzAf9oqGOGSD0ALsxhV0JJ3sWII1hgNWnLh-nrJJKljkWHWTzAJ3XmHbC6NxSeF6jedTk_sFIozanVAZJRz1ESUdA1a40w=s287-w287-h192-n-k-no-v1",
+      "https://lh4.googleusercontent.com/proxy/o8lDtXXI32oPzrbvTsjkUSD1XKEaNj4rYt0FoRCcSghsMxDUpSdTu9aQa3zxKzLVgXSPKcFG87U28ix32STJmakBkk0lp8PEdP4MQs1HxpvfTPdNdm7MNrVDzmJIHcLsdyGsspzEzE5MSRNKIt8rq5kMZ2klLQ=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/QVtUwgJ9FeUMij6NCWfzTsGlHAP2AWMpnDvNQLJ0K3s0js1SkycItLa-IK5NhCO8Mv-AIA9hTQmkE5hDU5WUTow9iZpy06R6_7p7WfFGoM9-0bZNISLzqijQRTavteZYw7fc5FeStzzUZE2q3FLJms2BvwtXCg=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGRHwyavRs5uV2cX-tIaFgnBdJZvrVJBwpmKmPHYZYjW7f9i6qUeyHsYGO8AFwJXsyvt1DcufSqYTNjyn7zTHAQEm1y6mZWYIGkwlt7DHu5NzveY3a7P32nMKXdM16T4jl3PE2uV5FzU_OJ=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/proxy/v34t01l2xfn7cL7mKYWX0eMi1hDKwCdcYSWDc1zC2Kv52qKEGBz4CuqnKn7jb5PC_arnxMHkoAIgA1jjtbiJt-fIrHN1RcxzV9RcDx9ubG6tSzMZggC3XyP7tSN7OpjpW3A2E0YiqmLdbXovQtNg_CCkNmg=s287-w287-h192-n-k-no-v1",
+      "https://lh6.googleusercontent.com/proxy/1oFJnggkitmnmULZ9jIQdT96Yp6IKJR5l_WUgwFdjSg3h2_NhJ8YoQJeQXjC0L-wT_-m2FcDdOuIH4JNldoBnwVZY_L0XWEk2tTzxWe8QE3TwoISOG0iwc5Ci2tgW0diNOWDcCamJYK7m5wcla6hbEZdh4mbRQ=s287-w287-h192-n-k-no-v1",
+      "https://lh4.googleusercontent.com/proxy/kRyGb_L1Bju8anwIB409AhmWXAu8LMRA_N2MOMeBDNbx5Iu9GRigccIquw1AkRR_zsiBfSXMY2W_-RMEpgf87wwtH4kJf5uouc0Jo_WP8_Dyatu5LFBuhTYN_CY83iG2Wer8_TGN8V-EgG5JiRXyH0sPl3Izsw=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAECVPDAkjmdLAN3TmqoYru5esP99kzWdR3MKAyW1ZbgWfYKMkwQ5FUtoRZCUsPT1zx8YChZQbGrz-niWj1Xkq7UVFtvZEbfAMOFMu7Xqr4ILuxatacO5hg1BTW303ob-GEGsP0=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHbyatJF9nG3umAFXY0EfJKZXxOIE04Hmd22Dz4g6Gw-3VQsUS_ggBtKnJix6DUtZMOw9Sr2cdxzgCVjKLElc368KRdZemQMNF4Moym8x8S5GWn-CtyHBGR4Op_gn5Lhsk4r3aN7w=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYh-qZlw49_Ss5os12wfWqldNzxb8gEBtYY0WpbAhorAvpRl6nFsq_8BzZX1vK4t2mlJJzwJim8ne9Tp2F4Vvkomq0uAXJe9C0bsrMoruBnJAPBj9MyxRWjCxBIfJ0W0gAM3m3=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/BRzdTpMaATh1Azr8NyNae1BMxQmXin-nyIz1PlXc5VZV2_dgzpkuWeNEzXHhmfkOdQEQDj0DwBOOANmeZyBbetXEJtszATEuW-Z8D8A9PCnDL5Fg-9R99LA7G6coeo-X2Yapy0kiNEzcNrq_ZmRb5Z1vG2t6LQ=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGFUCp7dtAi1oslytfBvzbplc3O_nXgKDUEScmp4gJ4TOkXNG5VHFzjXxzE0gih6D7grDAqS4eIlXsQo5TL0wgyEbTbOTBfSUWp_j12kuolzIo27nUobZDFBU6XSE_6WADvzu6k=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJvH_O-P-pmDnEMz1f9C5ldyQBt9JLCwI902wjrgWvhGb_i-F7msaikWhBlHG_gYmD-Ga0t_FZzTLnSvQ5Iqtj5K5SNHhzNVcEyIgJpVjyfb6veg7N_ya2M4-9geAU-1W7rk5I=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHYwpnaBCAqp_A9yyIq3vGAXIm8pxY-bpYt-x6W9zxQT-umJkh8rAYmCO1vXDWoXFhCizzs7crw8_0NKQYGQ6o0ndgBSTJfFzSGtFy4vAtkLjudkghW7XNup5zE2Szfz4cU8sKW=s287-w287-h192-n-k-no-v1"
+    ],
+    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20bali&qs=CAE4AA&ved=0CAAQ5JsGahcKEwi4qbvNtLiUAxUAAAAAHQAAAAAQeA&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyBAgAEAAqBwoFOgNQSFA&ap=MAA",
+    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20bali&qs=MiZDaGdJOExfeTY5VGhvZUl1R2d3dlp5OHhhbXQ1TjJabmNqUVFBUTgA&ved=2ahUKEwik2ZLItLiUAxUmjGYCHQ_uOKEQrsMEegQIAxBI&ts=CAESCgoCCAMKAggDEAAaTQovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSGhIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyAhAAKgcKBToDUEhQ",
+    "adults": 2,
+    "children": 0,
+    "search_check_in": null,
+    "search_check_out": null
+  },
+  {
+    "name": "Eden Hotel Kuta Bali",
+    "price": null,
+    "total_price": "₱650",
+    "currency": null,
+    "rating": "4.2",
+    "review_count": "3.9K",
+    "stars": "4-star hotel",
+    "address": "Jl. Kartika Plaza No.42, Kuta, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia+62 361 4726402",
+    "phone": "62 361 4726402",
+    "website": "https://www.myedenhotels.com/?sa=X&ved=2ahUKEwjS2JvStLiUAxVwoGYCHebmEWIQyK4DegUIAxCgBg",
+    "about": "A 5-minute walk from the beach, this upscale hotel among eateries in the city center is a 6-minute walk from Discovery Shopping Mall and 2 km from Ngurah Rai International Airport.",
+    "amenities": {
+      "Popular amenities": [
+        "Pool",
+        "Spa",
+        "Wi-Fifree",
+        "Parkingfree"
+      ],
+      "Internet": [
+        "Wi-Fifree"
+      ],
+      "Policies & payments": [
+        "Credit cards",
+        "Debit cards",
+        "Cash"
+      ],
+      "Children": [
+        "Kid-friendly",
+        "Activities for kids"
+      ],
+      "Parking & transportation": [
+        "Parkingfree",
+        "Airport shuttleextra charge",
+        "Local shuttle"
+      ],
+      "Accessibility": [
+        "Accessible",
+        "Accessible parking",
+        "Accessible elevator",
+        "Accessible pool"
+      ],
+      "Rooms": [
+        "Air conditioning",
+        "Refrigerator in some rooms",
+        "Coffee maker",
+        "Minibar in some rooms"
+      ],
+      "Food & drink": [
+        "Restaurant",
+        "Bar",
+        "Room service",
+        "Breakfast buffet"
+      ],
+      "Services": [
+        "Front desk24 hour",
+        "Full-service laundry"
+      ],
       "Pools": [
         "Outdoor pool",
-        "Wading pool",
-        "Lifeguard",
-        "Hot tub"
+        "No hot tub"
       ],
       "Wellness": [
-        "Fitness center",
-        "Spa"
+        "No fitness center",
+        "Massage",
+        "Spa",
+        "Doctor on call"
       ],
-      "Business & events": [
-        "Business center"
+      "Pets": [
+        "No pets"
       ],
-      "Languages spoken": [
-        "English",
-        "Filipino"
+      "Bathrooms": [
+        "Private bathroom",
+        "Bathtub in some rooms",
+        "Shower"
       ]
     },
     "nearby_places": [],
@@ -88,33 +175,155 @@
       "https://www.gstatic.com/images/travel/general/plan_your_stay@2x.png",
       "https://www.gstatic.com/images/travel/prompt/no_destination@2x.png",
       "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKCwpdQJCINxZ5CVmDe4njiv-cLsdmPBVSpwbZ4OphkBOQspDcq1FpKosX6e7t4DUv9svCUHixW3w5Fjil-YzwaRqo7uSQxE3a_3f_sydzGoPCJ03fJ_6qTL9ZhwD9Ql4KgOQwQA=s287-w287-h192-n-k-no-v1",
-      "https://lh6.googleusercontent.com/proxy/_3E7WX3TV_r5DSU7T9LASvQ8KKPT32uIFSbSg7yD4nZoonrlFpW4pdMgS8ouM44Ygo9KldPLkDa_q55inNi4fkfS10RPuqQ1oVek2Hd366eLjiFaBm9--LrSdI9tOTpIW-t9eUot_tW0u-eEnwS-G8kIK8jQDg=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrUMJAqIzREET4QuwZIQMXYbIL1nweSMbM0rw0LEzOqJPBrQVfjC1wQ0TTJFwy2C2MwUtiBY3XhDCA-V4PvMb7wYlLpXeZ0Jo3_xpjZ3tu57D6VWxv1iE5WRUOW5IFryZFqL8i=s287-w287-h192-n-k-no-v1",
-      "https://lh5.googleusercontent.com/proxy/Ou657zG53yZiJaADtWqOQo3PDroZRFqaQ7Tc70aNxBMIVsjVSAIwS7Mps_3a7darjBwu6hyx5n74p488wzVDkHehKj9ki4aVxgQd9by87kkYHz_rWrDER5AAmoD_wf7Vr9xP91MXFCpZxEafNnOws7G7iyF-qA=s287-w287-h192-n-k-no-v1"
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHBCU08o0tYseELcBaVL8jhCOx8aBzdf8wBjvO9kar-S3B4Nwlh9U-YFTFVPKlqv_repDgwUKvXhEAOBmeJdR6q9dvnHPZYe-5DSgzRwNkmMc8naeYxYhXSEBfXURuDtd3XpgZtkrEuWHy=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHf5EFk_y9rjRaX8j0smLvhd0pBqHxGCbS2NoWwqCyjDKrTQjCNVLzN4wMZYod2k0yHS1NH_NycYO1ptlL5IkqXsUi3b-7RAbQ2wFOZtf1cbI_n7Y9ItQfaSmbzc6u1vcbraqdP=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGv8z_QM5VsVd7c4kcy4egiLxF60L6Kj9rRq5Dj5i-GV3MjOqRmdq4XyE47ovpB0-lZYhir7sN-B0-dld109tQeBHgbOzIBJ8H16uiItdEAwp4-g5VXEy-yCmnT19l3qs7ppdCK=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESphVVA2FxE-wNjzfeNpS7ErHp12BfhMzx3zrXBptYIzAf9oqGOGSD0ALsxhV0JJ3sWII1hgNWnLh-nrJJKljkWHWTzAJ3XmHbC6NxSeF6jedTk_sFIozanVAZJRz1ESUdA1a40w=s287-w287-h192-n-k-no-v1",
+      "https://lh4.googleusercontent.com/proxy/o8lDtXXI32oPzrbvTsjkUSD1XKEaNj4rYt0FoRCcSghsMxDUpSdTu9aQa3zxKzLVgXSPKcFG87U28ix32STJmakBkk0lp8PEdP4MQs1HxpvfTPdNdm7MNrVDzmJIHcLsdyGsspzEzE5MSRNKIt8rq5kMZ2klLQ=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/QVtUwgJ9FeUMij6NCWfzTsGlHAP2AWMpnDvNQLJ0K3s0js1SkycItLa-IK5NhCO8Mv-AIA9hTQmkE5hDU5WUTow9iZpy06R6_7p7WfFGoM9-0bZNISLzqijQRTavteZYw7fc5FeStzzUZE2q3FLJms2BvwtXCg=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGRHwyavRs5uV2cX-tIaFgnBdJZvrVJBwpmKmPHYZYjW7f9i6qUeyHsYGO8AFwJXsyvt1DcufSqYTNjyn7zTHAQEm1y6mZWYIGkwlt7DHu5NzveY3a7P32nMKXdM16T4jl3PE2uV5FzU_OJ=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/proxy/v34t01l2xfn7cL7mKYWX0eMi1hDKwCdcYSWDc1zC2Kv52qKEGBz4CuqnKn7jb5PC_arnxMHkoAIgA1jjtbiJt-fIrHN1RcxzV9RcDx9ubG6tSzMZggC3XyP7tSN7OpjpW3A2E0YiqmLdbXovQtNg_CCkNmg=s287-w287-h192-n-k-no-v1",
+      "https://lh6.googleusercontent.com/proxy/1oFJnggkitmnmULZ9jIQdT96Yp6IKJR5l_WUgwFdjSg3h2_NhJ8YoQJeQXjC0L-wT_-m2FcDdOuIH4JNldoBnwVZY_L0XWEk2tTzxWe8QE3TwoISOG0iwc5Ci2tgW0diNOWDcCamJYK7m5wcla6hbEZdh4mbRQ=s287-w287-h192-n-k-no-v1",
+      "https://lh4.googleusercontent.com/proxy/kRyGb_L1Bju8anwIB409AhmWXAu8LMRA_N2MOMeBDNbx5Iu9GRigccIquw1AkRR_zsiBfSXMY2W_-RMEpgf87wwtH4kJf5uouc0Jo_WP8_Dyatu5LFBuhTYN_CY83iG2Wer8_TGN8V-EgG5JiRXyH0sPl3Izsw=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAECVPDAkjmdLAN3TmqoYru5esP99kzWdR3MKAyW1ZbgWfYKMkwQ5FUtoRZCUsPT1zx8YChZQbGrz-niWj1Xkq7UVFtvZEbfAMOFMu7Xqr4ILuxatacO5hg1BTW303ob-GEGsP0=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHbyatJF9nG3umAFXY0EfJKZXxOIE04Hmd22Dz4g6Gw-3VQsUS_ggBtKnJix6DUtZMOw9Sr2cdxzgCVjKLElc368KRdZemQMNF4Moym8x8S5GWn-CtyHBGR4Op_gn5Lhsk4r3aN7w=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYh-qZlw49_Ss5os12wfWqldNzxb8gEBtYY0WpbAhorAvpRl6nFsq_8BzZX1vK4t2mlJJzwJim8ne9Tp2F4Vvkomq0uAXJe9C0bsrMoruBnJAPBj9MyxRWjCxBIfJ0W0gAM3m3=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/BRzdTpMaATh1Azr8NyNae1BMxQmXin-nyIz1PlXc5VZV2_dgzpkuWeNEzXHhmfkOdQEQDj0DwBOOANmeZyBbetXEJtszATEuW-Z8D8A9PCnDL5Fg-9R99LA7G6coeo-X2Yapy0kiNEzcNrq_ZmRb5Z1vG2t6LQ=s287-w287-h192-n-k-no-v1"
     ],
-    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahgKEwiI8ZrUqriUAxUAAAAAHQAAAAAQiQE&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
-    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUTgA&ved=2ahUKEwjh9ZDPqriUAxVBkmYCHUPJKngQrsMEegQIAxBX&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA",
+    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20bali&qs=CAE4AA&ved=0CAAQ5JsGahgKEwiI4fLStLiUAxUAAAAAHQAAAAAQxgE&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyBAgAEAAqBwoFOgNQSFA&ap=MAC6AQdyZXZpZXdz",
+    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20bali&qs=MidDaGtJdFpLNzRORDBfclBBQVJvTUwyY3ZNWEUyTW1kcmVqTXlFQUU4AA&ved=2ahUKEwik2ZLItLiUAxUmjGYCHQ_uOKEQwIsFegQIAxBQ&ts=CAESCgoCCAMKAggDEAAaTQovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSGhIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyAhAAKgcKBToDUEhQ&ap=ugEHcmV2aWV3cw",
     "adults": 2,
-    "children": 0
+    "children": 0,
+    "search_check_in": null,
+    "search_check_out": null
   },
   {
-    "name": "Oxford Suites Makati",
-    "price": "₱1,445",
+    "name": "Eden Hotel Kuta Bali GREAT",
+    "price": "₱650",
+    "total_price": null,
     "currency": "₱",
-    "rating": "3.6",
-    "review_count": "938",
-    "stars": "3-star hotel",
-    "address": "518 P. Burgos, corner Durban, Street, Makati City, 1210 Metro Manila(02) 8899 7888",
-    "phone": "(02) 8899 7888",
-    "website": "http://www.oxfordsuitesmakati.com/?sa=X&ved=2ahUKEwj74rzaqriUAxXQiGYCHYU8NRoQyK4DegUIAxCTBg",
-    "about": "Set in a 27-story yellow tower, this modern hotel is 1.9 km from shopping at the Ayala Center and 7 km from Manila Bay.",
+    "rating": "4.4",
+    "review_count": "2.7K",
+    "stars": "5-star hotel",
+    "address": null,
+    "phone": null,
+    "website": "https://www.myedenhotels.com/?sa=X&ved=2ahUKEwinm5PZtLiUAxWwimYCHRhqCF0QyK4DegUIAxCKBg",
+    "about": null,
     "amenities": {
       "Popular amenities": [
-        "Parkingfree",
+        "Pool",
+        "Spa",
         "Wi-Fifree",
+        "Parkingfree"
+      ],
+      "Internet": [
+        "Wi-Fifree"
+      ],
+      "Policies & payments": [
+        "Credit cards",
+        "Debit cards",
+        "Cash"
+      ],
+      "Children": [
+        "Kid-friendly",
+        "Activities for kids"
+      ],
+      "Parking & transportation": [
+        "Parkingfree",
+        "Airport shuttleextra charge",
+        "Local shuttle"
+      ],
+      "Accessibility": [
+        "Accessible",
+        "Accessible parking",
+        "Accessible elevator",
+        "Accessible pool"
+      ],
+      "Rooms": [
         "Air conditioning",
-        "Breakfast"
+        "Refrigerator in some rooms",
+        "Coffee maker",
+        "Minibar in some rooms"
+      ],
+      "Food & drink": [
+        "Restaurant",
+        "Bar",
+        "Room service",
+        "Breakfast buffet"
+      ],
+      "Services": [
+        "Front desk24 hour",
+        "Full-service laundry"
+      ],
+      "Pools": [
+        "Outdoor pool",
+        "No hot tub"
+      ],
+      "Wellness": [
+        "No fitness center",
+        "Massage",
+        "Spa",
+        "Doctor on call"
+      ],
+      "Pets": [
+        "No pets"
+      ],
+      "Bathrooms": [
+        "Private bathroom",
+        "Bathtub in some rooms",
+        "Shower"
+      ]
+    },
+    "nearby_places": [],
+    "check_in": null,
+    "check_out": null,
+    "photos": [
+      "https://www.gstatic.com/images/travel/general/plan_your_stay@2x.png",
+      "https://www.gstatic.com/images/travel/prompt/no_destination@2x.png",
+      "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHBCU08o0tYseELcBaVL8jhCOx8aBzdf8wBjvO9kar-S3B4Nwlh9U-YFTFVPKlqv_repDgwUKvXhEAOBmeJdR6q9dvnHPZYe-5DSgzRwNkmMc8naeYxYhXSEBfXURuDtd3XpgZtkrEuWHy=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHf5EFk_y9rjRaX8j0smLvhd0pBqHxGCbS2NoWwqCyjDKrTQjCNVLzN4wMZYod2k0yHS1NH_NycYO1ptlL5IkqXsUi3b-7RAbQ2wFOZtf1cbI_n7Y9ItQfaSmbzc6u1vcbraqdP=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGv8z_QM5VsVd7c4kcy4egiLxF60L6Kj9rRq5Dj5i-GV3MjOqRmdq4XyE47ovpB0-lZYhir7sN-B0-dld109tQeBHgbOzIBJ8H16uiItdEAwp4-g5VXEy-yCmnT19l3qs7ppdCK=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESphVVA2FxE-wNjzfeNpS7ErHp12BfhMzx3zrXBptYIzAf9oqGOGSD0ALsxhV0JJ3sWII1hgNWnLh-nrJJKljkWHWTzAJ3XmHbC6NxSeF6jedTk_sFIozanVAZJRz1ESUdA1a40w=s287-w287-h192-n-k-no-v1",
+      "https://lh4.googleusercontent.com/proxy/o8lDtXXI32oPzrbvTsjkUSD1XKEaNj4rYt0FoRCcSghsMxDUpSdTu9aQa3zxKzLVgXSPKcFG87U28ix32STJmakBkk0lp8PEdP4MQs1HxpvfTPdNdm7MNrVDzmJIHcLsdyGsspzEzE5MSRNKIt8rq5kMZ2klLQ=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/QVtUwgJ9FeUMij6NCWfzTsGlHAP2AWMpnDvNQLJ0K3s0js1SkycItLa-IK5NhCO8Mv-AIA9hTQmkE5hDU5WUTow9iZpy06R6_7p7WfFGoM9-0bZNISLzqijQRTavteZYw7fc5FeStzzUZE2q3FLJms2BvwtXCg=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGRHwyavRs5uV2cX-tIaFgnBdJZvrVJBwpmKmPHYZYjW7f9i6qUeyHsYGO8AFwJXsyvt1DcufSqYTNjyn7zTHAQEm1y6mZWYIGkwlt7DHu5NzveY3a7P32nMKXdM16T4jl3PE2uV5FzU_OJ=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/proxy/v34t01l2xfn7cL7mKYWX0eMi1hDKwCdcYSWDc1zC2Kv52qKEGBz4CuqnKn7jb5PC_arnxMHkoAIgA1jjtbiJt-fIrHN1RcxzV9RcDx9ubG6tSzMZggC3XyP7tSN7OpjpW3A2E0YiqmLdbXovQtNg_CCkNmg=s287-w287-h192-n-k-no-v1",
+      "https://lh6.googleusercontent.com/proxy/1oFJnggkitmnmULZ9jIQdT96Yp6IKJR5l_WUgwFdjSg3h2_NhJ8YoQJeQXjC0L-wT_-m2FcDdOuIH4JNldoBnwVZY_L0XWEk2tTzxWe8QE3TwoISOG0iwc5Ci2tgW0diNOWDcCamJYK7m5wcla6hbEZdh4mbRQ=s287-w287-h192-n-k-no-v1",
+      "https://lh4.googleusercontent.com/proxy/kRyGb_L1Bju8anwIB409AhmWXAu8LMRA_N2MOMeBDNbx5Iu9GRigccIquw1AkRR_zsiBfSXMY2W_-RMEpgf87wwtH4kJf5uouc0Jo_WP8_Dyatu5LFBuhTYN_CY83iG2Wer8_TGN8V-EgG5JiRXyH0sPl3Izsw=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAECVPDAkjmdLAN3TmqoYru5esP99kzWdR3MKAyW1ZbgWfYKMkwQ5FUtoRZCUsPT1zx8YChZQbGrz-niWj1Xkq7UVFtvZEbfAMOFMu7Xqr4ILuxatacO5hg1BTW303ob-GEGsP0=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHbyatJF9nG3umAFXY0EfJKZXxOIE04Hmd22Dz4g6Gw-3VQsUS_ggBtKnJix6DUtZMOw9Sr2cdxzgCVjKLElc368KRdZemQMNF4Moym8x8S5GWn-CtyHBGR4Op_gn5Lhsk4r3aN7w=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYh-qZlw49_Ss5os12wfWqldNzxb8gEBtYY0WpbAhorAvpRl6nFsq_8BzZX1vK4t2mlJJzwJim8ne9Tp2F4Vvkomq0uAXJe9C0bsrMoruBnJAPBj9MyxRWjCxBIfJ0W0gAM3m3=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/BRzdTpMaATh1Azr8NyNae1BMxQmXin-nyIz1PlXc5VZV2_dgzpkuWeNEzXHhmfkOdQEQDj0DwBOOANmeZyBbetXEJtszATEuW-Z8D8A9PCnDL5Fg-9R99LA7G6coeo-X2Yapy0kiNEzcNrq_ZmRb5Z1vG2t6LQ=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEx_xURBkSCV4N9Ut98cUpZmoxhULwmXLWsRGtxq-rfKJkpkpYznK4g1gVeA8EAEKTcEopghq4fxFUNbCifnWJkl7CElQNdkDMXjujgIWdztO9ZWNNzBLswuVkkbMe56mp6IvzL3A=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/XHxGAvHA2Cu1J_nOlySuIT7ebrWNUBtMtCC-Z5bS9l5HSv_gyKUmxqjBwzS6tRzOOVou9WQ7EW2TTRS8aA6RaW1vkLHSVSvyfKi0rOdOofIFrzYROrVtntMvV_8OpY2I4mN8DX0Khvch00zdFzoyNnpAdP9FRO8=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGFUCp7dtAi1oslytfBvzbplc3O_nXgKDUEScmp4gJ4TOkXNG5VHFzjXxzE0gih6D7grDAqS4eIlXsQo5TL0wgyEbTbOTBfSUWp_j12kuolzIo27nUobZDFBU6XSE_6WADvzu6k=s287-w287-h192-n-k-no-v1"
+    ],
+    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20bali&qs=CAE4AA&ved=0CAAQ5JsGahgKEwjo7fjZtLiUAxUAAAAAHQAAAAAQxwE&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyBAgAEAAqBwoFOgNQSFA&ap=MAA",
+    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20bali&qs=MidDaGtJdFpLNzRORDBfclBBQVJvTUwyY3ZNWEUyTW1kcmVqTXlFQUU4AA&ved=2ahUKEwik2ZLItLiUAxUmjGYCHQ_uOKEQrsMEegQIAxBk&ts=CAESCgoCCAMKAggDEAAaTQovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSGhIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyAhAAKgcKBToDUEhQ",
+    "adults": 2,
+    "children": 0,
+    "search_check_in": null,
+    "search_check_out": null
+  },
+  {
+    "name": "Wyndham Tamansari Jivva Resort Bali",
+    "price": "₱2,400",
+    "total_price": null,
+    "currency": "₱",
+    "rating": "4.4",
+    "review_count": "2.7K",
+    "stars": "5-star hotel",
+    "address": "Jl. Subak Lepang No.16, Takmung, Kec. Banjarangkan, Kabupaten Klungkung, Bali 80752, Indonesia+62 366 5437988",
+    "phone": "62 366 5437988",
+    "website": "http://wyndhamjivvabali.com/?CID=LC:46q62bu8edfbx3y:49340&iata=00093796&sa=X&ved=2ahUKEwjS2e_etLiUAxUjnGYCHX3sBG0QyK4DegUIAxCECg",
+    "about": "On Lepang Beach along the Bali Sea, this chic resort surrounded by leafy landscape is 3 km from art at Nyoman Gunarsa Museum and 39 km from I Gusti Ngurah Rai International Airport.",
+    "amenities": {
+      "Popular amenities": [
+        "Pool",
+        "Spa",
+        "Parkingfree",
+        "Wi-Fifree"
       ],
       "Internet": [
         "Wi-Fifree"
@@ -124,148 +333,36 @@
         "Full-service laundry"
       ],
       "Pools": [
-        "No pools"
-      ],
-      "Wellness": [
-        "Fitness center"
-      ],
-      "Pets": [
-        "No pets"
-      ],
-      "Food & drink": [
-        "Restaurant",
-        "Bar",
-        "Room service",
-        "Breakfast"
-      ],
-      "Children": [
-        "Kid-friendly"
-      ],
-      "Parking & transportation": [
-        "Parkingfree"
+        "Indoor pool",
+        "Outdoor pool",
+        "Wading pool",
+        "No hot tub"
       ],
       "Accessibility": [
         "Accessible"
       ],
       "Rooms": [
         "Air conditioning"
-      ]
-    },
-    "nearby_places": [],
-    "check_in": "2:00 PM",
-    "check_out": "12:00 PM",
-    "photos": [
-      "https://www.gstatic.com/images/travel/tips/where_to_stay.svg",
-      "https://www.gstatic.com/images/travel/tips/when_to_visit.svg",
-      "https://www.gstatic.com/images/travel/tips/what_youll_pay.svg",
-      "https://www.gstatic.com/images/travel/general/plan_your_stay@2x.png",
-      "https://www.gstatic.com/images/travel/prompt/no_destination@2x.png",
-      "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKCwpdQJCINxZ5CVmDe4njiv-cLsdmPBVSpwbZ4OphkBOQspDcq1FpKosX6e7t4DUv9svCUHixW3w5Fjil-YzwaRqo7uSQxE3a_3f_sydzGoPCJ03fJ_6qTL9ZhwD9Ql4KgOQwQA=s287-w287-h192-n-k-no-v1",
-      "https://lh6.googleusercontent.com/proxy/_3E7WX3TV_r5DSU7T9LASvQ8KKPT32uIFSbSg7yD4nZoonrlFpW4pdMgS8ouM44Ygo9KldPLkDa_q55inNi4fkfS10RPuqQ1oVek2Hd366eLjiFaBm9--LrSdI9tOTpIW-t9eUot_tW0u-eEnwS-G8kIK8jQDg=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrUMJAqIzREET4QuwZIQMXYbIL1nweSMbM0rw0LEzOqJPBrQVfjC1wQ0TTJFwy2C2MwUtiBY3XhDCA-V4PvMb7wYlLpXeZ0Jo3_xpjZ3tu57D6VWxv1iE5WRUOW5IFryZFqL8i=s287-w287-h192-n-k-no-v1",
-      "https://lh5.googleusercontent.com/proxy/Ou657zG53yZiJaADtWqOQo3PDroZRFqaQ7Tc70aNxBMIVsjVSAIwS7Mps_3a7darjBwu6hyx5n74p488wzVDkHehKj9ki4aVxgQd9by87kkYHz_rWrDER5AAmoD_wf7Vr9xP91MXFCpZxEafNnOws7G7iyF-qA=s287-w287-h192-n-k-no-v1"
-    ],
-    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahgKEwiA9qDbqriUAxUAAAAAHQAAAAAQhAE&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
-    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MiNDaFlJcXJuQnFhdUlsdDU3R2dvdmJTOHdkMlptZVRGbkVBRTgA&ved=2ahUKEwjh9ZDPqriUAxVBkmYCHUPJKngQrsMEegQIAxBx&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA",
-    "adults": 2,
-    "children": 0
-  },
-  {
-    "name": "The Manila Hotel",
-    "price": "₱6,520",
-    "currency": "₱",
-    "rating": "4.6",
-    "review_count": "9.8K",
-    "stars": "5-star hotel",
-    "address": "1 Rizal Park, Ermita, Manila, 0913 Metro Manila(02) 8527 0011",
-    "phone": "(02) 8527 0011",
-    "website": "http://manila-hotel.com.ph/?sa=X&ved=2ahUKEwiVn63hqriUAxVyiWYCHe2fE_8QyK4DegUIAxCoBw",
-    "about": "Overlooking the South Harbor, this iconic luxury hotel is an 11-minute walk from landscaped gardens in Rizal Park, and 2 km from both the National Museum of the Philippines and Fort Santiago.",
-    "amenities": {
-      "Popular amenities": [
-        "Pool",
-        "Spa",
-        "Hot tub",
-        "Parkingfree"
-      ],
-      "Internet": [
-        "Wi-Fi"
-      ],
-      "Services": [
-        "Front desk24 hour",
-        "Full-service laundry"
-      ],
-      "Children": [
-        "Kid-friendly"
-      ],
-      "Parking & transportation": [
-        "Parkingfree",
-        "Valet parking",
-        "Airport shuttle",
-        "Local shuttle"
-      ],
-      "Accessibility": [
-        "Accessible"
-      ],
-      "Pets": [
-        "No pets"
       ],
       "Food & drink": [
         "Restaurant",
-        "Bar",
-        "Buffet dinner",
         "Room service",
         "Breakfast buffet"
       ],
-      "Pools": [
-        "Outdoor pool",
-        "Hot tub"
+      "Children": [
+        "Kid-friendly",
+        "Activities for kids",
+        "Kids' club"
+      ],
+      "Parking & transportation": [
+        "Parkingfree",
+        "Airport shuttleextra charge"
       ],
       "Wellness": [
         "Fitness center",
-        "Sauna",
         "Spa"
-      ],
-      "Business & events": [
-        "Business center"
-      ],
-      "Rooms": [
-        "Air conditioning"
       ]
     },
-    "nearby_places": [],
-    "check_in": "2:00 PM",
-    "check_out": "12:00 PM",
-    "photos": [
-      "https://www.gstatic.com/images/travel/tips/where_to_stay.svg",
-      "https://www.gstatic.com/images/travel/tips/when_to_visit.svg",
-      "https://www.gstatic.com/images/travel/tips/what_youll_pay.svg",
-      "https://www.gstatic.com/images/travel/general/plan_your_stay@2x.png",
-      "https://www.gstatic.com/images/travel/prompt/no_destination@2x.png",
-      "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKCwpdQJCINxZ5CVmDe4njiv-cLsdmPBVSpwbZ4OphkBOQspDcq1FpKosX6e7t4DUv9svCUHixW3w5Fjil-YzwaRqo7uSQxE3a_3f_sydzGoPCJ03fJ_6qTL9ZhwD9Ql4KgOQwQA=s287-w287-h192-n-k-no-v1",
-      "https://lh6.googleusercontent.com/proxy/_3E7WX3TV_r5DSU7T9LASvQ8KKPT32uIFSbSg7yD4nZoonrlFpW4pdMgS8ouM44Ygo9KldPLkDa_q55inNi4fkfS10RPuqQ1oVek2Hd366eLjiFaBm9--LrSdI9tOTpIW-t9eUot_tW0u-eEnwS-G8kIK8jQDg=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrUMJAqIzREET4QuwZIQMXYbIL1nweSMbM0rw0LEzOqJPBrQVfjC1wQ0TTJFwy2C2MwUtiBY3XhDCA-V4PvMb7wYlLpXeZ0Jo3_xpjZ3tu57D6VWxv1iE5WRUOW5IFryZFqL8i=s287-w287-h192-n-k-no-v1",
-      "https://lh5.googleusercontent.com/proxy/Ou657zG53yZiJaADtWqOQo3PDroZRFqaQ7Tc70aNxBMIVsjVSAIwS7Mps_3a7darjBwu6hyx5n74p488wzVDkHehKj9ki4aVxgQd9by87kkYHz_rWrDER5AAmoD_wf7Vr9xP91MXFCpZxEafNnOws7G7iyF-qA=s287-w287-h192-n-k-no-v1"
-    ],
-    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahcKEwig8ZfiqriUAxUAAAAAHQAAAAAQTw&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
-    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MiNDaFlJekwyal80M0ExLWNmR2dvdmJTOHdNbm94YzJwc0VBRTgA&ved=2ahUKEwjh9ZDPqriUAxVBkmYCHUPJKngQrsMEegUIAxCLAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA",
-    "adults": 2,
-    "children": 0
-  },
-  {
-    "name": "LivStudios Manila Bay",
-    "price": "₱1,693",
-    "currency": "₱",
-    "rating": "4.5",
-    "review_count": "30.2K",
-    "stars": "3-star hotel",
-    "address": "Birch Tower Condominium, 1622 Bocobo St, Malate, Manila, 1004 Metro Manila0960 830 1572",
-    "phone": "0960 830 1572",
-    "website": "https://livstudiosmanila.com/?sa=X&ved=2ahUKEwjg2MDoqriUAxUZlWYCHW01GWYQyK4DegUIAxChAw",
-    "about": null,
-    "amenities": {},
     "nearby_places": [],
     "check_in": null,
     "check_out": null,
@@ -276,95 +373,71 @@
       "https://www.gstatic.com/images/travel/general/plan_your_stay@2x.png",
       "https://www.gstatic.com/images/travel/prompt/no_destination@2x.png",
       "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKCwpdQJCINxZ5CVmDe4njiv-cLsdmPBVSpwbZ4OphkBOQspDcq1FpKosX6e7t4DUv9svCUHixW3w5Fjil-YzwaRqo7uSQxE3a_3f_sydzGoPCJ03fJ_6qTL9ZhwD9Ql4KgOQwQA=s287-w287-h192-n-k-no-v1",
-      "https://lh6.googleusercontent.com/proxy/_3E7WX3TV_r5DSU7T9LASvQ8KKPT32uIFSbSg7yD4nZoonrlFpW4pdMgS8ouM44Ygo9KldPLkDa_q55inNi4fkfS10RPuqQ1oVek2Hd366eLjiFaBm9--LrSdI9tOTpIW-t9eUot_tW0u-eEnwS-G8kIK8jQDg=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrUMJAqIzREET4QuwZIQMXYbIL1nweSMbM0rw0LEzOqJPBrQVfjC1wQ0TTJFwy2C2MwUtiBY3XhDCA-V4PvMb7wYlLpXeZ0Jo3_xpjZ3tu57D6VWxv1iE5WRUOW5IFryZFqL8i=s287-w287-h192-n-k-no-v1",
-      "https://lh5.googleusercontent.com/proxy/Ou657zG53yZiJaADtWqOQo3PDroZRFqaQ7Tc70aNxBMIVsjVSAIwS7Mps_3a7darjBwu6hyx5n74p488wzVDkHehKj9ki4aVxgQd9by87kkYHz_rWrDER5AAmoD_wf7Vr9xP91MXFCpZxEafNnOws7G7iyF-qA=s287-w287-h192-n-k-no-v1"
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHBCU08o0tYseELcBaVL8jhCOx8aBzdf8wBjvO9kar-S3B4Nwlh9U-YFTFVPKlqv_repDgwUKvXhEAOBmeJdR6q9dvnHPZYe-5DSgzRwNkmMc8naeYxYhXSEBfXURuDtd3XpgZtkrEuWHy=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHf5EFk_y9rjRaX8j0smLvhd0pBqHxGCbS2NoWwqCyjDKrTQjCNVLzN4wMZYod2k0yHS1NH_NycYO1ptlL5IkqXsUi3b-7RAbQ2wFOZtf1cbI_n7Y9ItQfaSmbzc6u1vcbraqdP=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGv8z_QM5VsVd7c4kcy4egiLxF60L6Kj9rRq5Dj5i-GV3MjOqRmdq4XyE47ovpB0-lZYhir7sN-B0-dld109tQeBHgbOzIBJ8H16uiItdEAwp4-g5VXEy-yCmnT19l3qs7ppdCK=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESphVVA2FxE-wNjzfeNpS7ErHp12BfhMzx3zrXBptYIzAf9oqGOGSD0ALsxhV0JJ3sWII1hgNWnLh-nrJJKljkWHWTzAJ3XmHbC6NxSeF6jedTk_sFIozanVAZJRz1ESUdA1a40w=s287-w287-h192-n-k-no-v1",
+      "https://lh4.googleusercontent.com/proxy/o8lDtXXI32oPzrbvTsjkUSD1XKEaNj4rYt0FoRCcSghsMxDUpSdTu9aQa3zxKzLVgXSPKcFG87U28ix32STJmakBkk0lp8PEdP4MQs1HxpvfTPdNdm7MNrVDzmJIHcLsdyGsspzEzE5MSRNKIt8rq5kMZ2klLQ=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/QVtUwgJ9FeUMij6NCWfzTsGlHAP2AWMpnDvNQLJ0K3s0js1SkycItLa-IK5NhCO8Mv-AIA9hTQmkE5hDU5WUTow9iZpy06R6_7p7WfFGoM9-0bZNISLzqijQRTavteZYw7fc5FeStzzUZE2q3FLJms2BvwtXCg=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGRHwyavRs5uV2cX-tIaFgnBdJZvrVJBwpmKmPHYZYjW7f9i6qUeyHsYGO8AFwJXsyvt1DcufSqYTNjyn7zTHAQEm1y6mZWYIGkwlt7DHu5NzveY3a7P32nMKXdM16T4jl3PE2uV5FzU_OJ=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/proxy/v34t01l2xfn7cL7mKYWX0eMi1hDKwCdcYSWDc1zC2Kv52qKEGBz4CuqnKn7jb5PC_arnxMHkoAIgA1jjtbiJt-fIrHN1RcxzV9RcDx9ubG6tSzMZggC3XyP7tSN7OpjpW3A2E0YiqmLdbXovQtNg_CCkNmg=s287-w287-h192-n-k-no-v1",
+      "https://lh6.googleusercontent.com/proxy/1oFJnggkitmnmULZ9jIQdT96Yp6IKJR5l_WUgwFdjSg3h2_NhJ8YoQJeQXjC0L-wT_-m2FcDdOuIH4JNldoBnwVZY_L0XWEk2tTzxWe8QE3TwoISOG0iwc5Ci2tgW0diNOWDcCamJYK7m5wcla6hbEZdh4mbRQ=s287-w287-h192-n-k-no-v1",
+      "https://lh4.googleusercontent.com/proxy/kRyGb_L1Bju8anwIB409AhmWXAu8LMRA_N2MOMeBDNbx5Iu9GRigccIquw1AkRR_zsiBfSXMY2W_-RMEpgf87wwtH4kJf5uouc0Jo_WP8_Dyatu5LFBuhTYN_CY83iG2Wer8_TGN8V-EgG5JiRXyH0sPl3Izsw=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAECVPDAkjmdLAN3TmqoYru5esP99kzWdR3MKAyW1ZbgWfYKMkwQ5FUtoRZCUsPT1zx8YChZQbGrz-niWj1Xkq7UVFtvZEbfAMOFMu7Xqr4ILuxatacO5hg1BTW303ob-GEGsP0=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHbyatJF9nG3umAFXY0EfJKZXxOIE04Hmd22Dz4g6Gw-3VQsUS_ggBtKnJix6DUtZMOw9Sr2cdxzgCVjKLElc368KRdZemQMNF4Moym8x8S5GWn-CtyHBGR4Op_gn5Lhsk4r3aN7w=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYh-qZlw49_Ss5os12wfWqldNzxb8gEBtYY0WpbAhorAvpRl6nFsq_8BzZX1vK4t2mlJJzwJim8ne9Tp2F4Vvkomq0uAXJe9C0bsrMoruBnJAPBj9MyxRWjCxBIfJ0W0gAM3m3=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/BRzdTpMaATh1Azr8NyNae1BMxQmXin-nyIz1PlXc5VZV2_dgzpkuWeNEzXHhmfkOdQEQDj0DwBOOANmeZyBbetXEJtszATEuW-Z8D8A9PCnDL5Fg-9R99LA7G6coeo-X2Yapy0kiNEzcNrq_ZmRb5Z1vG2t6LQ=s287-w287-h192-n-k-no-v1"
     ],
-    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahgKEwiYtYnpqriUAxUAAAAAHQAAAAAQlgE&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
-    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MihDaG9JbUlId2hOT2xpcXpVQVJvTkwyY3ZNVEY1Y25vM2VXaG9PQkFCOAA&ved=2ahUKEwjh9ZDPqriUAxVBkmYCHUPJKngQrsMEegUIAxCoAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA",
+    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20bali&qs=CAE4AA&ved=0CAAQ5JsGahcKEwjwvtnftLiUAxUAAAAAHQAAAAAQPQ&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyBAgAEAAqBwoFOgNQSFA&ap=MAA",
+    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20bali&qs=MihDaG9Jcjk3bjgtZjR3UG04QVJvTkwyY3ZNVEZpZDNBMmFHSnpOaEFCOAA&ved=2ahUKEwik2ZLItLiUAxUmjGYCHQ_uOKEQrsMEegQIAxB_&ts=CAESCgoCCAMKAggDEAAaTQovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSGhIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyAhAAKgcKBToDUEhQ",
     "adults": 2,
-    "children": 0
+    "children": 0,
+    "search_check_in": null,
+    "search_check_out": null
   },
   {
-    "name": "Hotel H2O",
-    "price": "₱3,534",
+    "name": "Cemara Beachfront Nusa Penida - Deluxe Double Room with Balcony and Sea View",
+    "price": "₱584",
+    "total_price": null,
     "currency": "₱",
-    "rating": "4.1",
-    "review_count": "2.2K",
-    "stars": "4-star hotel",
-    "address": "Manila Ocean Park, Behind the Quirino Grandstand, Rizal Park, Manila, 1000 Metro Manila(02) 7238 6100",
-    "phone": "(02) 7238 6100",
-    "website": "https://manilaoceanpark.com/hotel-h2o/?sa=X&ved=2ahUKEwjK9-3uqriUAxUGi2YCHQXSLogQyK4DegUIAxDiBQ",
-    "about": "Part of the waterfront Manila Ocean Park complex next to Manila Bay, this sleek hotel is 7 minutes' walk from the Rizal Park and 3 km from Paco train station.",
-    "amenities": {
-      "Popular amenities": [
-        "Pool",
-        "Spa",
-        "Hot tub",
-        "Parkingfree"
-      ],
-      "Internet": [
-        "Wi-Fi"
-      ],
-      "Services": [
-        "Front desk24 hour",
-        "Full-service laundry"
-      ],
-      "Children": [
-        "Kid-friendly"
-      ],
-      "Parking & transportation": [
-        "Parkingfree",
-        "Airport shuttleextra charge",
-        "Local shuttle"
-      ],
-      "Accessibility": [
-        "Accessible"
-      ],
-      "Pets": [
-        "No pets"
-      ],
-      "Food & drink": [
-        "Restaurant",
-        "Bar",
-        "Room service",
-        "Breakfast",
-        "Breakfast buffet"
-      ],
-      "Pools": [
-        "Pool",
-        "Hot tub"
-      ],
-      "Wellness": [
-        "Fitness center",
-        "Spa"
-      ],
-      "Business & events": [
-        "Business center"
-      ],
-      "Rooms": [
-        "Air conditioning"
-      ]
-    },
+    "rating": "4.4",
+    "review_count": "2.7K",
+    "stars": "5-star hotel",
+    "address": null,
+    "phone": null,
+    "website": "https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.bluepillow.com/search/65cab7ff671b07d23c6f4217?dest%3Dbkng%26cat%3DHouse%26lat%3D-8.67816%26lng%3D115.57216%26language%3Den&ved=2ahUKEwiOr4HmtLiUAxUAiWYCHZF8BIIQyK4DegUIAxCPAQ&opi=106273886&cd&psig=AOvVaw3Ck0gPcv-prX2eJgq07N7E&ust=1778835508410000",
+    "about": null,
+    "amenities": {},
     "nearby_places": [],
-    "check_in": "2:00 PM",
-    "check_out": "12:00 PM",
+    "check_in": null,
+    "check_out": null,
     "photos": [
-      "https://www.gstatic.com/images/travel/tips/where_to_stay.svg",
-      "https://www.gstatic.com/images/travel/tips/when_to_visit.svg",
-      "https://www.gstatic.com/images/travel/tips/what_youll_pay.svg",
       "https://www.gstatic.com/images/travel/general/plan_your_stay@2x.png",
       "https://www.gstatic.com/images/travel/prompt/no_destination@2x.png",
       "https://www.gstatic.com/images/travel/prompt/no_results@2x.png",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKCwpdQJCINxZ5CVmDe4njiv-cLsdmPBVSpwbZ4OphkBOQspDcq1FpKosX6e7t4DUv9svCUHixW3w5Fjil-YzwaRqo7uSQxE3a_3f_sydzGoPCJ03fJ_6qTL9ZhwD9Ql4KgOQwQA=s287-w287-h192-n-k-no-v1",
-      "https://lh6.googleusercontent.com/proxy/_3E7WX3TV_r5DSU7T9LASvQ8KKPT32uIFSbSg7yD4nZoonrlFpW4pdMgS8ouM44Ygo9KldPLkDa_q55inNi4fkfS10RPuqQ1oVek2Hd366eLjiFaBm9--LrSdI9tOTpIW-t9eUot_tW0u-eEnwS-G8kIK8jQDg=s287-w287-h192-n-k-no-v1",
-      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrUMJAqIzREET4QuwZIQMXYbIL1nweSMbM0rw0LEzOqJPBrQVfjC1wQ0TTJFwy2C2MwUtiBY3XhDCA-V4PvMb7wYlLpXeZ0Jo3_xpjZ3tu57D6VWxv1iE5WRUOW5IFryZFqL8i=s287-w287-h192-n-k-no-v1",
-      "https://lh5.googleusercontent.com/proxy/Ou657zG53yZiJaADtWqOQo3PDroZRFqaQ7Tc70aNxBMIVsjVSAIwS7Mps_3a7darjBwu6hyx5n74p488wzVDkHehKj9ki4aVxgQd9by87kkYHz_rWrDER5AAmoD_wf7Vr9xP91MXFCpZxEafNnOws7G7iyF-qA=s287-w287-h192-n-k-no-v1"
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHBCU08o0tYseELcBaVL8jhCOx8aBzdf8wBjvO9kar-S3B4Nwlh9U-YFTFVPKlqv_repDgwUKvXhEAOBmeJdR6q9dvnHPZYe-5DSgzRwNkmMc8naeYxYhXSEBfXURuDtd3XpgZtkrEuWHy=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHf5EFk_y9rjRaX8j0smLvhd0pBqHxGCbS2NoWwqCyjDKrTQjCNVLzN4wMZYod2k0yHS1NH_NycYO1ptlL5IkqXsUi3b-7RAbQ2wFOZtf1cbI_n7Y9ItQfaSmbzc6u1vcbraqdP=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGv8z_QM5VsVd7c4kcy4egiLxF60L6Kj9rRq5Dj5i-GV3MjOqRmdq4XyE47ovpB0-lZYhir7sN-B0-dld109tQeBHgbOzIBJ8H16uiItdEAwp4-g5VXEy-yCmnT19l3qs7ppdCK=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESphVVA2FxE-wNjzfeNpS7ErHp12BfhMzx3zrXBptYIzAf9oqGOGSD0ALsxhV0JJ3sWII1hgNWnLh-nrJJKljkWHWTzAJ3XmHbC6NxSeF6jedTk_sFIozanVAZJRz1ESUdA1a40w=s287-w287-h192-n-k-no-v1",
+      "https://lh4.googleusercontent.com/proxy/o8lDtXXI32oPzrbvTsjkUSD1XKEaNj4rYt0FoRCcSghsMxDUpSdTu9aQa3zxKzLVgXSPKcFG87U28ix32STJmakBkk0lp8PEdP4MQs1HxpvfTPdNdm7MNrVDzmJIHcLsdyGsspzEzE5MSRNKIt8rq5kMZ2klLQ=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/QVtUwgJ9FeUMij6NCWfzTsGlHAP2AWMpnDvNQLJ0K3s0js1SkycItLa-IK5NhCO8Mv-AIA9hTQmkE5hDU5WUTow9iZpy06R6_7p7WfFGoM9-0bZNISLzqijQRTavteZYw7fc5FeStzzUZE2q3FLJms2BvwtXCg=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGRHwyavRs5uV2cX-tIaFgnBdJZvrVJBwpmKmPHYZYjW7f9i6qUeyHsYGO8AFwJXsyvt1DcufSqYTNjyn7zTHAQEm1y6mZWYIGkwlt7DHu5NzveY3a7P32nMKXdM16T4jl3PE2uV5FzU_OJ=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/proxy/v34t01l2xfn7cL7mKYWX0eMi1hDKwCdcYSWDc1zC2Kv52qKEGBz4CuqnKn7jb5PC_arnxMHkoAIgA1jjtbiJt-fIrHN1RcxzV9RcDx9ubG6tSzMZggC3XyP7tSN7OpjpW3A2E0YiqmLdbXovQtNg_CCkNmg=s287-w287-h192-n-k-no-v1",
+      "https://lh6.googleusercontent.com/proxy/1oFJnggkitmnmULZ9jIQdT96Yp6IKJR5l_WUgwFdjSg3h2_NhJ8YoQJeQXjC0L-wT_-m2FcDdOuIH4JNldoBnwVZY_L0XWEk2tTzxWe8QE3TwoISOG0iwc5Ci2tgW0diNOWDcCamJYK7m5wcla6hbEZdh4mbRQ=s287-w287-h192-n-k-no-v1",
+      "https://lh4.googleusercontent.com/proxy/kRyGb_L1Bju8anwIB409AhmWXAu8LMRA_N2MOMeBDNbx5Iu9GRigccIquw1AkRR_zsiBfSXMY2W_-RMEpgf87wwtH4kJf5uouc0Jo_WP8_Dyatu5LFBuhTYN_CY83iG2Wer8_TGN8V-EgG5JiRXyH0sPl3Izsw=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAECVPDAkjmdLAN3TmqoYru5esP99kzWdR3MKAyW1ZbgWfYKMkwQ5FUtoRZCUsPT1zx8YChZQbGrz-niWj1Xkq7UVFtvZEbfAMOFMu7Xqr4ILuxatacO5hg1BTW303ob-GEGsP0=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHbyatJF9nG3umAFXY0EfJKZXxOIE04Hmd22Dz4g6Gw-3VQsUS_ggBtKnJix6DUtZMOw9Sr2cdxzgCVjKLElc368KRdZemQMNF4Moym8x8S5GWn-CtyHBGR4Op_gn5Lhsk4r3aN7w=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYh-qZlw49_Ss5os12wfWqldNzxb8gEBtYY0WpbAhorAvpRl6nFsq_8BzZX1vK4t2mlJJzwJim8ne9Tp2F4Vvkomq0uAXJe9C0bsrMoruBnJAPBj9MyxRWjCxBIfJ0W0gAM3m3=s287-w287-h192-n-k-no-v1",
+      "https://lh5.googleusercontent.com/proxy/BRzdTpMaATh1Azr8NyNae1BMxQmXin-nyIz1PlXc5VZV2_dgzpkuWeNEzXHhmfkOdQEQDj0DwBOOANmeZyBbetXEJtszATEuW-Z8D8A9PCnDL5Fg-9R99LA7G6coeo-X2Yapy0kiNEzcNrq_ZmRb5Z1vG2t6LQ=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGFUCp7dtAi1oslytfBvzbplc3O_nXgKDUEScmp4gJ4TOkXNG5VHFzjXxzE0gih6D7grDAqS4eIlXsQo5TL0wgyEbTbOTBfSUWp_j12kuolzIo27nUobZDFBU6XSE_6WADvzu6k=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJvH_O-P-pmDnEMz1f9C5ldyQBt9JLCwI902wjrgWvhGb_i-F7msaikWhBlHG_gYmD-Ga0t_FZzTLnSvQ5Iqtj5K5SNHhzNVcEyIgJpVjyfb6veg7N_ya2M4-9geAU-1W7rk5I=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHYwpnaBCAqp_A9yyIq3vGAXIm8pxY-bpYt-x6W9zxQT-umJkh8rAYmCO1vXDWoXFhCizzs7crw8_0NKQYGQ6o0ndgBSTJfFzSGtFy4vAtkLjudkghW7XNup5zE2Szfz4cU8sKW=s287-w287-h192-n-k-no-v1"
     ],
-    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=CAE4AA&ved=0CAAQ5JsGahcKEwiIytPvqriUAxUAAAAAHQAAAAAQSA&ts=CAESCgoCCAMKAggDEAAaUQoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIcEhQKBwjqDxAFGBASBwjqDxAFGBEYATIECAAQACoHCgU6A1BIUA&ap=MAA",
-    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20Manila&qs=MiZDaGdJZzgyQnU4aVhodWtmR2d3dlp5OHhNbkZvTTJZME5YRVFBUTgA&ved=2ahUKEwjh9ZDPqriUAxVBkmYCHUPJKngQrsMEegUIAxC_AQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBASBwjqDxAFGBEYATICEAAqBwoFOgNQSFA",
+    "source_url": "https://www.google.com/travel/search?q=hotels%20in%20bali&qs=CAE4AA&ved=0CAAQ5JsGahgKEwiIxr_mtLiUAxUAAAAAHQAAAAAQgQE&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyBAgAEAAqBwoFOgNQSFA&ap=MAA",
+    "listing_url": "https://www.google.com/travel/search?q=hotels%20in%20bali&qs=MihDaG9RdW82YnplM3JpZkRqQVJvTkwyY3ZNVEY2TlhGME9HdHhaQkFDOAA&ved=2ahUKEwik2ZLItLiUAxUmjGYCHQ_uOKEQrsMEegUIAxCcAQ&ts=CAESCgoCCAMKAggDEAAaTQovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSGhIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyAhAAKgcKBToDUEhQ",
     "adults": 2,
-    "children": 0
+    "children": 0,
+    "search_check_in": null,
+    "search_check_out": null
   }
 ]

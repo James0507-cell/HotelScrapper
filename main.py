@@ -21,6 +21,7 @@ HOTELS_BASE_URL = "https://www.google.com/travel/hotels"
 class HotelRecord:
     name: str | None = None
     price: str | None = None
+    total_price: str | None = None
     currency: str | None = None
     rating: str | None = None
     review_count: str | None = None
@@ -38,6 +39,8 @@ class HotelRecord:
     listing_url: str | None = None
     adults: int = 2
     children: int = 0
+    search_check_in: str | None = None
+    search_check_out: str | None = None
 
 
 def unique_strings(items: list[str]) -> list[str]:
@@ -496,6 +499,11 @@ def get_hotel_listings(page: Page, limit: int) -> list[HotelRecord]:
                 if price_match:
                     record.price = price_match.group(1).strip()
                     record.currency = extract_currency(record.price)
+                    
+                    # Look for total price nearby (e.g. "₱12,345 total")
+                    total_match = re.search(r"([$€£¥₱]\s?[\d,]+)\s?total", combined_text, re.IGNORECASE)
+                    if total_match:
+                        record.total_price = total_match.group(1).strip()
                 elif "Prices starting from" in aria_label:
                     m = re.search(r"Prices starting from\s+([\d,.]+)", aria_label)
                     if m: record.price = m.group(1).strip()
@@ -816,6 +824,11 @@ def extract_detail_page(
         else:
             record.price = price_match.group(1)
         
+        # Look for total price (e.g. "₱12,345 total")
+        total_match = re.search(r"([$€£¥₱]\s?[\d,]+)\s?total", panel_text, re.IGNORECASE)
+        if total_match:
+            record.total_price = total_match.group(1).strip()
+        
         if not record.price:
             record.price = first_text(about_panel, [r'text=/[$€£¥₱]\s?\d[\d,]*/', r'text=/[A-Z]{3}\s?\d[\d,]*/'])
         
@@ -855,7 +868,7 @@ def extract_detail_page(
     return record
 
 
-def open_listing_page(context, source: str, adults: int = 2, children: int = 0) -> Page:
+def open_listing_page(context, source: str, adults: int = 2, children: int = 0, check_in: str | None = None, check_out: str | None = None) -> Page:
     page = context.new_page()
     target_url = source if source.startswith("http") else build_search_url(source)
     page.goto(target_url, wait_until="domcontentloaded", timeout=60000)
@@ -863,40 +876,82 @@ def open_listing_page(context, source: str, adults: int = 2, children: int = 0) 
     accept_google_dialogs(page)
     dismiss_google_dialogs(page)
     
+    # Handle Dates via UI interactions
+    if check_in or check_out:
+        try:
+            # Click check-in to open the date picker modal
+            ci_input = page.locator('input[placeholder="Check-in"]').first
+            if ci_input.count():
+                ci_input.click(force=True)
+                page.wait_for_timeout(800)
+                
+                if check_in:
+                    # Type check-in
+                    page.keyboard.press("Control+A")
+                    page.keyboard.press("Backspace")
+                    page.keyboard.type(check_in)
+                    page.keyboard.press("Tab") # Move focus to check-out
+                    page.wait_for_timeout(500)
+                
+                if check_out:
+                    # Type check-out
+                    page.keyboard.press("Control+A")
+                    page.keyboard.press("Backspace")
+                    page.keyboard.type(check_out)
+                    page.keyboard.press("Enter")
+                    page.wait_for_timeout(500)
+            
+            # Explicitly click Done in the date picker modal
+            done_btn = page.locator('button:has-text("Done"), [role="button"]:has-text("Done")').filter(visible=True).first
+            if done_btn.count():
+                done_btn.click()
+                page.wait_for_timeout(1000)
+            else:
+                page.keyboard.press("Escape")
+            
+            print(f"[info] set dates to {check_in} - {check_out}")
+            page.wait_for_timeout(2000) # Wait for prices to refresh
+        except Exception as e:
+            print(f"[warn] failed to set dates: {e}")
+
     # Handle occupancy (Adults and Children) via UI interactions
     if adults != 2 or children > 0:
         try:
-            # Find the travelers button (usually shows a number like "2")
-            travelers_btn = page.evaluate_handle('''() => {
-                const buttons = Array.from(document.querySelectorAll('button, [role="button"]'));
-                return buttons.find(b => b.innerText.match(/^\\d+$/) || (b.getAttribute('aria-label') && b.getAttribute('aria-label').includes('traveler')));
-            }''')
-            
-            if travelers_btn.as_element():
-                travelers_btn.as_element().click()
+            # Find the travelers button (shows a number like "2")
+            travelers_btn = page.locator('button, [role="button"]').filter(has_text=re.compile(r"^\d+$")).first
+            if travelers_btn.count():
+                travelers_btn.click()
                 page.wait_for_timeout(1000)
                 
                 # Helper to click a button multiple times
                 def adjust_count(label: str, target: int, current: int):
                     if target > current:
-                        btn = page.locator(f'button[aria-label="Add {label}"]')
+                        btn = page.locator(f'button[aria-label="Add {label}"], button[aria-label="Increase {label}s"]').filter(visible=True).first
                         for _ in range(target - current):
-                            if btn.count(): btn.click(); page.wait_for_timeout(200)
+                            if btn.count(): btn.click(); page.wait_for_timeout(400)
                     elif target < current:
-                        btn = page.locator(f'button[aria-label="Remove {label}"]')
+                        btn = page.locator(f'button[aria-label="Remove {label}"], button[aria-label="Decrease {label}s"]').filter(visible=True).first
                         for _ in range(current - target):
-                            if btn.count(): btn.click(); page.wait_for_timeout(200)
+                            if btn.count(): btn.click(); page.wait_for_timeout(400)
 
                 # Google defaults to 2 adults, 0 children
                 adjust_count("adult", adults, 2)
                 adjust_count("child", children, 0)
                 
-                # Click Done
-                done_btn = page.locator('button:has-text("Done"), [role="button"]:has-text("Done")').first
+                # Handle age selection if children were added
+                age_select = page.locator('select').filter(visible=True).first
+                if age_select.count():
+                    age_select.select_option("5")
+                    page.wait_for_timeout(500)
+
+                # Click Done in the traveler modal
+                done_btn = page.locator('button:has-text("Done"), [role="button"]:has-text("Done")').filter(visible=True).first
                 if done_btn.count():
                     done_btn.click()
                     page.wait_for_timeout(2000) # Wait for prices to refresh
                     print(f"[info] adjusted occupancy to {adults} adults, {children} children")
+                else:
+                    page.keyboard.press("Escape")
         except Exception as e:
             print(f"[warn] failed to adjust occupancy: {e}")
 
@@ -945,6 +1000,8 @@ def scrape_hotels(
     image_dir: Path,
     adults: int = 2,
     children: int = 0,
+    check_in: str | None = None,
+    check_out: str | None = None,
 ) -> list[HotelRecord]:
     records: list[HotelRecord] = []
 
@@ -959,7 +1016,7 @@ def scrape_hotels(
             ),
         )
         Stealth().apply_stealth_sync(context)
-        page = open_listing_page(context, source, adults=adults, children=children)
+        page = open_listing_page(context, source, adults=adults, children=children, check_in=check_in, check_out=check_out)
 
         # Check if we are already on a detail page
         if "/travel/hotels/" in page.url and ("qs=" in page.url or "q=" not in page.url):
@@ -968,6 +1025,8 @@ def scrape_hotels(
                 if record.name:
                     record.adults = adults
                     record.children = children
+                    record.search_check_in = check_in
+                    record.search_check_out = check_out
                     records.append(record)
                     if download_images:
                         download_photos(record, image_dir)
@@ -983,6 +1042,8 @@ def scrape_hotels(
         for index, initial_record in enumerate(hotel_listings, start=1):
             initial_record.adults = adults
             initial_record.children = children
+            initial_record.search_check_in = check_in
+            initial_record.search_check_out = check_out
             detail_page = context.new_page()
             try:
                 record = extract_detail_page(
@@ -1062,6 +1123,14 @@ def parse_args() -> argparse.Namespace:
         default=0,
         help="number of children (default: 0)",
     )
+    parser.add_argument(
+        "--check-in",
+        help="Check-in date (e.g., '2026-06-01' or 'Jun 1, 2026')",
+    )
+    parser.add_argument(
+        "--check-out",
+        help="Check-out date (e.g., '2026-06-05' or 'Jun 5, 2026')",
+    )
     return parser.parse_args()
 
 
@@ -1082,6 +1151,8 @@ def main() -> None:
         image_dir=image_dir,
         adults=args.adults,
         children=args.children,
+        check_in=args.check_in,
+        check_out=args.check_out,
     )
     payload: list[dict[str, Any]] = [asdict(record) for record in records]
     output_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -1089,6 +1160,8 @@ def main() -> None:
     duration = time.time() - started
     print(f"saved {len(records)} hotel records to {output_path} in {duration:.1f}s")
     print(f"Occupancy settings: {args.adults} adults, {args.children} children")
+    if args.check_in or args.check_out:
+        print(f"Date settings: {args.check_in} to {args.check_out}")
 
 
 if __name__ == "__main__":
