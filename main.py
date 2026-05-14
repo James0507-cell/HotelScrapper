@@ -1,5 +1,4 @@
-from __future__ import annotations
-
+import asyncio
 import argparse
 import json
 import re
@@ -10,7 +9,7 @@ from typing import Any
 from urllib.parse import parse_qs, quote_plus, urljoin, urlparse
 
 import requests
-from playwright.sync_api import Page, TimeoutError, sync_playwright
+from playwright.async_api import Page, TimeoutError, async_playwright
 from playwright_stealth import Stealth
 
 
@@ -55,12 +54,13 @@ def unique_strings(items: list[str]) -> list[str]:
     return result
 
 
-def first_text(scope: Any, selectors: list[str], timeout: int = 1500) -> str | None:
+async def first_text(scope: Any, selectors: list[str], timeout: int = 1500) -> str | None:
     for selector in selectors:
         try:
             locator = scope.locator(selector).first
-            if locator.count() and locator.is_visible(timeout=timeout):
-                text = locator.inner_text(timeout=timeout).strip()
+            if await locator.count() and await locator.is_visible(timeout=timeout):
+                text = await locator.inner_text(timeout=timeout)
+                text = text.strip()
                 if text:
                     return re.sub(r"\s+", " ", text)
         except Exception:
@@ -68,14 +68,15 @@ def first_text(scope: Any, selectors: list[str], timeout: int = 1500) -> str | N
     return None
 
 
-def all_texts(scope: Any, selectors: list[str], limit: int = 100) -> list[str]:
+async def all_texts(scope: Any, selectors: list[str], limit: int = 100) -> list[str]:
     collected: list[str] = []
     for selector in selectors:
         try:
             locator = scope.locator(selector)
-            count = min(locator.count(), limit)
+            count = min(await locator.count(), limit)
             for index in range(count):
-                text = locator.nth(index).inner_text(timeout=1000).strip()
+                text = await locator.nth(index).inner_text(timeout=1000)
+                text = text.strip()
                 if text:
                     collected.append(text)
         except Exception:
@@ -83,14 +84,14 @@ def all_texts(scope: Any, selectors: list[str], limit: int = 100) -> list[str]:
     return unique_strings(collected)
 
 
-def all_attributes(scope: Any, selectors: list[str], attribute: str, limit: int = 100) -> list[str]:
+async def all_attributes(scope: Any, selectors: list[str], attribute: str, limit: int = 100) -> list[str]:
     values: list[str] = []
     for selector in selectors:
         try:
             locator = scope.locator(selector)
-            count = min(locator.count(), limit)
+            count = min(await locator.count(), limit)
             for index in range(count):
-                value = locator.nth(index).get_attribute(attribute, timeout=1000)
+                value = await locator.nth(index).get_attribute(attribute, timeout=1000)
                 if value:
                     values.append(value)
         except Exception:
@@ -98,12 +99,12 @@ def all_attributes(scope: Any, selectors: list[str], attribute: str, limit: int 
     return unique_strings(values)
 
 
-def first_attribute(scope: Any, selectors: list[str], attribute: str, timeout: int = 1500) -> str | None:
+async def first_attribute(scope: Any, selectors: list[str], attribute: str, timeout: int = 1500) -> str | None:
     for selector in selectors:
         try:
             locator = scope.locator(selector).first
-            if locator.count():
-                value = locator.get_attribute(attribute, timeout=timeout)
+            if await locator.count():
+                value = await locator.get_attribute(attribute, timeout=timeout)
                 if value:
                     return compact_whitespace(value)
         except Exception:
@@ -392,8 +393,8 @@ def parse_nearby_places_from_panel_text(panel_text: str) -> list[str]:
     return unique_strings(places)[:20]
 
 
-def open_about_tab(page: Page) -> None:
-    click_if_visible(
+async def open_about_tab(page: Page) -> None:
+    await click_if_visible(
         page,
         [
             '[role="tab"][aria-label="About"]',
@@ -403,7 +404,7 @@ def open_about_tab(page: Page) -> None:
         ],
         timeout=3000,
     )
-    page.wait_for_timeout(1500)
+    await page.wait_for_timeout(1500)
 
 
 def build_search_url(query: str) -> str:
@@ -420,20 +421,20 @@ def normalize_google_url(url: str) -> str:
     return url
 
 
-def click_if_visible(page: Page, selectors: list[str], timeout: int = 1500) -> bool:
+async def click_if_visible(page: Page, selectors: list[str], timeout: int = 1500) -> bool:
     for selector in selectors:
         try:
             locator = page.locator(selector).first
-            if locator.count() and locator.is_visible(timeout=timeout):
-                locator.click(timeout=timeout)
+            if await locator.count() and await locator.is_visible(timeout=timeout):
+                await locator.click(timeout=timeout)
                 return True
         except Exception:
             continue
     return False
 
 
-def accept_google_dialogs(page: Page) -> None:
-    click_if_visible(
+async def accept_google_dialogs(page: Page) -> None:
+    await click_if_visible(
         page,
         [
             'button:has-text("Accept all")',
@@ -445,18 +446,18 @@ def accept_google_dialogs(page: Page) -> None:
     )
 
 
-def get_hotel_listings(page: Page, limit: int) -> list[HotelRecord]:
+async def get_hotel_listings(page: Page, limit: int) -> list[HotelRecord]:
     # Collect data from all potential listing links
-    candidates = page.locator('a[role="link"][href*="/travel/search?"]').all()
+    candidates = await page.locator('a[role="link"][href*="/travel/search?"]').all()
     
     # Map name -> partial HotelRecord
     hotels_map: dict[str, HotelRecord] = {}
     
     for locator in candidates:
         try:
-            aria_label = (locator.get_attribute("aria-label", timeout=300) or "").strip()
-            text = (locator.inner_text(timeout=300) or "").strip()
-            href = (locator.get_attribute("href", timeout=300) or "").strip()
+            aria_label = (await locator.get_attribute("aria-label", timeout=300) or "").strip()
+            text = (await locator.inner_text(timeout=300) or "").strip()
+            href = (await locator.get_attribute("href", timeout=300) or "").strip()
             
             if not text and not aria_label:
                 continue
@@ -483,8 +484,10 @@ def get_hotel_listings(page: Page, limit: int) -> list[HotelRecord]:
                 # Clean name immediately for better deduplication
                 name = re.sub(r" DEAL \d+% less than usual.*$", "", name).strip()
                 name = re.sub(r" GREAT PRICE for a \d-star hotel.*$", "", name).strip()
+                name = re.sub(r"^View details for\s+", "", name).strip()
+                name = re.sub(r"^View prices for\s+", "", name).strip()
 
-            if not name or not parse_primary_hotel_label(name):
+            if not name or not parse_primary_hotel_label(name) or name.lower() in ("view details", "view prices"):
                 continue
 
             if name not in hotels_map:
@@ -544,14 +547,14 @@ def get_hotel_listings(page: Page, limit: int) -> list[HotelRecord]:
     return final_records
 
 
-def scroll_listing_page(page: Page, passes: int) -> None:
+async def scroll_listing_page(page: Page, passes: int) -> None:
     for _ in range(passes):
-        page.mouse.wheel(0, 2500)
-        page.wait_for_timeout(1200)
+        await page.mouse.wheel(0, 2500)
+        await page.wait_for_timeout(1200)
 
 
-def maybe_expand_about(page: Page) -> None:
-    click_if_visible(
+async def maybe_expand_about(page: Page) -> None:
+    await click_if_visible(
         page,
         [
             '[role="button"]:has-text("About")',
@@ -563,8 +566,8 @@ def maybe_expand_about(page: Page) -> None:
     )
 
 
-def dismiss_google_dialogs(page: Page) -> None:
-    click_if_visible(
+async def dismiss_google_dialogs(page: Page) -> None:
+    await click_if_visible(
         page,
         [
             '[aria-label="Close"]',
@@ -576,22 +579,24 @@ def dismiss_google_dialogs(page: Page) -> None:
     )
 
 
-def extract_nearby_places(page: Page) -> list[str]:
+async def extract_nearby_places(page: Page) -> list[str]:
     # Try to find the section by heading
     section = page.locator('section:has-text("Nearby places"), div:has-text("Nearby places")').last
     try:
-        if section.count() and section.is_visible(timeout=2000):
+        if await section.count() and await section.is_visible(timeout=2000):
             # Items are often in a listitem role
-            candidates = section.locator('[role="listitem"]').all()
+            candidates = await section.locator('[role="listitem"]').all()
             places = []
             for item in candidates:
                 try:
                     # Place name is usually in a bold or heading element
                     name_locator = item.locator('div[role="heading"], b, [class*="title"]').first
-                    if name_locator.count():
-                        name = name_locator.inner_text(timeout=500).strip()
+                    if await name_locator.count():
+                        name = await name_locator.inner_text(timeout=500)
+                        name = name.strip()
                     else:
-                        name = item.inner_text(timeout=500).split("\n")[0].strip()
+                        text = await item.inner_text(timeout=500)
+                        name = text.split("\n")[0].strip()
                     
                     if name and 2 < len(name) <= 120:
                         places.append(name)
@@ -603,14 +608,14 @@ def extract_nearby_places(page: Page) -> list[str]:
         pass
 
     # Fallback to panel text parsing
-    body_text = page.locator("body").inner_text(timeout=2000)
+    body_text = await page.locator("body").inner_text(timeout=2000)
     return parse_nearby_places_from_panel_text(body_text)
 
 
-def extract_structured_amenities(page: Page) -> dict[str, list[str]]:
+async def extract_structured_amenities(page: Page) -> dict[str, list[str]]:
     try:
         # Use page.evaluate to get structured data directly from the DOM
-        categories = page.evaluate('''() => {
+        categories = await page.evaluate('''() => {
             const amenitiesHeading = Array.from(document.querySelectorAll('h2, h3')).find(h => h.innerText.trim() === 'Amenities');
             if (!amenitiesHeading) return null;
             
@@ -664,9 +669,9 @@ def extract_structured_amenities(page: Page) -> dict[str, list[str]]:
         return {}
 
 
-def extract_website_url(page: Page) -> str | None:
+async def extract_website_url(page: Page) -> str | None:
     try:
-        url = page.evaluate('''() => {
+        url = await page.evaluate('''() => {
             const allLinks = Array.from(document.querySelectorAll('a'));
             const websiteLink = allLinks.find(a => 
                 (a.innerText && a.innerText.includes('Website')) || 
@@ -679,8 +684,8 @@ def extract_website_url(page: Page) -> str | None:
         return None
 
 
-def extract_photos(scope: Any, limit: int) -> list[str]:
-    photo_urls = all_attributes(
+async def extract_photos(scope: Any, limit: int) -> list[str]:
+    photo_urls = await all_attributes(
         scope,
         [
             'img[src^="https://"]',
@@ -691,7 +696,7 @@ def extract_photos(scope: Any, limit: int) -> list[str]:
     )
     if len(photo_urls) < limit:
         photo_urls.extend(
-            all_attributes(
+            await all_attributes(
                 scope,
                 ['img[data-src^="https://"]'],
                 "data-src",
@@ -706,12 +711,13 @@ def extract_photos(scope: Any, limit: int) -> list[str]:
     return filtered[:limit]
 
 
-def extract_hotel_name(page: Page, expected_name: str | None = None) -> str | None:
+async def extract_hotel_name(page: Page, expected_name: str | None = None) -> str | None:
     # First priority: H1
     h1 = page.locator("h1").last
     try:
-        if h1.count():
-            name = h1.inner_text(timeout=1000).strip()
+        if await h1.count():
+            name = await h1.inner_text(timeout=1000)
+            name = name.strip()
             if name and "results" not in name.lower() and len(name) > 3:
                 return name
     except Exception:
@@ -719,9 +725,10 @@ def extract_hotel_name(page: Page, expected_name: str | None = None) -> str | No
             
     # Second priority: Heading role
     try:
-        headings = page.locator('[role="heading"][aria-level="1"]').all()
+        headings = await page.locator('[role="heading"][aria-level="1"]').all()
         for h in headings:
-            name = h.inner_text(timeout=500).strip()
+            name = await h.inner_text(timeout=500)
+            name = name.strip()
             if name and "results" not in name.lower() and len(name) > 3:
                 return name
     except Exception:
@@ -730,8 +737,8 @@ def extract_hotel_name(page: Page, expected_name: str | None = None) -> str | No
     # Third priority: ARIA label of the active tab
     try:
         about_tab = page.locator('[role="tab"][aria-selected="true"]').first
-        if about_tab.count():
-            label = about_tab.get_attribute("aria-label")
+        if await about_tab.count():
+            label = await about_tab.get_attribute("aria-label")
             if label and "About" in label:
                 # Often "About Diamond Hotel Philippines"
                 name = label.replace("About", "").strip()
@@ -743,7 +750,7 @@ def extract_hotel_name(page: Page, expected_name: str | None = None) -> str | No
     return expected_name
 
 
-def extract_detail_page(
+async def extract_detail_page(
     page: Page,
     url: str | None,
     photo_limit: int,
@@ -753,39 +760,39 @@ def extract_detail_page(
     
     if url:
         try:
-            page.goto(url, wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(2500)
+            await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            await page.wait_for_timeout(1500) # Reduced from 2500
         except Exception as e:
             print(f"[warn] failed to navigate to {url}: {e}")
             return record
 
-    accept_google_dialogs(page)
-    dismiss_google_dialogs(page)
+    await accept_google_dialogs(page)
+    await dismiss_google_dialogs(page)
     
     # We want to be on the About tab for most metadata
-    open_about_tab(page)
-    maybe_expand_about(page)
+    await open_about_tab(page)
+    await maybe_expand_about(page)
     
     # Try to find the panel that contains the hotel details
     about_panel = page.locator('[role="tabpanel"]').first
     # Wait for "Loading..." to disappear if possible
     try:
-        if about_panel.count() and "Loading" in about_panel.inner_text(timeout=1000):
-            page.wait_for_timeout(3000)
+        if await about_panel.count() and "Loading" in await about_panel.inner_text(timeout=500):
+            await page.wait_for_timeout(2000) # Reduced from 3000
     except:
         pass
 
-    if not about_panel.count() or not about_panel.is_visible(timeout=2000):
+    if not await about_panel.count() or not await about_panel.is_visible(timeout=2000):
         about_panel = page.locator('div[jsname="wtxWD"]').last
-        if not about_panel.count():
+        if not await about_panel.count():
             about_panel = page
 
     # Name extraction if missing
     if not record.name:
-        record.name = extract_hotel_name(page)
+        record.name = await extract_hotel_name(page)
     
     # Text-based extraction from the panel
-    panel_text = compact_whitespace(about_panel.inner_text(timeout=3000))
+    panel_text = compact_whitespace(await about_panel.inner_text(timeout=3000))
     
     # Stars if missing
     if not record.stars:
@@ -793,7 +800,7 @@ def extract_detail_page(
         if stars_match:
             record.stars = f"{stars_match.group(1)}-star hotel"
         else:
-            record.stars = first_text(page, ['[aria-label*="star hotel"]', r'text=/\d-star hotel/'])
+            record.stars = await first_text(page, ['[aria-label*="star hotel"]', r'text=/\d-star hotel/'])
 
     # Rating and Review Count if missing
     if not record.rating:
@@ -803,7 +810,7 @@ def extract_detail_page(
             record.review_count = rating_match.group(2)
         
         if not record.rating:
-            rating_label = first_attribute(page, ['a[aria-label*="reviews"]'], "aria-label")
+            rating_label = await first_attribute(page, ['a[aria-label*="reviews"]'], "aria-label")
             r, c = parse_rating_label(rating_label)
             if r:
                 record.rating = r
@@ -815,7 +822,7 @@ def extract_detail_page(
         price_match = re.search(r"Prices starting from\s+([^\s,]+)", panel_text)
         if not price_match:
             # Check aria-labels of links in the panel
-            aria_labels = all_attributes(about_panel, ['a[aria-label]'], "aria-label", limit=10)
+            aria_labels = await all_attributes(about_panel, ['a[aria-label]'], "aria-label", limit=10)
             for label in aria_labels:
                 m = re.search(r"Prices starting from\s+([$€£¥₱]\s?\d[\d,]*)", label)
                 if m:
@@ -830,7 +837,7 @@ def extract_detail_page(
             record.total_price = total_match.group(1).strip()
         
         if not record.price:
-            record.price = first_text(about_panel, [r'text=/[$€£¥₱]\s?\d[\d,]*/', r'text=/[A-Z]{3}\s?\d[\d,]*/'])
+            record.price = await first_text(about_panel, [r'text=/[$€£¥₱]\s?\d[\d,]*/', r'text=/[A-Z]{3}\s?\d[\d,]*/'])
         
         if record.price:
             record.currency = extract_currency(record.price)
@@ -838,13 +845,13 @@ def extract_detail_page(
     # Address & Phone
     address, phone = parse_address_and_phone_from_panel_text(panel_text)
     if not address:
-        address = first_text(about_panel, ['[data-tooltip*="Address"]', 'button[aria-label*="Address"]'])
+        address = await first_text(about_panel, ['[data-tooltip*="Address"]', 'button[aria-label*="Address"]'])
     
     record.address = address or record.address
     record.phone = phone or record.phone
     
     # Website
-    record.website = extract_website_url(page)
+    record.website = await extract_website_url(page)
 
     # About
     record.about = parse_about_from_panel_text(panel_text) or record.about
@@ -856,68 +863,65 @@ def extract_detail_page(
     if check_out_match: record.check_out = check_out_match.group(1)
 
     # Amenities - Use structured extraction
-    record.amenities = extract_structured_amenities(page)
+    record.amenities = await extract_structured_amenities(page)
 
     # Nearby Places
-    record.nearby_places = extract_nearby_places(page)
+    record.nearby_places = await extract_nearby_places(page)
 
     # Photos
-    record.photos = extract_photos(page, limit=photo_limit)
+    record.photos = await extract_photos(page, limit=photo_limit)
     record.source_url = page.url
 
     return record
 
 
-def open_listing_page(context, source: str, adults: int = 2, children: int = 0, check_in: str | None = None, check_out: str | None = None) -> Page:
-    page = context.new_page()
+async def open_listing_page(context, source: str, adults: int = 2, children: int = 0, check_in: str | None = None, check_out: str | None = None) -> Page:
+    page = await context.new_page()
     target_url = source if source.startswith("http") else build_search_url(source)
-    page.goto(target_url, wait_until="domcontentloaded", timeout=60000)
-    page.wait_for_timeout(3000)
-    accept_google_dialogs(page)
-    dismiss_google_dialogs(page)
+    await page.goto(target_url, wait_until="domcontentloaded", timeout=60000)
+    await page.wait_for_timeout(3000)
+    await accept_google_dialogs(page)
+    await dismiss_google_dialogs(page)
     
     # Handle Dates via UI interactions
     if check_in or check_out:
         try:
             # Click check-in to open the date picker modal
             ci_input = page.locator('input[placeholder="Check-in"]').first
-            if ci_input.count():
-                ci_input.click(force=True)
-                page.wait_for_timeout(1200) # Wait for modal to fully settle
+            if await ci_input.count():
+                await ci_input.click(force=True)
+                await page.wait_for_timeout(600)
                 
                 if check_in:
                     # Focus and type check-in
-                    ci_input.click(force=True)
-                    page.wait_for_timeout(500)
-                    page.keyboard.press("Control+A")
-                    page.keyboard.press("Backspace")
-                    page.wait_for_timeout(300)
-                    page.keyboard.type(check_in, delay=50) # Type slightly slower
-                    page.wait_for_timeout(1000) # Give Google time to process the first date
+                    await ci_input.click(force=True)
+                    await page.keyboard.press("Control+A")
+                    await page.keyboard.press("Backspace")
+                    await page.keyboard.type(check_in, delay=30)
+                    await page.wait_for_timeout(500)
                 
                 if check_out:
-                    # Explicitly click check-out to ensure focus moves away from check-in
+                    # Explicitly click check-out to ensure focus
                     co_input = page.locator('input[placeholder="Check-out"]').filter(visible=True).first
-                    if co_input.count():
-                        co_input.click(force=True)
-                        page.wait_for_timeout(500)
-                        page.keyboard.press("Control+A")
-                        page.keyboard.press("Backspace")
-                        page.wait_for_timeout(300)
-                        page.keyboard.type(check_out, delay=50)
-                        page.keyboard.press("Enter")
-                        page.wait_for_timeout(1000)
+                    if await co_input.count():
+                        await co_input.click(force=True)
+                        await page.wait_for_timeout(500)
+                        await page.keyboard.press("Control+A")
+                        await page.keyboard.press("Backspace")
+                        await page.keyboard.type(check_out, delay=30)
+                        await page.keyboard.press("Enter")
+                        await page.wait_for_timeout(500)
             
             # Explicitly click Done in the date picker modal
             done_btn = page.locator('button:has-text("Done"), [role="button"]:has-text("Done")').filter(visible=True).first
-            if done_btn.count():
-                done_btn.click()
-                page.wait_for_timeout(1500)
+            if await done_btn.count():
+                await done_btn.click()
+                await page.wait_for_timeout(800)
             else:
-                page.keyboard.press("Escape")
+                await page.keyboard.press("Escape")
             
             print(f"[info] set dates to {check_in} - {check_out}")
-            page.wait_for_timeout(3000) # Wait for prices to refresh
+            await page.wait_for_timeout(1500)
         except Exception as e:
             print(f"[warn] failed to set dates: {e}")
 
@@ -926,50 +930,50 @@ def open_listing_page(context, source: str, adults: int = 2, children: int = 0, 
         try:
             # Find the travelers button (usually has an aria-label like "Number of travelers...")
             travelers_btn = page.locator('button[aria-label*="traveler"], button[aria-label*="Traveler"]').first
-            if not travelers_btn.count():
+            if not await travelers_btn.count():
                 # Fallback: Find a button with just a number, but avoid common calendar numbers by checking aria-label
                 travelers_btn = page.locator('button, [role="button"]').filter(has_text=re.compile(r"^\d+$")).filter(has_not=page.locator('[aria-label*="May"], [aria-label*="June"]')).first
             
-            if travelers_btn.count():
-                travelers_btn.click()
-                page.wait_for_timeout(1500)
+            if await travelers_btn.count():
+                await travelers_btn.click()
+                await page.wait_for_timeout(1000)
                 
                 # Helper to click a button multiple times
-                def adjust_count(label: str, target: int, current: int):
+                async def adjust_count(label: str, target: int, current: int):
                     if target > current:
                         btn = page.locator(f'button[aria-label="Add {label}"], button[aria-label="Increase {label}s"]').filter(visible=True).first
                         for _ in range(target - current):
-                            if btn.count(): btn.click(); page.wait_for_timeout(400)
+                            if await btn.count(): await btn.click(); await page.wait_for_timeout(250)
                     elif target < current:
                         btn = page.locator(f'button[aria-label="Remove {label}"], button[aria-label="Decrease {label}s"]').filter(visible=True).first
                         for _ in range(current - target):
-                            if btn.count(): btn.click(); page.wait_for_timeout(400)
+                            if await btn.count(): await btn.click(); await page.wait_for_timeout(250)
 
                 # Google defaults to 2 adults, 0 children
-                adjust_count("adult", adults, 2)
-                adjust_count("child", children, 0)
+                await adjust_count("adult", adults, 2)
+                await adjust_count("child", children, 0)
                 
                 # Handle age selection if children were added
                 age_select = page.locator('select').filter(visible=True).first
-                if age_select.count():
-                    age_select.select_option("5")
-                    page.wait_for_timeout(500)
+                if await age_select.count():
+                    await age_select.select_option("5")
+                    await page.wait_for_timeout(400)
 
                 # Click Done in the traveler modal
                 done_btn = page.locator('button:has-text("Done"), [role="button"]:has-text("Done")').filter(visible=True).first
-                if done_btn.count():
-                    done_btn.click()
-                    page.wait_for_timeout(2000) # Wait for prices to refresh
+                if await done_btn.count():
+                    await done_btn.click()
+                    await page.wait_for_timeout(1500)
                     print(f"[info] adjusted occupancy to {adults} adults, {children} children")
                 else:
-                    page.keyboard.press("Escape")
+                    await page.keyboard.press("Escape")
         except Exception as e:
             print(f"[warn] failed to adjust occupancy: {e}")
 
     return page
 
 
-def download_photos(hotel: HotelRecord, output_dir: Path, timeout: int = 20) -> list[str]:
+async def download_photos(hotel: HotelRecord, output_dir: Path, timeout: int = 20) -> list[str]:
     if not hotel.photos or not hotel.name:
         return []
 
@@ -992,9 +996,14 @@ def download_photos(hotel: HotelRecord, output_dir: Path, timeout: int = 20) -> 
         suffix = Path(urlparse(photo_url).path).suffix or ".jpg"
         photo_path = hotel_dir / f"{index:03d}{suffix}"
         try:
-            response = session.get(photo_url, timeout=timeout)
-            response.raise_for_status()
-            photo_path.write_bytes(response.content)
+            # Run blocking request in a thread
+            def fetch():
+                response = session.get(photo_url, timeout=timeout)
+                response.raise_for_status()
+                return response.content
+
+            content = await asyncio.to_thread(fetch)
+            photo_path.write_bytes(content)
             saved_files.append(str(photo_path))
         except Exception:
             continue
@@ -1002,7 +1011,7 @@ def download_photos(hotel: HotelRecord, output_dir: Path, timeout: int = 20) -> 
     return saved_files
 
 
-def scrape_hotels(
+async def scrape_hotels(
     source: str,
     limit: int,
     photo_limit: int,
@@ -1013,12 +1022,13 @@ def scrape_hotels(
     children: int = 0,
     check_in: str | None = None,
     check_out: str | None = None,
+    concurrency: int = 5, # Default concurrency
 ) -> list[HotelRecord]:
     records: list[HotelRecord] = []
 
-    with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(headless=headless)
-        context = browser.new_context(
+    async with async_playwright() as playwright:
+        browser = await playwright.chromium.launch(headless=headless)
+        context = await browser.new_context(
             locale="en-US",
             user_agent=(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -1026,13 +1036,13 @@ def scrape_hotels(
                 "Chrome/124.0.0.0 Safari/537.36"
             ),
         )
-        Stealth().apply_stealth_sync(context)
-        page = open_listing_page(context, source, adults=adults, children=children, check_in=check_in, check_out=check_out)
+        await Stealth().apply_stealth_async(context)
+        page = await open_listing_page(context, source, adults=adults, children=children, check_in=check_in, check_out=check_out)
 
         # Check if we are already on a detail page
         if "/travel/hotels/" in page.url and ("qs=" in page.url or "q=" not in page.url):
             try:
-                record = extract_detail_page(page, url=None, photo_limit=photo_limit)
+                record = await extract_detail_page(page, url=None, photo_limit=photo_limit)
                 if record.name:
                     record.adults = adults
                     record.children = children
@@ -1040,44 +1050,53 @@ def scrape_hotels(
                     record.search_check_out = check_out
                     records.append(record)
                     if download_images:
-                        download_photos(record, image_dir)
+                        await download_photos(record, image_dir)
                     print(f"[1/1] scraped: {record.name}")
                 return records
             finally:
-                page.close()
+                await page.close()
 
-        scroll_listing_page(page, passes=max(2, limit // 5))
-        hotel_listings = get_hotel_listings(page, limit=limit)
-        page.close()
+        await scroll_listing_page(page, passes=max(2, limit // 5))
+        hotel_listings = await get_hotel_listings(page, limit=limit)
+        await page.close()
 
-        for index, initial_record in enumerate(hotel_listings, start=1):
-            initial_record.adults = adults
-            initial_record.children = children
-            initial_record.search_check_in = check_in
-            initial_record.search_check_out = check_out
-            detail_page = context.new_page()
-            try:
-                record = extract_detail_page(
-                    detail_page,
-                    url=initial_record.listing_url,
-                    photo_limit=photo_limit,
-                    initial_record=initial_record
-                )
-                if not record.name:
-                    continue
-                records.append(record)
-                if download_images:
-                    download_photos(record, image_dir)
-                print(f"[{index}/{len(hotel_listings)}] scraped: {record.name}")
-            except TimeoutError:
-                print(f"[warn] timeout while scraping: {initial_record.listing_url}")
-            except Exception as exc:
-                print(f"[warn] failed to scrape: {initial_record.listing_url} - {exc}")
-            finally:
-                detail_page.close()
+        # Semaphore to limit parallel tasks
+        semaphore = asyncio.Semaphore(concurrency)
 
-        context.close()
-        browser.close()
+        async def scrape_hotel_task(index, initial_record):
+            async with semaphore:
+                initial_record.adults = adults
+                initial_record.children = children
+                initial_record.search_check_in = check_in
+                initial_record.search_check_out = check_out
+                
+                detail_page = await context.new_page()
+                try:
+                    record = await extract_detail_page(
+                        detail_page,
+                        url=initial_record.listing_url,
+                        photo_limit=photo_limit,
+                        initial_record=initial_record
+                    )
+                    if record.name:
+                        if download_images:
+                            await download_photos(record, image_dir)
+                        print(f"[{index}/{len(hotel_listings)}] scraped: {record.name}")
+                        return record
+                except TimeoutError:
+                    print(f"[warn] timeout while scraping: {initial_record.listing_url}")
+                except Exception as exc:
+                    print(f"[warn] failed to scrape: {initial_record.listing_url} - {exc}")
+                finally:
+                    await detail_page.close()
+                return None
+
+        tasks = [scrape_hotel_task(i, rec) for i, rec in enumerate(hotel_listings, start=1)]
+        results = await asyncio.gather(*tasks)
+        records = [r for r in results if r is not None]
+
+        await context.close()
+        await browser.close()
 
     return records
 
@@ -1142,10 +1161,16 @@ def parse_args() -> argparse.Namespace:
         "--check-out",
         help="Check-out date (e.g., '2026-06-05' or 'Jun 5, 2026')",
     )
+    parser.add_argument(
+        "--concurrency",
+        type=int,
+        default=3,
+        help="Number of concurrent tabs (default: 3)",
+    )
     return parser.parse_args()
 
 
-def main() -> None:
+async def async_main() -> None:
     args = parse_args()
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -1153,7 +1178,7 @@ def main() -> None:
     image_dir.mkdir(parents=True, exist_ok=True)
 
     started = time.time()
-    records = scrape_hotels(
+    records = await scrape_hotels(
         source=args.source,
         limit=args.limit,
         photo_limit=args.photo_limit,
@@ -1164,6 +1189,7 @@ def main() -> None:
         children=args.children,
         check_in=args.check_in,
         check_out=args.check_out,
+        concurrency=args.concurrency,
     )
     payload: list[dict[str, Any]] = [asdict(record) for record in records]
     output_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -1173,6 +1199,10 @@ def main() -> None:
     print(f"Occupancy settings: {args.adults} adults, {args.children} children")
     if args.check_in or args.check_out:
         print(f"Date settings: {args.check_in} to {args.check_out}")
+
+
+def main() -> None:
+    asyncio.run(async_main())
 
 
 if __name__ == "__main__":
