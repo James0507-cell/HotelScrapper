@@ -44,7 +44,7 @@ async def main():
     print(f"Results saved to {output_file}")
     
     for hotel in results:
-        print(f"- {hotel.name}: {hotel.price} (Total: {hotel.total_price})")
+        print(f"- {hotel.hotel_info.name}: {hotel.pricing.cheapest_price_per_night} (Total: {hotel.pricing.cheapest_total_price})")
 
 if __name__ == "__main__":
     asyncio.run(main())

@@ -17,32 +17,64 @@ HOTELS_BASE_URL = "https://www.google.com/travel/hotels"
 
 
 @dataclass
-class HotelRecord:
+class HotelInfo:
     name: str | None = None
-    price: str | None = None
-    total_price: str | None = None
-    currency: str | None = None
+    stars: str | None = None
     rating: str | None = None
     review_count: str | None = None
-    stars: str | None = None
+    about: str | None = None
+
+@dataclass
+class ContactInfo:
     address: str | None = None
     phone: str | None = None
     website: str | None = None
-    about: str | None = None
-    amenities: dict[str, list[str]] = field(default_factory=dict)
-    nearby_places: list[str] = field(default_factory=list)
-    check_in: str | None = None
-    check_out: str | None = None
+
+@dataclass
+class LocationInfo:
     latitude: float | None = None
     longitude: float | None = None
+    nearby_places: list[str] = field(default_factory=list)
+
+@dataclass
+class PricingInfo:
+    cheapest_price_per_night: str | None = None
+    cheapest_total_price: str | None = None
+    currency: str | None = None
     booking_url: str | None = None
-    photos: list[str] = field(default_factory=list)
-    source_url: str | None = None
-    listing_url: str | None = None
+
+@dataclass
+class SearchParameters:
     adults: int = 2
     children: int = 0
-    search_check_in: str | None = None
-    search_check_out: str | None = None
+    check_in_date: str | None = None
+    check_out_date: str | None = None
+
+@dataclass
+class StayDetails:
+    check_in_time: str | None = None
+    check_out_time: str | None = None
+    search_parameters: SearchParameters = field(default_factory=SearchParameters)
+
+@dataclass
+class MediaInfo:
+    photos: list[str] = field(default_factory=list)
+
+@dataclass
+class MetadataInfo:
+    source_url: str | None = None
+    listing_url: str | None = None
+
+@dataclass
+class HotelRecord:
+    hotel_info: HotelInfo = field(default_factory=HotelInfo)
+    contact: ContactInfo = field(default_factory=ContactInfo)
+    location: LocationInfo = field(default_factory=LocationInfo)
+    pricing: PricingInfo = field(default_factory=PricingInfo)
+    stay_details: StayDetails = field(default_factory=StayDetails)
+    amenities: dict[str, list[str]] = field(default_factory=dict)
+    media: MediaInfo = field(default_factory=MediaInfo)
+    metadata: MetadataInfo = field(default_factory=MetadataInfo)
 
 
 def unique_strings(items: list[str]) -> list[str]:
@@ -402,32 +434,33 @@ async def get_hotel_listings(page: Page, limit: int) -> list[HotelRecord]:
             if not name or not parse_primary_hotel_label(name) or name in seen_names:
                 continue
                 
-            record = HotelRecord(name=name)
+            record = HotelRecord()
+            record.hotel_info.name = name
             
             href = await link.get_attribute("href")
             if href:
-                record.listing_url = normalize_google_url(urljoin("https://www.google.com", href))
+                record.metadata.listing_url = normalize_google_url(urljoin("https://www.google.com", href))
                 seen_names.add(name)
             else:
                 continue
             
             price_el = link.locator('span[aria-label*="per night"], span[role="button"] span, span:has-text("₱")').first
             if await price_el.count():
-                record.price = (await price_el.inner_text(timeout=500)).strip()
-                record.currency = extract_currency(record.price)
+                record.pricing.cheapest_price_per_night = (await price_el.inner_text(timeout=500)).strip()
+                record.pricing.currency = extract_currency(record.pricing.cheapest_price_per_night)
                 
             rating_el = link.locator('span[aria-label*="stars"]').first
             if await rating_el.count():
                 label = await rating_el.get_attribute("aria-label", timeout=500)
                 r, c = parse_rating_label(label)
                 if r:
-                    record.rating = r
-                    record.review_count = c
+                    record.hotel_info.rating = r
+                    record.hotel_info.review_count = c
             
             stars_text = await link.inner_text(timeout=500)
             stars_match = re.search(r"(\d)-star hotel", stars_text, re.IGNORECASE)
             if stars_match:
-                record.stars = f"{stars_match.group(1)}-star hotel"
+                record.hotel_info.stars = f"{stars_match.group(1)}-star hotel"
                 
             records.append(record)
         except Exception:
@@ -738,39 +771,39 @@ async def extract_detail_page(
         if not await about_panel.count():
             about_panel = page
 
-    if not record.name:
-        record.name = await extract_hotel_name(page)
+    if not record.hotel_info.name:
+        record.hotel_info.name = await extract_hotel_name(page)
     
     panel_text = await about_panel.inner_text(timeout=3000)
     
-    if not record.stars:
+    if not record.hotel_info.stars:
         stars_match = re.search(r"(\d)-star hotel", panel_text, re.IGNORECASE)
         if stars_match:
-            record.stars = f"{stars_match.group(1)}-star hotel"
+            record.hotel_info.stars = f"{stars_match.group(1)}-star hotel"
         else:
-            record.stars = await first_text(page, ['[aria-label*="star hotel"]', r'text=/\d-star hotel/'])
+            record.hotel_info.stars = await first_text(page, ['[aria-label*="star hotel"]', r'text=/\d-star hotel/'])
 
-    if not record.rating:
+    if not record.hotel_info.rating:
         rating_match = re.search(r"(\d\.\d)\s*\(([\d,Kk.]+)\)", panel_text)
         if rating_match:
-            record.rating = rating_match.group(1)
-            record.review_count = rating_match.group(2)
+            record.hotel_info.rating = rating_match.group(1)
+            record.hotel_info.review_count = rating_match.group(2)
 
-    if not record.price:
+    if not record.pricing.cheapest_price_per_night:
         price_match = re.search(r"Prices starting from\s+([$€£¥₱][\d,\u202f\u00a0]+)", panel_text)
         if price_match:
-            record.price = compact_whitespace(price_match.group(1))
+            record.pricing.cheapest_price_per_night = compact_whitespace(price_match.group(1))
         
-        if not record.price:
-            record.price = await first_text(about_panel, [r'text=/[$€£¥₱]\s?\d[\d,]*/', r'text=/[A-Z]{3}\s?\d[\d,]*/'])
+        if not record.pricing.cheapest_price_per_night:
+            record.pricing.cheapest_price_per_night = await first_text(about_panel, [r'text=/[$€£¥₱]\s?\d[\d,]*/', r'text=/[A-Z]{3}\s?\d[\d,]*/'])
         
-        if record.price:
-            record.currency = extract_currency(record.price)
+        if record.pricing.cheapest_price_per_night:
+            record.pricing.currency = extract_currency(record.pricing.cheapest_price_per_night)
 
-    if not record.total_price:
+    if not record.pricing.cheapest_total_price:
         total_match = re.search(r"([$€£¥₱][\d,\u202f\u00a0]+)\s?total", panel_text, re.IGNORECASE)
         if total_match:
-            record.total_price = compact_whitespace(total_match.group(1))
+            record.pricing.cheapest_total_price = compact_whitespace(total_match.group(1))
 
     address, phone = parse_address_and_phone_from_panel_text(panel_text)
     if not address:
@@ -780,22 +813,22 @@ async def extract_detail_page(
         else:
             address = await first_text(about_panel, ['[data-tooltip*="Address"]', 'button[aria-label*="Address"]'])
     
-    record.address = address or record.address
-    record.phone = phone or record.phone
-    record.website = await extract_website_url(page)
-    record.about = parse_about_from_panel_text(panel_text) or record.about
-    record.latitude, record.longitude = await extract_coordinates(page, record.name)
-    record.booking_url = await extract_booking_url(page, record.price)
+    record.contact.address = address or record.contact.address
+    record.contact.phone = phone or record.contact.phone
+    record.contact.website = await extract_website_url(page)
+    record.hotel_info.about = parse_about_from_panel_text(panel_text) or record.hotel_info.about
+    record.location.latitude, record.location.longitude = await extract_coordinates(page, record.hotel_info.name)
+    record.pricing.booking_url = await extract_booking_url(page, record.pricing.cheapest_price_per_night)
 
     check_in_match = re.search(r"Check-in(?: time)?[:\s]+([\d: \u202f\u00a0]+[AP]M)", panel_text, re.IGNORECASE)
     check_out_match = re.search(r"Check-out(?: time)?[:\s]+([\d: \u202f\u00a0]+[AP]M)", panel_text, re.IGNORECASE)
-    if check_in_match: record.check_in = compact_whitespace(check_in_match.group(1))
-    if check_out_match: record.check_out = compact_whitespace(check_out_match.group(1))
+    if check_in_match: record.stay_details.check_in_time = compact_whitespace(check_in_match.group(1))
+    if check_out_match: record.stay_details.check_out_time = compact_whitespace(check_out_match.group(1))
 
     record.amenities = await extract_structured_amenities(page, panel_text)
-    record.nearby_places = await extract_nearby_places(page)
-    record.photos = await extract_photos(about_panel, limit=photo_limit)
-    record.source_url = page.url
+    record.location.nearby_places = await extract_nearby_places(page)
+    record.media.photos = await extract_photos(about_panel, limit=photo_limit)
+    record.metadata.source_url = page.url
 
     return record
 
@@ -883,14 +916,14 @@ async def open_listing_page(context, source: str, adults: int = 2, children: int
 
 
 async def download_photos(hotel: HotelRecord, output_dir: Path, timeout: int = 20) -> list[str]:
-    if not hotel.photos or not hotel.name:
+    if not hotel.media.photos or not hotel.hotel_info.name:
         return []
-    hotel_dir = output_dir / safe_filename(hotel.name)
+    hotel_dir = output_dir / safe_filename(hotel.hotel_info.name)
     hotel_dir.mkdir(parents=True, exist_ok=True)
     saved_files: list[str] = []
     session = requests.Session()
     session.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"})
-    for index, photo_url in enumerate(hotel.photos, start=1):
+    for index, photo_url in enumerate(hotel.media.photos, start=1):
         suffix = Path(urlparse(photo_url).path).suffix or ".jpg"
         photo_path = hotel_dir / f"{index:03d}{suffix}"
         try:
@@ -913,34 +946,47 @@ async def scrape_hotels(source: str, limit: int, photo_limit: int, headless: boo
         context = await browser.new_context(locale="en-US", user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
         await Stealth().apply_stealth_async(context)
         page = await open_listing_page(context, source, adults=adults, children=children, check_in=check_in, check_out=check_out)
+        
+        search_params = SearchParameters(
+            adults=adults,
+            children=children,
+            check_in_date=check_in,
+            check_out_date=check_out
+        )
+        
         if "/travel/hotels/" in page.url and ("qs=" in page.url or "q=" not in page.url):
             try:
                 record = await extract_detail_page(page, url=None, photo_limit=photo_limit)
-                if record.name:
-                    record.adults, record.children, record.search_check_in, record.search_check_out = adults, children, check_in, check_out
+                if record.hotel_info.name:
+                    record.stay_details.search_parameters = search_params
                     records.append(record)
                     if download_images: await download_photos(record, image_dir)
-                    print(f"[1/1] scraped: {record.name}")
+                    print(f"[1/1] scraped: {record.hotel_info.name}")
                 return records
             finally:
                 await page.close()
+        
         await scroll_listing_page(page, passes=max(2, limit // 5))
         hotel_listings = await get_hotel_listings(page, limit=limit)
         await page.close()
+        
         semaphore = asyncio.Semaphore(concurrency)
         async def scrape_hotel_task(index, initial_record):
             async with semaphore:
-                initial_record.adults, initial_record.children, initial_record.search_check_in, initial_record.search_check_out = adults, children, check_in, check_out
+                initial_record.stay_details.search_parameters = search_params
                 detail_page = await context.new_page()
                 try:
-                    record = await extract_detail_page(detail_page, url=initial_record.listing_url, photo_limit=photo_limit, initial_record=initial_record)
-                    if record.name:
+                    record = await extract_detail_page(detail_page, url=initial_record.metadata.listing_url, photo_limit=photo_limit, initial_record=initial_record)
+                    if record.hotel_info.name:
                         if download_images: await download_photos(record, image_dir)
-                        print(f"[{index}/{len(hotel_listings)}] scraped: {record.name}")
+                        print(f"[{index}/{len(hotel_listings)}] scraped: {record.hotel_info.name}")
                         return record
-                except Exception as exc: print(f"[warn] failed to scrape: {initial_record.listing_url} - {exc}")
-                finally: await detail_page.close()
+                except Exception as exc: 
+                    print(f"[warn] failed to scrape: {initial_record.metadata.listing_url} - {exc}")
+                finally: 
+                    await detail_page.close()
                 return None
+                
         tasks = [scrape_hotel_task(i, rec) for i, rec in enumerate(hotel_listings, start=1)]
         results = await asyncio.gather(*tasks)
         records = [r for r in results if r is not None]
