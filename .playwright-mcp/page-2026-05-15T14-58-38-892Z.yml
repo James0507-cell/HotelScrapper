@@ -1,0 +1,532 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e15]:
+        - generic:
+          - button "Skip to main content" [ref=e16]:
+            - generic: Skip to main content
+          - button "Accessibility feedback" [ref=e19]:
+            - generic: Accessibility feedback
+        - navigation [ref=e23]:
+          - link "Travel" [ref=e26]:
+            - img [ref=e29]
+            - generic: Travel
+          - link "Explore" [ref=e35]:
+            - img [ref=e38]
+            - generic: Explore
+          - link "Flights" [ref=e43]:
+            - img [ref=e46]
+            - generic: Flights
+          - link "Hotels" [ref=e51]:
+            - img [ref=e54]
+            - generic: Hotels
+          - link "Vacation rentals" [ref=e62]:
+            - img [ref=e65]
+            - generic: Vacation rentals
+      - generic [ref=e74]:
+        - button "Google apps" [ref=e78] [cursor=pointer]:
+          - img [ref=e79]
+        - link "Sign in" [ref=e82] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3DHotels%2520in%2520Manila%26qs%3DCAEyJkNoZ0k1TVRJdFBHNXI4ajRBUm9MTDJjdk1YUm5kemRtY1Y4UUFROABIAA%26ts%3DCAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA%26ap%3DMAG6AQdkZXRhaWxz%26ved%3D0CAAQ5JsGahcKEwio6Y6Ux7uUAxUAAAAAHQAAAAAQBA%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3DHotels%2520in%2520Manila%26qs%3DCAEyJkNoZ0k1TVRJdFBHNXI4ajRBUm9MTDJjdk1YUm5kemRtY1Y4UUFROABIAA%26ts%3DCAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA%26ap%3DMAG6AQdkZXRhaWxz%26ved%3D0CAAQ5JsGahcKEwio6Y6Ux7uUAxUAAAAAHQAAAAAQBA%26utm_source%3Dsign_in_ogb&ec=GAZAlQM
+  - generic [ref=e88]:
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - heading "City Garden Suites Manila" [level=1] [ref=e119]
+        - generic [ref=e121]:
+          - generic:
+            - button "Back to list of all results":
+              - generic: Back to list of all results
+          - link "Open City Garden Suites Manila in a new tab." [ref=e122] [cursor=pointer]:
+            - /url: /travel/hotels/entity/ChgI5MTItPG5r8j4ARoLL2cvMXRndzdmcV8QAQ?q=Hotels%20in%20Manila&qs=CAE4AEgA&ts=CAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA&ap=MAE&ved=2ahUKEwiSxJeTx7uUAxXdjWYCHSN7HcIQvukIegQIAxAC
+            - generic [ref=e123]:
+              - button "Open City Garden Suites Manila in a new tab." [ref=e124]:
+                - img [ref=e125]
+              - tooltip [ref=e127]: Open City Garden Suites Manila in a new tab.
+          - button "Close" [ref=e131]:
+            - generic [ref=e135]:
+              - img [ref=e137]
+              - generic [ref=e140]: Close
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - tablist [ref=e147]:
+            - tab "Overview" [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]: Overview
+            - tab "Prices" [ref=e150] [cursor=pointer]:
+              - generic [ref=e151]: Prices
+            - tab "Reviews" [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]: Reviews
+            - tab "Photos" [ref=e154] [cursor=pointer]:
+              - generic [ref=e155]: Photos
+            - tab "About" [active] [selected] [ref=e156] [cursor=pointer]:
+              - generic [ref=e157]: About
+          - generic [ref=e160]:
+            - text: · · · · · · · · · · · ·
+            - tabpanel [ref=e161]:
+              - generic [ref=e167]:
+                - generic [ref=e168]:
+                  - heading "About this hotel" [level=2] [ref=e169]
+                  - generic [ref=e170]:
+                    - generic [ref=e171]:
+                      - paragraph [ref=e174]:
+                        - text: Set in a bustling commercial area, this casual hotel is 3 km from Manila Zoo, and 2 km from both Fort Santiago and the National Museum of the Philippines.
+                        - generic [ref=e175]:
+                          - text: …
+                          - button "Read more" [ref=e176]:
+                            - generic [ref=e179]: More
+                            - img [ref=e181]
+                      - generic [ref=e183]:
+                        - generic [ref=e184]: "Check-in time: 2:00 PM"
+                        - generic [ref=e185]: "Check-out time: 12:00 PM"
+                    - generic [ref=e187]:
+                      - heading "Address & contact information" [level=3] [ref=e188]
+                      - generic "hotel address is 1158 A. Mabini St, Ermita, Manila, 1004 Metro Manila" [ref=e191]:
+                        - img [ref=e193]
+                        - text: 1158 A. Mabini St, Ermita, Manila, 1004 Metro Manila
+                      - generic [ref=e197]:
+                        - generic [ref=e199]:
+                          - img [ref=e201]
+                          - generic [ref=e203]: Website
+                          - link "Website" [ref=e204] [cursor=pointer]:
+                            - /url: http://citygardensuites.com/?utm_source=google+my+business&utm_medium=gmb&utm_campaign=gmb+organic+traffic&sa=X&ved=2ahUKEwiSxJeTx7uUAxXdjWYCHSN7HcIQyK4DegUIAxC2BA
+                        - generic [ref=e206]:
+                          - img [ref=e208]
+                          - generic [ref=e215]: Directions
+                          - link "Directions" [ref=e216] [cursor=pointer]:
+                            - /url: https://maps.google.com/maps?hl=en-US&gl=PH&um=1&ie=UTF-8&fb=1&sa=X&geocode=KTkPW1gvypczMWQikhbPvZD4&daddr=City+Garden+Suites+Manila,+1158+A.+Mabini+St,+Ermita,+Manila,+1004+Metro+Manila&ved=1t:55111&ictx=111
+                - generic [ref=e217]:
+                  - heading "Health & safety" [level=2] [ref=e218]
+                  - button "Enhanced cleaning" [ref=e220] [cursor=pointer]:
+                    - generic [ref=e221]:
+                      - heading "Enhanced cleaning" [level=4] [ref=e222]:
+                        - img [ref=e224]
+                        - text: Enhanced cleaning
+                      - img [ref=e229]
+                  - button "Personal protection" [ref=e232] [cursor=pointer]:
+                    - generic [ref=e233]:
+                      - heading "Personal protection" [level=4] [ref=e234]:
+                        - img [ref=e236]
+                        - text: Personal protection
+                      - img [ref=e243]
+                  - button "Physical distancing" [ref=e246] [cursor=pointer]:
+                    - generic [ref=e247]:
+                      - heading "Physical distancing" [level=4] [ref=e248]:
+                        - img [ref=e250]
+                        - text: Physical distancing
+                      - img [ref=e255]
+                  - button "Minimized contact" [ref=e258] [cursor=pointer]:
+                    - generic [ref=e259]:
+                      - heading "Minimized contact" [level=4] [ref=e260]:
+                        - img [ref=e262]
+                        - text: Minimized contact
+                      - img [ref=e267]
+                  - button "Increased food safety" [ref=e270] [cursor=pointer]:
+                    - generic [ref=e271]:
+                      - heading "Increased food safety" [level=4] [ref=e272]:
+                        - img [ref=e274]
+                        - text: Increased food safety
+                      - img [ref=e278]
+                  - generic [ref=e280]: Health & safety measures are provided by the hotel. Contact the hotel for more details.
+                - generic [ref=e281]:
+                  - generic [ref=e282]:
+                    - heading "Amenities" [level=2] [ref=e283]
+                    - button "Learn more about amenities" [ref=e287]:
+                      - img
+                  - generic [ref=e291]:
+                    - heading "Popular amenities" [level=3] [ref=e292]
+                    - list [ref=e293]:
+                      - listitem [ref=e294]:
+                        - img [ref=e296]
+                        - generic [ref=e299]: Hot tub
+                      - listitem [ref=e300]:
+                        - img [ref=e302]
+                        - generic [ref=e304]: Breakfast
+                        - generic [ref=e305]: free
+                      - listitem [ref=e306]:
+                        - img [ref=e308]
+                        - generic [ref=e310]: Wi-Fi
+                        - generic [ref=e311]: free
+                      - listitem [ref=e312]:
+                        - img [ref=e314]
+                        - generic [ref=e316]: Parking
+                        - generic [ref=e317]: free
+                  - generic [ref=e318]:
+                    - generic [ref=e319]:
+                      - generic [ref=e320]:
+                        - heading "Internet" [level=4] [ref=e321]:
+                          - generic [ref=e322]:
+                            - img [ref=e324]
+                            - generic [ref=e326]: Internet
+                        - list [ref=e327]:
+                          - listitem [ref=e328]:
+                            - generic [ref=e329]:
+                              - img [ref=e331]
+                              - generic [ref=e333]: Wi-Fi
+                              - generic [ref=e334]: free
+                      - generic [ref=e335]:
+                        - heading "Policies & payments" [level=4] [ref=e336]:
+                          - generic [ref=e337]:
+                            - img [ref=e339]
+                            - generic [ref=e341]: Policies & payments
+                        - list [ref=e342]:
+                          - listitem [ref=e343]:
+                            - generic [ref=e344]:
+                              - img [ref=e346]
+                              - generic [ref=e348]: Credit cards
+                          - listitem [ref=e349]:
+                            - generic [ref=e350]:
+                              - img [ref=e352]
+                              - generic [ref=e354]: Debit cards
+                          - listitem [ref=e355]:
+                            - generic [ref=e356]:
+                              - img [ref=e358]
+                              - generic [ref=e360]: Cash
+                      - generic [ref=e361]:
+                        - heading "Children" [level=4] [ref=e362]:
+                          - generic [ref=e363]:
+                            - img [ref=e365]
+                            - generic [ref=e367]: Children
+                        - list [ref=e368]:
+                          - listitem [ref=e369]:
+                            - generic [ref=e370]:
+                              - img [ref=e372]
+                              - generic [ref=e374]: Kid-friendly
+                      - generic [ref=e375]:
+                        - heading "Pools" [level=4] [ref=e376]:
+                          - generic [ref=e377]:
+                            - img [ref=e379]
+                            - generic [ref=e382]: Pools
+                        - list [ref=e383]:
+                          - listitem [ref=e384]:
+                            - generic [ref=e385]:
+                              - img [ref=e387]
+                              - generic [ref=e389]: No pools
+                          - listitem [ref=e390]:
+                            - generic [ref=e391]:
+                              - img [ref=e393]
+                              - generic [ref=e395]: Hot tub
+                      - generic [ref=e396]:
+                        - heading "Parking & transportation" [level=4] [ref=e397]:
+                          - generic [ref=e398]:
+                            - img [ref=e400]
+                            - generic [ref=e402]: Parking & transportation
+                        - list [ref=e403]:
+                          - listitem [ref=e404]:
+                            - generic [ref=e405]:
+                              - img [ref=e407]
+                              - generic [ref=e409]: Parking
+                              - generic [ref=e410]: free
+                            - button "Show details" [ref=e412] [cursor=pointer]:
+                              - generic [ref=e413]:
+                                - text: Show details
+                                - img [ref=e416]
+                          - listitem [ref=e418]:
+                            - generic [ref=e419]:
+                              - img [ref=e421]
+                              - generic [ref=e423]: Airport shuttle
+                              - generic [ref=e424]: extra charge
+                      - generic [ref=e425]:
+                        - heading "Accessibility" [level=4] [ref=e426]:
+                          - generic [ref=e427]:
+                            - img [ref=e429]
+                            - generic [ref=e433]: Accessibility
+                        - list [ref=e434]:
+                          - listitem [ref=e435]:
+                            - generic [ref=e436]:
+                              - img [ref=e438]
+                              - generic [ref=e440]: Accessible
+                          - listitem [ref=e441]:
+                            - generic [ref=e442]:
+                              - img [ref=e444]
+                              - generic [ref=e446]: Accessible parking
+                          - listitem [ref=e447]:
+                            - generic [ref=e448]:
+                              - img [ref=e450]
+                              - generic [ref=e452]: Accessible elevator
+                      - generic [ref=e453]:
+                        - heading "Business & events" [level=4] [ref=e454]:
+                          - generic [ref=e455]:
+                            - img [ref=e457]
+                            - generic [ref=e459]: Business & events
+                        - list [ref=e460]:
+                          - listitem [ref=e461]:
+                            - generic [ref=e462]:
+                              - img [ref=e464]
+                              - generic [ref=e466]: Business center
+                          - listitem [ref=e467]:
+                            - generic [ref=e468]:
+                              - img [ref=e470]
+                              - generic [ref=e472]: Meeting rooms
+                      - generic [ref=e473]:
+                        - heading "Languages spoken" [level=4] [ref=e474]:
+                          - generic [ref=e475]:
+                            - img [ref=e477]
+                            - generic [ref=e479]: Languages spoken
+                        - list [ref=e480]:
+                          - listitem [ref=e481]:
+                            - generic [ref=e482]:
+                              - img [ref=e484]
+                              - generic [ref=e486]: English
+                          - listitem [ref=e487]:
+                            - generic [ref=e488]:
+                              - img [ref=e490]
+                              - generic [ref=e492]: Filipino
+                      - generic [ref=e493]:
+                        - heading "Bathrooms" [level=4] [ref=e494]:
+                          - generic [ref=e495]:
+                            - img [ref=e497]
+                            - generic [ref=e500]: Bathrooms
+                        - list [ref=e501]:
+                          - listitem [ref=e502]:
+                            - generic [ref=e503]:
+                              - img [ref=e505]
+                              - generic [ref=e507]: Private bathroom
+                          - listitem [ref=e508]:
+                            - generic [ref=e509]:
+                              - img [ref=e511]
+                              - generic [ref=e513]: Bathtub in some rooms
+                          - listitem [ref=e514]:
+                            - generic [ref=e515]:
+                              - img [ref=e517]
+                              - generic [ref=e519]: Shower
+                    - generic [ref=e520]:
+                      - generic [ref=e521]:
+                        - heading "Food & drink" [level=4] [ref=e522]:
+                          - generic [ref=e523]:
+                            - img [ref=e525]
+                            - generic [ref=e527]: Food & drink
+                        - list [ref=e528]:
+                          - listitem [ref=e529]:
+                            - generic [ref=e530]:
+                              - img [ref=e532]
+                              - generic [ref=e534]: Restaurant
+                          - listitem [ref=e535]:
+                            - generic [ref=e536]:
+                              - img [ref=e538]
+                              - generic [ref=e540]: Bar
+                          - listitem [ref=e541]:
+                            - generic [ref=e542]:
+                              - img [ref=e544]
+                              - generic [ref=e546]: Room service
+                          - listitem [ref=e547]:
+                            - generic [ref=e548]:
+                              - img [ref=e550]
+                              - generic [ref=e552]: Breakfast
+                              - generic [ref=e553]: free
+                            - button "Show details" [ref=e555] [cursor=pointer]:
+                              - generic [ref=e556]:
+                                - text: Show details
+                                - img [ref=e559]
+                          - listitem [ref=e561]:
+                            - generic [ref=e562]:
+                              - img [ref=e564]
+                              - generic [ref=e566]: Breakfast buffet
+                      - generic [ref=e567]:
+                        - heading "Services" [level=4] [ref=e568]:
+                          - generic [ref=e569]:
+                            - img [ref=e571]
+                            - generic [ref=e573]: Services
+                        - list [ref=e574]:
+                          - listitem [ref=e575]:
+                            - generic [ref=e576]:
+                              - img [ref=e578]
+                              - generic [ref=e580]: Front desk
+                              - generic [ref=e581]: 24 hour
+                          - listitem [ref=e582]:
+                            - generic [ref=e583]:
+                              - img [ref=e585]
+                              - generic [ref=e587]: Concierge
+                          - listitem [ref=e588]:
+                            - generic [ref=e589]:
+                              - img [ref=e591]
+                              - generic [ref=e593]: Currency exchange
+                          - listitem [ref=e594]:
+                            - generic [ref=e595]:
+                              - img [ref=e597]
+                              - generic [ref=e599]: Full-service laundry
+                          - listitem [ref=e600]:
+                            - generic [ref=e601]:
+                              - img [ref=e603]
+                              - generic [ref=e605]: Elevator
+                          - listitem [ref=e606]:
+                            - generic [ref=e607]:
+                              - img [ref=e609]
+                              - generic [ref=e611]: Wake up calls
+                          - listitem [ref=e612]:
+                            - generic [ref=e613]:
+                              - img [ref=e615]
+                              - generic [ref=e617]: Housekeeping
+                              - generic [ref=e618]: daily
+                      - generic [ref=e619]:
+                        - heading "Wellness" [level=4] [ref=e620]:
+                          - generic [ref=e621]:
+                            - img [ref=e623]
+                            - generic [ref=e625]: Wellness
+                        - list [ref=e626]:
+                          - listitem [ref=e627]:
+                            - generic [ref=e628]:
+                              - img [ref=e630]
+                              - generic [ref=e632]: Fitness center
+                              - generic [ref=e633]: free
+                          - listitem [ref=e634]:
+                            - generic [ref=e635]:
+                              - img [ref=e637]
+                              - generic [ref=e639]: Elliptical machine
+                          - listitem [ref=e640]:
+                            - generic [ref=e641]:
+                              - img [ref=e643]
+                              - generic [ref=e645]: Treadmill
+                          - listitem [ref=e646]:
+                            - generic [ref=e647]:
+                              - img [ref=e649]
+                              - generic [ref=e651]: Weight machines
+                          - listitem [ref=e652]:
+                            - generic [ref=e653]:
+                              - img [ref=e655]
+                              - generic [ref=e657]: Free weights
+                          - listitem [ref=e658]:
+                            - generic [ref=e659]:
+                              - img [ref=e661]
+                              - generic [ref=e663]: Massage
+                          - listitem [ref=e664]:
+                            - generic [ref=e665]:
+                              - img [ref=e667]
+                              - generic [ref=e669]: No spa
+                      - generic [ref=e670]:
+                        - heading "Pets" [level=4] [ref=e671]:
+                          - generic [ref=e672]:
+                            - img [ref=e674]
+                            - generic [ref=e680]: Pets
+                        - list [ref=e681]:
+                          - listitem [ref=e682]:
+                            - generic [ref=e683]:
+                              - img [ref=e685]
+                              - generic [ref=e687]: No pets
+                      - generic [ref=e688]:
+                        - heading "Rooms" [level=4] [ref=e689]:
+                          - generic [ref=e690]:
+                            - img [ref=e692]
+                            - generic [ref=e694]: Rooms
+                        - list [ref=e695]:
+                          - listitem [ref=e696]:
+                            - generic [ref=e697]:
+                              - img [ref=e699]
+                              - generic [ref=e701]: Air conditioning
+                          - listitem [ref=e702]:
+                            - generic [ref=e703]:
+                              - img [ref=e705]
+                              - generic [ref=e707]: Kitchen in some rooms
+                          - listitem [ref=e708]:
+                            - generic [ref=e709]:
+                              - img [ref=e711]
+                              - generic [ref=e713]: Refrigerator
+                          - listitem [ref=e714]:
+                            - generic [ref=e715]:
+                              - img [ref=e717]
+                              - generic [ref=e719]: Microwave in some rooms
+                          - listitem [ref=e720]:
+                            - generic [ref=e721]:
+                              - img [ref=e723]
+                              - generic [ref=e725]: Coffee maker
+                          - listitem [ref=e726]:
+                            - generic [ref=e727]:
+                              - img [ref=e729]
+                              - generic [ref=e731]: Minibar
+                - generic [ref=e732]:
+                  - generic [ref=e733]:
+                    - heading "Sustainability" [level=2] [ref=e734]
+                    - button "Learn how we collect this information" [ref=e738]:
+                      - img
+                  - generic [ref=e743]:
+                    - img [ref=e745]
+                    - generic [ref=e748]:
+                      - text: This hotel is committed to environmental sustainability.
+                      - link "Learn more about sustainability in hotels" [ref=e749] [cursor=pointer]:
+                        - /url: https://support.google.com/travel?p=hotel_sustainability&hl=en_US
+                        - text: Learn more
+                  - generic [ref=e751]:
+                    - heading "Water conservation" [level=4] [ref=e752]:
+                      - generic [ref=e753]:
+                        - img [ref=e755]
+                        - generic [ref=e757]: Water conservation
+                    - list [ref=e758]:
+                      - listitem [ref=e759]:
+                        - generic [ref=e760]:
+                          - img [ref=e762]
+                          - generic [ref=e764]: Water-efficient faucets, toilets, and showers
+                      - listitem [ref=e765]:
+                        - generic [ref=e766]:
+                          - img [ref=e768]
+                          - generic [ref=e770]: Towel and linen reuse program
+        - generic [ref=e773]:
+          - generic [ref=e774]: City Garden Suites Manila
+          - generic [ref=e775]:
+            - generic [ref=e778] [cursor=pointer]:
+              - generic [ref=e780]: ₱3,797
+              - generic [ref=e781]: •
+              - generic [ref=e782]: May 20 – 22
+            - button "View prices" [ref=e784]:
+              - generic [ref=e787]: View prices
+    - generic [ref=e791]:
+      - generic:
+        - button "View larger map" [ref=e794] [cursor=pointer]:
+          - img [ref=e795]
+        - generic [ref=e798]:
+          - button "Zoom in map" [ref=e799] [cursor=pointer]:
+            - img [ref=e800]
+          - button "Zoom out map" [ref=e803] [cursor=pointer]:
+            - img [ref=e804]
+      - generic [ref=e806]:
+        - switch "Toggle reachability layer" [ref=e807] [cursor=pointer]:
+          - generic [ref=e812]:
+            - img [ref=e813]
+            - img [ref=e815]
+        - button "Off" [ref=e819]:
+          - generic [ref=e822]:
+            - img [ref=e823]
+            - generic [ref=e825]: "Off"
+            - img [ref=e826]
+        - generic:
+          - button "Walk":
+            - generic:
+              - img
+              - text: Walk
+          - button "Drive":
+            - generic:
+              - img
+              - text: Drive
+        - generic [ref=e834] [cursor=pointer]:
+          - slider "Reachability slider": "0"
+      - generic [ref=e837]:
+        - generic [ref=e839]:
+          - button "Transit" [ref=e840] [cursor=pointer]:
+            - img [ref=e843]
+          - tooltip [ref=e847]: Transit
+        - generic [ref=e849]:
+          - button "Areas for dining" [ref=e850] [cursor=pointer]:
+            - img [ref=e853]
+          - tooltip [ref=e855]: Areas for dining
+        - generic [ref=e857]:
+          - button "Attractions" [ref=e858] [cursor=pointer]:
+            - img [ref=e861]
+          - tooltip [ref=e863]: Attractions
+        - generic [ref=e865]:
+          - button "Areas for shopping" [ref=e866] [cursor=pointer]:
+            - img [ref=e869]
+          - tooltip [ref=e872]: Areas for shopping
+      - generic [ref=e874]:
+        - region "Map" [ref=e875]
+        - generic [ref=e876]:
+          - generic "City Garden Suites Manila, ₱3,797" [ref=e905]:
+            - generic [ref=e906]:
+              - generic [ref=e907]:
+                - img [ref=e909]
+                - generic [ref=e915]: ₱3,797
+              - img [ref=e916]
+          - iframe [ref=e919]:
+            
+  - generic [ref=e920]: Page loaded.

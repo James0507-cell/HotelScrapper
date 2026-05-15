@@ -1,0 +1,224 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e15]:
+        - generic:
+          - button "Skip to main content" [ref=e16]:
+            - generic: Skip to main content
+          - button "Accessibility feedback" [ref=e19]:
+            - generic: Accessibility feedback
+        - navigation [ref=e23]:
+          - link "Travel" [ref=e26]:
+            - img [ref=e29]
+            - generic: Travel
+          - link "Explore" [ref=e35]:
+            - img [ref=e38]
+            - generic: Explore
+          - link "Flights" [ref=e43]:
+            - img [ref=e46]
+            - generic: Flights
+          - link "Hotels" [ref=e51]:
+            - img [ref=e54]
+            - generic: Hotels
+          - link "Vacation rentals" [ref=e62]:
+            - img [ref=e65]
+            - generic: Vacation rentals
+      - generic [ref=e74]:
+        - button "Google apps" [ref=e78] [cursor=pointer]:
+          - img [ref=e79]
+        - link "Sign in" [ref=e82] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3DHotels%2520in%2520Manila%26qs%3DCAEyKENob1FzYzYtbTVlUHRvblFBUm9OTDJjdk1URnVhSGhzZURadWVoQUM4AEgA%26ts%3DCAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA%26ap%3DMAG6AQdkZXRhaWxz%26ved%3D0CAAQ5JsGahcKEwiw_LTSxruUAxUAAAAAHQAAAAAQBA%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3DHotels%2520in%2520Manila%26qs%3DCAEyKENob1FzYzYtbTVlUHRvblFBUm9OTDJjdk1URnVhSGhzZURadWVoQUM4AEgA%26ts%3DCAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA%26ap%3DMAG6AQdkZXRhaWxz%26ved%3D0CAAQ5JsGahcKEwiw_LTSxruUAxUAAAAAHQAAAAAQBA%26utm_source%3Dsign_in_ogb&ec=GAZAlQM
+  - generic [ref=e88]:
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - heading "Manila Condominium Apartment Staycation long stay accepted Malate bay area nightlife and city center" [level=1] [ref=e119]
+        - generic [ref=e121]:
+          - generic:
+            - button "Back to list of all results":
+              - generic: Back to list of all results
+          - link "Open Manila Condominium Apartment Staycation long stay accepted Malate bay area nightlife and city center in a new tab." [ref=e122] [cursor=pointer]:
+            - /url: /travel/hotels/entity/ChoQsc6-m5ePtonQARoNL2cvMTFuaHhseDZuehAC?q=Hotels%20in%20Manila&qs=CAE4AEgA&ts=CAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA&ap=MAE&ved=2ahUKEwjz8-3RxruUAxWlhWYCHUWYAYwQvukIegQIAxAC
+            - generic [ref=e123]:
+              - button "Open Manila Condominium Apartment Staycation long stay accepted Malate bay area nightlife and city center in a new tab." [ref=e124]:
+                - img [ref=e125]
+              - tooltip [ref=e127]: Open Manila Condominium Apartment Staycation long stay accepted Malate bay area nightlife and city center in a new tab.
+          - button "Close" [ref=e131]:
+            - generic [ref=e135]:
+              - img [ref=e137]
+              - generic [ref=e140]: Close
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - tablist [ref=e147]:
+            - tab "Overview" [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]: Overview
+            - tab "Prices" [ref=e150] [cursor=pointer]:
+              - generic [ref=e151]: Prices
+            - tab "Reviews" [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]: Reviews
+            - tab "Photos" [ref=e154] [cursor=pointer]:
+              - generic [ref=e155]: Photos
+            - tab "About" [active] [selected] [ref=e156] [cursor=pointer]:
+              - generic [ref=e157]: About
+          - generic [ref=e160]:
+            - text: · · · · · · · · · · · ·
+            - tabpanel [ref=e161]:
+              - generic [ref=e167]:
+                - generic [ref=e168]:
+                  - heading "Details" [level=2] [ref=e169]
+                  - text: Situated right in the heart of Manila, Manila Condominium Apartment Staycation long stay accepted Malate bay area nightlife and city center features a private pool and free WiFi. Guests staying at this apartment have access to a fully equipped kitchenette. The property is non-smoking and is set 700 metres from Manila Bay Beach.This 1-bedroom apartment will provide you with a flat-screen TV, air conditioning and a living room.Guests can relax in the garden at the property.Intramuros is 2.5 km from the apartment, while Rizal Park is 1.3 km from the property. Ninoy Aquino International Airport is 9 km away.
+                  - generic [ref=e172]:
+                    - img [ref=e174]
+                    - generic [ref=e176]: Website
+                    - link "Website" [ref=e177] [cursor=pointer]:
+                      - /url: /url?sa=i&source=web&rct=j&url=https://www.booking.com/hotel/ph/adriatico-manila-condominum.en-gb.html?aid%3D2068758%26utm_source%3Dseogooglelocal%26utm_medium%3Ddescription%26utm_term%3Dhotel-16069269%26utm_campaign%3Den-gb%26label%3Dseogooglelocal-link-imagesaow-hotel-16069269_grp-1_gendate-20260503&ved=2ahUKEwjz8-3RxruUAxWlhWYCHUWYAYwQyK4DegUIAxCJAQ&opi=106273886&cd&psig=AOvVaw00JKXtxxGDdclv4iXm2LuG&ust=1778943377201000
+                - generic [ref=e179]:
+                  - heading "Essential info" [level=2] [ref=e180]
+                  - generic [ref=e182]:
+                    - img [ref=e184]
+                    - generic "Entire apartment" [ref=e187]
+                  - generic [ref=e189]:
+                    - img [ref=e191]
+                    - generic "Sleeps 5" [ref=e195]
+                  - generic [ref=e197]:
+                    - img [ref=e199]
+                    - generic "1 bathroom" [ref=e203]
+                  - generic [ref=e205]:
+                    - img [ref=e207]
+                    - generic "2 beds" [ref=e210]
+                  - generic [ref=e212]:
+                    - img [ref=e214]
+                    - generic "47 sq m" [ref=e217]
+                - generic [ref=e218]:
+                  - heading "Policies" [level=2] [ref=e219]
+                  - generic [ref=e220]: "Check-in time: 2:00 PM"
+                  - generic [ref=e221]: "Check-out time: 12:00 PM"
+                  - generic [ref=e222]: Final booking confirmation might require host approval
+                - generic [ref=e224]:
+                  - heading "Amenities" [level=2] [ref=e225]
+                  - generic [ref=e227]:
+                    - img [ref=e229]
+                    - generic "Air conditioning" [ref=e232]
+                  - generic [ref=e234]:
+                    - img [ref=e236]
+                    - generic "Heating" [ref=e239]
+                  - generic [ref=e241]:
+                    - img [ref=e243]
+                    - generic "No crib" [ref=e246]
+                  - generic [ref=e248]:
+                    - img [ref=e250]
+                    - generic "No elevator" [ref=e253]
+                  - generic [ref=e255]:
+                    - img [ref=e257]
+                    - generic "No fitness center" [ref=e260]
+                  - generic [ref=e262]:
+                    - img [ref=e264]
+                    - generic "No ironing board" [ref=e267]
+                  - generic [ref=e269]:
+                    - img [ref=e271]
+                    - generic "No kitchen" [ref=e274]
+                  - generic [ref=e276]:
+                    - img [ref=e278]
+                    - generic "No microwave" [ref=e281]
+                  - generic [ref=e283]:
+                    - img [ref=e285]
+                    - generic "No outdoor grill" [ref=e288]
+                  - generic [ref=e290]:
+                    - img [ref=e292]
+                    - generic "No oven stove" [ref=e295]
+                  - generic [ref=e297]:
+                    - img [ref=e299]
+                    - generic "No patio" [ref=e302]
+                  - generic [ref=e304]:
+                    - img [ref=e306]
+                    - generic "Not pet-friendly" [ref=e309]
+                  - generic [ref=e311]:
+                    - img [ref=e313]
+                    - generic "Not smoke-free" [ref=e316]
+                  - generic [ref=e318]:
+                    - img [ref=e320]
+                    - generic "No cable TV" [ref=e323]
+                  - generic [ref=e325]:
+                    - img [ref=e327]
+                    - generic "No washer" [ref=e330]
+                  - generic [ref=e332]:
+                    - img [ref=e334]
+                    - generic "Not wheelchair accessible" [ref=e337]
+                - generic [ref=e338]:
+                  - heading "Sources include:" [level=3] [ref=e339]
+                  - link "Booking.com, Open in new tab" [ref=e341] [cursor=pointer]:
+                    - /url: https://www.booking.com/hotel/ph/adriatico-manila-condominum.en-gb.html?aid=2068758&utm_source=seogooglelocal&utm_medium=description&utm_term=hotel-16069269&utm_campaign=en-gb&label=seogooglelocal-link-imagesaow-hotel-16069269_grp-1_gendate-20260503
+                    - text: Booking.com
+                    - img [ref=e343]
+        - generic [ref=e347]:
+          - generic [ref=e348]: Manila Condominium Apartment Staycation long stay accepted Malate bay area nightlife and city center
+          - generic [ref=e349]:
+            - generic [ref=e352] [cursor=pointer]:
+              - generic [ref=e354]: ₱2,720
+              - generic [ref=e355]: •
+              - generic [ref=e356]: May 20 – 22
+            - generic [ref=e361]:
+              - generic [ref=e363]: Visit website
+              - link "Visit website" [ref=e364] [cursor=pointer]:
+                - /url: /travel/clk?pc=AA80OswD5i3SuTd2YCuSVacQWL6p4GUsZGva6QNxJAi4Bs6SqkZW7e8ifJ_dfsdTZx1kCp4zEt9yXayygumJ56Z2ajYKv0IC3m6lIgPDGgKs43rkUB0wOXyN9eyW8b9QBZuTZrjpAtE2C7QqNu5HwUtaL3PgbTPNqf0sNHY2u8xa1twpiJOtWHF2F6gjAw&pcurl=https://www.booking.com/hotel/ph/adriatico-manila-condominum.html?checkin%3D2026-05-20%26checkout%3D2026-05-22%26group_adults%3D3%26req_adults%3D3%26show_room%3D1606926901_431631993_4_0_0%26lang%3Den%26selected_currency%3DPHP%26exrt%3D1.00000000%26ext_price_total%3D5440.50%26ext_price_tax%3D1090.00%26xfc%3DPHP%26hca%3Dv%26group_children%3D0%26req_children%3D0%26%26no_rooms%3D1%26ts%3D1778837646%26edgtid%3DBzyfh8rnRxqZ4sVVG3aLsA%26efpc%3DRFm1SlRAtkp0%26utm_source%3Dmetagha%26utm_medium%3Dlocaluniversal%26utm_campaign%3DPH%26utm_term%3Dhotel-16069269%26utm_content%3Ddev-desktop_los-2_bw-5_dow-Wednesday_defdate-0_room-0_gstadt-3_rateid-public_aud-0_gacid-_mcid-50_bc-APUylQ_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20260520_ppt-FbB%26aid%3D2040296%26label%3Dmetagha-link-LUPH-hotel-16069269_dev-desktop_los-2_bw-5_dow-Wednesday_defdate-0_room-0_gstadt-3_rateid-public_aud-0_gacid-_mcid-50_bc-APUylQ_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20260520_ppt-FbB&s=AD1XQnmwgQGwk6MB4iyoDXiVRlma&ap=1
+    - generic [ref=e368]:
+      - generic:
+        - button "View larger map" [ref=e371] [cursor=pointer]:
+          - img [ref=e372]
+        - generic [ref=e375]:
+          - button "Zoom in map" [ref=e376] [cursor=pointer]:
+            - img [ref=e377]
+          - button "Zoom out map" [ref=e380] [cursor=pointer]:
+            - img [ref=e381]
+      - generic [ref=e383]:
+        - switch "Toggle reachability layer" [ref=e384] [cursor=pointer]:
+          - generic [ref=e389]:
+            - img [ref=e390]
+            - img [ref=e392]
+        - button "Off" [ref=e396]:
+          - generic [ref=e399]:
+            - img [ref=e400]
+            - generic [ref=e402]: "Off"
+            - img [ref=e403]
+        - generic:
+          - button "Walk":
+            - generic:
+              - img
+              - text: Walk
+          - button "Drive":
+            - generic:
+              - img
+              - text: Drive
+        - generic [ref=e411] [cursor=pointer]:
+          - slider "Reachability slider": "0"
+      - generic [ref=e414]:
+        - generic [ref=e416]:
+          - button "Transit" [ref=e417] [cursor=pointer]:
+            - img [ref=e420]
+          - tooltip [ref=e424]: Transit
+        - generic [ref=e426]:
+          - button "Areas for dining" [ref=e427] [cursor=pointer]:
+            - img [ref=e430]
+          - tooltip [ref=e432]: Areas for dining
+        - generic [ref=e434]:
+          - button "Attractions" [ref=e435] [cursor=pointer]:
+            - img [ref=e438]
+          - tooltip [ref=e440]: Attractions
+        - generic [ref=e442]:
+          - button "Areas for shopping" [ref=e443] [cursor=pointer]:
+            - img [ref=e446]
+          - tooltip [ref=e449]: Areas for shopping
+      - generic [ref=e451]:
+        - region "Map" [ref=e452]
+        - generic [ref=e453]:
+          - generic "Manila Condominium Apartment Staycation long stay accepted Malate bay area nightlife and city center, ₱2,720" [ref=e506]:
+            - generic [ref=e508]:
+              - img [ref=e510]
+              - generic [ref=e518]: ₱2,720
+          - iframe [ref=e519]:
+            
+  - generic [ref=e520]: Page loaded.

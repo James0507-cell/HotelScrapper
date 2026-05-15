@@ -1,0 +1,407 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e15]:
+        - generic:
+          - button "Skip to main content" [ref=e16]:
+            - generic: Skip to main content
+          - button "Accessibility feedback" [ref=e19]:
+            - generic: Accessibility feedback
+        - navigation [ref=e23]:
+          - link "Travel" [ref=e26]:
+            - img [ref=e29]
+            - generic: Travel
+          - link "Explore" [ref=e35]:
+            - img [ref=e38]
+            - generic: Explore
+          - link "Flights" [ref=e43]:
+            - img [ref=e46]
+            - generic: Flights
+          - link "Hotels" [ref=e51]:
+            - img [ref=e54]
+            - generic: Hotels
+          - link "Vacation rentals" [ref=e62]:
+            - img [ref=e65]
+            - generic: Vacation rentals
+      - generic [ref=e74]:
+        - button "Google apps" [ref=e78] [cursor=pointer]:
+          - img [ref=e79]
+        - link "Sign in" [ref=e82] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3DHotels%2520in%2520Manila%26qs%3DCAEyKENob1FqYVRNXy16OXplZlBBUm9OTDJjdk1URjZOV05uZG5wa2NSQUM4AEgA%26ts%3DCAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA%26ap%3DMAE%26ved%3D0CAAQ5JsGahcKEwjIx4CnwLuUAxUAAAAAHQAAAAAQBA%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3DHotels%2520in%2520Manila%26qs%3DCAEyKENob1FqYVRNXy16OXplZlBBUm9OTDJjdk1URjZOV05uZG5wa2NSQUM4AEgA%26ts%3DCAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA%26ap%3DMAE%26ved%3D0CAAQ5JsGahcKEwjIx4CnwLuUAxUAAAAAHQAAAAAQBA%26utm_source%3Dsign_in_ogb&ec=GAZAlQM
+  - generic [ref=e88]:
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - heading "Sorrel Residences- 2 Bedroom Apartment" [level=1] [ref=e119]
+        - generic [ref=e121]:
+          - generic:
+            - button "Back to list of all results":
+              - generic: Back to list of all results
+          - link "Open Sorrel Residences- 2 Bedroom Apartment in a new tab." [ref=e122] [cursor=pointer]:
+            - /url: /travel/hotels/entity/ChoQjaTM_-z9zefPARoNL2cvMTF6NWNndnpkcRAC?q=Hotels%20in%20Manila&qs=CAE4AEgA&ts=CAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA&ap=MAE&ved=2ahUKEwiqnLumwLuUAxWvh2YCHRxrIsAQvukIegQIAxAC
+            - generic [ref=e123]:
+              - button "Open Sorrel Residences- 2 Bedroom Apartment in a new tab." [ref=e124]:
+                - img [ref=e125]
+              - tooltip [ref=e127]: Open Sorrel Residences- 2 Bedroom Apartment in a new tab.
+          - button "Close" [ref=e131]:
+            - generic [ref=e135]:
+              - img [ref=e137]
+              - generic [ref=e140]: Close
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - tablist [ref=e147]:
+            - tab "Overview" [active] [selected] [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]: Overview
+            - tab "Prices" [ref=e151] [cursor=pointer]:
+              - generic [ref=e152]: Prices
+            - tab "Reviews" [ref=e153] [cursor=pointer]:
+              - generic [ref=e154]: Reviews
+            - tab "Photos" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: Photos
+            - tab "About" [ref=e157] [cursor=pointer]:
+              - generic [ref=e158]: About
+          - generic [ref=e160]:
+            - tabpanel [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e165]:
+                  - generic [ref=e166]:
+                    - generic [ref=e169]:
+                      - generic [ref=e171]:
+                        - img [ref=e173]
+                        - generic "Entire apartment" [ref=e176]
+                      - generic [ref=e178]:
+                        - img [ref=e180]
+                        - generic "Sleeps 6" [ref=e184]
+                      - generic [ref=e186]:
+                        - img [ref=e188]
+                        - generic "2 bedrooms" [ref=e192]
+                      - generic [ref=e194]:
+                        - img [ref=e196]
+                        - generic "1 bathroom" [ref=e200]
+                      - generic [ref=e202]:
+                        - img [ref=e204]
+                        - generic "5 beds" [ref=e207]
+                      - generic [ref=e209]:
+                        - img [ref=e211]
+                        - generic "48 sq m" [ref=e214]
+                    - button "₱2,439 for dates May 20 – 22, Sorrel Residences- 2 Bedroom Apartment" [ref=e220]:
+                      - generic [ref=e222]:
+                        - generic [ref=e223]: ₱2,439
+                        - generic [ref=e224]: May 20 – 22
+                  - generic [ref=e225]:
+                    - img "3.6 out of 5 stars from 6 reviews" [ref=e226]:
+                      - generic [ref=e227]:
+                        - generic [ref=e228]: "3.6"
+                        - generic [ref=e229]:
+                          - generic [ref=e230]:
+                            - img [ref=e232]
+                            - img [ref=e235]
+                            - img [ref=e238]
+                            - img [ref=e241]
+                            - img [ref=e244]
+                          - generic [ref=e246]:
+                            - img [ref=e248]
+                            - img [ref=e251]
+                            - img [ref=e254]
+                            - img [ref=e257]
+                        - generic [ref=e259]: (6)
+                    - button "Learn more about these reviews" [ref=e263]:
+                      - img
+                  - generic [ref=e266]:
+                    - generic [ref=e268]:
+                      - img [ref=e270]
+                      - generic [ref=e272]: Website
+                      - link "Visit site for Sorrel Residences- 2 Bedroom Apartment" [ref=e273] [cursor=pointer]:
+                        - /url: https://www.booking.com/hotel/ph/sorrel-residences-2-bedroom-apartment.en-gb.html?aid=2068758&utm_source=seogooglelocal&utm_medium=description&utm_term=hotel-12015283&utm_campaign=en-gb&label=seogooglelocal-link-imagesaow-hotel-12015283_grp-3_gendate-20260503
+                    - button "Share" [ref=e276]:
+                      - img [ref=e279]
+                      - generic [ref=e281]: Share
+                - generic [ref=e285]:
+                  - list "Photos" [ref=e289]:
+                    - listitem [ref=e290] [cursor=pointer]:
+                      - img "Photo 1" [ref=e291]
+                    - listitem [ref=e292] [cursor=pointer]:
+                      - img "Photo 2" [ref=e293]
+                    - listitem [ref=e294] [cursor=pointer]:
+                      - img "Photo 3" [ref=e295]
+                  - button "View more photos" [ref=e296]:
+                    - img [ref=e299]
+                    - text: View more photos
+                - generic [ref=e303]:
+                  - generic [ref=e304]:
+                    - generic [ref=e307]:
+                      - generic [ref=e308]: Check-in
+                      - generic [ref=e310]:
+                        - textbox "Check-in" [ref=e311]: Wed, May 20
+                        - button [ref=e314]:
+                          - img [ref=e317]
+                        - button [ref=e321]:
+                          - img [ref=e324]
+                      - generic [ref=e327]: Check-out
+                      - generic [ref=e329]:
+                        - textbox "Check-out" [ref=e330]: Fri, May 22
+                        - button [ref=e333]:
+                          - img [ref=e336]
+                        - button [ref=e340]:
+                          - img [ref=e343]
+                    - button "Number of travelers. Current number of travelers is 3." [ref=e350] [cursor=pointer]:
+                      - img [ref=e351]
+                      - generic [ref=e353]: "3"
+                      - img [ref=e354]
+                    - button "Price displayedNightly total" [ref=e360]:
+                      - generic [ref=e363]: Nightly total
+                      - img [ref=e365]
+                  - link "Booking.com Earn Genius rewards ₱2,439 ₱4,877 total Visit site for Booking.com" [ref=e379] [cursor=pointer]:
+                    - /url: /travel/clk?pc=AA80Osy7UUkTwbXI9Ve93qXQ7__cTM9cVtoSucfn7ELBF42sdEx1O8_qWOstept3H5z1M0PwoFP-Txb1CaOG49B5y7SrCIu_VKstHcFgdNdZvSzS5GqdDiIitHpVveL_xGGvKdDteIOJVH-wGh8bvZ-NkSRy6RP7s8mvh3_D7fKLWiIRvVmNii6ORLxO8w&pcurl=https://www.booking.com/hotel/ph/sorrel-residences-2-bedroom-apartment.html?checkin%3D2026-05-20%26checkout%3D2026-05-22%26group_adults%3D3%26req_adults%3D3%26show_room%3D1201528301_392421275_3_0_0%26lang%3Den%26selected_currency%3DPHP%26exrt%3D1.00000000%26ext_price_total%3D4877.00%26ext_price_tax%3D580.75%26xfc%3DPHP%26hca%3Dv%26group_children%3D0%26req_children%3D0%26%26no_rooms%3D1%26ts%3D1778775545%26edgtid%3DcSCKXRFFTQqmBnmYprXDpw%26efpc%3DQ1S1akh3sRp0%26utm_source%3Dmetagha%26utm_medium%3Dlocaluniversal%26utm_campaign%3DPH%26utm_term%3Dhotel-12015283%26utm_content%3Ddev-desktop_los-2_bw-5_dow-Wednesday_defdate-0_room-0_gstadt-3_rateid-public_aud-0_gacid-_mcid-50_bc-ALdWsw_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20260520_ppt-B%26aid%3D2040296%26label%3Dmetagha-link-LUPH-hotel-12015283_dev-desktop_los-2_bw-5_dow-Wednesday_defdate-0_room-0_gstadt-3_rateid-public_aud-0_gacid-_mcid-50_bc-ALdWsw_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20260520_ppt-B&s=AD1XQnkXtm2I1Fh8wGBzSpATzaUZ
+                    - generic [ref=e380]:
+                      - generic [ref=e382]:
+                        - generic [ref=e384]: Booking.com
+                        - generic [ref=e389]: Earn Genius rewards
+                      - generic [ref=e393]:
+                        - text: ₱2,439
+                        - generic [ref=e394]: ₱4,877 total
+                      - button "Visit site for Booking.com" [ref=e396]:
+                        - generic [ref=e398]: Visit site
+                - generic [ref=e402]:
+                  - generic [ref=e403]:
+                    - heading "Review summary from travel sites" [level=2] [ref=e404]
+                    - generic [ref=e405]:
+                      - text: Reviews aren't verified
+                      - button "Learn more about these reviews" [ref=e409]:
+                        - img
+                  - generic "3.6 out of 5 stars from 6 reviews. Good." [ref=e415]:
+                    - generic [ref=e416]: "3.6"
+                    - generic [ref=e417]:
+                      - generic [ref=e418]: Good
+                      - generic [ref=e420]:
+                        - generic [ref=e421]:
+                          - img [ref=e423]
+                          - img [ref=e426]
+                          - img [ref=e429]
+                          - img [ref=e432]
+                          - img [ref=e435]
+                        - generic [ref=e437]:
+                          - img [ref=e439]
+                          - img [ref=e442]
+                          - img [ref=e445]
+                          - img [ref=e448]
+                      - generic [ref=e450]: 6 reviews
+                  - button "View more reviews" [ref=e454]:
+                    - generic [ref=e456]: View more reviews
+                - generic [ref=e458]:
+                  - heading "Photos" [level=2] [ref=e460]
+                  - button "View all photos" [ref=e464]:
+                    - generic [ref=e466]: View all photos
+                - generic [ref=e468]:
+                  - heading "About this property" [level=2] [ref=e470]
+                  - generic [ref=e471]:
+                    - generic [ref=e472]: Boasting accommodation with a terrace, Sorrel Residences- 2 Bedroom Apartment is set in Manila. Free WiFi is offered throughout the property and private parking is available on site. The property is non-smoking and is situated 2.8 km from Malacanang Palace.The air-conditioned apartment is composed of 2 separate bedrooms, a living room, a fully equipped kitchen, and 1 bathroom. A flat-screen TV is provided.Guests can relax in the garden at the property.Smart Araneta Coliseum is 5.4 km from the apartment, while Shangri-La Plaza is 5.8 km from the property. Ninoy Aquino International Airport is 12 km away.
+                    - generic [ref=e473]:
+                      - generic [ref=e475]:
+                        - img [ref=e477]
+                        - generic "Air conditioning" [ref=e480]
+                      - generic [ref=e482]:
+                        - img [ref=e484]
+                        - generic "Kitchen" [ref=e488]
+                      - generic [ref=e490]:
+                        - img [ref=e492]
+                        - generic "Smoke-free" [ref=e496]
+                      - generic [ref=e498]:
+                        - img [ref=e500]
+                        - generic "Washer" [ref=e506]
+                  - button "View more property details" [ref=e509]:
+                    - generic [ref=e511]: View more property details
+                - generic [ref=e514]:
+                  - heading "Vacation rentals nearby" [level=2] [ref=e516]
+                  - list [ref=e521]:
+                    - listitem [ref=e522]:
+                      - link "₱4,052 Maui Oasis 2-BR Condo FREE Secured Parking 2 bedrooms·Sleeps 6 1.5 km away":
+                        - /url: /travel/search?q=Hotels%20in%20Manila&qs=CAEyNkNpUUlqSkdvNThtbXJJTk5FSXZhbk1hY3c1S0g4QUVhRFM5bkx6RXhjM05uWTE4NGRsOFFBZzgASAA&ts=CAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA&ap=MAE&ved=2ahUKEwiqnLumwLuUAxWvh2YCHRxrIsAQv6wDKAB6BAgDEDs
+                        - generic [ref=e523] [cursor=pointer]:
+                          - generic [ref=e525]: ₱4,052
+                          - generic [ref=e526]:
+                            - generic [ref=e527]: Maui Oasis 2-BR Condo FREE Secured Parking
+                            - generic [ref=e528]:
+                              - generic [ref=e529]: 2 bedrooms·Sleeps 6
+                              - generic [ref=e530]: 1.5 km away
+                    - listitem [ref=e531]:
+                      - link "₱3,746 MANILA HOMESTAY- COZY 1BR - NEAR UST/SM SANLAZARO 1 bedroom·Sleeps 8 4 km away":
+                        - /url: /travel/search?q=Hotels%20in%20Manila&qs=CAEyNENpTUk3UHZZaVpTZTlZVl9FTVNzdl95OThNMjJSaG9OTDJjdk1URjRPVFp3Y1dSMk5SQUM4AEgA&ts=CAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA&ap=MAE&ved=2ahUKEwiqnLumwLuUAxWvh2YCHRxrIsAQv6wDKAF6BAgDED0
+                        - generic [ref=e532] [cursor=pointer]:
+                          - generic [ref=e534]: ₱3,746
+                          - generic [ref=e535]:
+                            - generic [ref=e536]: MANILA HOMESTAY- COZY 1BR - NEAR UST/SM SANLAZARO
+                            - generic [ref=e537]:
+                              - generic [ref=e538]: 1 bedroom·Sleeps 8
+                              - generic [ref=e539]: 4 km away
+                    - listitem [ref=e540]:
+                      - link "₱1,450 Staycation NETFLIX WIFI THOUSAND CABLE CHANNELS GAMES AND BOARD GAMES FIBER NET COZY COMFY STAY RELAX - One-Bedroom Apartment Sleeps 6 3.5 km away":
+                        - /url: /travel/search?q=Hotels%20in%20Manila&qs=CAEyN0NpVUktWWlfelB6dDNxQ1pBUkRSbmZuYm83UFhwYklCR2cwdlp5OHhNWFk1YkdNNWNubzFFQUk4AEgA&ts=CAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA&ap=MAE&ved=2ahUKEwiqnLumwLuUAxWvh2YCHRxrIsAQv6wDKAJ6BAgDED8
+                        - generic [ref=e541] [cursor=pointer]:
+                          - generic [ref=e543]: ₱1,450
+                          - generic [ref=e544]:
+                            - generic [ref=e545]: Staycation NETFLIX WIFI THOUSAND CABLE CHANNELS GAMES AND BOARD GAMES FIBER NET COZY COMFY STAY RELAX - One-Bedroom Apartment
+                            - generic [ref=e546]:
+                              - generic [ref=e547]: Sleeps 6
+                              - generic [ref=e548]: 3.5 km away
+                    - listitem [ref=e549]:
+                      - link "₱2,788 One BEDROOM Apartment ,Cubao,Quezon City 250011 Sleeps 5 4.5 km away":
+                        - /url: /travel/search?q=Hotels%20in%20Manila&qs=CAEyNENpTUk1YURveGY3U21yeE1FUHJ3ckp1X2dydUhlQm9OTDJjdk1URjVjamhuZVd0ck1CQUM4AEgA&ts=CAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA&ap=MAE&ved=2ahUKEwiqnLumwLuUAxWvh2YCHRxrIsAQv6wDKAN6BAgDEEE
+                        - generic [ref=e550] [cursor=pointer]:
+                          - generic [ref=e552]: ₱2,788
+                          - generic [ref=e553]:
+                            - generic [ref=e554]: One BEDROOM Apartment ,Cubao,Quezon City 250011
+                            - generic [ref=e555]:
+                              - generic [ref=e556]: Sleeps 5
+                              - generic [ref=e557]: 4.5 km away
+                    - listitem [ref=e558]:
+                      - link "Fully Furnished Condo Across SM Mall with Unli WIFI and QUEEN BED size 1 bedroom·Sleeps 4 0.75 km away":
+                        - /url: /travel/search?q=Hotels%20in%20Manila&qs=CAEyN0NpVUlscHVPbmNyQmxvVGpBUkNRLWYtLW9LTE9scFFCR2cwdlp5OHhNV3R5WW5abk5XWnpFQUk4AEgA&ts=CAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA&ap=MAE&ved=2ahUKEwiqnLumwLuUAxWvh2YCHRxrIsAQv6wDKAR6BAgDEEM
+                        - generic [ref=e561] [cursor=pointer]:
+                          - generic [ref=e562]: Fully Furnished Condo Across SM Mall with Unli WIFI and QUEEN BED size
+                          - generic [ref=e563]:
+                            - generic [ref=e564]: 1 bedroom·Sleeps 4
+                            - generic [ref=e565]: 0.75 km away
+                    - listitem [ref=e566]:
+                      - link "Perfectly Located Cozy Newly Interiored Condo Near MOA, Star City Pasay Manila Sleeps 4 2 km away":
+                        - /url: /travel/search?q=Hotels%20in%20Manila&qs=CAEyNkNpUUlfcW14MnBHQjFQRUZFTGowNnBxVl9MMlJ6Z0VhRFM5bkx6RXhkbmgwWDJ3NE5UWVFBZzgASAA&ts=CAESDgoCCAMKAggDCgIIAxABGlEKMxIvMiUweDMzOTdjYTAzNTcxZWMzOGI6MHg2OWQxZDU3NTEwNjljMTFmOgZNYW5pbGEaABIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAEqCQoFOgNQSFAaAA&ap=MAE&ved=2ahUKEwiqnLumwLuUAxWvh2YCHRxrIsAQv6wDKAV6BAgDEEQ
+                        - generic [ref=e569] [cursor=pointer]:
+                          - generic [ref=e570]: Perfectly Located Cozy Newly Interiored Condo Near MOA, Star City Pasay Manila
+                          - generic [ref=e571]:
+                            - generic [ref=e572]: Sleeps 4
+                            - generic [ref=e573]: 2 km away
+              - generic [ref=e575]:
+                - generic [ref=e576]:
+                  - heading "Frequently asked questions about Sorrel Residences- 2 Bedroom Apartment" [level=2] [ref=e577]
+                  - generic [ref=e579] [cursor=pointer]:
+                    - generic [ref=e580]: What are the check-in and check-out times for Sorrel Residences- 2 Bedroom Apartment?
+                    - button "Toggle answer visibility" [ref=e583]:
+                      - img [ref=e586]
+                - generic [ref=e588]:
+                  - heading "Vacation rentals nearby" [level=2] [ref=e589]
+                  - generic [ref=e590]:
+                    - generic [ref=e591]:
+                      - link "Maui Oasis 2-BR Condo FREE Secured Parking" [ref=e592] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/CiQIjJGo58mmrINNEIvanMacw5KH8AEaDS9nLzExc3NnY184dl8QAg
+                      - link "MANILA HOMESTAY- COZY 1BR - NEAR UST/SM SANLAZARO" [ref=e593] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/CiMI7PvYiZSe9YV_EMSsv_y98M22RhoNL2cvMTF4OTZwcWR2NRAC
+                      - link "Staycation NETFLIX WIFI THOUSAND CABLE CHANNELS GAMES AND BOARD GAMES FIBER NET COZY COMFY STAY RELAX - One-Bedroom Apartment" [ref=e594] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/CiUI-Yi_zPzt3qCZARDRnfnbo7PXpbIBGg0vZy8xMXY5bGM5cno1EAI
+                    - generic [ref=e595]:
+                      - link "One BEDROOM Apartment ,Cubao,Quezon City 250011" [ref=e596] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/CiMI5aDoxf7SmrxMEPrwrJu_gruHeBoNL2cvMTF5cjhneWtrMBAC
+                      - link "Fully Furnished Condo Across SM Mall with Unli WIFI and QUEEN BED size" [ref=e597] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/CiUIlpuOncrBloTjARCQ-f--oKLOlpQBGg0vZy8xMWtyYnZnNWZzEAI
+                      - link "Perfectly Located Cozy Newly Interiored Condo Near MOA, Star City Pasay Manila" [ref=e598] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/CiQI_qmx2pGB1PEFELj06pqV_L2RzgEaDS9nLzExdnh0X2w4NTYQAg
+              - contentinfo [ref=e602]:
+                - button "Currency·PHP" [ref=e605]:
+                  - generic [ref=e607]: Currency·PHP
+                  - img [ref=e608]
+                - generic [ref=e610]:
+                  - generic [ref=e611]: Talomo, Davao City, Philippines - From your Internet address
+                  - link "Learn more about location link" [ref=e613] [cursor=pointer]:
+                    - /url: https://support.google.com/websearch/answer/179386?gl=PH&hl=en-US
+                    - text: Learn more
+                - generic [ref=e614]:
+                  - link "About Google Travel" [ref=e615] [cursor=pointer]:
+                    - /url: https://about.google/?hl=en-US
+                    - text: About
+                  - link "Privacy" [ref=e616] [cursor=pointer]:
+                    - /url: https://policies.google.com/privacy?hl=en-US
+                  - link "Terms" [ref=e617] [cursor=pointer]:
+                    - /url: https://policies.google.com/terms?hl=en-US
+                  - link "Join user studies" [ref=e618] [cursor=pointer]:
+                    - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ1%26productTag%3Dothr%26campaignDate%3DMarch2020%26referral_code%3DUXDT415223&Q_Language=en-US
+                  - link "Feedback" [ref=e619] [cursor=pointer]:
+                    - /url: ./#0
+                  - link "Pricing issues" [ref=e620] [cursor=pointer]
+                  - link "Help Center" [ref=e621] [cursor=pointer]:
+                    - /url: https://support.google.com/travel/?hl=en-US#topic=
+                - paragraph [ref=e623]:
+                  - text: Displayed currencies may differ from the currencies used to book properties.
+                  - link "Learn more about currencies" [ref=e624] [cursor=pointer]:
+                    - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PH
+                    - text: Learn more
+            - text: · · · ·
+        - generic [ref=e627]:
+          - generic [ref=e628]: Sorrel Residences- 2 Bedroom Apartment
+          - generic [ref=e629]:
+            - generic [ref=e632] [cursor=pointer]:
+              - generic [ref=e634]: ₱2,439
+              - generic [ref=e635]: •
+              - generic [ref=e636]: May 20 – 22
+            - generic [ref=e641]:
+              - generic [ref=e643]: Visit website
+              - link "Visit website" [ref=e644] [cursor=pointer]:
+                - /url: /travel/clk?pc=AA80Osy7UUkTwbXI9Ve93qXQ7__cTM9cVtoSucfn7ELBF42sdEx1O8_qWOstept3H5z1M0PwoFP-Txb1CaOG49B5y7SrCIu_VKstHcFgdNdZvSzS5GqdDiIitHpVveL_xGGvKdDteIOJVH-wGh8bvZ-NkSRy6RP7s8mvh3_D7fKLWiIRvVmNii6ORLxO8w&pcurl=https://www.booking.com/hotel/ph/sorrel-residences-2-bedroom-apartment.html?checkin%3D2026-05-20%26checkout%3D2026-05-22%26group_adults%3D3%26req_adults%3D3%26show_room%3D1201528301_392421275_3_0_0%26lang%3Den%26selected_currency%3DPHP%26exrt%3D1.00000000%26ext_price_total%3D4877.00%26ext_price_tax%3D580.75%26xfc%3DPHP%26hca%3Dv%26group_children%3D0%26req_children%3D0%26%26no_rooms%3D1%26ts%3D1778775545%26edgtid%3DcSCKXRFFTQqmBnmYprXDpw%26efpc%3DQ1S1akh3sRp0%26utm_source%3Dmetagha%26utm_medium%3Dlocaluniversal%26utm_campaign%3DPH%26utm_term%3Dhotel-12015283%26utm_content%3Ddev-desktop_los-2_bw-5_dow-Wednesday_defdate-0_room-0_gstadt-3_rateid-public_aud-0_gacid-_mcid-50_bc-ALdWsw_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20260520_ppt-B%26aid%3D2040296%26label%3Dmetagha-link-LUPH-hotel-12015283_dev-desktop_los-2_bw-5_dow-Wednesday_defdate-0_room-0_gstadt-3_rateid-public_aud-0_gacid-_mcid-50_bc-ALdWsw_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20260520_ppt-B&s=AD1XQnkXtm2I1Fh8wGBzSpATzaUZ&ap=1
+    - generic [ref=e648]:
+      - generic [ref=e650]:
+        - button "Zoom in map" [ref=e651] [cursor=pointer]:
+          - img [ref=e652]
+        - button "Zoom out map" [ref=e655] [cursor=pointer]:
+          - img [ref=e656]
+      - generic [ref=e658]:
+        - switch "Toggle reachability layer" [ref=e659] [cursor=pointer]:
+          - generic [ref=e664]:
+            - img [ref=e665]
+            - img [ref=e667]
+        - button "Off" [ref=e671]:
+          - generic [ref=e674]:
+            - img [ref=e675]
+            - generic [ref=e677]: "Off"
+            - img [ref=e678]
+        - generic:
+          - button "Walk":
+            - generic:
+              - img
+              - text: Walk
+          - button "Drive":
+            - generic:
+              - img
+              - text: Drive
+        - generic [ref=e686] [cursor=pointer]:
+          - slider "Reachability slider": "0"
+      - generic [ref=e689]:
+        - generic [ref=e691]:
+          - button "Transit" [ref=e692] [cursor=pointer]:
+            - img [ref=e695]
+          - tooltip [ref=e699]: Transit
+        - generic [ref=e701]:
+          - button "Areas for dining" [ref=e702] [cursor=pointer]:
+            - img [ref=e705]
+          - tooltip [ref=e707]: Areas for dining
+        - generic [ref=e709]:
+          - button "Attractions" [ref=e710] [cursor=pointer]:
+            - img [ref=e713]
+          - tooltip [ref=e715]: Attractions
+        - generic [ref=e717]:
+          - button "Areas for shopping" [ref=e718] [cursor=pointer]:
+            - img [ref=e721]
+          - tooltip [ref=e724]: Areas for shopping
+      - generic [ref=e728]:
+        - generic [ref=e729]: Loading map
+        - progressbar [ref=e730]:
+          - img [ref=e732]
+          - generic [ref=e735]:
+            - generic [ref=e736]:
+              - img [ref=e738]
+              - img [ref=e741]
+              - img [ref=e744]
+            - generic [ref=e746]:
+              - img [ref=e748]
+              - img [ref=e751]
+              - img [ref=e754]
+            - generic [ref=e756]:
+              - img [ref=e758]
+              - img [ref=e761]
+              - img [ref=e764]
+            - generic [ref=e766]:
+              - img [ref=e768]
+              - img [ref=e771]
+              - img [ref=e774]
+  - generic [ref=e776]: Page loaded.
