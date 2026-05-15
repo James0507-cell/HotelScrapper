@@ -358,15 +358,18 @@ async def extract_structured_amenities(page: Page, panel_text: str) -> dict[str,
 
 
 async def open_about_tab(page: Page) -> None:
-    # Try multiple ways to click the "About" tab
+    # Try multiple ways to click the "About" tab, specifically targeting the tab bar
+    # and avoiding footer links like about.google
     clicked = await click_if_visible(
         page,
         [
-            '[role="tab"][aria-label="About"]',
+            '[role="tablist"] [role="tab"]:has-text("About")',
+            '[role="tablist"] button:has-text("About")',
+            '[role="tab"][aria-label*="About"]',
             '[role="tab"]:has-text("About")',
             'button:has-text("About")',
-            '[role="button"]:has-text("About")',
-            'a:has-text("About")',
+            # As a last resort, an anchor that isn't a footer link
+            'a:has-text("About"):not([href*="about.google"]):not([href*="support.google"])',
         ],
         timeout=5000,
     )
@@ -641,6 +644,18 @@ async def extract_hotel_name(page: Page, expected_name: str | None = None) -> st
     return expected_name
 
 
+def clean_google_redirect(url: str | None) -> str | None:
+    if not url:
+        return None
+    parsed = urlparse(url)
+    if parsed.netloc.endswith("google.com") and parsed.path.endswith("/clk"):
+        qs = parse_qs(parsed.query)
+        pcurl = qs.get("pcurl")
+        if pcurl:
+            return pcurl[0]
+    return url
+
+
 async def extract_coordinates(page: Page, hotel_name: str | None) -> tuple[float | None, float | None]:
     try:
         # Search scripts for coordinates. We look for a [lat, lng] pattern.
@@ -802,16 +817,22 @@ async def extract_detail_page(
             about_panel = page.locator('div[jsname="wtxWD"]').last
             if not await about_panel.count():
                 about_panel = page
+    else:
+        # If we don't need About tab, search the whole page
+        about_panel = page
 
     if (all_sections or 'info' in (sections or [])) and not record.hotel_info.name:
         record.hotel_info.name = await extract_hotel_name(page)
     
     panel_text = ""
-    if needs_about:
-        try:
+    try:
+        if needs_about:
             panel_text = await about_panel.inner_text(timeout=3000)
-        except Exception:
+        else:
+            # For mini-scrapes (like pricing/location), search the whole body
             panel_text = await page.locator("body").inner_text(timeout=3000)
+    except Exception:
+        panel_text = await page.evaluate("document.body.innerText")
     
     if (all_sections or 'info' in (sections or [])):
         if not record.hotel_info.stars:
