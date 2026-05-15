@@ -358,16 +358,28 @@ async def extract_structured_amenities(page: Page, panel_text: str) -> dict[str,
 
 
 async def open_about_tab(page: Page) -> None:
-    await click_if_visible(
+    # Try multiple ways to click the "About" tab
+    clicked = await click_if_visible(
         page,
         [
             '[role="tab"][aria-label="About"]',
             '[role="tab"]:has-text("About")',
             'button:has-text("About")',
             '[role="button"]:has-text("About")',
+            'a:has-text("About")',
         ],
-        timeout=3000,
+        timeout=5000,
     )
+    
+    if not clicked:
+        # Fallback: try to find any element with text "About" that is clickable
+        try:
+            about_el = page.get_by_role("tab", name="About")
+            if await about_el.count():
+                await about_el.click(timeout=2000)
+                clicked = True
+        except: pass
+
     await page.wait_for_timeout(2000)
 
 
@@ -683,6 +695,14 @@ async def extract_coordinates(page: Page, hotel_name: str | None) -> tuple[float
                     }
                 }
             }
+
+            // Final fallback: check window properties
+            if (window.WIZ_global_data) {
+                const str = JSON.stringify(window.WIZ_global_data);
+                const m = str.match(/\[(14\.\d+),(12[01]\.\d+)\]/);
+                if (m) return [parseFloat(m[1]), parseFloat(m[2])];
+            }
+
             return null;
         }''', hotel_name)
         
@@ -736,10 +756,12 @@ async def extract_booking_url(page: Page, expected_price: str | None) -> str | N
 async def extract_detail_page(
     page: Page,
     url: str | None,
-    photo_limit: int,
+    photo_limit: int = 20,
     initial_record: HotelRecord | None = None,
+    sections: list[str] | None = None, # ['info', 'contact', 'location', 'pricing', 'stay', 'amenities', 'media']
 ) -> HotelRecord:
     record = initial_record or HotelRecord()
+    all_sections = sections is None
     
     if url:
         try:
@@ -751,85 +773,111 @@ async def extract_detail_page(
 
     await accept_google_dialogs(page)
     await dismiss_google_dialogs(page)
-    await open_about_tab(page)
-    await maybe_expand_about(page)
     
-    await page.wait_for_timeout(1000)
+    # We only need to open the "About" tab if we're extracting sections that live there
+    needs_about = all_sections or any(s in (sections or []) for s in ['info', 'contact', 'stay', 'amenities', 'media'])
+    if needs_about:
+        # Check if we're already on the About tab by looking for unique text or active state
+        is_about_active = await page.locator('[role="tab"][aria-selected="true"]:has-text("About")').count() > 0
+        if not is_about_active:
+            await open_about_tab(page)
+            await maybe_expand_about(page)
+            await page.wait_for_timeout(2000)
     
     about_panel = page.locator('[role="tabpanel"], div[jsname="wtxWD"]').first
-    for _ in range(5):
-        try:
-            text = await about_panel.inner_text(timeout=500)
-            if "Loading" in text:
+    if needs_about:
+        # Wait for content to stabilize. Google often loads these panels lazily.
+        for i in range(10):
+            try:
+                # Try to find a known marker of content (like 'Amenities' or 'Address')
+                text = await page.locator("body").inner_text(timeout=1000)
+                if "Loading" in text or len(text) < 500:
+                    await page.wait_for_timeout(1000)
+                else:
+                    break
+            except: 
                 await page.wait_for_timeout(1000)
-            else:
-                break
-        except: break
 
-    if not await about_panel.count() or not await about_panel.is_visible(timeout=1000):
-        about_panel = page.locator('div[jsname="wtxWD"]').last
-        if not await about_panel.count():
-            about_panel = page
+        if not await about_panel.count() or not await about_panel.is_visible(timeout=1000):
+            about_panel = page.locator('div[jsname="wtxWD"]').last
+            if not await about_panel.count():
+                about_panel = page
 
-    if not record.hotel_info.name:
+    if (all_sections or 'info' in (sections or [])) and not record.hotel_info.name:
         record.hotel_info.name = await extract_hotel_name(page)
     
-    panel_text = await about_panel.inner_text(timeout=3000)
+    panel_text = ""
+    if needs_about:
+        try:
+            panel_text = await about_panel.inner_text(timeout=3000)
+        except Exception:
+            panel_text = await page.locator("body").inner_text(timeout=3000)
     
-    if not record.hotel_info.stars:
-        stars_match = re.search(r"(\d)-star hotel", panel_text, re.IGNORECASE)
-        if stars_match:
-            record.hotel_info.stars = f"{stars_match.group(1)}-star hotel"
-        else:
-            record.hotel_info.stars = await first_text(page, ['[aria-label*="star hotel"]', r'text=/\d-star hotel/'])
+    if (all_sections or 'info' in (sections or [])):
+        if not record.hotel_info.stars:
+            stars_match = re.search(r"(\d)-star hotel", panel_text, re.IGNORECASE)
+            if stars_match:
+                record.hotel_info.stars = f"{stars_match.group(1)}-star hotel"
+            else:
+                record.hotel_info.stars = await first_text(page, ['[aria-label*="star hotel"]', r'text=/\d-star hotel/'])
 
-    if not record.hotel_info.rating:
-        rating_match = re.search(r"(\d\.\d)\s*\(([\d,Kk.]+)\)", panel_text)
-        if rating_match:
-            record.hotel_info.rating = rating_match.group(1)
-            record.hotel_info.review_count = rating_match.group(2)
-
-    if not record.pricing.cheapest_price_per_night:
-        price_match = re.search(r"Prices starting from\s+([$€£¥₱][\d,\u202f\u00a0]+)", panel_text)
-        if price_match:
-            record.pricing.cheapest_price_per_night = compact_whitespace(price_match.group(1))
+        if not record.hotel_info.rating:
+            rating_match = re.search(r"(\d\.\d)\s*\(([\d,Kk.]+)\)", panel_text)
+            if rating_match:
+                record.hotel_info.rating = rating_match.group(1)
+                record.hotel_info.review_count = rating_match.group(2)
         
+        record.hotel_info.about = parse_about_from_panel_text(panel_text) or record.hotel_info.about
+
+    if (all_sections or 'pricing' in (sections or [])):
         if not record.pricing.cheapest_price_per_night:
-            record.pricing.cheapest_price_per_night = await first_text(about_panel, [r'text=/[$€£¥₱]\s?\d[\d,]*/', r'text=/[A-Z]{3}\s?\d[\d,]*/'])
+            price_match = re.search(r"Prices starting from\s+([$€£¥₱][\d,\u202f\u00a0]+)", panel_text)
+            if price_match:
+                record.pricing.cheapest_price_per_night = compact_whitespace(price_match.group(1))
+            
+            if not record.pricing.cheapest_price_per_night:
+                record.pricing.cheapest_price_per_night = await first_text(about_panel, [r'text=/[$€£¥₱]\s?\d[\d,]*/', r'text=/[A-Z]{3}\s?\d[\d,]*/'])
+            
+            if record.pricing.cheapest_price_per_night:
+                record.pricing.currency = extract_currency(record.pricing.cheapest_price_per_night)
+
+        if not record.pricing.cheapest_total_price:
+            total_match = re.search(r"([$€£¥₱][\d,\u202f\u00a0]+)\s?total", panel_text, re.IGNORECASE)
+            if total_match:
+                record.pricing.cheapest_total_price = compact_whitespace(total_match.group(1))
         
-        if record.pricing.cheapest_price_per_night:
-            record.pricing.currency = extract_currency(record.pricing.cheapest_price_per_night)
+        record.pricing.booking_url = await extract_booking_url(page, record.pricing.cheapest_price_per_night)
 
-    if not record.pricing.cheapest_total_price:
-        total_match = re.search(r"([$€£¥₱][\d,\u202f\u00a0]+)\s?total", panel_text, re.IGNORECASE)
-        if total_match:
-            record.pricing.cheapest_total_price = compact_whitespace(total_match.group(1))
+    if (all_sections or 'contact' in (sections or [])):
+        address, phone = parse_address_and_phone_from_panel_text(panel_text)
+        if not address:
+            desc_match = re.search(r"situated ([\d.]+ km from [^.]+)", panel_text, re.IGNORECASE)
+            if desc_match:
+                address = f"Manila (near {desc_match.group(1)})"
+            else:
+                address = await first_text(about_panel, ['[data-tooltip*="Address"]', 'button[aria-label*="Address"]'])
+        
+        record.contact.address = address or record.contact.address
+        record.contact.phone = phone or record.contact.phone
+        record.contact.website = await extract_website_url(page)
 
-    address, phone = parse_address_and_phone_from_panel_text(panel_text)
-    if not address:
-        desc_match = re.search(r"situated ([\d.]+ km from [^.]+)", panel_text, re.IGNORECASE)
-        if desc_match:
-            address = f"Manila (near {desc_match.group(1)})"
-        else:
-            address = await first_text(about_panel, ['[data-tooltip*="Address"]', 'button[aria-label*="Address"]'])
-    
-    record.contact.address = address or record.contact.address
-    record.contact.phone = phone or record.contact.phone
-    record.contact.website = await extract_website_url(page)
-    record.hotel_info.about = parse_about_from_panel_text(panel_text) or record.hotel_info.about
-    record.location.latitude, record.location.longitude = await extract_coordinates(page, record.hotel_info.name)
-    record.pricing.booking_url = await extract_booking_url(page, record.pricing.cheapest_price_per_night)
+    if (all_sections or 'location' in (sections or [])):
+        record.location.latitude, record.location.longitude = await extract_coordinates(page, record.hotel_info.name)
+        record.location.nearby_places = await extract_nearby_places(page)
 
-    check_in_match = re.search(r"Check-in(?: time)?[:\s]+([\d: \u202f\u00a0]+[AP]M)", panel_text, re.IGNORECASE)
-    check_out_match = re.search(r"Check-out(?: time)?[:\s]+([\d: \u202f\u00a0]+[AP]M)", panel_text, re.IGNORECASE)
-    if check_in_match: record.stay_details.check_in_time = compact_whitespace(check_in_match.group(1))
-    if check_out_match: record.stay_details.check_out_time = compact_whitespace(check_out_match.group(1))
+    if (all_sections or 'stay' in (sections or [])):
+        check_in_match = re.search(r"Check-in(?: time)?[:\s]+([\d: \u202f\u00a0]+[AP]M)", panel_text, re.IGNORECASE)
+        check_out_match = re.search(r"Check-out(?: time)?[:\s]+([\d: \u202f\u00a0]+[AP]M)", panel_text, re.IGNORECASE)
+        if check_in_match: record.stay_details.check_in_time = compact_whitespace(check_in_match.group(1))
+        if check_out_match: record.stay_details.check_out_time = compact_whitespace(check_out_match.group(1))
 
-    record.amenities = await extract_structured_amenities(page, panel_text)
-    record.location.nearby_places = await extract_nearby_places(page)
-    record.media.photos = await extract_photos(about_panel, limit=photo_limit)
+    if (all_sections or 'amenities' in (sections or [])):
+        record.amenities = await extract_structured_amenities(page, panel_text)
+
+    if (all_sections or 'media' in (sections or [])):
+        record.media.photos = await extract_photos(about_panel, limit=photo_limit)
+
     record.metadata.source_url = page.url
-
     return record
 
 
