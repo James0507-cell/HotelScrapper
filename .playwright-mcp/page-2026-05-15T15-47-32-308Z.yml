@@ -1,0 +1,2577 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e15]:
+        - generic:
+          - button "Skip to main content" [ref=e16]:
+            - generic: Skip to main content
+          - button "Accessibility feedback" [ref=e19]:
+            - generic: Accessibility feedback
+        - navigation [ref=e23]:
+          - link "Travel" [ref=e26]:
+            - img [ref=e29]
+            - generic: Travel
+          - link "Explore" [ref=e35]:
+            - img [ref=e38]
+            - generic: Explore
+          - link "Flights" [ref=e43]:
+            - img [ref=e46]
+            - generic: Flights
+          - link "Hotels" [ref=e51]:
+            - img [ref=e54]
+            - generic: Hotels
+          - link "Vacation rentals" [ref=e62]:
+            - img [ref=e65]
+            - generic: Vacation rentals
+      - generic [ref=e74]:
+        - button "Google apps" [ref=e78] [cursor=pointer]:
+          - img [ref=e79]
+        - link "Sign in" [ref=e82] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3Dhotels%2520in%2520manila%26qs%3DOAA%26ved%3D0CAAQ5JsGahcKEwig996K0ruUAxUAAAAAHQAAAAAQCA%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3Dhotels%2520in%2520manila%26qs%3DOAA%26ved%3D0CAAQ5JsGahcKEwig996K0ruUAxUAAAAAHQAAAAAQCA%26utm_source%3Dsign_in_ogb&ec=GAZAlQM
+  - generic [ref=e88]:
+    - generic [ref=e89]:
+      - generic [ref=e94]:
+        - form "Filters" [ref=e95]:
+          - generic [ref=e96]:
+            - generic [ref=e104]:
+              - img [ref=e106]
+              - combobox "Search for places, hotels and more" [ref=e109]: hotels in manila
+              - button "Clear" [ref=e111] [cursor=pointer]:
+                - img [ref=e112]
+            - generic [ref=e117] [cursor=pointer]:
+              - generic [ref=e119]:
+                - img [ref=e121]
+                - textbox "Check-in" [ref=e124]: Wed, May 20
+                - button [ref=e127]:
+                  - img [ref=e130]
+                - button [ref=e134]:
+                  - img [ref=e137]
+              - generic [ref=e141]:
+                - textbox "Check-out" [ref=e142]: Fri, May 22
+                - button [ref=e145]:
+                  - img [ref=e148]
+                - button [ref=e152]:
+                  - img [ref=e155]
+            - button "Number of travelers. Current number of travelers is 2." [ref=e163] [cursor=pointer]:
+              - img [ref=e164]
+              - generic [ref=e166]: "2"
+              - img [ref=e167]
+          - generic [ref=e172]:
+            - button "All filters" [ref=e175]:
+              - img [ref=e178]
+              - generic [ref=e180]: All filters
+            - generic [ref=e183]:
+              - button "4+ rating, Guest rating, Not selected" [ref=e186]:
+                - img [ref=e189]
+                - generic [ref=e193]: 4+ rating
+              - button "Under ₱2,500, Price, Not selected" [ref=e196]:
+                - img [ref=e199]
+                - generic [ref=e210]: Under ₱2,500
+              - button "Pool, Amenities, Not selected" [ref=e213]:
+                - img [ref=e216]
+                - generic [ref=e221]: Pool
+              - button "4- or 5-star, Hotel class, Not selected" [ref=e224]:
+                - img [ref=e227]
+                - generic [ref=e232]: 4- or 5-star
+              - button "Spa, Amenities, Not selected" [ref=e235]:
+                - img [ref=e238]
+                - generic [ref=e242]: Spa
+              - button "Price, Not selected" [ref=e245]:
+                - img [ref=e248]
+                - generic [ref=e258]:
+                  - generic [ref=e259]: Price
+                  - img [ref=e260]
+              - button "Property type, Not selected" [ref=e264]:
+                - img [ref=e267]
+                - generic [ref=e276]:
+                  - generic [ref=e277]: Property type
+                  - img [ref=e278]
+              - button "Offers, Not selected" [ref=e282]:
+                - img [ref=e285]
+                - generic [ref=e289]:
+                  - generic [ref=e290]: Offers
+                  - img [ref=e291]
+              - button "Guest rating, Not selected" [ref=e295]:
+                - img [ref=e298]
+                - generic [ref=e301]:
+                  - generic [ref=e302]: Guest rating
+                  - img [ref=e303]
+              - button "Hotel class, Not selected" [ref=e307]:
+                - img [ref=e310]
+                - generic [ref=e314]:
+                  - generic [ref=e315]: Hotel class
+                  - img [ref=e316]
+              - button "Amenities, Not selected" [ref=e320]:
+                - img [ref=e323]
+                - generic [ref=e326]:
+                  - generic [ref=e327]: Amenities
+                  - img [ref=e328]
+              - button "Brands, Not selected" [ref=e332]:
+                - img [ref=e335]
+                - generic [ref=e338]:
+                  - generic [ref=e339]: Brands
+                  - img [ref=e340]
+              - button "Eco-certified, Not selected" [ref=e344]:
+                - img [ref=e347]
+                - generic [ref=e352]: Eco-certified
+              - button "Sort by, Not selected" [ref=e355]:
+                - img [ref=e358]
+                - generic [ref=e361]:
+                  - generic [ref=e362]: Sort by
+                  - img [ref=e363]
+        - generic [ref=e369]:
+          - button "Where to stay" [ref=e370] [cursor=pointer]:
+            - generic [ref=e372]: Where to stay
+          - button "When to visit" [ref=e374] [cursor=pointer]:
+            - generic [ref=e376]: When to visit
+          - button "What you'll pay" [ref=e378] [cursor=pointer]:
+            - generic [ref=e380]: What you'll pay
+      - generic [ref=e382]:
+        - main [ref=e383]:
+          - tabpanel [ref=e385]:
+            - generic [ref=e386]:
+              - generic [ref=e389]:
+                - generic [ref=e390]:
+                  - heading "Sponsored Manila hotels" [level=2] [ref=e391]:
+                    - generic [ref=e392]: Sponsored·
+                    - text: Manila hotels
+                  - button "My Ad Center" [ref=e394] [cursor=pointer]:
+                    - img [ref=e395]
+                - list [ref=e401]:
+                  - listitem [ref=e402]:
+                    - link "Hop Inn Hotel Aseana City Manila ₱2,380 Booking.com Booking.com 4.2 out of 5 stars from 1,648 reviews3-star hotel Free parkingParking":
+                      - /url: /aclk?sa=l&ai=DChsSEwimuN2J0ruUAxWZPoMDHcsGIbcYACICCAEQBRoCc2Y&co=1&ase=2&gclid=EAIaIQobChMIprjdidK7lAMVmT6DAx3LBiG3EA0YASABEgKtRfD_BwE&cid=CAASuwHkaAuN1G_iCPhjrXZFF_v8Y8T3fibCRczdPbrfySWSYw2ZzYxVMvfNDWWXCZmOSiBC5hz35Ci7HyePDBuOKchJpeJg_7DQvX1SAsxf9vSTpELm1t4ObD3mK8N4cSzfECrL4fApq69KNRryFjQke6XWHnGc4DrvsTX7hV4kJcGB34GBwXz-NMTrJhl645NXYbMUfvXYCkpkFV4yBW5XzjaWrucpr44X1nblwTNRQGjg3uN1EBvuwGya2zWc&category=acrcp_v1_48&sig=AOD64_0nYj2JGhF9iVjOZlMR_g1ydONlbQ&adurl=
+                      - generic [ref=e404] [cursor=pointer]:
+                        - generic [ref=e405]: Hop Inn Hotel Aseana City Manila
+                        - generic [ref=e406]: ₱2,380
+                        - generic [ref=e408]:
+                          - img "Booking.com" [ref=e409]
+                          - text: Booking.com
+                        - generic [ref=e410]:
+                          - img "4.2 out of 5 stars from 1,648 reviews" [ref=e411]:
+                            - generic [ref=e412]:
+                              - generic [ref=e413]: 4.2/5
+                              - img [ref=e414]
+                              - generic [ref=e416]: (1.6K)
+                          - generic [ref=e417]: · 3-star hotel
+                        - generic [ref=e418]: Free parking · Parking
+                  - listitem [ref=e419]:
+                    - link "Makati Palace Hotel ₱1,886 Agoda Agoda 3.9 out of 5 stars from 1,462 reviews3-star hotel Free cancellationSpa":
+                      - /url: /aclk?sa=l&ai=DChsSEwimuN2J0ruUAxWZPoMDHcsGIbcYACICCAEQBxoCc2Y&co=1&ase=2&gclid=EAIaIQobChMIprjdidK7lAMVmT6DAx3LBiG3EA0YAiABEgIll_D_BwE&cid=CAASuwHkaAuN1G_iCPhjrXZFF_v8Y8T3fibCRczdPbrfySWSYw2ZzYxVMvfNDWWXCZmOSiBC5hz35Ci7HyePDBuOKchJpeJg_7DQvX1SAsxf9vSTpELm1t4ObD3mK8N4cSzfECrL4fApq69KNRryFjQke6XWHnGc4DrvsTX7hV4kJcGB34GBwXz-NMTrJhl645NXYbMUfvXYCkpkFV4yBW5XzjaWrucpr44X1nblwTNRQGjg3uN1EBvuwGya2zWc&category=acrcp_v1_48&sig=AOD64_2NUIg3AVnodQ5ETJ3NMJdWxLIlEQ&adurl=
+                      - generic [ref=e421] [cursor=pointer]:
+                        - generic [ref=e422]: Makati Palace Hotel
+                        - generic [ref=e423]: ₱1,886
+                        - generic [ref=e425]:
+                          - img "Agoda" [ref=e426]
+                          - text: Agoda
+                        - generic [ref=e427]:
+                          - img "3.9 out of 5 stars from 1,462 reviews" [ref=e428]:
+                            - generic [ref=e429]:
+                              - generic [ref=e430]: 3.9/5
+                              - img [ref=e431]
+                              - generic [ref=e433]: (1.5K)
+                          - generic [ref=e434]: · 3-star hotel
+                        - generic [ref=e435]: Free cancellation · Spa
+                  - listitem [ref=e436]:
+                    - link "Pacific Bay Grand Suites ₱1,829 Skyscanner Skyscanner 4.7 out of 5 stars from 273 reviews3-star hotel PoolFree parking":
+                      - /url: /aclk?sa=l&ai=DChsSEwimuN2J0ruUAxWZPoMDHcsGIbcYACICCAEQERoCc2Y&co=1&ase=2&gclid=EAIaIQobChMIprjdidK7lAMVmT6DAx3LBiG3EA0YAyABEgJLtvD_BwE&cid=CAASuwHkaAuN1G_iCPhjrXZFF_v8Y8T3fibCRczdPbrfySWSYw2ZzYxVMvfNDWWXCZmOSiBC5hz35Ci7HyePDBuOKchJpeJg_7DQvX1SAsxf9vSTpELm1t4ObD3mK8N4cSzfECrL4fApq69KNRryFjQke6XWHnGc4DrvsTX7hV4kJcGB34GBwXz-NMTrJhl645NXYbMUfvXYCkpkFV4yBW5XzjaWrucpr44X1nblwTNRQGjg3uN1EBvuwGya2zWc&category=acrcp_v1_48&sig=AOD64_3SWv6OUL5ygdflWmZkvOj2iruk_Q&adurl=
+                      - generic [ref=e438] [cursor=pointer]:
+                        - generic [ref=e439]: Pacific Bay Grand Suites
+                        - generic [ref=e440]: ₱1,829
+                        - generic [ref=e442]:
+                          - img "Skyscanner" [ref=e443]
+                          - text: Skyscanner
+                        - generic [ref=e444]:
+                          - img "4.7 out of 5 stars from 273 reviews" [ref=e445]:
+                            - generic [ref=e446]:
+                              - generic [ref=e447]: 4.7/5
+                              - img [ref=e448]
+                              - generic [ref=e450]: (273)
+                          - generic [ref=e451]: · 3-star hotel
+                        - generic [ref=e452]: Pool · Free parking
+                  - listitem [ref=e453]:
+                    - link "Savoy Hotel Manila ₱4,061 Booking.com Booking.com 4.2 out of 5 stars from 3,537 reviews4-star hotel SpaPool":
+                      - /url: /aclk?sa=l&ai=DChsSEwimuN2J0ruUAxWZPoMDHcsGIbcYACICCAEQAxoCc2Y&co=1&ase=2&gclid=EAIaIQobChMIprjdidK7lAMVmT6DAx3LBiG3EA0YBCABEgJ6jfD_BwE&cid=CAASuwHkaAuN1G_iCPhjrXZFF_v8Y8T3fibCRczdPbrfySWSYw2ZzYxVMvfNDWWXCZmOSiBC5hz35Ci7HyePDBuOKchJpeJg_7DQvX1SAsxf9vSTpELm1t4ObD3mK8N4cSzfECrL4fApq69KNRryFjQke6XWHnGc4DrvsTX7hV4kJcGB34GBwXz-NMTrJhl645NXYbMUfvXYCkpkFV4yBW5XzjaWrucpr44X1nblwTNRQGjg3uN1EBvuwGya2zWc&category=acrcp_v1_48&sig=AOD64_3mnbNXYR3sIxxenCMsIVIMUdBc5Q&adurl=
+                      - generic [ref=e455] [cursor=pointer]:
+                        - generic [ref=e456]: Savoy Hotel Manila
+                        - generic [ref=e457]: ₱4,061
+                        - generic [ref=e459]:
+                          - img "Booking.com" [ref=e460]
+                          - text: Booking.com
+                        - generic [ref=e461]:
+                          - img "4.2 out of 5 stars from 3,537 reviews" [ref=e462]:
+                            - generic [ref=e463]:
+                              - generic [ref=e464]: 4.2/5
+                              - img [ref=e465]
+                              - generic [ref=e467]: (3.5K)
+                          - generic [ref=e468]: · 4-star hotel
+                        - generic [ref=e469]: Spa · Pool
+                  - listitem [ref=e470]:
+                    - link "City Park Hotel Manila ₱1,704 klook klook 3.9 out of 5 stars from 310 reviews3-star hotel Free parkingParking":
+                      - /url: /aclk?sa=l&ai=DChsSEwimuN2J0ruUAxWZPoMDHcsGIbcYACICCAEQDxoCc2Y&co=1&ase=2&gclid=EAIaIQobChMIprjdidK7lAMVmT6DAx3LBiG3EA0YBSABEgKSlvD_BwE&cid=CAASuwHkaAuN1G_iCPhjrXZFF_v8Y8T3fibCRczdPbrfySWSYw2ZzYxVMvfNDWWXCZmOSiBC5hz35Ci7HyePDBuOKchJpeJg_7DQvX1SAsxf9vSTpELm1t4ObD3mK8N4cSzfECrL4fApq69KNRryFjQke6XWHnGc4DrvsTX7hV4kJcGB34GBwXz-NMTrJhl645NXYbMUfvXYCkpkFV4yBW5XzjaWrucpr44X1nblwTNRQGjg3uN1EBvuwGya2zWc&category=acrcp_v1_48&sig=AOD64_0sKaUvQrDtY3UOA0pJJXLjj7ZiAw&adurl=
+                      - generic [ref=e472] [cursor=pointer]:
+                        - generic [ref=e473]: City Park Hotel Manila
+                        - generic [ref=e474]: ₱1,704
+                        - generic [ref=e476]:
+                          - img "klook" [ref=e477]
+                          - text: klook
+                        - generic [ref=e478]:
+                          - img "3.9 out of 5 stars from 310 reviews" [ref=e479]:
+                            - generic [ref=e480]:
+                              - generic [ref=e481]: 3.9/5
+                              - img [ref=e482]
+                              - generic [ref=e484]: (310)
+                          - generic [ref=e485]: · 3-star hotel
+                        - generic [ref=e486]: Free parking · Parking
+                  - listitem [ref=e487]:
+                    - link "Bayview Park Hotel Manila ₱6,349 Booking.com Booking.com 4.1 out of 5 stars from 2,833 reviews3-star hotel Free cancellationHot tub":
+                      - /url: /aclk?sa=l&ai=DChsSEwimuN2J0ruUAxWZPoMDHcsGIbcYACICCAEQARoCc2Y&co=1&ase=2&gclid=EAIaIQobChMIprjdidK7lAMVmT6DAx3LBiG3EA0YBiABEgLGVvD_BwE&cid=CAASuwHkaAuN1G_iCPhjrXZFF_v8Y8T3fibCRczdPbrfySWSYw2ZzYxVMvfNDWWXCZmOSiBC5hz35Ci7HyePDBuOKchJpeJg_7DQvX1SAsxf9vSTpELm1t4ObD3mK8N4cSzfECrL4fApq69KNRryFjQke6XWHnGc4DrvsTX7hV4kJcGB34GBwXz-NMTrJhl645NXYbMUfvXYCkpkFV4yBW5XzjaWrucpr44X1nblwTNRQGjg3uN1EBvuwGya2zWc&category=acrcp_v1_48&sig=AOD64_3wbK_3s28p_BE4CTvi6PEu15Hp-g&adurl=
+                      - generic [ref=e489] [cursor=pointer]:
+                        - generic [ref=e490]: Bayview Park Hotel Manila
+                        - generic [ref=e491]: ₱6,349
+                        - generic [ref=e493]:
+                          - img "Booking.com" [ref=e494]
+                          - text: Booking.com
+                        - generic [ref=e495]:
+                          - img "4.1 out of 5 stars from 2,833 reviews" [ref=e496]:
+                            - generic [ref=e497]:
+                              - generic [ref=e498]: 4.1/5
+                              - img [ref=e499]
+                              - generic [ref=e501]: (2.8K)
+                          - generic [ref=e502]: · 3-star hotel
+                        - generic [ref=e503]: Free cancellation · Hot tub
+                  - listitem [ref=e504]:
+                    - link "Jade Hotel and Suites ₱1,765 klook klook 3.8 out of 5 stars from 389 reviews3-star hotel PoolFree parking":
+                      - /url: /aclk?sa=l&ai=DChsSEwimuN2J0ruUAxWZPoMDHcsGIbcYACICCAEQCxoCc2Y&co=1&ase=2&gclid=EAIaIQobChMIprjdidK7lAMVmT6DAx3LBiG3EA0YByABEgKdIfD_BwE&cid=CAASuwHkaAuN1G_iCPhjrXZFF_v8Y8T3fibCRczdPbrfySWSYw2ZzYxVMvfNDWWXCZmOSiBC5hz35Ci7HyePDBuOKchJpeJg_7DQvX1SAsxf9vSTpELm1t4ObD3mK8N4cSzfECrL4fApq69KNRryFjQke6XWHnGc4DrvsTX7hV4kJcGB34GBwXz-NMTrJhl645NXYbMUfvXYCkpkFV4yBW5XzjaWrucpr44X1nblwTNRQGjg3uN1EBvuwGya2zWc&category=acrcp_v1_48&sig=AOD64_0u9zcBfkkJp7AG-xqNGChB89kQAg&adurl=
+                      - generic [ref=e506] [cursor=pointer]:
+                        - generic [ref=e507]: Jade Hotel and Suites
+                        - generic [ref=e508]: ₱1,765
+                        - generic [ref=e510]:
+                          - img "klook" [ref=e511]
+                          - text: klook
+                        - generic [ref=e512]:
+                          - img "3.8 out of 5 stars from 389 reviews" [ref=e513]:
+                            - generic [ref=e514]:
+                              - generic [ref=e515]: 3.8/5
+                              - img [ref=e516]
+                              - generic [ref=e518]: (389)
+                          - generic [ref=e519]: · 3-star hotel
+                        - generic [ref=e520]: Pool · Free parking
+                  - listitem [ref=e521]:
+                    - link "Hotel Durban ₱1,460 klook klook 4 out of 5 stars from 534 reviews2-star hotel Wi-Fi":
+                      - /url: /aclk?sa=l&ai=DChsSEwimuN2J0ruUAxWZPoMDHcsGIbcYACICCAEQDRoCc2Y&co=1&ase=2&gclid=EAIaIQobChMIprjdidK7lAMVmT6DAx3LBiG3EA0YCCABEgK-yfD_BwE&cid=CAASuwHkaAuN1G_iCPhjrXZFF_v8Y8T3fibCRczdPbrfySWSYw2ZzYxVMvfNDWWXCZmOSiBC5hz35Ci7HyePDBuOKchJpeJg_7DQvX1SAsxf9vSTpELm1t4ObD3mK8N4cSzfECrL4fApq69KNRryFjQke6XWHnGc4DrvsTX7hV4kJcGB34GBwXz-NMTrJhl645NXYbMUfvXYCkpkFV4yBW5XzjaWrucpr44X1nblwTNRQGjg3uN1EBvuwGya2zWc&category=acrcp_v1_48&sig=AOD64_3djuCpIVo7dggSCjWAgtLip4d5VA&adurl=
+                      - generic [ref=e523] [cursor=pointer]:
+                        - generic [ref=e524]: Hotel Durban
+                        - generic [ref=e525]: ₱1,460
+                        - generic [ref=e527]:
+                          - img "klook" [ref=e528]
+                          - text: klook
+                        - generic [ref=e529]:
+                          - img "4 out of 5 stars from 534 reviews" [ref=e530]:
+                            - generic [ref=e531]:
+                              - generic [ref=e532]: 4.0/5
+                              - img [ref=e533]
+                              - generic [ref=e535]: (534)
+                          - generic [ref=e536]: · 2-star hotel
+                        - generic [ref=e537]: Wi-Fi
+                  - listitem [ref=e538]:
+                    - link "Manila Grand Opera Hotel ₱1,899 klook klook 4 out of 5 stars from 1,671 reviews3-star hotel Free cancellationHot tub":
+                      - /url: /aclk?sa=l&ai=DChsSEwimuN2J0ruUAxWZPoMDHcsGIbcYACICCAEQCRoCc2Y&co=1&ase=2&gclid=EAIaIQobChMIprjdidK7lAMVmT6DAx3LBiG3EA0YCSABEgJ3nPD_BwE&cid=CAASuwHkaAuN1G_iCPhjrXZFF_v8Y8T3fibCRczdPbrfySWSYw2ZzYxVMvfNDWWXCZmOSiBC5hz35Ci7HyePDBuOKchJpeJg_7DQvX1SAsxf9vSTpELm1t4ObD3mK8N4cSzfECrL4fApq69KNRryFjQke6XWHnGc4DrvsTX7hV4kJcGB34GBwXz-NMTrJhl645NXYbMUfvXYCkpkFV4yBW5XzjaWrucpr44X1nblwTNRQGjg3uN1EBvuwGya2zWc&category=acrcp_v1_48&sig=AOD64_0pFPcGuLFn8EmGFzCtfpAgxnnEFw&adurl=
+                      - generic [ref=e540] [cursor=pointer]:
+                        - generic [ref=e541]: Manila Grand Opera Hotel
+                        - generic [ref=e542]: ₱1,899
+                        - generic [ref=e544]:
+                          - img "klook" [ref=e545]
+                          - text: klook
+                        - generic [ref=e546]:
+                          - img "4 out of 5 stars from 1,671 reviews" [ref=e547]:
+                            - generic [ref=e548]:
+                              - generic [ref=e549]: 4.0/5
+                              - img [ref=e550]
+                              - generic [ref=e552]: (1.7K)
+                          - generic [ref=e553]: · 3-star hotel
+                        - generic [ref=e554]: Free cancellation · Hot tub
+              - heading "Manila · 6,755 results Learn more about these results" [level=1] [ref=e556]:
+                - generic [ref=e557]: Manila · 6,755 results
+                - button "Learn more about these results" [ref=e562]:
+                  - img
+              - generic [ref=e566]:
+                - link "Diamond Hotel Philippines" [ref=e567] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegQIAxA-&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Diamond Hotel Philippines" [level=2]
+                          - link "Prices starting from ₱6,652, Diamond Hotel Philippines" [ref=e568] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegQIAxBA&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e571]:
+                              - generic [ref=e572]:
+                                - generic [ref=e573]: GREAT PRICE
+                                - generic [ref=e576]: ₱6,652
+                              - generic [ref=e577]: for a 5-star hotel
+                        - generic:
+                          - generic:
+                            - link "4.5 out of 5 stars from 4,946 reviews, Diamond Hotel Philippines" [ref=e578] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegQIAxBD&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                              - img [ref=e585]:
+                                - generic [ref=e586]:
+                                  - generic [ref=e587]: "4.5"
+                                  - img [ref=e588]
+                                  - generic [ref=e590]: (4.9K)
+                            - generic: ·
+                            - link "Excellent location" [ref=e591] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyocGegQIAxBF&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEIb3ZlcnZpZXc
+                              - generic [ref=e595]: Excellent location
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Diamond Hotel Philippines, a 5-star hotel.: Free breakfast, Free Wi-Fi, Free parking, Outdoor pool, Hot tub, Air conditioning, Fitness center, Spa,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 5-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free breakfast
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Outdoor pool
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Hot tub
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Fitness center
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Spa
+                        - link "View prices for Diamond Hotel Philippines" [ref=e596] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegQIAxBI&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e597]:
+                            - generic [ref=e599]: View prices
+                    - generic [ref=e600]:
+                      - generic [ref=e601] [cursor=pointer]:
+                        - link "Photos for Diamond Hotel Philippines" [ref=e602]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegQIAxBJ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e605]:
+                          - listitem [ref=e606]:
+                            - img "Photo 1" [ref=e607]
+                          - listitem [ref=e608]:
+                            - img "Photo 2" [ref=e609]
+                          - listitem [ref=e610]
+                          - listitem [ref=e611]
+                          - listitem [ref=e612]
+                          - listitem [ref=e613]
+                      - generic:
+                        - button "Back" [ref=e616]:
+                          - img
+                        - button "Next" [ref=e621]:
+                          - img
+                      - generic [ref=e626]: GREAT PRICE
+              - generic [ref=e628]:
+                - link "Airo Suites Makati" [ref=e629] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJcGFERnhxZVQ4YzRWR2cwdlp5OHhNWFJpWHpKc2VIQTNFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegQIAxBb&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Airo Suites Makati" [level=2]
+                          - link "Prices starting from ₱1,329, Airo Suites Makati" [ref=e630] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJcGFERnhxZVQ4YzRWR2cwdlp5OHhNWFJpWHpKc2VIQTNFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegQIAxBd&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e635]: ₱1,329
+                        - link "4.9 out of 5 stars from 870 reviews, Airo Suites Makati" [ref=e636] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJcGFERnhxZVQ4YzRWR2cwdlp5OHhNWFJpWHpKc2VIQTNFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegQIAxBf&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                          - img [ref=e643]:
+                            - generic [ref=e644]:
+                              - generic [ref=e645]: "4.9"
+                              - img [ref=e646]
+                              - generic [ref=e648]: (870)
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Airo Suites Makati, a 3-star hotel.: Free Wi-Fi, Free parking, Air conditioning, Breakfast, Airport shuttle, Smoke-free property,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 3-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Breakfast
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Airport shuttle
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Smoke-free property
+                        - link "View prices for Airo Suites Makati" [ref=e649] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJcGFERnhxZVQ4YzRWR2cwdlp5OHhNWFJpWHpKc2VIQTNFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegQIAxBi&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e650]:
+                            - generic [ref=e652]: View prices
+                    - generic [ref=e653]:
+                      - generic [ref=e654] [cursor=pointer]:
+                        - link "Photos for Airo Suites Makati" [ref=e655]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJcGFERnhxZVQ4YzRWR2cwdlp5OHhNWFJpWHpKc2VIQTNFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegQIAxBj&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e658]:
+                          - listitem [ref=e659]:
+                            - img "Photo 1" [ref=e660]
+                          - listitem [ref=e661]:
+                            - img "Photo 2" [ref=e662]
+                          - listitem [ref=e663]
+                          - listitem [ref=e664]
+                          - listitem [ref=e665]
+                          - listitem [ref=e666]
+                      - generic:
+                        - button "Back" [ref=e669]:
+                          - img
+                        - button "Next" [ref=e674]:
+                          - img
+              - generic [ref=e678]:
+                - link "COMFY INN MANILA -KALAW , CORPORATE INN BLDG." [ref=e679] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MiRDaGNJbF9uSzJzbXRsLVo3R2dzdlp5OHhkR041TVhaaWFCQUI4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegQIAxBy&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "COMFY INN MANILA -KALAW , CORPORATE INN BLDG." [level=2]
+                          - link "Prices starting from ₱1,818, COMFY INN MANILA -KALAW , CORPORATE INN BLDG." [ref=e680] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MiRDaGNJbF9uSzJzbXRsLVo3R2dzdlp5OHhkR041TVhaaWFCQUI4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegQIAxB0&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e685]: ₱1,818
+                        - generic:
+                          - generic:
+                            - link "4 out of 5 stars from 190 reviews, COMFY INN MANILA -KALAW , CORPORATE INN BLDG." [ref=e686] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MiRDaGNJbF9uSzJzbXRsLVo3R2dzdlp5OHhkR041TVhaaWFCQUI4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegQIAxB2&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                              - img [ref=e693]:
+                                - generic [ref=e694]:
+                                  - generic [ref=e695]: "4.0"
+                                  - img [ref=e696]
+                                  - generic [ref=e698]: (190)
+                            - generic: ·
+                            - link "Excellent location" [ref=e699] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MiRDaGNJbF9uSzJzbXRsLVo3R2dzdlp5OHhkR041TVhaaWFCQUI4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyocGegQIAxB4&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEIb3ZlcnZpZXc
+                              - generic [ref=e703]: Excellent location
+                        - generic:
+                          - generic:
+                            - document: "Amenities for COMFY INN MANILA -KALAW , CORPORATE INN BLDG., a 3-star hotel.: Free Wi-Fi, Free parking, Air conditioning, Restaurant, Room service, Full-service laundry, Kid-friendly, Smoke-free property,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 3-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Restaurant
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Room service
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Full-service laundry
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Kid-friendly
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Smoke-free property
+                        - link "View prices for COMFY INN MANILA -KALAW , CORPORATE INN BLDG." [ref=e704] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiRDaGNJbF9uSzJzbXRsLVo3R2dzdlp5OHhkR041TVhaaWFCQUI4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegQIAxB7&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e705]:
+                            - generic [ref=e707]: View prices
+                    - generic [ref=e708]:
+                      - generic [ref=e709] [cursor=pointer]:
+                        - link "Photos for COMFY INN MANILA -KALAW , CORPORATE INN BLDG." [ref=e710]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiRDaGNJbF9uSzJzbXRsLVo3R2dzdlp5OHhkR041TVhaaWFCQUI4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegQIAxB8&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e713]:
+                          - listitem [ref=e714]:
+                            - img "Photo 1" [ref=e715]
+                          - listitem [ref=e716]:
+                            - img "Photo 2" [ref=e717]
+                          - listitem [ref=e718]
+                          - listitem [ref=e719]
+                          - listitem [ref=e720]
+                          - listitem [ref=e721]
+                      - generic:
+                        - button "Back" [ref=e724]:
+                          - img
+                        - button "Next" [ref=e729]:
+                          - img
+              - generic [ref=e734]:
+                - generic [ref=e735]:
+                  - img [ref=e737]
+                  - generic [ref=e739]:
+                    - heading "Set your dates to update prices" [level=2] [ref=e740]
+                    - generic [ref=e741]:
+                      - text: Prices shown for
+                      - button "May 20 – 22" [ref=e742] [cursor=pointer]
+                - list [ref=e748]:
+                  - listitem [ref=e749]:
+                    - button "Change dates" [ref=e751]:
+                      - generic [ref=e755]:
+                        - img [ref=e756]
+                        - generic [ref=e759]: Change dates
+                  - listitem [ref=e760]:
+                    - button "Next weekend" [ref=e762]:
+                      - generic [ref=e765]: Next weekend
+                  - listitem [ref=e766]:
+                    - button "Next work week" [ref=e768]:
+                      - generic [ref=e771]: Next work week
+              - generic [ref=e773]:
+                - link "Hotel H2O" [ref=e774] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJZzgyQnU4aVhodWtmR2d3dlp5OHhNbkZvTTJZME5YRVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxCRAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Hotel H2O" [level=2]
+                          - link "Prices starting from ₱3,451, Hotel H2O" [ref=e775] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJZzgyQnU4aVhodWtmR2d3dlp5OHhNbkZvTTJZME5YRVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxCTAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e780]: ₱3,451
+                        - link "4.1 out of 5 stars from 2,253 reviews, Hotel H2O" [ref=e781] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJZzgyQnU4aVhodWtmR2d3dlp5OHhNbkZvTTJZME5YRVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxCVAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                          - img [ref=e788]:
+                            - generic [ref=e789]:
+                              - generic [ref=e790]: "4.1"
+                              - img [ref=e791]
+                              - generic [ref=e793]: (2.3K)
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Hotel H2O, a 4-star hotel.: Breakfast, Wi-Fi, Free parking, Pool, Hot tub, Air conditioning, Fitness center, Spa,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 4-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Breakfast
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Pool
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Hot tub
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Fitness center
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Spa
+                        - link "View prices for Hotel H2O" [ref=e794] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJZzgyQnU4aVhodWtmR2d3dlp5OHhNbkZvTTJZME5YRVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxCYAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e795]:
+                            - generic [ref=e797]: View prices
+                    - generic [ref=e798]:
+                      - generic [ref=e799] [cursor=pointer]:
+                        - link "Photos for Hotel H2O" [ref=e800]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJZzgyQnU4aVhodWtmR2d3dlp5OHhNbkZvTTJZME5YRVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxCZAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e803]:
+                          - listitem [ref=e804]:
+                            - img "Photo 1" [ref=e805]
+                          - listitem [ref=e806]:
+                            - img "Photo 2" [ref=e807]
+                          - listitem [ref=e808]
+                          - listitem [ref=e809]
+                          - listitem [ref=e810]
+                          - listitem [ref=e811]
+                      - generic:
+                        - button "Back" [ref=e814]:
+                          - img
+                        - button "Next" [ref=e819]:
+                          - img
+              - generic [ref=e823]:
+                - link "La Casarita - Condormitel" [ref=e824] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJcE9lSmpQUFZuZXZOQVJvTEwyY3ZNWFJrWHpnMk5UUVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxCoAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "La Casarita - Condormitel" [level=2]
+                          - link "Prices starting from ₱1,002, La Casarita - Condormitel DEAL 18% less than usual" [ref=e825] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJcE9lSmpQUFZuZXZOQVJvTEwyY3ZNWFJrWHpnMk5UUVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxCqAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e828]:
+                              - generic [ref=e829]:
+                                - generic [ref=e830]: DEAL
+                                - generic [ref=e833]: ₱1,002
+                              - generic [ref=e834]: 18% less than usual
+                        - link "4.1 out of 5 stars from 118 reviews, La Casarita - Condormitel" [ref=e835] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJcE9lSmpQUFZuZXZOQVJvTEwyY3ZNWFJrWHpnMk5UUVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxCtAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                          - img [ref=e842]:
+                            - generic [ref=e843]:
+                              - generic [ref=e844]: "4.1"
+                              - img [ref=e845]
+                              - generic [ref=e847]: (118)
+                        - generic:
+                          - generic:
+                            - document: "Amenities for La Casarita - Condormitel, a 3-star hotel.: Free Wi-Fi, Parking, Air conditioning, Restaurant, Kitchen in rooms, Accessible, Kid-friendly,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 3-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Restaurant
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Kitchen in rooms
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Accessible
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Kid-friendly
+                        - link "View prices for La Casarita - Condormitel" [ref=e848] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJcE9lSmpQUFZuZXZOQVJvTEwyY3ZNWFJrWHpnMk5UUVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxCwAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e849]:
+                            - generic [ref=e851]: View prices
+                    - generic [ref=e852]:
+                      - generic [ref=e853] [cursor=pointer]:
+                        - link "Photos for La Casarita - Condormitel" [ref=e854]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJcE9lSmpQUFZuZXZOQVJvTEwyY3ZNWFJrWHpnMk5UUVFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxCxAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e857]:
+                          - listitem [ref=e858]:
+                            - img "Photo 1" [ref=e859]
+                          - listitem [ref=e860]:
+                            - img "Photo 2" [ref=e861]
+                          - listitem [ref=e862]
+                          - listitem [ref=e863]
+                          - listitem [ref=e864]
+                          - listitem [ref=e865]
+                      - generic:
+                        - button "Back" [ref=e868]:
+                          - img
+                        - button "Next" [ref=e873]:
+                          - img
+                      - generic [ref=e878]: DEAL
+              - generic [ref=e880]:
+                - link "Red Planet Manila Bay" [ref=e881] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JOThfdng1blp0dXZLQVJvTkwyY3ZNVEZuWkdnNU0yeHpjaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxDEAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Red Planet Manila Bay" [level=2]
+                          - link "Prices starting from ₱2,013, Red Planet Manila Bay" [ref=e882] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JOThfdng1blp0dXZLQVJvTkwyY3ZNVEZuWkdnNU0yeHpjaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxDGAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e887]: ₱2,013
+                        - generic:
+                          - generic:
+                            - link "4.3 out of 5 stars from 1,783 reviews, Red Planet Manila Bay" [ref=e888] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JOThfdng1blp0dXZLQVJvTkwyY3ZNVEZuWkdnNU0yeHpjaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxDIAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                              - img [ref=e895]:
+                                - generic [ref=e896]:
+                                  - generic [ref=e897]: "4.3"
+                                  - img [ref=e898]
+                                  - generic [ref=e900]: (1.8K)
+                            - generic: ·
+                            - link "Excellent location" [ref=e901] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JOThfdng1blp0dXZLQVJvTkwyY3ZNVEZuWkdnNU0yeHpjaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyocGegUIAxDKAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEIb3ZlcnZpZXc
+                              - generic [ref=e905]: Excellent location
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Red Planet Manila Bay, a 3-star hotel.: Breakfast ($), Free Wi-Fi, Free parking, Air conditioning, Restaurant, Accessible, Kid-friendly,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 3-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Breakfast ($)
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Restaurant
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Accessible
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Kid-friendly
+                        - link "View prices for Red Planet Manila Bay" [ref=e906] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JOThfdng1blp0dXZLQVJvTkwyY3ZNVEZuWkdnNU0yeHpjaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxDNAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e907]:
+                            - generic [ref=e909]: View prices
+                    - generic [ref=e910]:
+                      - generic [ref=e911] [cursor=pointer]:
+                        - link "Photos for Red Planet Manila Bay" [ref=e912]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JOThfdng1blp0dXZLQVJvTkwyY3ZNVEZuWkdnNU0yeHpjaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxDOAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e915]:
+                          - listitem [ref=e916]:
+                            - img "Photo 1" [ref=e917]
+                          - listitem [ref=e918]:
+                            - img "Photo 2" [ref=e919]
+                          - listitem [ref=e920]
+                          - listitem [ref=e921]
+                          - listitem [ref=e922]
+                          - listitem [ref=e923]
+                      - generic:
+                        - button "Back" [ref=e926]:
+                          - img
+                        - button "Next" [ref=e931]:
+                          - img
+              - generic [ref=e935]:
+                - link "Swiss-Belhotel Blulane" [ref=e936] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJN0plZjY2MnRqSVU2R2cwdlp5OHhNV2M0WW5kd2JXdzRFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxDdAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Swiss-Belhotel Blulane" [level=2]
+                          - link "Prices starting from ₱1,609, Swiss-Belhotel Blulane" [ref=e937] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJN0plZjY2MnRqSVU2R2cwdlp5OHhNV2M0WW5kd2JXdzRFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxDfAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e942]: ₱1,609
+                        - link "4.7 out of 5 stars from 2,351 reviews, Swiss-Belhotel Blulane" [ref=e943] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJN0plZjY2MnRqSVU2R2cwdlp5OHhNV2M0WW5kd2JXdzRFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxDhAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                          - img [ref=e950]:
+                            - generic [ref=e951]:
+                              - generic [ref=e952]: "4.7"
+                              - img [ref=e953]
+                              - generic [ref=e955]: (2.4K)
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Swiss-Belhotel Blulane: Breakfast, Free Wi-Fi, Free parking, Air conditioning, Restaurant, Room service, Airport shuttle, Full-service laundry, Accessible,"
+                            - generic:
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Breakfast
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Restaurant
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Room service
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Airport shuttle
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Full-service laundry
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Accessible
+                        - link "View prices for Swiss-Belhotel Blulane" [ref=e956] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJN0plZjY2MnRqSVU2R2cwdlp5OHhNV2M0WW5kd2JXdzRFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxDkAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e957]:
+                            - generic [ref=e959]: View prices
+                    - generic [ref=e960]:
+                      - generic [ref=e961] [cursor=pointer]:
+                        - link "Photos for Swiss-Belhotel Blulane" [ref=e962]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJN0plZjY2MnRqSVU2R2cwdlp5OHhNV2M0WW5kd2JXdzRFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxDlAQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e965]:
+                          - listitem [ref=e966]:
+                            - img "Photo 1" [ref=e967]
+                          - listitem [ref=e968]:
+                            - img "Photo 2" [ref=e969]
+                          - listitem [ref=e970]
+                          - listitem [ref=e971]
+                          - listitem [ref=e972]
+                          - listitem [ref=e973]
+                      - generic:
+                        - button "Back" [ref=e976]:
+                          - img
+                        - button "Next" [ref=e981]:
+                          - img
+              - generic [ref=e985]:
+                - link "The Manila Hotel" [ref=e986] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MiNDaFlJekwyal80M0ExLWNmR2dvdmJTOHdNbm94YzJwc0VBRTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxD0AQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "The Manila Hotel" [level=2]
+                          - link "Prices starting from ₱6,654, The Manila Hotel" [ref=e987] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MiNDaFlJekwyal80M0ExLWNmR2dvdmJTOHdNbm94YzJwc0VBRTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxD2AQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e990]:
+                              - generic [ref=e991]:
+                                - generic [ref=e992]: GREAT PRICE
+                                - generic [ref=e995]: ₱6,654
+                              - generic [ref=e996]: for a 5-star hotel
+                        - link "4.6 out of 5 stars from 9,826 reviews, The Manila Hotel" [ref=e997] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiNDaFlJekwyal80M0ExLWNmR2dvdmJTOHdNbm94YzJwc0VBRTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxD5AQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                          - img [ref=e1004]:
+                            - generic [ref=e1005]:
+                              - generic [ref=e1006]: "4.6"
+                              - img [ref=e1007]
+                              - generic [ref=e1009]: (9.8K)
+                        - generic:
+                          - generic:
+                            - document: "Amenities for The Manila Hotel, a 5-star hotel.: Breakfast, Wi-Fi, Free parking, Outdoor pool, Hot tub, Air conditioning, Fitness center, Spa,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 5-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Breakfast
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Outdoor pool
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Hot tub
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Fitness center
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Spa
+                        - link "View prices for The Manila Hotel" [ref=e1010] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiNDaFlJekwyal80M0ExLWNmR2dvdmJTOHdNbm94YzJwc0VBRTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxD8AQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e1011]:
+                            - generic [ref=e1013]: View prices
+                    - generic [ref=e1014]:
+                      - generic [ref=e1015] [cursor=pointer]:
+                        - link "Photos for The Manila Hotel" [ref=e1016]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiNDaFlJekwyal80M0ExLWNmR2dvdmJTOHdNbm94YzJwc0VBRTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxD9AQ&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e1019]:
+                          - listitem [ref=e1020]:
+                            - img "Photo 1" [ref=e1021]
+                          - listitem [ref=e1022]:
+                            - img "Photo 2" [ref=e1023]
+                          - listitem [ref=e1024]
+                          - listitem [ref=e1025]
+                          - listitem [ref=e1026]
+                          - listitem [ref=e1027]
+                      - generic:
+                        - button "Back" [ref=e1030]:
+                          - img
+                        - button "Next" [ref=e1035]:
+                          - img
+                      - generic [ref=e1040]: GREAT PRICE
+              - generic [ref=e1042]:
+                - link "Go Hotels Ermita-Manila" [ref=e1043] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJOGMyVTRKemlqckU4R2cwdlp5OHhNV00zZERKeU9Hc3lFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxCPAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Go Hotels Ermita-Manila" [level=2]
+                          - link "Prices starting from ₱1,338, Go Hotels Ermita-Manila" [ref=e1044] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJOGMyVTRKemlqckU4R2cwdlp5OHhNV00zZERKeU9Hc3lFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxCRAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e1049]: ₱1,338
+                        - generic:
+                          - generic:
+                            - link "3.8 out of 5 stars from 1,024 reviews, Go Hotels Ermita-Manila" [ref=e1050] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJOGMyVTRKemlqckU4R2cwdlp5OHhNV00zZERKeU9Hc3lFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxCTAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                              - img [ref=e1057]:
+                                - generic [ref=e1058]:
+                                  - generic [ref=e1059]: "3.8"
+                                  - img [ref=e1060]
+                                  - generic [ref=e1062]: (1.0K)
+                            - generic: ·
+                            - link "Excellent location" [ref=e1063] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJOGMyVTRKemlqckU4R2cwdlp5OHhNV00zZERKeU9Hc3lFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyocGegUIAxCVAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEIb3ZlcnZpZXc
+                              - generic [ref=e1067]: Excellent location
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Go Hotels Ermita-Manila, a 3-star hotel.: Breakfast ($), Free Wi-Fi, Free parking, Air conditioning, Restaurant, Accessible, Business center, Kid-friendly,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 3-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Breakfast ($)
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Restaurant
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Accessible
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Business center
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Kid-friendly
+                        - link "View prices for Go Hotels Ermita-Manila" [ref=e1068] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJOGMyVTRKemlqckU4R2cwdlp5OHhNV00zZERKeU9Hc3lFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxCYAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e1069]:
+                            - generic [ref=e1071]: View prices
+                    - generic [ref=e1072]:
+                      - generic [ref=e1073] [cursor=pointer]:
+                        - link "Photos for Go Hotels Ermita-Manila" [ref=e1074]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJOGMyVTRKemlqckU4R2cwdlp5OHhNV00zZERKeU9Hc3lFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxCZAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e1077]:
+                          - listitem [ref=e1078]:
+                            - img "Photo 1" [ref=e1079]
+                          - listitem [ref=e1080]:
+                            - img "Photo 2" [ref=e1081]
+                          - listitem [ref=e1082]
+                          - listitem [ref=e1083]
+                          - listitem [ref=e1084]
+                          - listitem [ref=e1085]
+                      - generic:
+                        - button "Back" [ref=e1088]:
+                          - img
+                        - button "Next" [ref=e1093]:
+                          - img
+              - generic [ref=e1097]:
+                - link "City Garden Suites Manila" [ref=e1098] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJNU1USXRQRzVyOGo0QVJvTEwyY3ZNWFJuZHpkbWNWOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxCoAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "City Garden Suites Manila" [level=2]
+                          - link "Prices starting from ₱2,501, City Garden Suites Manila" [ref=e1099] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJNU1USXRQRzVyOGo0QVJvTEwyY3ZNWFJuZHpkbWNWOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxCqAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e1104]: ₱2,501
+                        - generic:
+                          - generic:
+                            - link "4.1 out of 5 stars from 1,317 reviews, City Garden Suites Manila" [ref=e1105] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJNU1USXRQRzVyOGo0QVJvTEwyY3ZNWFJuZHpkbWNWOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxCsAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                              - img [ref=e1112]:
+                                - generic [ref=e1113]:
+                                  - generic [ref=e1114]: "4.1"
+                                  - img [ref=e1115]
+                                  - generic [ref=e1117]: (1.3K)
+                            - generic: ·
+                            - link "Excellent location" [ref=e1118] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJNU1USXRQRzVyOGo0QVJvTEwyY3ZNWFJuZHpkbWNWOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyocGegUIAxCuAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEIb3ZlcnZpZXc
+                              - generic [ref=e1122]: Excellent location
+                        - generic:
+                          - generic:
+                            - document: "Amenities for City Garden Suites Manila, a 3-star hotel.: Free breakfast, Free Wi-Fi, Free parking, Hot tub, Air conditioning, Fitness center, Bar, Restaurant,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 3-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free breakfast
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Hot tub
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Fitness center
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Bar
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Restaurant
+                        - link "View prices for City Garden Suites Manila" [ref=e1123] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJNU1USXRQRzVyOGo0QVJvTEwyY3ZNWFJuZHpkbWNWOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxCxAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e1124]:
+                            - generic [ref=e1126]: View prices
+                    - generic [ref=e1127]:
+                      - generic [ref=e1128] [cursor=pointer]:
+                        - link "Photos for City Garden Suites Manila" [ref=e1129]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJNU1USXRQRzVyOGo0QVJvTEwyY3ZNWFJuZHpkbWNWOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxCyAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e1132]:
+                          - listitem [ref=e1133]:
+                            - img "Photo 1" [ref=e1134]
+                          - listitem [ref=e1135]:
+                            - img "Photo 2" [ref=e1136]
+                          - listitem [ref=e1137]
+                          - listitem [ref=e1138]
+                          - listitem [ref=e1139]
+                          - listitem [ref=e1140]
+                      - generic:
+                        - button "Back" [ref=e1143]:
+                          - img
+                        - button "Next" [ref=e1148]:
+                          - img
+              - generic [ref=e1152]:
+                - link "1775 Adriatico Suites Manila" [ref=e1153] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MiRDaGNJOHJ1a21QUzBpTFFSR2dzdlp5OHhkR042TlhaNGF4QUI4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxDBAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "1775 Adriatico Suites Manila" [level=2]
+                          - link "Prices starting from ₱1,775, 1775 Adriatico Suites Manila DEAL 17% less than usual" [ref=e1154] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MiRDaGNJOHJ1a21QUzBpTFFSR2dzdlp5OHhkR042TlhaNGF4QUI4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxDDAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e1157]:
+                              - generic [ref=e1158]:
+                                - generic [ref=e1159]: DEAL
+                                - generic [ref=e1162]: ₱1,775
+                              - generic [ref=e1163]: 17% less than usual
+                        - generic:
+                          - generic:
+                            - link "4.1 out of 5 stars from 331 reviews, 1775 Adriatico Suites Manila" [ref=e1164] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MiRDaGNJOHJ1a21QUzBpTFFSR2dzdlp5OHhkR042TlhaNGF4QUI4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxDGAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                              - img [ref=e1171]:
+                                - generic [ref=e1172]:
+                                  - generic [ref=e1173]: "4.1"
+                                  - img [ref=e1174]
+                                  - generic [ref=e1176]: (331)
+                            - generic: ·
+                            - link "Excellent location" [ref=e1177] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MiRDaGNJOHJ1a21QUzBpTFFSR2dzdlp5OHhkR042TlhaNGF4QUI4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyocGegUIAxDIAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEIb3ZlcnZpZXc
+                              - generic [ref=e1181]: Excellent location
+                        - generic:
+                          - generic:
+                            - document: "Amenities for 1775 Adriatico Suites Manila, a 3-star hotel.: Breakfast, Free Wi-Fi, Free parking, Outdoor pool, Air conditioning, Restaurant, Airport shuttle, Full-service laundry,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 3-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Breakfast
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Outdoor pool
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Restaurant
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Airport shuttle
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Full-service laundry
+                        - link "View prices for 1775 Adriatico Suites Manila" [ref=e1182] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiRDaGNJOHJ1a21QUzBpTFFSR2dzdlp5OHhkR042TlhaNGF4QUI4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxDLAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e1183]:
+                            - generic [ref=e1185]: View prices
+                    - generic [ref=e1186]:
+                      - generic [ref=e1187] [cursor=pointer]:
+                        - link "Photos for 1775 Adriatico Suites Manila" [ref=e1188]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiRDaGNJOHJ1a21QUzBpTFFSR2dzdlp5OHhkR042TlhaNGF4QUI4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxDMAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e1191]:
+                          - listitem [ref=e1192]:
+                            - img "Photo 1" [ref=e1193]
+                          - listitem [ref=e1194]:
+                            - img "Photo 2" [ref=e1195]
+                          - listitem [ref=e1196]
+                          - listitem [ref=e1197]
+                          - listitem [ref=e1198]
+                          - listitem [ref=e1199]
+                      - generic:
+                        - button "Back" [ref=e1202]:
+                          - img
+                        - button "Next" [ref=e1207]:
+                          - img
+                      - generic [ref=e1212]: DEAL
+              - generic [ref=e1214]:
+                - link "Riviera Mansion Hotel" [ref=e1215] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJa2ZESDNQWHRocl9xQVJvTEwyY3ZNWFpqTmpsNWFGOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxDeAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Riviera Mansion Hotel" [level=2]
+                          - link "Prices starting from ₱2,282, Riviera Mansion Hotel" [ref=e1216] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJa2ZESDNQWHRocl9xQVJvTEwyY3ZNWFpqTmpsNWFGOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxDgAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e1221]: ₱2,282
+                        - generic:
+                          - generic:
+                            - link "3.9 out of 5 stars from 640 reviews, Riviera Mansion Hotel" [ref=e1222] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJa2ZESDNQWHRocl9xQVJvTEwyY3ZNWFpqTmpsNWFGOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxDiAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                              - img [ref=e1229]:
+                                - generic [ref=e1230]:
+                                  - generic [ref=e1231]: "3.9"
+                                  - img [ref=e1232]
+                                  - generic [ref=e1234]: (640)
+                            - generic: ·
+                            - link "Excellent location" [ref=e1235] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJa2ZESDNQWHRocl9xQVJvTEwyY3ZNWFpqTmpsNWFGOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyocGegUIAxDkAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEIb3ZlcnZpZXc
+                              - generic [ref=e1239]: Excellent location
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Riviera Mansion Hotel, a 3-star hotel.: Breakfast, Free Wi-Fi, Free parking, Air conditioning, Restaurant, Room service, Airport shuttle, Full-service laundry,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 3-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Breakfast
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Restaurant
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Room service
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Airport shuttle
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Full-service laundry
+                        - link "View prices for Riviera Mansion Hotel" [ref=e1240] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJa2ZESDNQWHRocl9xQVJvTEwyY3ZNWFpqTmpsNWFGOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxDnAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e1241]:
+                            - generic [ref=e1243]: View prices
+                    - generic [ref=e1244]:
+                      - generic [ref=e1245] [cursor=pointer]:
+                        - link "Photos for Riviera Mansion Hotel" [ref=e1246]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJa2ZESDNQWHRocl9xQVJvTEwyY3ZNWFpqTmpsNWFGOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxDoAg&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e1249]:
+                          - listitem [ref=e1250]:
+                            - img "Photo 1" [ref=e1251]
+                          - listitem [ref=e1252]:
+                            - img "Photo 2" [ref=e1253]
+                          - listitem [ref=e1254]
+                          - listitem [ref=e1255]
+                          - listitem [ref=e1256]
+                          - listitem [ref=e1257]
+                      - generic:
+                        - button "Back" [ref=e1260]:
+                          - img
+                        - button "Next" [ref=e1265]:
+                          - img
+              - generic [ref=e1269]:
+                - link "Solace Hotel" [ref=e1270] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JbjZHN2lieVE2Y21CQVJvTkwyY3ZNVEZpTjNrNVptZG1jeEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxD3Ag&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Solace Hotel" [level=2]
+                          - link "Prices starting from ₱1,464, Solace Hotel" [ref=e1271] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JbjZHN2lieVE2Y21CQVJvTkwyY3ZNVEZpTjNrNVptZG1jeEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxD5Ag&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e1276]: ₱1,464
+                        - link "4.2 out of 5 stars from 352 reviews, Solace Hotel" [ref=e1277] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JbjZHN2lieVE2Y21CQVJvTkwyY3ZNVEZpTjNrNVptZG1jeEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxD7Ag&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                          - img [ref=e1284]:
+                            - generic [ref=e1285]:
+                              - generic [ref=e1286]: "4.2"
+                              - img [ref=e1287]
+                              - generic [ref=e1289]: (352)
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Solace Hotel, a 3-star hotel.: Breakfast, Free Wi-Fi, Free parking, Air conditioning, Restaurant, Room service, Airport shuttle, Full-service laundry,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 3-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Breakfast
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Restaurant
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Room service
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Airport shuttle
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Full-service laundry
+                        - link "View prices for Solace Hotel" [ref=e1290] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JbjZHN2lieVE2Y21CQVJvTkwyY3ZNVEZpTjNrNVptZG1jeEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxD-Ag&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e1291]:
+                            - generic [ref=e1293]: View prices
+                    - generic [ref=e1294]:
+                      - generic [ref=e1295] [cursor=pointer]:
+                        - link "Photos for Solace Hotel" [ref=e1296]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JbjZHN2lieVE2Y21CQVJvTkwyY3ZNVEZpTjNrNVptZG1jeEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxD_Ag&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e1299]:
+                          - listitem [ref=e1300]:
+                            - img "Photo 1" [ref=e1301]
+                          - listitem [ref=e1302]:
+                            - img "Photo 2" [ref=e1303]
+                          - listitem [ref=e1304]
+                          - listitem [ref=e1305]
+                          - listitem [ref=e1306]
+                          - listitem [ref=e1307]
+                      - generic:
+                        - button "Back" [ref=e1310]:
+                          - img
+                        - button "Next" [ref=e1315]:
+                          - img
+              - generic [ref=e1319]:
+                - link "Ramada Encore Makati" [ref=e1320] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JeUtudGxzS1kyb3pTQVJvTkwyY3ZNVEZtTjJKdWNteHVPUkFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxCOAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Ramada Encore Makati" [level=2]
+                          - link "Prices starting from ₱1,993, Ramada Encore Makati DEAL 20% less than usual" [ref=e1321] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JeUtudGxzS1kyb3pTQVJvTkwyY3ZNVEZtTjJKdWNteHVPUkFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxCQAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e1324]:
+                              - generic [ref=e1325]:
+                                - generic [ref=e1326]: DEAL
+                                - generic [ref=e1329]: ₱1,993
+                              - generic [ref=e1330]: 20% less than usual
+                        - link "4 out of 5 stars from 894 reviews, Ramada Encore Makati" [ref=e1331] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JeUtudGxzS1kyb3pTQVJvTkwyY3ZNVEZtTjJKdWNteHVPUkFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxCTAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                          - img [ref=e1338]:
+                            - generic [ref=e1339]:
+                              - generic [ref=e1340]: "4.0"
+                              - img [ref=e1341]
+                              - generic [ref=e1343]: (894)
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Ramada Encore Makati, a 3-star hotel.: Breakfast, Free Wi-Fi, Free parking, Air conditioning, Fitness center, Restaurant, Room service, Full-service laundry,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 3-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Breakfast
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Fitness center
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Restaurant
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Room service
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Full-service laundry
+                        - link "View prices for Ramada Encore Makati" [ref=e1344] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JeUtudGxzS1kyb3pTQVJvTkwyY3ZNVEZtTjJKdWNteHVPUkFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxCWAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e1345]:
+                            - generic [ref=e1347]: View prices
+                    - generic [ref=e1348]:
+                      - generic [ref=e1349] [cursor=pointer]:
+                        - link "Photos for Ramada Encore Makati" [ref=e1350]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JeUtudGxzS1kyb3pTQVJvTkwyY3ZNVEZtTjJKdWNteHVPUkFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxCXAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e1353]:
+                          - listitem [ref=e1354]:
+                            - img "Photo 1" [ref=e1355]
+                          - listitem [ref=e1356]:
+                            - img "Photo 2" [ref=e1357]
+                          - listitem [ref=e1358]
+                          - listitem [ref=e1359]
+                          - listitem [ref=e1360]
+                          - listitem [ref=e1361]
+                      - generic:
+                        - button "Back" [ref=e1364]:
+                          - img
+                        - button "Next" [ref=e1369]:
+                          - img
+                      - generic [ref=e1374]: DEAL
+              - generic [ref=e1376]:
+                - link "Airo Hotel Manila" [ref=e1377] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxCpAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Airo Hotel Manila" [level=2]
+                          - link "Prices starting from ₱1,401, Airo Hotel Manila" [ref=e1378] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxCrAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e1383]: ₱1,401
+                        - generic:
+                          - generic:
+                            - link "4 out of 5 stars from 249 reviews, Airo Hotel Manila" [ref=e1384] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxCtAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                              - img [ref=e1391]:
+                                - generic [ref=e1392]:
+                                  - generic [ref=e1393]: "4.0"
+                                  - img [ref=e1394]
+                                  - generic [ref=e1396]: (249)
+                            - generic: ·
+                            - link "Excellent location" [ref=e1397] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyocGegUIAxCvAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEIb3ZlcnZpZXc
+                              - generic [ref=e1401]: Excellent location
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Airo Hotel Manila: Breakfast ($), Free Wi-Fi, Parking ($), Air conditioning, Bar, Restaurant, Room service, Full-service laundry, Business center,"
+                            - generic:
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Breakfast ($)
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Parking ($)
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Bar
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Restaurant
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Room service
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Full-service laundry
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Business center
+                        - link "View prices for Airo Hotel Manila" [ref=e1402] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxCyAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e1403]:
+                            - generic [ref=e1405]: View prices
+                    - generic [ref=e1406]:
+                      - generic [ref=e1407] [cursor=pointer]:
+                        - link "Photos for Airo Hotel Manila" [ref=e1408]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxCzAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e1411]:
+                          - listitem [ref=e1412]:
+                            - img "Photo 1" [ref=e1413]
+                          - listitem [ref=e1414]:
+                            - img "Photo 2" [ref=e1415]
+                          - listitem [ref=e1416]
+                          - listitem [ref=e1417]
+                          - listitem [ref=e1418]
+                          - listitem [ref=e1419]
+                      - generic:
+                        - button "Back" [ref=e1422]:
+                          - img
+                        - button "Next" [ref=e1427]:
+                          - img
+              - generic [ref=e1431]:
+                - link "Magnificent View of Manila Bay, Roxas Blvd, US Embassy - Three-Bedroom Suite" [ref=e1432] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9RaDdtMDhMX0szY19lQVJvTkwyY3ZNVEY2TWpGcU5XUm5ZaEFDOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxDCAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Magnificent View of Manila Bay, Roxas Blvd, US Embassy - Three-Bedroom Suite" [level=2]
+                          - link "Prices starting from ₱2,472, Magnificent View of Manila Bay, Roxas Blvd, US Embassy - Three-Bedroom Suite" [ref=e1433] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9RaDdtMDhMX0szY19lQVJvTkwyY3ZNVEY2TWpGcU5XUm5ZaEFDOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxDEAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e1438]: ₱2,472
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img "4.4 out of 5 stars from 16 reviews":
+                                  - generic:
+                                    - generic: "4.4"
+                                    - img
+                                    - generic: (16)
+                            - generic: ·
+                            - link "Excellent location" [ref=e1439] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9RaDdtMDhMX0szY19lQVJvTkwyY3ZNVEY2TWpGcU5XUm5ZaEFDOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyocGegUIAxDGAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEIb3ZlcnZpZXc
+                              - generic [ref=e1443]: Excellent location
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Magnificent View of Manila Bay, Roxas Blvd, US Embassy - Three-Bedroom Suite: Apartment, Sleeps 7, 3 bedrooms, 3 bathrooms, 7 beds, Air conditioning, Indoor pool, Ironing board, Kitchen,"
+                            - generic:
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Apartment
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Sleeps 7
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: 3 bedrooms
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: 3 bathrooms
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: 7 beds
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Indoor pool
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Ironing board
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Kitchen
+                        - link "View details for Magnificent View of Manila Bay, Roxas Blvd, US Embassy - Three-Bedroom Suite" [ref=e1444] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9RaDdtMDhMX0szY19lQVJvTkwyY3ZNVEY2TWpGcU5XUm5ZaEFDOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxDKAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                          - button [ref=e1445]:
+                            - generic [ref=e1447]: View details
+                    - generic [ref=e1448]:
+                      - generic [ref=e1449] [cursor=pointer]:
+                        - link "Photos for Magnificent View of Manila Bay, Roxas Blvd, US Embassy - Three-Bedroom Suite" [ref=e1450]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9RaDdtMDhMX0szY19lQVJvTkwyY3ZNVEY2TWpGcU5XUm5ZaEFDOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxDLAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e1453]:
+                          - listitem [ref=e1454]:
+                            - img "Photo 1" [ref=e1455]
+                          - listitem [ref=e1456]:
+                            - img "Photo 2" [ref=e1457]
+                          - listitem [ref=e1458]
+                          - listitem [ref=e1459]
+                          - listitem [ref=e1460]
+                          - listitem [ref=e1461]
+                      - generic:
+                        - button "Back" [ref=e1464]:
+                          - img
+                        - button "Next" [ref=e1469]:
+                          - img
+                      - generic:
+                        - generic: VACATION RENTAL
+              - generic [ref=e1473]:
+                - link "Orchid Garden Suites - Manila" [ref=e1474] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJLTZyMWtyYm51cERVQVJvTEwyY3ZNWFJtWm14M2NsOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxDaAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Orchid Garden Suites - Manila" [level=2]
+                          - link "Prices starting from ₱1,729, Orchid Garden Suites - Manila DEAL 18% less than usual" [ref=e1475] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJLTZyMWtyYm51cERVQVJvTEwyY3ZNWFJtWm14M2NsOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxDcAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e1478]:
+                              - generic [ref=e1479]:
+                                - generic [ref=e1480]: DEAL
+                                - generic [ref=e1483]: ₱1,729
+                              - generic [ref=e1484]: 18% less than usual
+                        - link "4.1 out of 5 stars from 714 reviews, Orchid Garden Suites - Manila" [ref=e1485] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJLTZyMWtyYm51cERVQVJvTEwyY3ZNWFJtWm14M2NsOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxDfAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                          - img [ref=e1492]:
+                            - generic [ref=e1493]:
+                              - generic [ref=e1494]: "4.1"
+                              - img [ref=e1495]
+                              - generic [ref=e1497]: (714)
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Orchid Garden Suites - Manila, a 3-star hotel.: Breakfast, Free Wi-Fi, Free parking, Outdoor pool, Air conditioning, Bar, Restaurant, Room service,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 3-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Breakfast
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Outdoor pool
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Bar
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Restaurant
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Room service
+                        - link "View prices for Orchid Garden Suites - Manila" [ref=e1498] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJLTZyMWtyYm51cERVQVJvTEwyY3ZNWFJtWm14M2NsOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxDiAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e1499]:
+                            - generic [ref=e1501]: View prices
+                    - generic [ref=e1502]:
+                      - generic [ref=e1503] [cursor=pointer]:
+                        - link "Photos for Orchid Garden Suites - Manila" [ref=e1504]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MiZDaGdJLTZyMWtyYm51cERVQVJvTEwyY3ZNWFJtWm14M2NsOFFBUTgA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxDjAw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e1507]:
+                          - listitem [ref=e1508]:
+                            - img "Photo 1" [ref=e1509]
+                          - listitem [ref=e1510]:
+                            - img "Photo 2" [ref=e1511]
+                          - listitem [ref=e1512]
+                          - listitem [ref=e1513]
+                          - listitem [ref=e1514]
+                          - listitem [ref=e1515]
+                      - generic:
+                        - button "Back" [ref=e1518]:
+                          - img
+                        - button "Next" [ref=e1523]:
+                          - img
+                      - generic [ref=e1528]: DEAL
+              - generic [ref=e1530]:
+                - link "Casa Charlie Hotel" [ref=e1531] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JME9fVHN2ekxfdWFTQVJvTkwyY3ZNVEYzT1hGNk56SmlNaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxD1Aw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Casa Charlie Hotel" [level=2]
+                          - link "Prices starting from ₱1,583, Casa Charlie Hotel DEAL 25% less than usual" [ref=e1532] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JME9fVHN2ekxfdWFTQVJvTkwyY3ZNVEYzT1hGNk56SmlNaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxD3Aw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e1535]:
+                              - generic [ref=e1536]:
+                                - generic [ref=e1537]: DEAL
+                                - generic [ref=e1540]: ₱1,583
+                              - generic [ref=e1541]: 25% less than usual
+                        - link "5 out of 5 stars from 35 reviews, Casa Charlie Hotel" [ref=e1542] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JME9fVHN2ekxfdWFTQVJvTkwyY3ZNVEYzT1hGNk56SmlNaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxD6Aw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                          - img [ref=e1549]:
+                            - generic [ref=e1550]:
+                              - generic [ref=e1551]: "5.0"
+                              - img [ref=e1552]
+                              - generic [ref=e1554]: (35)
+                        - link "View prices for Casa Charlie Hotel" [ref=e1555] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JME9fVHN2ekxfdWFTQVJvTkwyY3ZNVEYzT1hGNk56SmlNaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxD8Aw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e1556]:
+                            - generic [ref=e1558]: View prices
+                    - generic [ref=e1559]:
+                      - generic [ref=e1560] [cursor=pointer]:
+                        - link "Photos for Casa Charlie Hotel" [ref=e1561]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9JME9fVHN2ekxfdWFTQVJvTkwyY3ZNVEYzT1hGNk56SmlNaEFCOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxD9Aw&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e1564]:
+                          - listitem [ref=e1565]:
+                            - img "Photo 1" [ref=e1566]
+                          - listitem [ref=e1567]:
+                            - img "Photo 2" [ref=e1568]
+                          - listitem [ref=e1569]
+                          - listitem [ref=e1570]
+                          - listitem [ref=e1571]
+                          - listitem [ref=e1572]
+                      - generic:
+                        - button "Back" [ref=e1575]:
+                          - img
+                        - button "Next" [ref=e1580]:
+                          - img
+                      - generic [ref=e1585]: DEAL
+              - generic [ref=e1587]:
+                - link "Pacific Bay Grand Suites" [ref=e1588] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJME5mOThfUFhrTjAtR2cwdlp5OHhNWFl4TVRKdU1UVnlFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxCPBA&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Pacific Bay Grand Suites" [level=2]
+                          - link "Prices starting from ₱1,686, Pacific Bay Grand Suites" [ref=e1589] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJME5mOThfUFhrTjAtR2cwdlp5OHhNWFl4TVRKdU1UVnlFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxCRBA&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e1594]: ₱1,686
+                        - generic:
+                          - generic:
+                            - link "4.7 out of 5 stars from 273 reviews, Pacific Bay Grand Suites" [ref=e1595] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJME5mOThfUFhrTjAtR2cwdlp5OHhNWFl4TVRKdU1UVnlFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQwIsFegUIAxCTBA&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEHcmV2aWV3cw
+                              - img [ref=e1602]:
+                                - generic [ref=e1603]:
+                                  - generic [ref=e1604]: "4.7"
+                                  - img [ref=e1605]
+                                  - generic [ref=e1607]: (273)
+                            - generic: ·
+                            - link "Excellent location" [ref=e1608] [cursor=pointer]:
+                              - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJME5mOThfUFhrTjAtR2cwdlp5OHhNWFl4TVRKdU1UVnlFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyocGegUIAxCVBA&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEIb3ZlcnZpZXc
+                              - generic [ref=e1612]: Excellent location
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Pacific Bay Grand Suites, a 3-star hotel.: Free Wi-Fi, Free parking, Indoor pool, Air conditioning, Fitness center, Breakfast, Kitchen in some rooms, Accessible,"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic: 3-star hotel
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free Wi-Fi
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Free parking
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Indoor pool
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Air conditioning
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Fitness center
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Breakfast
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Kitchen in some rooms
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Accessible
+                        - link "View prices for Pacific Bay Grand Suites" [ref=e1613] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJME5mOThfUFhrTjAtR2cwdlp5OHhNWFl4TVRKdU1UVnlFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxCYBA&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEGcHJpY2Vz
+                          - button [ref=e1614]:
+                            - generic [ref=e1616]: View prices
+                    - generic [ref=e1617]:
+                      - generic [ref=e1618] [cursor=pointer]:
+                        - link "Photos for Pacific Bay Grand Suites" [ref=e1619]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MidDaGtJME5mOThfUFhrTjAtR2cwdlp5OHhNWFl4TVRKdU1UVnlFQUU4AA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxCZBA&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e1622]:
+                          - listitem [ref=e1623]:
+                            - img "Photo 1" [ref=e1624]
+                          - listitem [ref=e1625]:
+                            - img "Photo 2" [ref=e1626]
+                          - listitem [ref=e1627]
+                          - listitem [ref=e1628]
+                          - listitem [ref=e1629]
+                          - listitem [ref=e1630]
+                      - generic:
+                        - button "Back" [ref=e1633]:
+                          - img
+                        - button "Next" [ref=e1638]:
+                          - img
+              - generic [ref=e1642]:
+                - link "Hoya- Malate Bayview Mansion Studio w/ Washing" [ref=e1643] [cursor=pointer]:
+                  - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9Ra2VTc3Y0ZTB1SkxqQVJvTkwyY3ZNVEY0Tm14NmFqQnpZeEFDOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyvcEegUIAxCoBA&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading "Hoya- Malate Bayview Mansion Studio w/ Washing" [level=2]
+                          - link "Prices starting from ₱1,625, Hoya- Malate Bayview Mansion Studio w/ Washing" [ref=e1644] [cursor=pointer]:
+                            - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9Ra2VTc3Y0ZTB1SkxqQVJvTkwyY3ZNVEY0Tm14NmFqQnpZeEFDOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQrsMEegUIAxCqBA&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                            - generic [ref=e1649]: ₱1,625
+                        - link "Excellent location" [ref=e1650] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9Ra2VTc3Y0ZTB1SkxqQVJvTkwyY3ZNVEY0Tm14NmFqQnpZeEFDOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyocGegUIAxCsBA&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA&ap=ugEIb3ZlcnZpZXc
+                          - generic [ref=e1654]: Excellent location
+                        - generic:
+                          - generic:
+                            - document: "Amenities for Hoya- Malate Bayview Mansion Studio w/ Washing: Apartment, Sleeps 2, 1 bathroom, 1 bed, 3 sq m, Balcony, Beach access, Kid-friendly, Elevator,"
+                            - generic:
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Apartment
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Sleeps 2
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: 1 bathroom
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: 1 bed
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: 3 sq m
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Balcony
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Beach access
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Kid-friendly
+                              - listitem:
+                                - generic:
+                                  - img
+                                - generic: Elevator
+                        - link "View details for Hoya- Malate Bayview Mansion Studio w/ Washing" [ref=e1655] [cursor=pointer]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9Ra2VTc3Y0ZTB1SkxqQVJvTkwyY3ZNVEY0Tm14NmFqQnpZeEFDOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQssMEegUIAxCwBA&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                          - button [ref=e1656]:
+                            - generic [ref=e1658]: View details
+                    - generic [ref=e1659]:
+                      - generic [ref=e1660] [cursor=pointer]:
+                        - link "Photos for Hoya- Malate Bayview Mansion Studio w/ Washing" [ref=e1661]:
+                          - /url: /travel/search?q=hotels%20in%20manila&qs=MihDaG9Ra2VTc3Y0ZTB1SkxqQVJvTkwyY3ZNVEY0Tm14NmFqQnpZeEFDOAA&ved=2ahUKEwigw6aJ0ruUAxXEn2YCHajDDRgQyfcEegUIAxCxBA&ts=CAESCgoCCAMKAggDEAAaTwoxEi8yJTB4MzM5N2NhMDM1NzFlYzM4YjoweDY5ZDFkNTc1MTA2OWMxMWY6Bk1hbmlsYRIaEhQKBwjqDxAFGBQSBwjqDxAFGBYYAjICCAIqBwoFOgNQSFA
+                        - list "Photos" [ref=e1664]:
+                          - listitem [ref=e1665]:
+                            - img "Photo 1" [ref=e1666]
+                          - listitem [ref=e1667]:
+                            - img "Photo 2" [ref=e1668]
+                          - listitem [ref=e1669]
+                          - listitem [ref=e1670]
+                          - listitem [ref=e1671]
+                          - listitem [ref=e1672]
+                      - generic:
+                        - button "Back" [ref=e1675]:
+                          - img
+                        - button "Next" [ref=e1680]:
+                          - img
+                      - generic:
+                        - generic: VACATION RENTAL
+              - generic [ref=e1683]:
+                - button "Next" [ref=e1685]:
+                  - generic [ref=e1688]: Next
+                  - img [ref=e1689]
+                - generic [ref=e1691]: Showing results 1 - 20 of 6,755
+        - contentinfo [ref=e1696]:
+          - button "Currency·PHP" [ref=e1699]:
+            - generic [ref=e1701]: Currency·PHP
+            - img [ref=e1702]
+          - generic [ref=e1704]:
+            - generic [ref=e1705]: Buhangin, Davao City, Philippines - From your Internet address
+            - link "Learn more about location link" [ref=e1707] [cursor=pointer]:
+              - /url: https://support.google.com/websearch/answer/179386?gl=PH&hl=en-US
+              - text: Learn more
+          - generic [ref=e1708]:
+            - link "About Google Travel" [ref=e1709] [cursor=pointer]:
+              - /url: https://about.google/?hl=en-US
+              - text: About
+            - link "Privacy" [ref=e1710] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy?hl=en-US
+            - link "Terms" [ref=e1711] [cursor=pointer]:
+              - /url: https://policies.google.com/terms?hl=en-US
+            - link "Join user studies" [ref=e1712] [cursor=pointer]:
+              - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ1%26productTag%3Dothr%26campaignDate%3DMarch2020%26referral_code%3DUXTX379748&Q_Language=en-US
+            - link "Feedback" [ref=e1713] [cursor=pointer]:
+              - /url: ./#0
+            - link "Help Center" [ref=e1714] [cursor=pointer]:
+              - /url: https://support.google.com/travel/?hl=en-US#topic=7687750
+          - paragraph [ref=e1716]:
+            - text: Displayed currencies may differ from the currencies used to book properties.
+            - link "Learn more about currencies" [ref=e1717] [cursor=pointer]:
+              - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PH
+              - text: Learn more
+    - generic [ref=e1721]:
+      - generic:
+        - button "View larger map" [ref=e1724] [cursor=pointer]:
+          - img [ref=e1725]
+        - generic [ref=e1730]:
+          - generic [ref=e1731] [cursor=pointer]:
+            - checkbox "Update list when map moves" [ref=e1732]
+            - generic:
+              - img
+          - generic [ref=e1733]: Update list when map moves
+        - generic [ref=e1735]:
+          - button "Zoom in map" [ref=e1736] [cursor=pointer]:
+            - img [ref=e1737]
+          - button "Zoom out map" [ref=e1740] [cursor=pointer]:
+            - img [ref=e1741]
+      - generic [ref=e1743]:
+        - switch "Toggle reachability layer" [ref=e1744] [cursor=pointer]:
+          - generic [ref=e1749]:
+            - img [ref=e1750]
+            - img [ref=e1752]
+        - button "Off" [ref=e1756]:
+          - generic [ref=e1759]:
+            - img [ref=e1760]
+            - generic [ref=e1762]: "Off"
+            - img [ref=e1763]
+        - generic:
+          - button "Walk":
+            - generic:
+              - img
+              - text: Walk
+          - button "Drive":
+            - generic:
+              - img
+              - text: Drive
+        - generic [ref=e1771] [cursor=pointer]:
+          - slider "Reachability slider": "0"
+      - generic [ref=e1774]:
+        - generic [ref=e1776]:
+          - button "Transit" [ref=e1777] [cursor=pointer]:
+            - img [ref=e1780]
+          - tooltip [ref=e1784]: Transit
+        - generic [ref=e1786]:
+          - button "Areas for dining" [ref=e1787] [cursor=pointer]:
+            - img [ref=e1790]
+          - tooltip [ref=e1792]: Areas for dining
+        - generic [ref=e1794]:
+          - button "Attractions" [ref=e1795] [cursor=pointer]:
+            - img [ref=e1798]
+          - tooltip [ref=e1800]: Attractions
+        - generic [ref=e1802]:
+          - button "Areas for shopping" [ref=e1803] [cursor=pointer]:
+            - img [ref=e1806]
+          - tooltip [ref=e1809]: Areas for shopping
+      - generic [ref=e1811]:
+        - generic:
+          - button "Keyboard shortcuts"
+        - region "Map" [ref=e1812]
+        - generic [ref=e1813]:
+          - generic [ref=e1851]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic "Hop Inn Hotel Aseana City Manila, ₱2,380" [ref=e1853]:
+                    - generic [ref=e1854]:
+                      - generic [ref=e1855]:
+                        - img [ref=e1857]
+                        - generic [ref=e1863]: ₱2,380
+                      - img [ref=e1864]
+                  - generic "Makati Palace Hotel, ₱1,886" [ref=e1867]:
+                    - generic [ref=e1868]:
+                      - generic [ref=e1869]:
+                        - img [ref=e1871]
+                        - generic [ref=e1877]: ₱1,886
+                      - img [ref=e1878]
+                  - generic "Savoy Hotel Manila, ₱4,061" [ref=e1881]:
+                    - generic [ref=e1882]:
+                      - generic [ref=e1883]:
+                        - img [ref=e1885]
+                        - generic [ref=e1891]: ₱4,061
+                      - img [ref=e1892]
+                  - generic "City Park Hotel Manila, ₱1,704" [ref=e1895]:
+                    - generic [ref=e1896]:
+                      - generic [ref=e1897]:
+                        - img [ref=e1899]
+                        - generic [ref=e1905]: ₱1,704
+                      - img [ref=e1906]
+                  - generic "Bayview Park Hotel Manila, ₱6,349" [ref=e1909]:
+                    - generic [ref=e1910]:
+                      - generic [ref=e1911]:
+                        - img [ref=e1913]
+                        - generic [ref=e1919]: ₱6,349
+                      - img [ref=e1920]
+                  - generic "Jade Hotel and Suites, ₱1,765" [ref=e1923]:
+                    - generic [ref=e1924]:
+                      - generic [ref=e1925]:
+                        - img [ref=e1927]
+                        - generic [ref=e1933]: ₱1,765
+                      - img [ref=e1934]
+                  - generic "Hotel Durban, ₱1,460" [ref=e1937]:
+                    - generic [ref=e1938]:
+                      - generic [ref=e1939]:
+                        - img [ref=e1941]
+                        - generic [ref=e1947]: ₱1,460
+                      - img [ref=e1948]
+                  - generic "Manila Grand Opera Hotel, ₱1,899" [ref=e1951]:
+                    - generic [ref=e1952]:
+                      - generic [ref=e1953]:
+                        - img [ref=e1955]
+                        - generic [ref=e1961]: ₱1,899
+                      - img [ref=e1962]
+                  - generic "Diamond Hotel Philippines, ₱6,652" [ref=e1965]:
+                    - generic [ref=e1966]:
+                      - generic [ref=e1967]:
+                        - img [ref=e1969]
+                        - generic [ref=e1975]: ₱6,652
+                      - img [ref=e1976]
+                  - generic "Airo Suites Makati, ₱1,329" [ref=e1979]:
+                    - generic [ref=e1980]:
+                      - generic [ref=e1981]:
+                        - img [ref=e1983]
+                        - generic [ref=e1989]: ₱1,329
+                      - img [ref=e1990]
+                  - generic "COMFY INN MANILA -KALAW , CORPORATE INN BLDG., ₱1,818" [ref=e1993]:
+                    - generic [ref=e1994]:
+                      - generic [ref=e1995]:
+                        - img [ref=e1997]
+                        - generic [ref=e2003]: ₱1,818
+                      - img [ref=e2004]
+                  - generic "Hotel H2O, ₱3,451" [ref=e2007]:
+                    - generic [ref=e2008]:
+                      - generic [ref=e2009]:
+                        - img [ref=e2011]
+                        - generic [ref=e2017]: ₱3,451
+                      - img [ref=e2018]
+                  - generic "La Casarita - Condormitel, ₱1,002" [ref=e2021]:
+                    - generic [ref=e2022]:
+                      - generic [ref=e2023]:
+                        - img [ref=e2025]
+                        - generic [ref=e2031]: ₱1,002
+                      - img [ref=e2032]
+                  - generic "Red Planet Manila Bay, ₱2,013" [ref=e2035]:
+                    - generic [ref=e2036]:
+                      - generic [ref=e2037]:
+                        - img [ref=e2039]
+                        - generic [ref=e2045]: ₱2,013
+                      - img [ref=e2046]
+                  - generic "Swiss-Belhotel Blulane, ₱1,609" [ref=e2049]:
+                    - generic [ref=e2050]:
+                      - generic [ref=e2051]:
+                        - img [ref=e2053]
+                        - generic [ref=e2059]: ₱1,609
+                      - img [ref=e2060]
+                  - generic "The Manila Hotel, ₱6,654" [ref=e2063]:
+                    - generic [ref=e2064]:
+                      - generic [ref=e2065]:
+                        - img [ref=e2067]
+                        - generic [ref=e2073]: ₱6,654
+                      - img [ref=e2074]
+                  - generic "Go Hotels Ermita-Manila, ₱1,338" [ref=e2077]:
+                    - generic [ref=e2078]:
+                      - generic [ref=e2079]:
+                        - img [ref=e2081]
+                        - generic [ref=e2087]: ₱1,338
+                      - img [ref=e2088]
+                  - generic "City Garden Suites Manila, ₱2,501" [ref=e2091]:
+                    - generic [ref=e2092]:
+                      - generic [ref=e2093]:
+                        - img [ref=e2095]
+                        - generic [ref=e2101]: ₱2,501
+                      - img [ref=e2102]
+                  - generic "1775 Adriatico Suites Manila, ₱1,775" [ref=e2105]:
+                    - generic [ref=e2106]:
+                      - generic [ref=e2107]:
+                        - img [ref=e2109]
+                        - generic [ref=e2115]: ₱1,775
+                      - img [ref=e2116]
+                  - generic "Riviera Mansion Hotel, ₱2,282" [ref=e2119]:
+                    - generic [ref=e2120]:
+                      - generic [ref=e2121]:
+                        - img [ref=e2123]
+                        - generic [ref=e2129]: ₱2,282
+                      - img [ref=e2130]
+                  - generic "Solace Hotel, ₱1,464" [ref=e2133]:
+                    - generic [ref=e2134]:
+                      - generic [ref=e2135]:
+                        - img [ref=e2137]
+                        - generic [ref=e2143]: ₱1,464
+                      - img [ref=e2144]
+                  - generic "Ramada Encore Makati, ₱1,993" [ref=e2147]:
+                    - generic [ref=e2148]:
+                      - generic [ref=e2149]:
+                        - img [ref=e2151]
+                        - generic [ref=e2157]: ₱1,993
+                      - img [ref=e2158]
+                  - generic "Airo Hotel Manila, ₱1,401" [ref=e2161]:
+                    - generic [ref=e2162]:
+                      - generic [ref=e2163]:
+                        - img [ref=e2165]
+                        - generic [ref=e2171]: ₱1,401
+                      - img [ref=e2172]
+                  - generic "Magnificent View of Manila Bay, Roxas Blvd, US Embassy - Three-Bedroom Suite, ₱2,472" [ref=e2175]:
+                    - generic [ref=e2176]:
+                      - generic [ref=e2177]:
+                        - img [ref=e2179]
+                        - generic [ref=e2187]: ₱2,472
+                      - img [ref=e2188]
+                  - generic "Orchid Garden Suites - Manila, ₱1,729" [ref=e2191]:
+                    - generic [ref=e2192]:
+                      - generic [ref=e2193]:
+                        - img [ref=e2195]
+                        - generic [ref=e2201]: ₱1,729
+                      - img [ref=e2202]
+                  - generic "Casa Charlie Hotel, ₱1,583" [ref=e2205]:
+                    - generic [ref=e2206]:
+                      - generic [ref=e2207]:
+                        - img [ref=e2209]
+                        - generic [ref=e2215]: ₱1,583
+                      - img [ref=e2216]
+                  - generic "Pacific Bay Grand Suites, ₱1,686" [ref=e2219]:
+                    - generic [ref=e2220]:
+                      - generic [ref=e2221]:
+                        - img [ref=e2223]
+                        - generic [ref=e2229]: ₱1,686
+                      - img [ref=e2230]
+                  - generic "Hoya- Malate Bayview Mansion Studio w/ Washing, ₱1,625" [ref=e2233]:
+                    - generic [ref=e2235]:
+                      - img [ref=e2237]
+                      - generic [ref=e2245]: ₱1,625
+                  - generic "Studio Fully Furnished, ₱1,409" [ref=e2246]:
+                    - generic [ref=e2248]:
+                      - img [ref=e2250]
+                      - generic [ref=e2258]: ₱1,409
+                  - generic "The Sentinel Residences Condotel, ₱1,055" [ref=e2259]:
+                    - generic [ref=e2261]:
+                      - img [ref=e2263]
+                      - generic [ref=e2271]: ₱1,055
+                  - generic "KS RESIDENCES - Studio, ₱1,263" [ref=e2272]:
+                    - generic [ref=e2273]:
+                      - generic [ref=e2274]:
+                        - img [ref=e2276]
+                        - generic [ref=e2284]: ₱1,263
+                      - img [ref=e2285]
+                  - generic "Fame Residences T1 Family Suite 1507 - Family Suite, ₱2,263" [ref=e2288]:
+                    - generic [ref=e2289]:
+                      - generic [ref=e2290]:
+                        - img [ref=e2292]
+                        - generic [ref=e2300]: ₱2,263
+                      - img [ref=e2301]
+                  - generic "Kingsford Hotel Manila, ₱2,644" [ref=e2304]:
+                    - generic [ref=e2305]:
+                      - generic [ref=e2306]:
+                        - img [ref=e2308]
+                        - generic [ref=e2314]: ₱2,644
+                      - img [ref=e2315]
+                  - generic "Havitat Boutique Hotel, ₱1,311" [ref=e2318]:
+                    - generic [ref=e2319]:
+                      - generic [ref=e2320]:
+                        - img [ref=e2322]
+                        - generic [ref=e2328]: ₱1,311
+                      - img [ref=e2329]
+                  - generic "RedDoorz @ V Plaza Hotel Manila, ₱630" [ref=e2332]:
+                    - generic [ref=e2333]:
+                      - generic [ref=e2334]:
+                        - img [ref=e2336]
+                        - generic [ref=e2342]: ₱630
+                      - img [ref=e2343]
+                  - generic "The Mini Suites Eton Tower Makati, ₱1,743" [ref=e2346]:
+                    - generic [ref=e2347]:
+                      - generic [ref=e2348]:
+                        - img [ref=e2350]
+                        - generic [ref=e2356]: ₱1,743
+                      - img [ref=e2357]
+                  - generic "Astrotel Divisoria, ₱860" [ref=e2360]:
+                    - generic [ref=e2361]:
+                      - generic [ref=e2362]:
+                        - img [ref=e2364]
+                        - generic [ref=e2370]: ₱860
+                      - img [ref=e2371]
+                  - generic "Kabayan Hotel, ₱2,012" [ref=e2374]:
+                    - generic [ref=e2375]:
+                      - generic [ref=e2376]:
+                        - img [ref=e2378]
+                        - generic [ref=e2384]: ₱2,012
+                      - img [ref=e2385]
+                  - generic "RedDoorz Plus @ La Belle Residences Makati City, ₱957" [ref=e2388]:
+                    - generic [ref=e2389]:
+                      - generic [ref=e2390]:
+                        - img [ref=e2392]
+                        - generic [ref=e2398]: ₱957
+                      - img [ref=e2399]
+                  - generic "The Hub District Garden Suites, ₱1,350" [ref=e2402]:
+                    - generic [ref=e2403]:
+                      - generic [ref=e2404]:
+                        - img [ref=e2406]
+                        - generic [ref=e2412]: ₱1,350
+                      - img [ref=e2413]
+                  - generic "Venice Grand Canal Hotels, ₱3,067" [ref=e2416]:
+                    - generic [ref=e2417]:
+                      - generic [ref=e2418]:
+                        - img [ref=e2420]
+                        - generic [ref=e2426]: ₱3,067
+                      - img [ref=e2427]
+                  - generic "The Exchange Regency Residence Hotel, ₱1,965" [ref=e2430]:
+                    - generic [ref=e2431]:
+                      - generic [ref=e2432]:
+                        - img [ref=e2434]
+                        - generic [ref=e2440]: ₱1,965
+                      - img [ref=e2441]
+                  - generic "Madison 101 Hotel + Tower, ₱2,455" [ref=e2444]:
+                    - generic [ref=e2445]:
+                      - generic [ref=e2446]:
+                        - img [ref=e2448]
+                        - generic [ref=e2454]: ₱2,455
+                      - img [ref=e2455]
+                  - generic "Go Hotels Manila Airport Road, ₱1,401" [ref=e2458]:
+                    - generic [ref=e2459]:
+                      - generic [ref=e2460]:
+                        - img [ref=e2462]
+                        - generic [ref=e2468]: ₱1,401
+                      - img [ref=e2469]
+                  - generic "Sequoia Hotel Manila Bay, ₱3,000" [ref=e2472]:
+                    - generic [ref=e2473]:
+                      - generic [ref=e2474]:
+                        - img [ref=e2476]
+                        - generic [ref=e2482]: ₱3,000
+                      - img [ref=e2483]
+                  - generic "Walk Inn Hotel, ₱1,098" [ref=e2486]:
+                    - generic [ref=e2487]:
+                      - generic [ref=e2488]:
+                        - img [ref=e2490]
+                        - generic [ref=e2496]: ₱1,098
+                      - img [ref=e2497]
+                  - generic "Town and Country Hotel V. Mapa, ₱1,055" [ref=e2500]:
+                    - generic [ref=e2501]:
+                      - generic [ref=e2502]:
+                        - img [ref=e2504]
+                        - generic [ref=e2510]: ₱1,055
+                      - img [ref=e2511]
+                  - generic "Go Hotels Otis - Manila, ₱1,411" [ref=e2514]:
+                    - generic [ref=e2515]:
+                      - generic [ref=e2516]:
+                        - img [ref=e2518]
+                        - generic [ref=e2524]: ₱1,411
+                      - img [ref=e2525]
+                  - generic "Astrotel Monumento, ₱661" [ref=e2528]:
+                    - generic [ref=e2529]:
+                      - generic [ref=e2530]:
+                        - img [ref=e2532]
+                        - generic [ref=e2538]: ₱661
+                      - img [ref=e2539]
+                  - generic "Serene Origins - La Casa Marcelina, ₱2,200" [ref=e2542]:
+                    - generic [ref=e2543]:
+                      - generic [ref=e2544]:
+                        - img [ref=e2546]
+                        - generic [ref=e2552]: ₱2,200
+                      - img [ref=e2553]
+                  - generic "Crown Regency Hotel, ₱2,608" [ref=e2556]:
+                    - generic [ref=e2557]:
+                      - generic [ref=e2558]:
+                        - img [ref=e2560]
+                        - generic [ref=e2566]: ₱2,608
+                      - img [ref=e2567]
+                  - generic "iHotel Uptown BGC, ₱1,382" [ref=e2570]:
+                    - generic [ref=e2571]:
+                      - generic [ref=e2572]:
+                        - img [ref=e2574]
+                        - generic [ref=e2580]: ₱1,382
+                      - img [ref=e2581]
+                  - generic "Lanson Place Mall of Asia, Manila, ₱7,585" [ref=e2584]:
+                    - generic [ref=e2585]:
+                      - generic [ref=e2586]:
+                        - img [ref=e2588]
+                        - generic [ref=e2594]: ₱7,585
+                      - img [ref=e2595]
+                  - generic "Hotel 99 Monumento, Caloocan City, ₱896" [ref=e2598]:
+                    - generic [ref=e2599]:
+                      - generic [ref=e2600]:
+                        - img [ref=e2602]
+                        - generic [ref=e2608]: ₱896
+                      - img [ref=e2609]
+                  - generic "Green Sun Hotel & Events, ₱1,560" [ref=e2612]:
+                    - generic [ref=e2613]:
+                      - generic [ref=e2614]:
+                        - img [ref=e2616]
+                        - generic [ref=e2622]: ₱1,560
+                      - img [ref=e2623]
+                  - generic "MySpace Hotel @ BGC, ₱1,371" [ref=e2626]:
+                    - generic [ref=e2627]:
+                      - generic [ref=e2628]:
+                        - img [ref=e2630]
+                        - generic [ref=e2636]: ₱1,371
+                      - img [ref=e2637]
+                  - generic "Hotel DreamWorld North EDSA, ₱1,064" [ref=e2640]:
+                    - generic [ref=e2641]:
+                      - generic [ref=e2642]:
+                        - img [ref=e2644]
+                        - generic [ref=e2650]: ₱1,064
+                      - img [ref=e2651]
+                  - generic "Victoria Court North Edsa, ₱1,039" [ref=e2654]:
+                    - generic [ref=e2655]:
+                      - generic [ref=e2656]:
+                        - img [ref=e2658]
+                        - generic [ref=e2664]: ₱1,039
+                      - img [ref=e2665]
+                  - generic "Axiaa Hotel, ₱1,176" [ref=e2668]:
+                    - generic [ref=e2669]:
+                      - generic [ref=e2670]:
+                        - img [ref=e2672]
+                        - generic [ref=e2678]: ₱1,176
+                      - img [ref=e2679]
+                  - generic "New Manila Suites, ₱2,214" [ref=e2682]:
+                    - generic [ref=e2683]:
+                      - generic [ref=e2684]:
+                        - img [ref=e2686]
+                        - generic [ref=e2692]: ₱2,214
+                      - img [ref=e2693]
+                  - generic "Greenhills Elan Hotel Modern - Newly Renovated, ₱2,338" [ref=e2696]:
+                    - generic [ref=e2697]:
+                      - generic [ref=e2698]:
+                        - img [ref=e2700]
+                        - generic [ref=e2706]: ₱2,338
+                      - img [ref=e2707]
+                  - generic "Royale Parc Inn & Suites Annapolis Cubao, ₱765" [ref=e2710]:
+                    - generic [ref=e2711]:
+                      - generic [ref=e2712]:
+                        - img [ref=e2714]
+                        - generic [ref=e2720]: ₱765
+                      - img [ref=e2721]
+                  - generic "RedDoorz Plus @ Banawe Quezon City, ₱789" [ref=e2724]:
+                    - generic [ref=e2725]:
+                      - generic [ref=e2726]:
+                        - img [ref=e2728]
+                        - generic [ref=e2734]: ₱789
+                      - img [ref=e2735]
+                  - generic "Vista Hotel Cubao, ₱1,439" [ref=e2738]:
+                    - generic [ref=e2739]:
+                      - generic [ref=e2740]:
+                        - img [ref=e2742]
+                        - generic [ref=e2748]: ₱1,439
+                      - img [ref=e2749]
+                  - generic "Espacio Hotel, ₱3,881" [ref=e2752]:
+                    - generic [ref=e2753]:
+                      - generic [ref=e2754]:
+                        - img [ref=e2756]
+                        - generic [ref=e2762]: ₱3,881
+                      - img [ref=e2763]
+                  - generic "VS Hotel, ₱1,740" [ref=e2766]:
+                    - generic [ref=e2767]:
+                      - generic [ref=e2768]:
+                        - img [ref=e2770]
+                        - generic [ref=e2776]: ₱1,740
+                      - img [ref=e2777]
+                  - generic "Dormitelsph España, ₱1,225" [ref=e2780]:
+                    - generic [ref=e2781]:
+                      - generic [ref=e2782]:
+                        - img [ref=e2784]
+                        - generic [ref=e2790]: ₱1,225
+                      - img [ref=e2791]
+                  - generic "Residenciale Boutique Apartment, ₱1,740" [ref=e2794]:
+                    - generic [ref=e2795]:
+                      - generic [ref=e2796]:
+                        - img [ref=e2798]
+                        - generic [ref=e2804]: ₱1,740
+                      - img [ref=e2805]
+                  - generic "Holiday Inn Express Manila Newport World Resorts by IHG, ₱5,308" [ref=e2808]:
+                    - generic [ref=e2809]:
+                      - generic [ref=e2810]:
+                        - img [ref=e2812]
+                        - generic [ref=e2818]: ₱5,308
+                      - img [ref=e2819]
+                  - generic "Urban deca tondo manila by graceysplace, ₱1,183" [ref=e2822]:
+                    - generic [ref=e2823]:
+                      - generic [ref=e2824]:
+                        - img [ref=e2826]
+                        - generic [ref=e2832]: ₱1,183
+                      - img [ref=e2833]
+                  - generic "Orchids Hotel, ₱1,528" [ref=e2836]:
+                    - generic [ref=e2837]:
+                      - generic [ref=e2838]:
+                        - img [ref=e2840]
+                        - generic [ref=e2846]: ₱1,528
+                      - img [ref=e2847]
+                  - generic "CHANEL PARIS HOTEL, ₱1,755" [ref=e2850]:
+                    - generic [ref=e2851]:
+                      - generic [ref=e2852]:
+                        - img [ref=e2854]
+                        - generic [ref=e2860]: ₱1,755
+                      - img [ref=e2861]
+                  - generic "Victoria Court Canley, ₱1,603" [ref=e2864]:
+                    - generic [ref=e2865]:
+                      - generic [ref=e2866]:
+                        - img [ref=e2868]
+                        - generic [ref=e2874]: ₱1,603
+                      - img [ref=e2875]
+                  - generic "RedDoorz @ Western Bicutan Transients Inn, ₱807" [ref=e2878]:
+                    - generic [ref=e2879]:
+                      - generic [ref=e2880]:
+                        - img [ref=e2882]
+                        - generic [ref=e2888]: ₱807
+                      - img [ref=e2889]
+                  - generic "Anglo Residences Hotel - Manila" [ref=e2892]:
+                    - generic [ref=e2893]:
+                      - img
+                  - generic "Cassa Magayon" [ref=e2894]:
+                    - generic [ref=e2895]:
+                      - img
+                  - generic "RedDoorz @ DBuilders Rooms Lower Bicutan, ₱1,844" [ref=e2896]:
+                    - generic [ref=e2897]:
+                      - generic [ref=e2898]:
+                        - img [ref=e2900]
+                        - generic [ref=e2906]: ₱1,844
+                      - img [ref=e2907]
+          - iframe [ref=e2910]:
+            
+          - generic [ref=e2911]:
+            - button "Keyboard shortcuts" [ref=e2917] [cursor=pointer]
+            - generic [ref=e2922]: Map data ©2026 Google
+            - 'button "Map Scale: 1 km per 54 pixels" [ref=e2923] [cursor=pointer]':
+              - generic [ref=e2926]: 1 km
+            - link "Terms (opens in new tab)" [ref=e2938] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en-US_PH/help/terms_maps.html
+              - text: Terms
+  - generic [ref=e2939]: Page loaded.

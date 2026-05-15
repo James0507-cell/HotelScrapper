@@ -33,6 +33,9 @@ class HotelRecord:
     nearby_places: list[str] = field(default_factory=list)
     check_in: str | None = None
     check_out: str | None = None
+    latitude: float | None = None
+    longitude: float | None = None
+    booking_url: str | None = None
     photos: list[str] = field(default_factory=list)
     source_url: str | None = None
     listing_url: str | None = None
@@ -593,6 +596,110 @@ async def extract_hotel_name(page: Page, expected_name: str | None = None) -> st
     return expected_name
 
 
+async def extract_coordinates(page: Page, hotel_name: str | None) -> tuple[float | None, float | None]:
+    try:
+        # Search scripts for coordinates. We look for a [lat, lng] pattern.
+        # Often found near the hotel name in AF_initDataCallback or WIZ_global_data
+        coords = await page.evaluate(r'''async (name) => {
+            const scripts = Array.from(document.querySelectorAll('script'));
+            
+            // Try to find coordinates near the hotel name first
+            if (name) {
+                for (const s of scripts) {
+                    const text = s.innerText;
+                    if (text.includes(name)) {
+                        const index = text.indexOf(name);
+                        const snippet = text.substring(Math.max(0, index - 2000), Math.min(text.length, index + 2000));
+                        const matches = snippet.match(/\[-?\d+\.\d+,-?\d+\.\d+\]/g);
+                        if (matches) {
+                            for (const m of matches) {
+                                try {
+                                    const parsed = JSON.parse(m);
+                                    if (Array.isArray(parsed) && parsed.length === 2) {
+                                        // Basic validation: lat between -90 and 90, lng between -180 and 180
+                                        if (Math.abs(parsed[0]) <= 90 && Math.abs(parsed[1]) <= 180 && parsed[0] !== 0) {
+                                            return parsed;
+                                        }
+                                    }
+                                } catch(e) {}
+                            }
+                        }
+                    }
+                }
+            }
+            
+            // Fallback: search all scripts for any likely coordinate pair
+            for (const s of scripts) {
+                const text = s.innerText;
+                const matches = text.match(/\[-?\d+\.\d+,-?\d+\.\d+\]/g);
+                if (matches) {
+                    for (const m of matches) {
+                        try {
+                            const parsed = JSON.parse(m);
+                            if (Array.isArray(parsed) && parsed.length === 2) {
+                                // Specific check for Manila region to increase confidence if multiple found
+                                if (parsed[0] > 14 && parsed[0] < 15 && parsed[1] > 120 && parsed[1] < 122) {
+                                    return parsed;
+                                }
+                                // Generic validation
+                                if (Math.abs(parsed[0]) <= 90 && Math.abs(parsed[1]) <= 180 && parsed[0] !== 0) {
+                                    return parsed;
+                                }
+                            }
+                        } catch(e) {}
+                    }
+                }
+            }
+            return null;
+        }''', hotel_name)
+        
+        if coords and len(coords) == 2:
+            return float(coords[0]), float(coords[1])
+    except Exception:
+        pass
+    return None, None
+
+
+async def extract_booking_url(page: Page, expected_price: str | None) -> str | None:
+    try:
+        data = await page.evaluate('''(price) => {
+            const links = Array.from(document.querySelectorAll('a'));
+            const visitSiteLinks = links.filter(a => 
+                (a.innerText && a.innerText.includes('Visit site')) || 
+                (a.getAttribute('aria-label') && a.getAttribute('aria-label').includes('Visit site'))
+            );
+            
+            if (visitSiteLinks.length === 0) return null;
+            
+            // If we have a price, try to find the link that matches it
+            if (price) {
+                const cleanPrice = price.replace(/[^0-9]/g, '');
+                for (const link of visitSiteLinks) {
+                    const text = (link.innerText + ' ' + (link.parentElement ? link.parentElement.innerText : '')).replace(/[^0-9]/g, '');
+                    if (text.includes(cleanPrice)) {
+                        return link.href;
+                    }
+                }
+            }
+            
+            // Fallback to the first "Visit site" link which is usually the best deal
+            return visitSiteLinks[0].href;
+        }''', expected_price)
+        
+        if data:
+            # Clean up Google redirector URLs if possible
+            parsed = urlparse(data)
+            if (parsed.netloc.endswith("google.com") and parsed.path.endswith("/clk")):
+                qs = parse_qs(parsed.query)
+                pcurl = qs.get("pcurl")
+                if pcurl:
+                    return pcurl[0]
+            return data
+    except Exception:
+        pass
+    return None
+
+
 async def extract_detail_page(
     page: Page,
     url: str | None,
@@ -677,6 +784,8 @@ async def extract_detail_page(
     record.phone = phone or record.phone
     record.website = await extract_website_url(page)
     record.about = parse_about_from_panel_text(panel_text) or record.about
+    record.latitude, record.longitude = await extract_coordinates(page, record.name)
+    record.booking_url = await extract_booking_url(page, record.price)
 
     check_in_match = re.search(r"Check-in(?: time)?[:\s]+([\d: \u202f\u00a0]+[AP]M)", panel_text, re.IGNORECASE)
     check_out_match = re.search(r"Check-out(?: time)?[:\s]+([\d: \u202f\u00a0]+[AP]M)", panel_text, re.IGNORECASE)

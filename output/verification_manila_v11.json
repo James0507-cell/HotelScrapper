@@ -1,0 +1,146 @@
+[
+  {
+    "name": "The Manila Hotel",
+    "price": "₱6,548",
+    "total_price": null,
+    "currency": "₱",
+    "rating": "4.6",
+    "review_count": "1,322",
+    "stars": null,
+    "address": "1 Rizal Park, Ermita, Manila, 0913 Metro Manila",
+    "phone": "(02) 8527 0011",
+    "website": "http://manila-hotel.com.ph/?sa=X&ved=2ahUKEwiXiLj_1ruUAxV3oWYCHSr6G-oQyK4DegUIAxCcBg",
+    "about": "Overlooking the South Harbor, this iconic luxury hotel is an 11-minute walk from landscaped gardens in Rizal Park, and 2 km from both the National Museum of the Philippines and Fort Santiago.… More",
+    "amenities": {
+      "Popular amenities": [
+        "Pool",
+        "Spa",
+        "Hot tub",
+        "Parking free"
+      ],
+      "Internet": [
+        "Wi-Fi"
+      ],
+      "Services": [
+        "Front desk 24 hour",
+        "Full-service laundry"
+      ],
+      "Children": [
+        "Kid-friendly"
+      ],
+      "Parking & transportation": [
+        "Parking free",
+        "Valet parking",
+        "Airport shuttle",
+        "Local shuttle"
+      ],
+      "Accessibility": [
+        "Accessible"
+      ],
+      "Pets": [
+        "No pets"
+      ],
+      "Food & drink": [
+        "Restaurant",
+        "Bar",
+        "Buffet dinner",
+        "Room service",
+        "Breakfast buffet"
+      ],
+      "Pools": [
+        "Outdoor pool",
+        "Hot tub"
+      ],
+      "Wellness": [
+        "Fitness center",
+        "Sauna",
+        "Spa"
+      ],
+      "Business & events": [
+        "Business center"
+      ],
+      "Rooms": [
+        "Air conditioning"
+      ]
+    },
+    "nearby_places": [],
+    "check_in": "2:00 PM",
+    "check_out": "12:00 PM",
+    "photos": [
+      "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHH9gKK6UalqktZRcYJQSt_KVe3SZlSEwWSFUDUld1lJNtnCqX-zIGTZchYTVBB3gHpOLTh9e6IMy_LXLbX8edHYWQpUjfxvv3YrhRTg29mHyXqrfdUW-GvIlPfzxwnAnczjDxczMql3yGMlO99tcjjlXAO7KfpUEz1mI4wDDevmHrSXdFDeiG2=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFbAbJoXvcne-mUPNbqhqYnrmAvkqI7GYyQj4WNViVio3GCcV5OWO1VWbKk3rZZrkGdQwSY1XtYX7r77bU2x2fWVlA4rhccyqxc7f2Uw-v-jnQWe9LfozIJcPsXw4cqrqSdddbN=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFYjwnTZdfA_j8bg9ca9g4ZXnvKqrx3bGdLFD7mVgG4TpjNtCrURQmHp6G8aDeF3Yffxl_MbJHMJ_b4raK36w9Tj24TPjxvljx352XIZ_4WBpEarYl4GfhyG7b0YUcIHIszVLu=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmaZlPzc_EZJmH-03mvSnpmNlewBSiu7F_heu7t9E6vlshQ-fFh13v7Pr8Yd28A-KJx6Cr56LRjxKuE-KT95DsqJjfPp7vfIjMs8GqsvJRCh1V9hxiR4SU2YLEmiVq97G5rcGs=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFu5ObUC6OfycydcxKIPsLvurwq8f5RyuKfHt4a5RFlZgm-ixzLZdT0tVMsL9d2AQEJt_BBuZdnVopy8w4pY4iXLZK5sHD8b9EYcJ_62nhmzjZ--ytvOmxK8na_E1g3qb6vzYKIcsET8QX41Co-jgR5D0Phzld4QcgC4JPhyvSRtghQ2D6lOVw=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH11ITC5N6fbAhNPQJuqtEV6QSO9IjTzgMIly_iC_TemWFapgvtUJh6mmgTkX-94wNmhGkDvHzDa5TvQANVtQBc4pSKMixdE3TF5_36PAJiABMSpyHAs5W6wT1YC9N9HAeEpJrD=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFdmMXulWAkYTM7xx1_ML1JPAZSHVXn_wtdsszLV4eyQHUO1KKXKzP6qRhu97sWlOyz4EynOMg0p7gEUbMSje91rvVwSujbJ5AXluyfHUN4fno1sU1ifAArL75rm30X5b-kMx1WqIbVO6x4xthvFgLiTK1DaIL2tHnp2P0K6327oP5RkZgXfhLQLw=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHC1lzLN0rWtP6UGW-BQpxmW1CCp9SczJYRB36hfpgHByHblSgQkjhgxvLNT94hSxwRUx2Ou9UuExjGX7sVichdjG7ogp5SZ1IvhvI0RX617rfeTwfhdrE6NKwg3sFKGb6J6F0=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGLwiZXqvJilfCyfhUgBJdXSKd-8CfYUytJBlfu99c-JVxdEWcrxjQdYqAk9BbdyaajI3HPR70BwmCf0Xny-71MSBl_Sd5uUNr9JSgusoaVEAp7bgxqTcql4Nk6bMrlXLLn-SuVLw=s287-w287-h192-n-k-no-v1",
+      "https://lh3.googleusercontent.com/a-/ALV-UjWsTEg3UpLdjcownjYXicWPm21rv0PrSj3GMKkHBNBZ_mIKyyqH=s120-c-rp-mo-ba3-br100",
+      "https://lh3.googleusercontent.com/local-reviews/AJMZ0QeCck1CfANpZm9bBk3PHtP97Kh9k25HZfvq9yAWlN3BaIyjSHUPEfWkhAJmuYiJsH-_6g=s120-c-br100",
+      "https://lh3.googleusercontent.com/a-/ALV-UjWwriZI876jYinhoPMifMYY8gleuI98ikz2zVi3NFnLOcFTo5Xssw=s120-c-rp-mo-ba6-br100",
+      "https://lh3.googleusercontent.com/a-/ALV-UjXXz9BrjNAuKpVt9Jf-CLqJAXcQoTtET0nnUtmyvcIIycHa6fNk=s120-c-rp-mo-ba2-br100",
+      "https://lh3.googleusercontent.com/a/ACg8ocLRAGfE2S9afac7i6_RBa5sRlSOP6TmZmIKwmrDun5eviAjJg=s120-c-rp-mo-ba3-br100",
+      "https://lh3.googleusercontent.com/a/ACg8ocKbYow7UrnzkXjx83iSNl1amlnDB71Y9dV4QZDmpX3-2qtYvA=s120-c-rp-mo-ba3-br100",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHiftxslaIJ2E9u1lGxuJVTC00Pf2QK3V58mr92k6j0dk8sfO6acePQwmilSbDZzm3AfympHORuvCzvCd40vcZ5Kvdm5ZFOxmuOdKc7OJy3jxpH_TU5c5v8fI3Fcs6nug_PMvbd=s367-w367-h248-n-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHxFeb6MhDqP3ulAoblClLXP8Z1SblKRqKhIR4ij4hTAnzTq5xvG8hOrlwGQL170rtHgQNYyqLXTq8AvqeBPXcW5nEIgUgc-zLAFUx_GH9792WeWNzhyMCrJj22N9lsZBwmMI0=s367-w367-h248-n-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfaPf6KNhU-ixUlRcjbQEvZLFPz4RFIPdX1n0Q6oiPbIIt0JSD9D1KuYpcuyDHjM-k1kUfG5elZMmiiWNAcbgrKuADAabVxUf9qE1Xt41zLb2BGvrj76jHYL7_eekIcqxfaWdM0KjEFzRl=s367-w367-h248-n-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGt9aCQqVVnMN2r-EGjroRkrvaPGGXw1uz0bx1BRBYVRNBGg4OWEfWMFIAQf6GiGGA3MUwK2Lnuw3bFApfmzYpiK577tHe9RAwAEMisFORrDJyIvHlfOAfb9shh2zizU-93AweBX5paif_H=s367-w367-h248-n-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGd_4wWelIpnJEJvdfjl9Aslncgs-2Jkmr29lmSA01AE7E5zd0pKCcw0QOiM4VI8W2sb45dB_dRKvRCbxqPJZIG0uvFj0uGb2BF5351DSbh6_LoxTptGbdqariZkFXZatbaMCee=s367-w367-h248-n-k-no"
+    ],
+    "source_url": "https://www.google.com/travel/hotels/entity/CgoIzL2j_43A1-cfEAE/details?utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAEaIAoCGgASGhIUCgcI6g8QBRgXEgcI6g8QBRgYGAEyAhAAKgkKBToDUEhQGgA",
+    "listing_url": null,
+    "adults": 2,
+    "children": 0,
+    "search_check_in": null,
+    "search_check_out": null,
+    "health_and_safety": [
+      "Enhanced cleaning",
+      "Personal protection",
+      "Physical distancing",
+      "Minimized contact",
+      "Increased food safety"
+    ],
+    "sustainability": [],
+    "highlights": [],
+    "location_score": null,
+    "neighborhood": null,
+    "location_rating_text": null,
+    "external_ratings": [],
+    "top_things_to_know": [],
+    "similar_hotels": [],
+    "room_options": [],
+    "reviews_breakdown": {
+      "Cleanliness": "265",
+      "Service": "",
+      "Location": "",
+      "Property": "1579",
+      "Rooms": "4425",
+      "Sleep": "104",
+      "Facilities": "4425",
+      "Dining": "",
+      "Breakfast": "13",
+      "Bathroom": "108",
+      "Atmosphere": "13",
+      "Gym": "4425",
+      "Parking": "119",
+      "Family": "121",
+      "Business": "95",
+      "Couples": "59",
+      "Nightlife": "4425",
+      "Pool": "2",
+      "Wellness": "40",
+      "Safety": "66",
+      "Nature": "25",
+      "Accessibility": "54",
+      "TV": "33",
+      "Transit": "1",
+      "Wi-Fi": "36",
+      "Kitchen": "4",
+      "Air Conditioning": "24",
+      "Pets": "6",
+      "Hot Tub": "6"
+    },
+    "typical_price_range": null
+  }
+]
