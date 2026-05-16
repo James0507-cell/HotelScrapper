@@ -7,4 +7,5 @@ dependencies = [
     "playwright>=1.54.0",
     "playwright-stealth>=2.0.3",
     "requests>=2.32.0",
+    "uvicorn>=0.47.0",
 ]
