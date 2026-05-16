@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+playwright
+playwright-stealth
+requests
+pydantic
+python-multipart
