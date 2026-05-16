@@ -14,10 +14,14 @@ async def test_get_all_prices():
         
         print(f"Found {len(offers)} offers:")
         for i, offer in enumerate(offers, 1):
-            print(f"{i}. Provider: {offer.provider_name}")
-            print(f"   Price: {offer.price}")
+            name = offer.provider_name or "Unknown"
+            price = offer.price or "N/A"
+            url = offer.booking_url or ""
+            print(f"{i}. Provider: {name}")
+            print(f"   Price: {price}")
             print(f"   Official: {offer.is_official}")
-            print(f"   URL: {offer.booking_url[:100]}...")
+            print(f"   Logo: {offer.provider_logo_url}")
+            print(f"   URL: {url[:100]}...")
             print("-" * 20)
             
         # Also save to file for easier inspection

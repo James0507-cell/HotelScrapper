@@ -1,0 +1,923 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e15]:
+        - generic:
+          - button "Skip to main content" [ref=e16]:
+            - generic: Skip to main content
+          - button "Accessibility feedback" [ref=e19]:
+            - generic: Accessibility feedback
+        - navigation [ref=e23]:
+          - link "Travel" [ref=e26]:
+            - img [ref=e29]
+            - generic: Travel
+          - link "Explore" [ref=e35]:
+            - img [ref=e38]
+            - generic: Explore
+          - link "Flights" [ref=e43]:
+            - img [ref=e46]
+            - generic: Flights
+          - link "Hotels" [ref=e51]:
+            - img [ref=e54]
+            - generic: Hotels
+          - link "Vacation rentals" [ref=e62]:
+            - img [ref=e65]
+            - generic: Vacation rentals
+      - generic [ref=e74]:
+        - button "Google apps" [ref=e78] [cursor=pointer]:
+          - img [ref=e79]
+        - link "Sign in" [ref=e82] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3Dhotels%2520in%2520bali%26qs%3DMiZDaGdJOExfeTY5VGhvZUl1R2d3dlp5OHhhbXQ1TjJabmNqUVFBUTgA%26ved%3D0CAAQ5JsGahcKEwjQj_Ge3LyUAxUAAAAAHQAAAAAQBA%26ts%3DCAESCgoCCAMKAggDEAAaTQovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSGhIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyAhAAKgcKBToDUEhQ%26ap%3DugEGcHJpY2Vz%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3Dhotels%2520in%2520bali%26qs%3DMiZDaGdJOExfeTY5VGhvZUl1R2d3dlp5OHhhbXQ1TjJabmNqUVFBUTgA%26ved%3D0CAAQ5JsGahcKEwjQj_Ge3LyUAxUAAAAAHQAAAAAQBA%26ts%3DCAESCgoCCAMKAggDEAAaTQovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSGhIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyAhAAKgcKBToDUEhQ%26ap%3DugEGcHJpY2Vz%26utm_source%3Dsign_in_ogb&ec=GAZAlQM
+  - generic [ref=e88]:
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - heading "Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛" [level=1] [ref=e119]
+        - generic [ref=e121]:
+          - generic:
+            - button "Back to list of all results":
+              - generic: Back to list of all results
+          - link "Open Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛 in a new tab." [ref=e122] [cursor=pointer]:
+            - /url: /travel/hotels/entity/ChgI8L_y69ThoeIuGgwvZy8xamt5N2ZncjQQAQ?q=hotels%20in%20bali&qs=OAA&ved=2ahUKEwjXhLae3LyUAxWwi2YCHVEKFq0QvukIegQIAxAC&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyBAgAEAAqBwoFOgNQSFA
+            - generic [ref=e123]:
+              - button "Open Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛 in a new tab." [ref=e124]:
+                - img [ref=e125]
+              - tooltip [ref=e127]: Open Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛 in a new tab.
+          - button "Close" [ref=e131]:
+            - generic [ref=e135]:
+              - img [ref=e137]
+              - generic [ref=e140]: Close
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - tablist [ref=e147]:
+            - tab "Overview" [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]: Overview
+            - tab "Prices" [active] [selected] [ref=e150] [cursor=pointer]:
+              - generic [ref=e151]: Prices
+            - tab "Reviews" [ref=e153] [cursor=pointer]:
+              - generic [ref=e154]: Reviews
+            - tab "Photos" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: Photos
+            - tab "About" [ref=e157] [cursor=pointer]:
+              - generic [ref=e158]: About
+          - generic [ref=e160]:
+            - text: · · · · · · ·
+            - tabpanel [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e165]:
+                  - generic [ref=e166]:
+                    - generic [ref=e169]:
+                      - generic [ref=e170]: Check-in
+                      - generic [ref=e172]:
+                        - textbox "Check-in" [ref=e173]: Mon, May 25
+                        - button [ref=e176]:
+                          - img [ref=e179]
+                        - button [ref=e183]:
+                          - img [ref=e186]
+                      - generic [ref=e189]: Check-out
+                      - generic [ref=e191]:
+                        - textbox "Check-out" [ref=e192]: Tue, May 26
+                        - button [ref=e195]:
+                          - img [ref=e198]
+                        - button [ref=e202]:
+                          - img [ref=e205]
+                    - button "Number of travelers. Current number of travelers is 2." [ref=e212] [cursor=pointer]:
+                      - img [ref=e213]
+                      - generic [ref=e215]: "2"
+                      - img [ref=e216]
+                    - generic [ref=e218]:
+                      - button "Price displayedNightly total" [ref=e222]:
+                        - generic [ref=e225]: Nightly total
+                        - img [ref=e227]
+                      - generic [ref=e229]:
+                        - generic [ref=e230]: Free cancellation only
+                        - switch "Free cancellation only" [ref=e231] [cursor=pointer]:
+                          - generic [ref=e236]:
+                            - img [ref=e237]
+                            - img [ref=e239]
+                  - generic [ref=e245]:
+                    - generic [ref=e246]:
+                      - generic [ref=e247]:
+                        - heading "Sponsored Featured options" [level=2] [ref=e248]:
+                          - generic [ref=e249]: Sponsored·
+                          - text: Featured options
+                        - button "My Ad Center" [ref=e251] [cursor=pointer]:
+                          - img [ref=e252]
+                      - generic [ref=e256]:
+                        - generic [ref=e260]:
+                          - link "Booking.com ₱5,057 Visit site for Booking.com Read Real Guest Reviews · 24/7 Customer service" [ref=e261] [cursor=pointer]:
+                            - /url: /aclk?sa=l&ai=DChsSEwjg7rue3LyUAxXvqGYCHSPuO-YYACICCAEQDxoCc20&co=1&ase=2&gclid=EAIaIQobChMI4O67nty8lAMV76hmAh0j7jvmEAoYASABEgL2l_D_BwE&cid=CAASuwHkaAEnCwEO5bgCZi8Lrc9mrBZx0ahsKisK-hprurb7hV8y4goxUPbe0nQXMYYPHasBGI9kiwJPuA5N56AOXTpeGn2gTuNjADUDwLqybe-1KXguY0jWmMScpE3uXfHD17YYQrrI10wsesZB4XfEezWG23tOGwTPGaBdNqr8Y7pb2-kw7x2Ar4rMmw_hB8R7HPvjFeajOCrG5__6Rv85nRg7l_86xK2ZgVb8X1TZ3X2RS81pJpQlp3unh21B&category=acrcp_v1_48&sig=AOD64_0zlsnqR_xI4TzP-44mZV3OAGmDYw&adurl=
+                            - generic [ref=e262]:
+                              - generic [ref=e263]:
+                                - heading "Booking.com" [level=3] [ref=e268]
+                                - generic [ref=e269]:
+                                  - generic [ref=e270]: ₱5,057
+                                  - link "Visit site for Booking.com" [ref=e272]:
+                                    - generic [ref=e274]: Visit site
+                              - generic [ref=e276]:
+                                - img [ref=e278]
+                                - generic [ref=e280]: Read Real Guest Reviews · 24/7 Customer service
+                          - generic [ref=e281]:
+                            - link "Double or Twin Room with Village View 1 king bed · breakfast ₱5,057 Visit site for Booking.com" [ref=e282] [cursor=pointer]:
+                              - /url: /aclk?sa=l&ai=DChsSEwjg7rue3LyUAxXvqGYCHSPuO-YYACICCAEQERoCc20&co=1&ase=2&gclid=EAIaIQobChMI4O67nty8lAMV76hmAh0j7jvmEAoYASADEgLyqvD_BwE&cid=CAASuwHkaAEnCwEO5bgCZi8Lrc9mrBZx0ahsKisK-hprurb7hV8y4goxUPbe0nQXMYYPHasBGI9kiwJPuA5N56AOXTpeGn2gTuNjADUDwLqybe-1KXguY0jWmMScpE3uXfHD17YYQrrI10wsesZB4XfEezWG23tOGwTPGaBdNqr8Y7pb2-kw7x2Ar4rMmw_hB8R7HPvjFeajOCrG5__6Rv85nRg7l_86xK2ZgVb8X1TZ3X2RS81pJpQlp3unh21B&category=acrcp_v1_48&sig=AOD64_2L5mAK6JILnlCbE9V0GL1V8OPjEg&adurl=
+                              - generic [ref=e283]:
+                                - generic [ref=e284]:
+                                  - heading "Double or Twin Room with Village View" [level=4] [ref=e286]
+                                  - generic [ref=e287]: 1 king bed · breakfast
+                                - generic [ref=e289]:
+                                  - generic [ref=e290]: ₱5,057
+                                  - link "Visit site for Booking.com" [ref=e292]:
+                                    - generic [ref=e294]: Visit site
+                            - link "Double or Twin Room with Village View 1 king bed · Free cancellation until May 19 · breakfast ₱5,815 Visit site for Booking.com" [ref=e295] [cursor=pointer]:
+                              - /url: /aclk?sa=l&ai=DChsSEwjg7rue3LyUAxXvqGYCHSPuO-YYACICCAEQEhoCc20&co=1&ase=2&gclid=EAIaIQobChMI4O67nty8lAMV76hmAh0j7jvmEAoYASAEEgJro_D_BwE&cid=CAASuwHkaAEnCwEO5bgCZi8Lrc9mrBZx0ahsKisK-hprurb7hV8y4goxUPbe0nQXMYYPHasBGI9kiwJPuA5N56AOXTpeGn2gTuNjADUDwLqybe-1KXguY0jWmMScpE3uXfHD17YYQrrI10wsesZB4XfEezWG23tOGwTPGaBdNqr8Y7pb2-kw7x2Ar4rMmw_hB8R7HPvjFeajOCrG5__6Rv85nRg7l_86xK2ZgVb8X1TZ3X2RS81pJpQlp3unh21B&category=acrcp_v1_48&sig=AOD64_1i5JO4lrpYxmCvJjTjAx8G4NSmxQ&adurl=
+                              - generic [ref=e296]:
+                                - generic [ref=e297]:
+                                  - heading "Double or Twin Room with Village View" [level=4] [ref=e299]
+                                  - generic [ref=e300]: 1 king bed · Free cancellation until May 19 · breakfast
+                                - generic [ref=e302]:
+                                  - generic [ref=e303]: ₱5,815
+                                  - link "Visit site for Booking.com" [ref=e305]:
+                                    - generic [ref=e307]: Visit site
+                            - link "Double or Twin Room with Garden View 1 king bed · breakfast ₱5,346 Visit site for Booking.com" [ref=e308] [cursor=pointer]:
+                              - /url: /aclk?sa=l&ai=DChsSEwjg7rue3LyUAxXvqGYCHSPuO-YYACICCAEQExoCc20&co=1&ase=2&gclid=EAIaIQobChMI4O67nty8lAMV76hmAh0j7jvmEAoYASAFEgJx8PD_BwE&cid=CAASuwHkaAEnCwEO5bgCZi8Lrc9mrBZx0ahsKisK-hprurb7hV8y4goxUPbe0nQXMYYPHasBGI9kiwJPuA5N56AOXTpeGn2gTuNjADUDwLqybe-1KXguY0jWmMScpE3uXfHD17YYQrrI10wsesZB4XfEezWG23tOGwTPGaBdNqr8Y7pb2-kw7x2Ar4rMmw_hB8R7HPvjFeajOCrG5__6Rv85nRg7l_86xK2ZgVb8X1TZ3X2RS81pJpQlp3unh21B&category=acrcp_v1_48&sig=AOD64_3ZfRCkJXR8J1nyr-KhlbpMrZ7ZLQ&adurl=
+                              - generic [ref=e309]:
+                                - generic [ref=e310]:
+                                  - heading "Double or Twin Room with Garden View" [level=4] [ref=e312]
+                                  - generic [ref=e313]: 1 king bed · breakfast
+                                - generic [ref=e315]:
+                                  - generic [ref=e316]: ₱5,346
+                                  - link "Visit site for Booking.com" [ref=e318]:
+                                    - generic [ref=e320]: Visit site
+                            - link "Double or Twin Room Beach Front 1 king bed · breakfast · Beach view ₱6,935 Visit site for Booking.com" [ref=e321] [cursor=pointer]:
+                              - /url: /aclk?sa=l&ai=DChsSEwjg7rue3LyUAxXvqGYCHSPuO-YYACICCAEQFBoCc20&co=1&ase=2&gclid=EAIaIQobChMI4O67nty8lAMV76hmAh0j7jvmEAoYASAGEgK0zfD_BwE&cid=CAASuwHkaAEnCwEO5bgCZi8Lrc9mrBZx0ahsKisK-hprurb7hV8y4goxUPbe0nQXMYYPHasBGI9kiwJPuA5N56AOXTpeGn2gTuNjADUDwLqybe-1KXguY0jWmMScpE3uXfHD17YYQrrI10wsesZB4XfEezWG23tOGwTPGaBdNqr8Y7pb2-kw7x2Ar4rMmw_hB8R7HPvjFeajOCrG5__6Rv85nRg7l_86xK2ZgVb8X1TZ3X2RS81pJpQlp3unh21B&category=acrcp_v1_48&sig=AOD64_2uFzOQ4TGCRwvfdYQUD6IB9Ui74A&adurl=
+                              - generic [ref=e322]:
+                                - generic [ref=e323]:
+                                  - heading "Double or Twin Room Beach Front" [level=4] [ref=e325]
+                                  - generic [ref=e326]: 1 king bed · breakfast · Beach view
+                                - generic [ref=e328]:
+                                  - generic [ref=e329]: ₱6,935
+                                  - link "Visit site for Booking.com" [ref=e331]:
+                                    - generic [ref=e333]: Visit site
+                        - link "Expedia.com.ph Free Wi-Fi · Free breakfast ₱4,226 Visit site for Expedia.com.ph" [ref=e338] [cursor=pointer]:
+                          - /url: /aclk?sa=l&ai=DChsSEwjg7rue3LyUAxXvqGYCHSPuO-YYACICCAEQBRoCc20&co=1&ase=2&gclid=EAIaIQobChMI4O67nty8lAMV76hmAh0j7jvmEAoYAiABEgIZPfD_BwE&cid=CAASuwHkaAEnCwEO5bgCZi8Lrc9mrBZx0ahsKisK-hprurb7hV8y4goxUPbe0nQXMYYPHasBGI9kiwJPuA5N56AOXTpeGn2gTuNjADUDwLqybe-1KXguY0jWmMScpE3uXfHD17YYQrrI10wsesZB4XfEezWG23tOGwTPGaBdNqr8Y7pb2-kw7x2Ar4rMmw_hB8R7HPvjFeajOCrG5__6Rv85nRg7l_86xK2ZgVb8X1TZ3X2RS81pJpQlp3unh21B&category=acrcp_v1_48&sig=AOD64_3ze2PyQfPXCrWvW16hyCevBR-I7g&adurl=
+                          - generic [ref=e340]:
+                            - generic [ref=e342]:
+                              - heading "Expedia.com.ph" [level=3] [ref=e345]
+                              - generic [ref=e347]: Free Wi-Fi · Free breakfast
+                            - generic [ref=e348]:
+                              - generic [ref=e349]: ₱4,226
+                              - link "Visit site for Expedia.com.ph" [ref=e351]:
+                                - generic [ref=e353]: Visit site
+                        - link "Trip.com Free cancellation until May 21 · Free Wi-Fi · Free breakfast ₱3,581 Visit site for Trip.com" [ref=e358] [cursor=pointer]:
+                          - /url: /aclk?sa=l&ai=DChsSEwjg7rue3LyUAxXvqGYCHSPuO-YYACICCAEQARoCc20&co=1&ase=2&gclid=EAIaIQobChMI4O67nty8lAMV76hmAh0j7jvmEAoYAyABEgJ7RfD_BwE&cid=CAASuwHkaAEnCwEO5bgCZi8Lrc9mrBZx0ahsKisK-hprurb7hV8y4goxUPbe0nQXMYYPHasBGI9kiwJPuA5N56AOXTpeGn2gTuNjADUDwLqybe-1KXguY0jWmMScpE3uXfHD17YYQrrI10wsesZB4XfEezWG23tOGwTPGaBdNqr8Y7pb2-kw7x2Ar4rMmw_hB8R7HPvjFeajOCrG5__6Rv85nRg7l_86xK2ZgVb8X1TZ3X2RS81pJpQlp3unh21B&category=acrcp_v1_48&sig=AOD64_2daanJUEOJU2qcipg5b53BE-OTRQ&adurl=
+                          - generic [ref=e360]:
+                            - generic [ref=e362]:
+                              - heading "Trip.com" [level=3] [ref=e365]
+                              - generic [ref=e367]: Free cancellation until May 21 · Free Wi-Fi · Free breakfast
+                            - generic [ref=e368]:
+                              - generic [ref=e369]: ₱3,581
+                              - link "Visit site for Trip.com" [ref=e371]:
+                                - generic [ref=e373]: Visit site
+                        - link "klook Book and Earn KlookCash · Unlock Stay+ Offers ₱3,471 Visit site for klook" [ref=e378] [cursor=pointer]:
+                          - /url: /aclk?sa=l&ai=DChsSEwjg7rue3LyUAxXvqGYCHSPuO-YYACICCAEQDRoCc20&co=1&ase=2&gclid=EAIaIQobChMI4O67nty8lAMV76hmAh0j7jvmEAoYBCABEgJ4jPD_BwE&cid=CAASuwHkaAEnCwEO5bgCZi8Lrc9mrBZx0ahsKisK-hprurb7hV8y4goxUPbe0nQXMYYPHasBGI9kiwJPuA5N56AOXTpeGn2gTuNjADUDwLqybe-1KXguY0jWmMScpE3uXfHD17YYQrrI10wsesZB4XfEezWG23tOGwTPGaBdNqr8Y7pb2-kw7x2Ar4rMmw_hB8R7HPvjFeajOCrG5__6Rv85nRg7l_86xK2ZgVb8X1TZ3X2RS81pJpQlp3unh21B&category=acrcp_v1_48&sig=AOD64_2c_7wgTrmGEiILyLi0dXbW3AKvyg&adurl=
+                          - generic [ref=e380]:
+                            - generic [ref=e382]:
+                              - heading "klook" [level=3] [ref=e385]
+                              - generic [ref=e388]: Book and Earn KlookCash · Unlock Stay+ Offers
+                            - generic [ref=e389]:
+                              - generic [ref=e390]: ₱3,471
+                              - link "Visit site for klook" [ref=e392]:
+                                - generic [ref=e394]: Visit site
+                    - generic [ref=e395]:
+                      - heading "All options" [level=2] [ref=e399]
+                      - generic [ref=e401]:
+                        - link "klook 2 guests , ₱3,471 Visit site for klook" [ref=e407] [cursor=pointer]:
+                          - /url: /travel/clk?pc=AA80OswRBR-xlMzA78dfgsoypCLsHJXPVwTqJSYe78Z3SE-ZsFabcfGSBJSCKglkk-uyWmYiIon8uUsVUu7oO1x8f90WnFYHeRQqTNbTnwV4X4v8UfXajCxYPLhSe-CMX3VLC7TAVpGHWjrb6vZaljNiaR0RlL4iwW7uR9CM1DGjBeDwaBc-KQk&pcurl=https://api.klktech.com/v1/meta/hotels/detail/570333/?hotelid%3D570333%26check_in%3D2026-05-25%26check_out%3D2026-05-26%26aid%3D28539%26campaignid%3D%26adult_num%3D2%26lead_time%3D9%26child_num%3D0%26childages%3D%26room_num%3D1%26google_site%3Dlocaluniversal%26length_of_stay%3D1%26partner_currency%3DUSD%26click_type%3Dhotel%26click_price_total%3D3470.94%26price_tax%3D602.60%26price_fees%3D0.00%26rate_key%3D1-22-2026-05-25%257C2026-05-26%257C10130237%257C90572141%257CV0_1013023%26user_country%3DPH%26click_currency%3DPHP%26_currency%3DPHP%26device%3Ddesktop%26partner_hotelid%3D570333%26language%3Den%26audience_list%3D%26verification%3Dfalse%26booking_source%3Dcpc%26isPromoted%3D0%26utm_source%3DMSE%26utm_medium%3DGoogle%26utm_campaign%3D28539%26utm_term%3D570333%26utm_content%3DPHP%26isAdClick%3D0%26prid%3DForeign-Other%26arrival_fees%3D0.000%26mse_trace_id%3DMGI4YjhjNS0wYjhiOGM1LTE3Nzg4OTUzNDIuZi5vOjE6MDoyOjA6MToxNDQ6MTQ1OkhL%26mse_search_token%3DMGI4YjhjNS0wYjhiOGM1LTE3Nzg4OTUzNDIuZi5vOjE6MDoyOjA6MToxNDQ6MTQ1OkhL%26price_total%3DUSD-56.340%26price_type%3DInbound-desktop%26klc_l1%3DMSE%26klc_l2%3DGoogle%26age%3D&s=AD1XQnmCGnp2-AFBo3apeAeEmogm&ap=1
+                          - generic [ref=e408]:
+                            - generic [ref=e410]:
+                              - generic [ref=e411]: klook
+                              - generic [ref=e415]:
+                                - text: 2 guests
+                                - generic: ","
+                            - generic [ref=e419]: ₱3,471
+                            - button "Visit site for klook" [ref=e421]:
+                              - generic [ref=e423]: Visit site
+                        - link "Traveloka.com 2 guests , ₱3,537 Visit site for Traveloka.com" [ref=e429] [cursor=pointer]:
+                          - /url: /travel/clk?pc=AA80OsxjK-uchUACDutee-jBx-1Ir2U8E4oTGl_Nauz9scBLZZe58vF4XpVxQ2ne9jXIaeAzidzclcjnTAg0hGHx7WRN-cRKvHuEXu7DfvB-BYKzpsMI2JpnnvkfNQAKUV-qgHKkNF08YSMkyS6bdIAVBonGsj9tykQ2QuhsnsK1DH6UEnAcFLnLU1Kw&pcurl=https://www.traveloka.com/en-ph/hotel/search?spec%3D25-05-2026.26-05-2026.1.1.HOTEL_GEO.102746.Bali.2%26hotelId%3D3000010018173%26contexts%3D%257B%2522accessCode%2522:%252290975GHAD1305desktop%2522%252C%2522metasearchRequestId%2522%253A%25227a4d6bcf-41e0-4e22-a013-f905b0ebcd75%2522%252C%2522dateSelectionType%2522%253A%2522default%2522%257D%26metasearchId%3DGoogleHotelAdsUser%26metasearchRateId%3Ddesktop%26metasearchRatekey%3DsgyUU2M0LrnnpXh1LPwoI%26priceDisplay%3DTOTAL%26metasearchRefid%3D12345678910abcdefghijk@-%26adType%3D0%26PPA%3D0%26hotelCampaign%3D1&s=AD1XQnkRMvaxBbhKmfyoVlif07LJ&ap=1
+                          - generic [ref=e430]:
+                            - generic [ref=e432]:
+                              - generic [ref=e433]: Traveloka.com
+                              - generic [ref=e437]:
+                                - text: 2 guests
+                                - generic: ","
+                            - generic [ref=e441]: ₱3,537
+                            - button "Visit site for Traveloka.com" [ref=e443]:
+                              - generic [ref=e445]: Visit site
+                        - link "Trip.com Free cancellation until May 21 , 2 guests , ₱3,581 Visit site for Trip.com" [ref=e451] [cursor=pointer]:
+                          - /url: /travel/clk?pc=AA80Osz48BnaeQyHCWIhc6ZvshGelR-n8yoIyHprpJx8N51aqNBZP094Q2MLiO_FX9MnPDbgtVpNclcQBy_v01OW6tDH8lo7OkKmexi1keoQMWyy_PPNGdlJ8DvhjZ5Ga8GkmC0o2J6neaGazrSM_iljqePN0O-O2rtGJVpYEmb8FKMitlqKKBs&pcurl=https://ph.trip.com/hotels/redirect?hotelid%3D5804437%26city%3D723%26shoppingid%3DMKnw0AorHRr_%26adult%3D2%26children%3D0%26ages%3D%26checkin%3D2026-05-25%26checkout%3D2026-05-26%26curr%3DPHP%26Allianceid%3D15214%26Sid%3D1349480%26prid%3DLANG_PH%26trip_sub1%3D25_05_2026_1_localuniversal_5804437_PH_desktop_default___0_0-LANG_PH-landing%26hpaopts%3Dstand%5BH4sIAAAAAAAA_-OK5GKSYBJi4mCU8ud42_ZkKZsQu6GpmYGhgZHBJhGL1mbGAI4ZjFMXP2Jawci4g5HpACPTRUZbruuLP7xb5vCQkQEIGn6tdnjB-GHplTuMC1gYF7LG9B_6qlHW4iDF4-udV27gmF_kEVQUr8Co8WT6_AtsHoxBbJZOrm7GblEyXMyhwS6Cx73NOx0dpB2kmAM8AhSfiMiefGq_xz6JNTVPN8Ajo1e0i5HJg3EVIzsXs4GRoQDTJ0Z-ZHPjzc0nMTGaAABQyT58yAAAAA%5Dfgt%5B1%5D%26br%3D3581.25%26tf%3D645.88%26display%3Dincavg%26locale%3Den_ph%26crn%3D1%26roomid%3D1689846637&s=AD1XQnlY4NfDqynmf6iFteXw0mkl&ap=1
+                          - generic [ref=e452]:
+                            - generic [ref=e454]:
+                              - generic [ref=e455]: Trip.com
+                              - generic [ref=e457]:
+                                - generic [ref=e458]:
+                                  - generic [ref=e459]:
+                                    - text: Free cancellation until May 21
+                                    - generic: ","
+                                  - text: ·
+                                - generic [ref=e461]:
+                                  - text: 2 guests
+                                  - generic: ","
+                            - generic [ref=e465]: ₱3,581
+                            - button "Visit site for Trip.com" [ref=e467]:
+                              - generic [ref=e469]: Visit site
+                        - link "Cleartrip.com 2 guests , ₱3,775 Visit site for Cleartrip.com" [ref=e475] [cursor=pointer]:
+                          - /url: /travel/clk?pc=AA80Osy-dJkoIYQzMX_IpRFiERVdJajOl8HQx0SOUYCOS2S2ATGJE1qPbcbKmcSNN3WXKixaZQAwjbWsboTGP5RTw5zz-KnvpS8eCmdQp3tps7oLyHp09HYG_up6-Sej3czP3tT_b_UkNMg1IQzqCaEZvwwvUNl-VsQtVMb0d9RZMG0B5a63W1ERQ1EmgQdXlYkI5fs&pcurl=https://www.cleartrip.com/hotels/details/2060668?c%3D25052026%7C26052026%26r%3D2,0%26utm_source%3DGoogleHPA%26utm_campaign%3D2060668%26utm_medium%3D%26utm_content%3DGoogleHPA%26xtm_source%3Dgoogle%26xtm_content%3D%26xtm_medium%3D%26xs%3DGoogleHPA%26xm%3Dhc-v2-1562831241&s=AD1XQnn3BKCQIuIaIx_JLV3xARFI&ap=1
+                          - generic [ref=e476]:
+                            - generic [ref=e478]:
+                              - generic [ref=e479]: Cleartrip.com
+                              - generic [ref=e483]:
+                                - text: 2 guests
+                                - generic: ","
+                            - generic [ref=e487]: ₱3,775
+                            - button "Visit site for Cleartrip.com" [ref=e489]:
+                              - generic [ref=e491]: Visit site
+                        - link "hutchgo (Hutchison Travel Limited) 2 guests , ₱3,602 Visit site for hutchgo (Hutchison Travel Limited)" [ref=e497] [cursor=pointer]:
+                          - /url: /travel/clk?pc=AA80OswFCDHSEWmy0NSQDDNHs54HhPEh6RSPWebpXLnUS3G1vgQudrlqbqCiXuIR0blVohzPfCWzSZmMwNsT7TwSW80bah9YC6DxbYSH7Tec-FpRJrEc1r0ZLYoJhKZW44Y_JbmXCpfIhlv1Q7JFVwqEXnPgB7e1UbFumokqoaO0BDzCOIFizrIy3Wlz43c3_rGC8KCdo-vCvu6N&pcurl=https://www.hutchgo.com/affiliate/r.aspx?region%3DPH%26lang_id%3DTL%26product%3DRH%26currency%3DPHP%26check_in%3D25/05/2026%26check_out%3D26/05/2026%26affiliate_id%3D210029%26banner_id%3D860018%26u_id%3D%26room%3D2_0_0%26searchtype%3DHOTEL%26code%3D1002841%26tid%3Dca97afa8-83c2-46dd-94ff-36a98c8fb97d&s=AD1XQnk4kzEIVOQkJ0KIvuFHd_Sz&ap=1
+                          - generic [ref=e498]:
+                            - generic [ref=e500]:
+                              - generic [ref=e501]: hutchgo (Hutchison Travel Limited)
+                              - generic [ref=e505]:
+                                - text: 2 guests
+                                - generic: ","
+                            - generic [ref=e509]: ₱3,602
+                            - button "Visit site for hutchgo (Hutchison Travel Limited)" [ref=e511]:
+                              - generic [ref=e513]: Visit site
+                        - link "Tiket.com 2 guests , ₱4,287 Visit site for Tiket.com" [ref=e519] [cursor=pointer]:
+                          - /url: /travel/clk?pc=AA80OswW6gyLCQfkG3ToijxUPTbI6CSclZ4uqXzxOXKoqXpQbP90HHl3k1W6ovt2MrYiRa7iw-C0YXkg2ckOOYTkJM_N1gipQyWQE_y2Bzk3xV1UFtHoW8tvD76Rv3dhn6ReF4035LoW1koOm-8GeGpst4f0iL4ZmVGrwYajcYqO5tX5LrENPzk&pcurl=https://www.tiket.com/en-us/hotel/indonesia/mahagiri-resort-nusa-lembongan-202001550478077661?hotelID%3Dd22991d6-188a-4dbf-b7fb-9fc1f28b31d5%26checkin%3D2026-05-25%26checkout%3D2026-05-26%26adult%3D2%26country%3DPH%26device%3Ddesktop%26lang%3Den%26isAat%3Dtrue%26utm_source%3Dgoogle-hotel%26utm_term%3Dd22991d6-188a-4dbf-b7fb-9fc1f28b31d5%26utm_medium%3Daff-meta%26utm_campaign%3DGoogle-Hotel-0023-B2B-none-hotel%26utm_external%3Daff%26tag_meta_id%3D34412887%26tag_meta_type%3Dgoogle-hotel%26isRedirect%3Dtrue%26currency%3DPHP&s=AD1XQnntLHIg2mxvoAkoTO2FWI0X&ap=1
+                          - generic [ref=e520]:
+                            - generic [ref=e522]:
+                              - generic [ref=e523]: Tiket.com
+                              - generic [ref=e527]:
+                                - text: 2 guests
+                                - generic: ","
+                            - generic [ref=e531]: ₱4,287
+                            - button "Visit site for Tiket.com" [ref=e533]:
+                              - generic [ref=e535]: Visit site
+                        - link "Booking.com 2 guests , ₱5,057 Visit site for Booking.com" [ref=e541] [cursor=pointer]:
+                          - /url: /travel/clk?pc=AA80OsyFNmpdJ0DQz7yjcgrADYFuUGyywvF6xTBI72uI9nwrXzw_NAusWz6Xp09pf1K2GPtsgRyrg-MU6eJVUbTdNGPd5ZNb07giuTnWiYTjlTR9u1-4sGxoJs0Ui9xN9ayRVUDlNx0RsQP2-CV3a6DFCklL08FY98BGv2ddOOXcReWQX5RdYvBKHGmBcHHWJIEKjtOTSg&pcurl=https://www.booking.com/searchresults.en.html?dest_id%3D1858373%26highlighted_hotels%3D1858373%26dest_type%3Dhotel%26checkin%3D2026-05-25%26checkout%3D2026-05-26%26group_adults%3D2%26req_adults%3D2%26show_room%3D185837320_91994653_0_1_0_1091889%26lang%3Den%26selected_currency%3DPHP%26exrt%3D0.00349983%26ext_price_total%3D5056.55%26ext_price_tax%3D956.66%26xfc%3DIDR%26hca%3Dm%26group_children%3D0%26req_children%3D0%26%26ts%3D1778894776%26no_rooms%3D1%26edgtid%3Dt9agk-vFSAqOJF8mpJL1nw%26efpc%3DFESDWhREg1pw%26utm_source%3Dmetagha%26utm_medium%3Dlocaluniversal%26utm_campaign%3DPH%26utm_term%3Dhotel-1858373%26utm_content%3Ddev-desktop_los-1_bw-9_dow-Monday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-50_bc-ABxbRQ_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20260525_ppt-CgB%26aid%3D2127705%26label%3Dmetagha-link-LUPH-hotel-1858373_dev-desktop_los-1_bw-9_dow-Monday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-50_bc-ABxbRQ_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20260525_ppt-CgB&s=AD1XQnkj50yxQpS_ViEVayMs-WwG&ap=1
+                          - generic [ref=e542]:
+                            - generic [ref=e544]:
+                              - generic [ref=e545]: Booking.com
+                              - generic [ref=e549]:
+                                - text: 2 guests
+                                - generic: ","
+                            - generic [ref=e553]: ₱5,057
+                            - button "Visit site for Booking.com" [ref=e555]:
+                              - generic [ref=e557]: Visit site
+                        - link "Qantas Hotels 2 guests , ₱4,264 Visit site for Qantas Hotels" [ref=e563] [cursor=pointer]:
+                          - /url: /travel/clk?pc=AA80OszAOLOGqt0I3aPuloI4KJkTAXt_6jvAJgZNzy92D8q2ZC8Cu81X0W_iuZBtm2h3727C9AJQInVb3n8SHkF8yvmi9Vi-YOw8B9CEg9-mQAvHR3Hdc1QpzDyu3wlgbWlqVAp3emhTCpjnIQv0MoyF_nnZoB-tTFvXF7NO8SLPn2vxuDIzhGaX&pcurl=https://www.qantas.com/hotels/properties/250234?adults%3D2%26children%3D0%26infants%3D0%26checkIn%3D2026-05-25%26checkOut%3D2026-05-26%26utm_campaign%3DGoogleHotels%26adType%3D0%26utm_medium%3Dorganic-search%26utm_source%3DGoogle-Hotels%26utm_term%3D250234%26hotelID%3D250234%26hotel_campaign%3D&s=AD1XQnkbND61X-AHGVgleZEMFUqU&ap=1
+                          - generic [ref=e564]:
+                            - generic [ref=e566]:
+                              - generic [ref=e567]: Qantas Hotels
+                              - generic [ref=e571]:
+                                - text: 2 guests
+                                - generic: ","
+                            - generic [ref=e575]: ₱4,264
+                            - button "Visit site for Qantas Hotels" [ref=e577]:
+                              - generic [ref=e579]: Visit site
+                        - link "Bluepillow.ph 2 guests , ₱4,302 Visit site for Bluepillow.ph" [ref=e585] [cursor=pointer]:
+                          - /url: /travel/clk?pc=AA80OsznBMULnwQHS9dZAV81AfmRNAftKzX6UOthnftg_tEaGGicJdY9RYkx5LJiYN5PW8hN0WGLRHMw3xTel8FmwTugskDpCq0XvS940jXuYQ8SEFii-bEEW1FgaWGFBrJ1T_htXTzXQjT--tW7bh_Y5s8ulmQukDPfCxIz7qcGeZW6D5hfvfwBdwx3Yg&pcurl=https://www.bluepillow.ph/search/5dc04105e24da41e9810703e?begin%3D2026-05-25%26end%3D2026-05-26%26block_id%3D-b,0VquHNIyN4kAw2pH7eIf25CJwDoJqtm9ILnXdWMUyW7cvEwir8VTFiNKNYBlGnd2,-bpex-Hotel%26adults%3D2%26childs%3D0%26infants%3D0%26childrens%3D0%26country%3DPH%26currency%3DPHP%26language%3Den%26source%3Dlocaluniversal%26utm_campaign%3Dhotel%26prid%3Dforeign&s=AD1XQnnxsxA4uK-anOhClAL0hT2a&ap=1
+                          - generic [ref=e586]:
+                            - generic [ref=e588]:
+                              - generic [ref=e589]: Bluepillow.ph
+                              - generic [ref=e593]:
+                                - text: 2 guests
+                                - generic: ","
+                            - generic [ref=e597]: ₱4,302
+                            - button "Visit site for Bluepillow.ph" [ref=e599]:
+                              - generic [ref=e601]: Visit site
+                        - link "müv AI 2 guests , ₱4,302 Visit site for müv AI" [ref=e607] [cursor=pointer]:
+                          - /url: /travel/clk?pc=AA80OszcQVqiwxkwHRu7YwKNgEu3UWgvps37iShpD71_2iK5likfB9BPzS_ZEPurR4ZNMmMYV3JLqY_TNSYWw7Ycpl8Yk7ew-bHIj3rweVlSi-hkpq1Nt4Pybeaj3OtT2aqCQ_plsb3nH8jriQjPB6VXm6t-C57apfV6SHCRL00SXGtLYSiZNJJrBQDIHnhgyQ&pcurl=https://muvtravel.com/xp-hotel?hotelID%3D108612087%26checkinDay%3D25%26checkinMonth%3D05%26checkinYear%3D2026%26nights%3D1%26num-guests%3D2%26checkoutDay%3D26%26checkoutMonth%3D05%26checkoutYear%3D2026%26PROMO-CODE%3D98010&s=AD1XQnmTXqDJVzOsRpqW8YLhMFFL&ap=1
+                          - generic [ref=e608]:
+                            - generic [ref=e610]:
+                              - generic [ref=e611]: müv AI
+                              - generic [ref=e615]:
+                                - text: 2 guests
+                                - generic: ","
+                            - generic [ref=e619]: ₱4,302
+                            - button "Visit site for müv AI" [ref=e621]:
+                              - generic [ref=e623]: Visit site
+                - generic [ref=e628]:
+                  - generic [ref=e629]:
+                    - img [ref=e631]
+                    - generic [ref=e633]:
+                      - link "Track this hotel" [ref=e635] [cursor=pointer]:
+                        - /url: ./travel/subscriptions/list/hotels
+                      - button "More info about price tracking" [ref=e640]:
+                        - img
+                      - generic [ref=e643]: Get emails about price changes
+                  - switch "Track this hotel" [ref=e646] [cursor=pointer]:
+                    - generic [ref=e651]:
+                      - img [ref=e652]
+                      - img [ref=e654]
+                - generic [ref=e660]:
+                  - generic [ref=e661]:
+                    - heading "Sponsored Similar hotels" [level=2] [ref=e662]:
+                      - generic [ref=e663]: Sponsored·
+                      - text: Similar hotels
+                    - button "My Ad Center" [ref=e665] [cursor=pointer]:
+                      - img [ref=e666]
+                  - list [ref=e672]:
+                    - listitem [ref=e673]:
+                      - link "sunday huts lembongan ₱1,805 Booking.com Booking.com 4.8 out of 5 stars from 90 reviews3-star hotel Free cancellationFree Wi-Fi Visit Booking.com":
+                        - /url: /aclk?sa=l&ai=DChsSEwjV-bue3LyUAxX0qmYCHQcpN3kYACICCAEQDRoCc20&co=1&ase=2&gclid=EAIaIQobChMI1fm7nty8lAMV9KpmAh0HKTd5ECQYASABEgL5MvD_BwE&cid=CAASuwHkaPSsaR1pWtdhqoxY0RNlVOGSWzItGMIptSngdEiYR4-q96-GGecZtZ0r_W0WursrWZtkNgPj55mqjPaGl1sl85mMCVAfqYkP7KihDbDH-goFLqg5WZ15mEk_CMKOi_5qEQ8jIprwT_8mRxN71FnhL4Zb9drCr7u_LbXY8TuvgaGrMNBNAj0qrCIHktmUnIrxoIREuZb5oyQ1Uw7cjqLZ2TzKkIbKVyp4uUS3PfhD7szufZ-TV_2gszCf&category=acrcp_v1_48&sig=AOD64_0GTkvcNR03RgNecplsFkVP9FkXWA&adurl=
+                        - generic [ref=e674] [cursor=pointer]:
+                          - img [ref=e676]
+                          - generic [ref=e678]:
+                            - generic [ref=e679]: sunday huts lembongan
+                            - generic [ref=e680]: ₱1,805
+                            - generic [ref=e682]:
+                              - img "Booking.com" [ref=e683]
+                              - text: Booking.com
+                            - generic [ref=e684]:
+                              - img "4.8 out of 5 stars from 90 reviews" [ref=e685]:
+                                - generic [ref=e686]:
+                                  - generic [ref=e687]: 4.8/5
+                                  - img [ref=e688]
+                                  - generic [ref=e690]: (90)
+                              - generic [ref=e691]: · 3-star hotel
+                            - generic [ref=e692]: Free cancellation · Free Wi-Fi
+                            - generic [ref=e694]: Visit Booking.com
+                    - listitem [ref=e695]:
+                      - link "Bale Gede Lembongan ₱2,457 Booking.com Booking.com 4.3 out of 5 stars from 40 reviews3-star hotel Free cancellationPool Visit Booking.com":
+                        - /url: /aclk?sa=l&ai=DChsSEwjV-bue3LyUAxX0qmYCHQcpN3kYACICCAEQDxoCc20&co=1&ase=2&gclid=EAIaIQobChMI1fm7nty8lAMV9KpmAh0HKTd5ECQYAiABEgKjlvD_BwE&cid=CAASuwHkaPSsaR1pWtdhqoxY0RNlVOGSWzItGMIptSngdEiYR4-q96-GGecZtZ0r_W0WursrWZtkNgPj55mqjPaGl1sl85mMCVAfqYkP7KihDbDH-goFLqg5WZ15mEk_CMKOi_5qEQ8jIprwT_8mRxN71FnhL4Zb9drCr7u_LbXY8TuvgaGrMNBNAj0qrCIHktmUnIrxoIREuZb5oyQ1Uw7cjqLZ2TzKkIbKVyp4uUS3PfhD7szufZ-TV_2gszCf&category=acrcp_v1_48&sig=AOD64_3ZIjfeyU16Xpq3WaiQSOsOfyYl0Q&adurl=
+                        - generic [ref=e696] [cursor=pointer]:
+                          - img [ref=e698]
+                          - generic [ref=e700]:
+                            - generic [ref=e701]: Bale Gede Lembongan
+                            - generic [ref=e702]: ₱2,457
+                            - generic [ref=e704]:
+                              - img "Booking.com" [ref=e705]
+                              - text: Booking.com
+                            - generic [ref=e706]:
+                              - img "4.3 out of 5 stars from 40 reviews" [ref=e707]:
+                                - generic [ref=e708]:
+                                  - generic [ref=e709]: 4.3/5
+                                  - img [ref=e710]
+                                  - generic [ref=e712]: (40)
+                              - generic [ref=e713]: · 3-star hotel
+                            - generic [ref=e714]: Free cancellation · Pool
+                            - generic [ref=e716]: Visit Booking.com
+                    - listitem [ref=e717]:
+                      - link "Lembongan Cempaka Villa & Restaurant ₱2,625 Booking.com Booking.com 4 out of 5 stars from 60 reviews3-star hotel PoolFree parking Visit Booking.com":
+                        - /url: /aclk?sa=l&ai=DChsSEwjV-bue3LyUAxX0qmYCHQcpN3kYACICCAEQAxoCc20&co=1&ase=2&gclid=EAIaIQobChMI1fm7nty8lAMV9KpmAh0HKTd5ECQYAyABEgLs4PD_BwE&cid=CAASuwHkaPSsaR1pWtdhqoxY0RNlVOGSWzItGMIptSngdEiYR4-q96-GGecZtZ0r_W0WursrWZtkNgPj55mqjPaGl1sl85mMCVAfqYkP7KihDbDH-goFLqg5WZ15mEk_CMKOi_5qEQ8jIprwT_8mRxN71FnhL4Zb9drCr7u_LbXY8TuvgaGrMNBNAj0qrCIHktmUnIrxoIREuZb5oyQ1Uw7cjqLZ2TzKkIbKVyp4uUS3PfhD7szufZ-TV_2gszCf&category=acrcp_v1_48&sig=AOD64_0jvuRb7L65CeiRny69mtp4QdhzkA&adurl=
+                        - generic [ref=e718] [cursor=pointer]:
+                          - img [ref=e720]
+                          - generic [ref=e722]:
+                            - generic [ref=e723]: Lembongan Cempaka Villa & Restaurant
+                            - generic [ref=e724]: ₱2,625
+                            - generic [ref=e726]:
+                              - img "Booking.com" [ref=e727]
+                              - text: Booking.com
+                            - generic [ref=e728]:
+                              - img "4 out of 5 stars from 60 reviews" [ref=e729]:
+                                - generic [ref=e730]:
+                                  - generic [ref=e731]: 4.0/5
+                                  - img [ref=e732]
+                                  - generic [ref=e734]: (60)
+                              - generic [ref=e735]: · 3-star hotel
+                            - generic [ref=e736]: Pool · Free parking
+                            - generic [ref=e738]: Visit Booking.com
+                    - listitem [ref=e739]:
+                      - link "d'Nusa Beach Club and Resort ₱3,903 Agoda Agoda 4.1 out of 5 stars from 579 reviews4-star hotel SpaPool Visit Agoda":
+                        - /url: /aclk?sa=l&ai=DChsSEwjV-bue3LyUAxX0qmYCHQcpN3kYACICCAEQERoCc20&co=1&ase=2&gclid=EAIaIQobChMI1fm7nty8lAMV9KpmAh0HKTd5ECQYBCABEgL7U_D_BwE&cid=CAASuwHkaPSsaR1pWtdhqoxY0RNlVOGSWzItGMIptSngdEiYR4-q96-GGecZtZ0r_W0WursrWZtkNgPj55mqjPaGl1sl85mMCVAfqYkP7KihDbDH-goFLqg5WZ15mEk_CMKOi_5qEQ8jIprwT_8mRxN71FnhL4Zb9drCr7u_LbXY8TuvgaGrMNBNAj0qrCIHktmUnIrxoIREuZb5oyQ1Uw7cjqLZ2TzKkIbKVyp4uUS3PfhD7szufZ-TV_2gszCf&category=acrcp_v1_48&sig=AOD64_32HrxGRKCo14flJ2kLrX9TxmIPKw&adurl=
+                        - generic [ref=e740] [cursor=pointer]:
+                          - img [ref=e742]
+                          - generic [ref=e744]:
+                            - generic [ref=e745]: d'Nusa Beach Club and Resort
+                            - generic [ref=e746]: ₱3,903
+                            - generic [ref=e748]:
+                              - img "Agoda" [ref=e749]
+                              - text: Agoda
+                            - generic [ref=e750]:
+                              - img "4.1 out of 5 stars from 579 reviews" [ref=e751]:
+                                - generic [ref=e752]:
+                                  - generic [ref=e753]: 4.1/5
+                                  - img [ref=e754]
+                                  - generic [ref=e756]: (579)
+                              - generic [ref=e757]: · 4-star hotel
+                            - generic [ref=e758]: Spa · Pool
+                            - generic [ref=e760]: Visit Agoda
+                    - listitem [ref=e761]:
+                      - link "Lembongan Beach Club & Resort ₱8,020 Booking.com Booking.com 4.1 out of 5 stars from 971 reviews4-star hotel SpaPool Visit Booking.com":
+                        - /url: /aclk?sa=l&ai=DChsSEwjV-bue3LyUAxX0qmYCHQcpN3kYACICCAEQARoCc20&co=1&ase=2&gclid=EAIaIQobChMI1fm7nty8lAMV9KpmAh0HKTd5ECQYBSABEgKsgvD_BwE&cid=CAASuwHkaPSsaR1pWtdhqoxY0RNlVOGSWzItGMIptSngdEiYR4-q96-GGecZtZ0r_W0WursrWZtkNgPj55mqjPaGl1sl85mMCVAfqYkP7KihDbDH-goFLqg5WZ15mEk_CMKOi_5qEQ8jIprwT_8mRxN71FnhL4Zb9drCr7u_LbXY8TuvgaGrMNBNAj0qrCIHktmUnIrxoIREuZb5oyQ1Uw7cjqLZ2TzKkIbKVyp4uUS3PfhD7szufZ-TV_2gszCf&category=acrcp_v1_48&sig=AOD64_0u-mDMLGyks2Mjs42rS1d8BtG44w&adurl=
+                        - generic [ref=e762] [cursor=pointer]:
+                          - img [ref=e764]
+                          - generic [ref=e766]:
+                            - generic [ref=e767]: Lembongan Beach Club & Resort
+                            - generic [ref=e768]: ₱8,020
+                            - generic [ref=e770]:
+                              - img "Booking.com" [ref=e771]
+                              - text: Booking.com
+                            - generic [ref=e772]:
+                              - img "4.1 out of 5 stars from 971 reviews" [ref=e773]:
+                                - generic [ref=e774]:
+                                  - generic [ref=e775]: 4.1/5
+                                  - img [ref=e776]
+                                  - generic [ref=e778]: (971)
+                              - generic [ref=e779]: · 4-star hotel
+                            - generic [ref=e780]: Spa · Pool
+                            - generic [ref=e782]: Visit Booking.com
+                    - listitem [ref=e783]:
+                      - link "Hai Tide Beach Resort ₱13,742 Booking.com Booking.com 4.5 out of 5 stars from 637 reviews3-star hotel Free cancellationSpa Visit Booking.com":
+                        - /url: /aclk?sa=l&ai=DChsSEwjV-bue3LyUAxX0qmYCHQcpN3kYACICCAEQBRoCc20&co=1&ase=2&gclid=EAIaIQobChMI1fm7nty8lAMV9KpmAh0HKTd5ECQYBiABEgJdOvD_BwE&cid=CAASuwHkaPSsaR1pWtdhqoxY0RNlVOGSWzItGMIptSngdEiYR4-q96-GGecZtZ0r_W0WursrWZtkNgPj55mqjPaGl1sl85mMCVAfqYkP7KihDbDH-goFLqg5WZ15mEk_CMKOi_5qEQ8jIprwT_8mRxN71FnhL4Zb9drCr7u_LbXY8TuvgaGrMNBNAj0qrCIHktmUnIrxoIREuZb5oyQ1Uw7cjqLZ2TzKkIbKVyp4uUS3PfhD7szufZ-TV_2gszCf&category=acrcp_v1_48&sig=AOD64_0JH97aQ4bXqug5qmizL4N4HdmByw&adurl=
+                        - generic [ref=e784] [cursor=pointer]:
+                          - img [ref=e786]
+                          - generic [ref=e788]:
+                            - generic [ref=e789]: Hai Tide Beach Resort
+                            - generic [ref=e790]: ₱13,742
+                            - generic [ref=e792]:
+                              - img "Booking.com" [ref=e793]
+                              - text: Booking.com
+                            - generic [ref=e794]:
+                              - img "4.5 out of 5 stars from 637 reviews" [ref=e795]:
+                                - generic [ref=e796]:
+                                  - generic [ref=e797]: 4.5/5
+                                  - img [ref=e798]
+                                  - generic [ref=e800]: (637)
+                              - generic [ref=e801]: · 3-star hotel
+                            - generic [ref=e802]: Free cancellation · Spa
+                            - generic [ref=e804]: Visit Booking.com
+                    - listitem [ref=e805]:
+                      - link "Poh Manis Lembongan ₱1,750 Booking.com Booking.com 4.2 out of 5 stars from 145 reviews3-star hotel PoolFree parking Visit Booking.com":
+                        - /url: /aclk?sa=l&ai=DChsSEwjV-bue3LyUAxX0qmYCHQcpN3kYACICCAEQCRoCc20&co=1&ase=2&gclid=EAIaIQobChMI1fm7nty8lAMV9KpmAh0HKTd5ECQYByABEgKQcvD_BwE&cid=CAASuwHkaPSsaR1pWtdhqoxY0RNlVOGSWzItGMIptSngdEiYR4-q96-GGecZtZ0r_W0WursrWZtkNgPj55mqjPaGl1sl85mMCVAfqYkP7KihDbDH-goFLqg5WZ15mEk_CMKOi_5qEQ8jIprwT_8mRxN71FnhL4Zb9drCr7u_LbXY8TuvgaGrMNBNAj0qrCIHktmUnIrxoIREuZb5oyQ1Uw7cjqLZ2TzKkIbKVyp4uUS3PfhD7szufZ-TV_2gszCf&category=acrcp_v1_48&sig=AOD64_0-skoZ_klOPHyfFiW6UeTUtsLBSg&adurl=
+                        - generic [ref=e806] [cursor=pointer]:
+                          - img [ref=e808]
+                          - generic [ref=e810]:
+                            - generic [ref=e811]: Poh Manis Lembongan
+                            - generic [ref=e812]: ₱1,750
+                            - generic [ref=e814]:
+                              - img "Booking.com" [ref=e815]
+                              - text: Booking.com
+                            - generic [ref=e816]:
+                              - img "4.2 out of 5 stars from 145 reviews" [ref=e817]:
+                                - generic [ref=e818]:
+                                  - generic [ref=e819]: 4.2/5
+                                  - img [ref=e820]
+                                  - generic [ref=e822]: (145)
+                              - generic [ref=e823]: · 3-star hotel
+                            - generic [ref=e824]: Pool · Free parking
+                            - generic [ref=e826]: Visit Booking.com
+                    - listitem [ref=e827]:
+                      - link "The Tamarind Resort Nusa Lembongan ₱20,084 Booking.com Booking.com 4.8 out of 5 stars from 300 reviews5-star hotel SpaPool Visit Booking.com":
+                        - /url: /aclk?sa=l&ai=DChsSEwjV-bue3LyUAxX0qmYCHQcpN3kYACICCAEQCxoCc20&co=1&ase=2&gclid=EAIaIQobChMI1fm7nty8lAMV9KpmAh0HKTd5ECQYCCABEgJq5_D_BwE&cid=CAASuwHkaPSsaR1pWtdhqoxY0RNlVOGSWzItGMIptSngdEiYR4-q96-GGecZtZ0r_W0WursrWZtkNgPj55mqjPaGl1sl85mMCVAfqYkP7KihDbDH-goFLqg5WZ15mEk_CMKOi_5qEQ8jIprwT_8mRxN71FnhL4Zb9drCr7u_LbXY8TuvgaGrMNBNAj0qrCIHktmUnIrxoIREuZb5oyQ1Uw7cjqLZ2TzKkIbKVyp4uUS3PfhD7szufZ-TV_2gszCf&category=acrcp_v1_48&sig=AOD64_2hxS0EB_FWcv4Tv1NeiLBkSBv5sw&adurl=
+                        - generic [ref=e828] [cursor=pointer]:
+                          - img [ref=e830]
+                          - generic [ref=e832]:
+                            - generic [ref=e833]: The Tamarind Resort Nusa Lembongan
+                            - generic [ref=e834]: ₱20,084
+                            - generic [ref=e836]:
+                              - img "Booking.com" [ref=e837]
+                              - text: Booking.com
+                            - generic [ref=e838]:
+                              - img "4.8 out of 5 stars from 300 reviews" [ref=e839]:
+                                - generic [ref=e840]:
+                                  - generic [ref=e841]: 4.8/5
+                                  - img [ref=e842]
+                                  - generic [ref=e844]: (300)
+                              - generic [ref=e845]: · 5-star hotel
+                            - generic [ref=e846]: Spa · Pool
+                            - generic [ref=e848]: Visit Booking.com
+                    - listitem [ref=e849]:
+                      - link "Tamarind Beach Bungalows Nusa Lembongan Island, Bali ₱1,669 Booking.com Booking.com 3.7 out of 5 stars from 245 reviews3-star hotel Free cancellationPool Visit Booking.com":
+                        - /url: /aclk?sa=l&ai=DChsSEwjV-bue3LyUAxX0qmYCHQcpN3kYACICCAEQBxoCc20&co=1&ase=2&gclid=EAIaIQobChMI1fm7nty8lAMV9KpmAh0HKTd5ECQYCSABEgLULfD_BwE&cid=CAASuwHkaPSsaR1pWtdhqoxY0RNlVOGSWzItGMIptSngdEiYR4-q96-GGecZtZ0r_W0WursrWZtkNgPj55mqjPaGl1sl85mMCVAfqYkP7KihDbDH-goFLqg5WZ15mEk_CMKOi_5qEQ8jIprwT_8mRxN71FnhL4Zb9drCr7u_LbXY8TuvgaGrMNBNAj0qrCIHktmUnIrxoIREuZb5oyQ1Uw7cjqLZ2TzKkIbKVyp4uUS3PfhD7szufZ-TV_2gszCf&category=acrcp_v1_48&sig=AOD64_3EMr9IbWQtkIFv9VtDcTQCW6Q1UA&adurl=
+                        - generic [ref=e850] [cursor=pointer]:
+                          - img [ref=e852]
+                          - generic [ref=e854]:
+                            - generic [ref=e855]: Tamarind Beach Bungalows Nusa Lembongan Island, Bali
+                            - generic [ref=e856]: ₱1,669
+                            - generic [ref=e858]:
+                              - img "Booking.com" [ref=e859]
+                              - text: Booking.com
+                            - generic [ref=e860]:
+                              - img "3.7 out of 5 stars from 245 reviews" [ref=e861]:
+                                - generic [ref=e862]:
+                                  - generic [ref=e863]: 3.7/5
+                                  - img [ref=e864]
+                                  - generic [ref=e866]: (245)
+                              - generic [ref=e867]: · 3-star hotel
+                            - generic [ref=e868]: Free cancellation · Pool
+                            - generic [ref=e870]: Visit Booking.com
+                - generic [ref=e873]:
+                  - heading "People also viewed" [level=2] [ref=e875]
+                  - list [ref=e880]:
+                    - listitem [ref=e881]:
+                      - link "₱4,435 Dream Beach Huts 4.3 out of 5 stars from 1,657 reviews Free breakfast 3.6 km away":
+                        - /url: /travel/search?q=hotels%20in%20bali&qs=MihDaG9JdDR2RHY3YTFyYi1mQVJvTkwyY3ZNVEZpZDJZM2F6YzRlaEFCOAA&ved=2ahUKEwjXhLae3LyUAxWwi2YCHVEKFq0Qv6wDKAB6BQgDEJcE&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyBAgAEAAqBwoFOgNQSFA
+                        - generic [ref=e882] [cursor=pointer]:
+                          - generic [ref=e884]: ₱4,435
+                          - generic [ref=e885]:
+                            - generic [ref=e886]: Dream Beach Huts
+                            - generic [ref=e887]:
+                              - img "4.3 out of 5 stars from 1,657 reviews" [ref=e889]:
+                                - generic [ref=e890]:
+                                  - generic [ref=e891]: "4.3"
+                                  - generic [ref=e892]:
+                                    - generic [ref=e893]:
+                                      - img [ref=e895]
+                                      - img [ref=e898]
+                                      - img [ref=e901]
+                                      - img [ref=e904]
+                                      - img [ref=e907]
+                                    - generic [ref=e909]:
+                                      - img [ref=e911]
+                                      - img [ref=e914]
+                                      - img [ref=e917]
+                                      - img [ref=e920]
+                                      - img [ref=e923]
+                                  - generic [ref=e925]: (1.7K)
+                              - generic [ref=e926]: Free breakfast
+                              - generic [ref=e927]: 3.6 km away
+                    - listitem [ref=e928]:
+                      - link "₱4,510 ORA Resort Avia Blue Lagoon 4.5 out of 5 stars from 469 reviews Upscale beachfront resort with a pool 5 km away":
+                        - /url: /travel/search?q=hotels%20in%20bali&qs=MidDaGtJdU5lRGw3ejJ2dWQwR2cwdlp5OHhNV2N5ZDIwM2VqVm9FQUU4AA&ved=2ahUKEwjXhLae3LyUAxWwi2YCHVEKFq0Qv6wDKAF6BQgDEJkE&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyBAgAEAAqBwoFOgNQSFA
+                        - generic [ref=e929] [cursor=pointer]:
+                          - generic [ref=e931]: ₱4,510
+                          - generic [ref=e932]:
+                            - generic [ref=e933]: ORA Resort Avia Blue Lagoon
+                            - generic [ref=e934]:
+                              - img "4.5 out of 5 stars from 469 reviews" [ref=e936]:
+                                - generic [ref=e937]:
+                                  - generic [ref=e938]: "4.5"
+                                  - generic [ref=e939]:
+                                    - generic [ref=e940]:
+                                      - img [ref=e942]
+                                      - img [ref=e945]
+                                      - img [ref=e948]
+                                      - img [ref=e951]
+                                      - img [ref=e954]
+                                    - generic [ref=e956]:
+                                      - img [ref=e958]
+                                      - img [ref=e961]
+                                      - img [ref=e964]
+                                      - img [ref=e967]
+                                      - img [ref=e970]
+                                  - generic [ref=e972]: (469)
+                              - generic [ref=e973]: Upscale beachfront resort with a pool
+                              - generic [ref=e974]: 5 km away
+                    - listitem [ref=e975]:
+                      - link "₱3,572 d'Nusa Beach Club and Resort 4.1 out of 5 stars from 579 reviews Tranquil resort with a private beach 0.2 km away":
+                        - /url: /travel/search?q=hotels%20in%20bali&qs=MidDaGtJdXNhWDZOLWE5OUVMR2cwdlp5OHhNV0k0ZVc1dGQyYzBFQUU4AA&ved=2ahUKEwjXhLae3LyUAxWwi2YCHVEKFq0Qv6wDKAJ6BQgDEJsE&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyBAgAEAAqBwoFOgNQSFA
+                        - generic [ref=e976] [cursor=pointer]:
+                          - generic [ref=e978]: ₱3,572
+                          - generic [ref=e979]:
+                            - generic [ref=e980]: d'Nusa Beach Club and Resort
+                            - generic [ref=e981]:
+                              - img "4.1 out of 5 stars from 579 reviews" [ref=e983]:
+                                - generic [ref=e984]:
+                                  - generic [ref=e985]: "4.1"
+                                  - generic [ref=e986]:
+                                    - generic [ref=e987]:
+                                      - img [ref=e989]
+                                      - img [ref=e992]
+                                      - img [ref=e995]
+                                      - img [ref=e998]
+                                      - img [ref=e1001]
+                                    - generic [ref=e1003]:
+                                      - img [ref=e1005]
+                                      - img [ref=e1008]
+                                      - img [ref=e1011]
+                                      - img [ref=e1014]
+                                      - img [ref=e1017]
+                                  - generic [ref=e1019]: (579)
+                              - generic [ref=e1020]: Tranquil resort with a private beach
+                              - generic [ref=e1021]: 0.2 km away
+                    - listitem [ref=e1022]:
+                      - link "₱782 Blue lagoon secret villas 4.7 out of 5 stars from 99 reviews 3-star hotel for ₱2,689 less 4.9 km away":
+                        - /url: /travel/search?q=hotels%20in%20bali&qs=MidDaGtJd1luZW9vQ2YxWmNKR2cwdlp5OHhNV1l6TkRBNGVuZDZFQUU4AA&ved=2ahUKEwjXhLae3LyUAxWwi2YCHVEKFq0Qv6wDKAN6BQgDEJ0E&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyBAgAEAAqBwoFOgNQSFA
+                        - generic [ref=e1023] [cursor=pointer]:
+                          - generic [ref=e1025]: ₱782
+                          - generic [ref=e1026]:
+                            - generic [ref=e1027]: Blue lagoon secret villas
+                            - generic [ref=e1028]:
+                              - img "4.7 out of 5 stars from 99 reviews" [ref=e1030]:
+                                - generic [ref=e1031]:
+                                  - generic [ref=e1032]: "4.7"
+                                  - generic [ref=e1033]:
+                                    - generic [ref=e1034]:
+                                      - img [ref=e1036]
+                                      - img [ref=e1039]
+                                      - img [ref=e1042]
+                                      - img [ref=e1045]
+                                      - img [ref=e1048]
+                                    - generic [ref=e1050]:
+                                      - img [ref=e1052]
+                                      - img [ref=e1055]
+                                      - img [ref=e1058]
+                                      - img [ref=e1061]
+                                      - img [ref=e1064]
+                                  - generic [ref=e1066]: (99)
+                              - generic [ref=e1067]: 3-star hotel for ₱2,689 less
+                              - generic [ref=e1068]: 4.9 km away
+                    - listitem [ref=e1069]:
+                      - link "₱3,452 Pemedal Beach Resort 4.4 out of 5 stars from 530 reviews Free breakfast 0.4 km away":
+                        - /url: /travel/search?q=hotels%20in%20bali&qs=MidDaGtJNXJEWXg0bktxcTl5R2cwdlp5OHhNV0oyZEdnMmFuRnpFQUU4AA&ved=2ahUKEwjXhLae3LyUAxWwi2YCHVEKFq0Qv6wDKAR6BQgDEJ8E&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyBAgAEAAqBwoFOgNQSFA
+                        - generic [ref=e1070] [cursor=pointer]:
+                          - generic [ref=e1072]: ₱3,452
+                          - generic [ref=e1073]:
+                            - generic [ref=e1074]: Pemedal Beach Resort
+                            - generic [ref=e1075]:
+                              - img "4.4 out of 5 stars from 530 reviews" [ref=e1077]:
+                                - generic [ref=e1078]:
+                                  - generic [ref=e1079]: "4.4"
+                                  - generic [ref=e1080]:
+                                    - generic [ref=e1081]:
+                                      - img [ref=e1083]
+                                      - img [ref=e1086]
+                                      - img [ref=e1089]
+                                      - img [ref=e1092]
+                                      - img [ref=e1095]
+                                    - generic [ref=e1097]:
+                                      - img [ref=e1099]
+                                      - img [ref=e1102]
+                                      - img [ref=e1105]
+                                      - img [ref=e1108]
+                                      - img [ref=e1111]
+                                  - generic [ref=e1113]: (530)
+                              - generic [ref=e1114]: Free breakfast
+                              - generic [ref=e1115]: 0.4 km away
+                    - listitem [ref=e1116]:
+                      - link "₱2,878 Semabu Hills Hotel Nusa Penida 4.1 out of 5 stars from 767 reviews Also a 4-star hotel, for ₱593 less 5.3 km away":
+                        - /url: /travel/search?q=hotels%20in%20bali&qs=MidDaGtJbXJHaTdyMm4zN29IR2cwdlp5OHhNV00zTVROclgzSjRFQUU4AA&ved=2ahUKEwjXhLae3LyUAxWwi2YCHVEKFq0Qv6wDKAV6BQgDEKEE&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBRgZEgcI6g8QBRgaGAEyBAgAEAAqBwoFOgNQSFA
+                        - generic [ref=e1117] [cursor=pointer]:
+                          - generic [ref=e1119]: ₱2,878
+                          - generic [ref=e1120]:
+                            - generic [ref=e1121]: Semabu Hills Hotel Nusa Penida
+                            - generic [ref=e1122]:
+                              - img "4.1 out of 5 stars from 767 reviews" [ref=e1124]:
+                                - generic [ref=e1125]:
+                                  - generic [ref=e1126]: "4.1"
+                                  - generic [ref=e1127]:
+                                    - generic [ref=e1128]:
+                                      - img [ref=e1130]
+                                      - img [ref=e1133]
+                                      - img [ref=e1136]
+                                      - img [ref=e1139]
+                                      - img [ref=e1142]
+                                    - generic [ref=e1144]:
+                                      - img [ref=e1146]
+                                      - img [ref=e1149]
+                                      - img [ref=e1152]
+                                      - img [ref=e1155]
+                                      - img [ref=e1158]
+                                  - generic [ref=e1160]: (767)
+                              - generic [ref=e1161]: Also a 4-star hotel, for ₱593 less
+                              - generic [ref=e1162]: 5.3 km away
+                - generic [ref=e1165]:
+                  - heading "Vacation rentals nearby" [level=2] [ref=e1167]
+                  - list [ref=e1172]:
+                    - listitem [ref=e1173]:
+                      - link "₱1,519/night Aug 14 – 15 Coconut Village Guest House Lembongan RedPartner - Deluxe Room 2 bedrooms·Sleeps 2 0.1 km away":
+                        - /url: /travel/search?q=hotels%20in%20bali&qs=MjRDaU1JOS15eTQ0aWk4WjVIRUp5WXNLbk10dG13YXhvTkwyY3ZNVEZ1WW0xeU5URjRjQkFDOAA&ved=2ahUKEwjXhLae3LyUAxWwi2YCHVEKFq0Qv6wDegUIAxClBA&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QCBgOEgcI6g8QCBgPGAEyAhAAOAEqBwoFOgNQSFA
+                        - generic [ref=e1174] [cursor=pointer]:
+                          - generic [ref=e1177]:
+                            - text: ₱1,519/night
+                            - generic [ref=e1178]: Aug 14 – 15
+                          - generic [ref=e1179]:
+                            - generic [ref=e1180]: Coconut Village Guest House Lembongan RedPartner - Deluxe Room
+                            - generic [ref=e1181]:
+                              - generic [ref=e1182]: 2 bedrooms·Sleeps 2
+                              - generic [ref=e1183]: 0.1 km away
+                    - listitem [ref=e1184]:
+                      - link "₱33,662/night Jun 16 – 20 Complex 2 Villas Manouch/Love 4 bedrooms·Sleeps 9 0.75 km away":
+                        - /url: /travel/search?q=hotels%20in%20bali&qs=MjdDaVVJdFAzcHpJYlF6dnVpQVJEUGdJQ216N3ZnOFo0QkdnMHZaeTh4TVhvMGMycDZObWQzRUFJOAA&ved=2ahUKEwjXhLae3LyUAxWwi2YCHVEKFq0Qv6wDegUIAxCnBA&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBhgQEgcI6g8QBhgUGAQyAhAAOAEqBwoFOgNQSFA
+                        - generic [ref=e1185] [cursor=pointer]:
+                          - generic [ref=e1188]:
+                            - text: ₱33,662/night
+                            - generic [ref=e1189]: Jun 16 – 20
+                          - generic [ref=e1190]:
+                            - generic [ref=e1191]: Complex 2 Villas Manouch/Love
+                            - generic [ref=e1192]:
+                              - generic [ref=e1193]: 4 bedrooms·Sleeps 9
+                              - generic [ref=e1194]: 0.75 km away
+                    - listitem [ref=e1195]:
+                      - link "₱18,635/night Jun 17 – 20 Villa Diamond 2 bedrooms·Sleeps 5 0.75 km away":
+                        - /url: /travel/search?q=hotels%20in%20bali&qs=MjZDaVFJcl9hX25QVDNtSTM4QVJEaDZNYWg5X2VVaHkwYURTOW5MekV4ZDNFM2R6aHNjSEVRQWc4AA&ved=2ahUKEwjXhLae3LyUAxWwi2YCHVEKFq0Qv6wDegUIAxCpBA&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBhgREgcI6g8QBhgUGAMyAhAAOAEqBwoFOgNQSFA
+                        - generic [ref=e1196] [cursor=pointer]:
+                          - generic [ref=e1199]:
+                            - text: ₱18,635/night
+                            - generic [ref=e1200]: Jun 17 – 20
+                          - generic [ref=e1201]:
+                            - generic [ref=e1202]: Villa Diamond
+                            - generic [ref=e1203]:
+                              - generic [ref=e1204]: 2 bedrooms·Sleeps 5
+                              - generic [ref=e1205]: 0.75 km away
+                    - listitem [ref=e1206]:
+                      - link "₱4,365/night May 23 – 24 Pondok Baruna Frangipani - Eight-Bedroom House 3 bedrooms·Sleeps 15 0.2 km away":
+                        - /url: /travel/search?q=hotels%20in%20bali&qs=MjRDaU1JeDduQ19NT3Q0LThORUtDRXVxeXh1by1fRGhvTkwyY3ZNVEY2TkdOdGF6aHNOaEFDOAA&ved=2ahUKEwjXhLae3LyUAxWwi2YCHVEKFq0Qv6wDegUIAxCrBA&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBRgXEgcI6g8QBRgYGAEyAhAAOAEqBwoFOgNQSFA
+                        - generic [ref=e1207] [cursor=pointer]:
+                          - generic [ref=e1210]:
+                            - text: ₱4,365/night
+                            - generic [ref=e1211]: May 23 – 24
+                          - generic [ref=e1212]:
+                            - generic [ref=e1213]: Pondok Baruna Frangipani - Eight-Bedroom House
+                            - generic [ref=e1214]:
+                              - generic [ref=e1215]: 3 bedrooms·Sleeps 15
+                              - generic [ref=e1216]: 0.2 km away
+                    - listitem [ref=e1217]:
+                      - link "₱8,610/night Jun 15 – 17 Villa Giyor - Standard Villa 1 bedroom·Sleeps 2 0.2 km away":
+                        - /url: /travel/search?q=hotels%20in%20bali&qs=MjZDaVFJbjYyT3k1cUw2ZG9jRU5YMzFvdUR2dkxLeHdFYURTOW5MekV4ZWpWalozWXhjalVRQWc4AA&ved=2ahUKEwjXhLae3LyUAxWwi2YCHVEKFq0Qv6wDegUIAxCtBA&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBhgPEgcI6g8QBhgRGAIyAhAAOAEqBwoFOgNQSFA
+                        - generic [ref=e1218] [cursor=pointer]:
+                          - generic [ref=e1221]:
+                            - text: ₱8,610/night
+                            - generic [ref=e1222]: Jun 15 – 17
+                          - generic [ref=e1223]:
+                            - generic [ref=e1224]: Villa Giyor - Standard Villa
+                            - generic [ref=e1225]:
+                              - generic [ref=e1226]: 1 bedroom·Sleeps 2
+                              - generic [ref=e1227]: 0.2 km away
+                    - listitem [ref=e1228]:
+                      - link "₱33,957/night Jul 30 – Aug 5 Luxury villa Kupu Kupu, 160m from beach 3 bedrooms·Sleeps 6 0.75 km away":
+                        - /url: /travel/search?q=hotels%20in%20bali&qs=MjZDaVFJbE1UWG9vYjR4YURvQVJDM3ZNMk96X2FWbndZYURTOW5MekV4ZWpWaloyNTNlR01RQWc4AA&ved=2ahUKEwjXhLae3LyUAxWwi2YCHVEKFq0Qv6wDegUIAxCvBA&ts=CAESCgoCCAMKAggDEAAaTwovEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkSHBIUCgcI6g8QBxgeEgcI6g8QCBgFGAYyAhAAOAEqBwoFOgNQSFA
+                        - generic [ref=e1229] [cursor=pointer]:
+                          - generic [ref=e1232]:
+                            - text: ₱33,957/night
+                            - generic [ref=e1233]: Jul 30 – Aug 5
+                          - generic [ref=e1234]:
+                            - generic [ref=e1235]: Luxury villa Kupu Kupu, 160m from beach
+                            - generic [ref=e1236]:
+                              - generic [ref=e1237]: 3 bedrooms·Sleeps 6
+                              - generic [ref=e1238]: 0.75 km away
+              - generic [ref=e1240]:
+                - generic [ref=e1241]:
+                  - heading "Frequently asked questions about Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛" [level=2] [ref=e1242]
+                  - generic [ref=e1244] [cursor=pointer]:
+                    - generic [ref=e1245]: What are the check-in and check-out times for Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛?
+                    - button "Toggle answer visibility" [ref=e1248]:
+                      - img [ref=e1251]
+                  - generic [ref=e1254] [cursor=pointer]:
+                    - generic [ref=e1255]: What are the main amenities at Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛?
+                    - button "Toggle answer visibility" [ref=e1258]:
+                      - img [ref=e1261]
+                  - generic [ref=e1264] [cursor=pointer]:
+                    - generic [ref=e1265]: Does Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛 offer free Wi-Fi?
+                    - button "Toggle answer visibility" [ref=e1268]:
+                      - img [ref=e1271]
+                  - generic [ref=e1274] [cursor=pointer]:
+                    - generic [ref=e1275]: Is parking available at Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛?
+                    - button "Toggle answer visibility" [ref=e1278]:
+                      - img [ref=e1281]
+                  - generic [ref=e1284] [cursor=pointer]:
+                    - generic [ref=e1285]: Does Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛 have a pool?
+                    - button "Toggle answer visibility" [ref=e1288]:
+                      - img [ref=e1291]
+                  - generic [ref=e1294] [cursor=pointer]:
+                    - generic [ref=e1295]: How long does it take to get from Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛 to Nusa Lembongan?
+                    - button "Toggle answer visibility" [ref=e1298]:
+                      - img [ref=e1301]
+                  - generic [ref=e1304] [cursor=pointer]:
+                    - generic [ref=e1305]: How long does it take to get from Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛 to I Gusti Ngurah Rai International Airport?
+                    - button "Toggle answer visibility" [ref=e1308]:
+                      - img [ref=e1311]
+                  - generic [ref=e1314] [cursor=pointer]:
+                    - generic [ref=e1315]: What is the official star rating of Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛?
+                    - button "Toggle answer visibility" [ref=e1318]:
+                      - img [ref=e1321]
+                - generic [ref=e1323]:
+                  - heading "Similar hotels" [level=2] [ref=e1324]
+                  - generic [ref=e1325]:
+                    - generic [ref=e1326]:
+                      - link "Dream Beach Huts" [ref=e1327] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/ChoIt4vDv7a1rb-fARoNL2cvMTFid2Y3azc4ehAB
+                      - link "ORA Resort Avia Blue Lagoon" [ref=e1328] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/ChkIuNeDl7z2vud0Gg0vZy8xMWcyd203ejVoEAE
+                      - link "d'Nusa Beach Club and Resort" [ref=e1329] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/ChkIusaX6N-a99ELGg0vZy8xMWI4eW5td2c0EAE
+                    - generic [ref=e1330]:
+                      - link "Blue lagoon secret villas" [ref=e1331] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/ChkIwYneooCf1ZcJGg0vZy8xMWYzNDA4end6EAE
+                      - link "Pemedal Beach Resort" [ref=e1332] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/ChkI5rDYx4nKqq9yGg0vZy8xMWJ2dGg2anFzEAE
+                      - link "Semabu Hills Hotel Nusa Penida" [ref=e1333] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/ChkImrGi7r2n37oHGg0vZy8xMWM3MTNrX3J4EAE
+                  - heading "Vacation rentals nearby" [level=2] [ref=e1334]
+                  - generic [ref=e1335]:
+                    - generic [ref=e1336]:
+                      - link "Coconut Village Guest House Lembongan RedPartner - Deluxe Room" [ref=e1337] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/CiMI9-yy44ii8Z5HEJyYsKnMttmwaxoNL2cvMTFuYm1yNTF4cBAC
+                      - link "Complex 2 Villas Manouch/Love" [ref=e1338] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/CiUItP3pzIbQzvuiARDPgICmz7vg8Z4BGg0vZy8xMXo0c2p6Nmd3EAI
+                      - link "Villa Diamond" [ref=e1339] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/CiQIr_a_nPT3mI38ARDh6Mah9_eUhy0aDS9nLzExd3E3dzhscHEQAg
+                    - generic [ref=e1340]:
+                      - link "Pondok Baruna Frangipani - Eight-Bedroom House" [ref=e1341] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/CiMIx7nC_MOt4-8NEKCEuqyxuo-_DhoNL2cvMTF6NGNtazhsNhAC
+                      - link "Villa Giyor - Standard Villa" [ref=e1342] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/CiQIn62Oy5qL6docENX31ouDvvLKxwEaDS9nLzExejVjZ3YxcjUQAg
+                      - link "Luxury villa Kupu Kupu, 160m from beach" [ref=e1343] [cursor=pointer]:
+                        - /url: ./travel/hotels/entity/CiQIlMTXoob4xaDoARC3vM2Oz_aVnwYaDS9nLzExejVjZ253eGMQAg
+              - contentinfo [ref=e1347]:
+                - button "Currency·PHP" [ref=e1350]:
+                  - generic [ref=e1352]: Currency·PHP
+                  - img [ref=e1353]
+                - generic [ref=e1355]:
+                  - generic [ref=e1356]: Buhangin, Davao City, Philippines - From your Internet address
+                  - link "Learn more about location link" [ref=e1358] [cursor=pointer]:
+                    - /url: https://support.google.com/websearch/answer/179386?gl=PH&hl=en-US
+                    - text: Learn more
+                - generic [ref=e1359]:
+                  - link "About Google Travel" [ref=e1360] [cursor=pointer]:
+                    - /url: https://about.google/?hl=en-US
+                    - text: About
+                  - link "Privacy" [ref=e1361] [cursor=pointer]:
+                    - /url: https://policies.google.com/privacy?hl=en-US
+                  - link "Terms" [ref=e1362] [cursor=pointer]:
+                    - /url: https://policies.google.com/terms?hl=en-US
+                  - link "Join user studies" [ref=e1363] [cursor=pointer]:
+                    - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ1%26productTag%3Dothr%26campaignDate%3DMarch2020%26referral_code%3DUXDT415223&Q_Language=en-US
+                  - link "Feedback" [ref=e1364] [cursor=pointer]:
+                    - /url: ./#0
+                  - link "Pricing issues" [ref=e1365] [cursor=pointer]
+                  - link "Help Center" [ref=e1366] [cursor=pointer]:
+                    - /url: https://support.google.com/travel/?hl=en-US#topic=7687750
+                  - link "About this data" [ref=e1367] [cursor=pointer]:
+                    - /url: https://support.google.com/local-listings?p=how_google_sources&gl=PH&hl=en-US
+                  - link "Web results" [ref=e1369] [cursor=pointer]:
+                    - /url: /search?q=Mahagiri%20Resort%20Nusa%20Lembongan%20%2F%20%E9%A9%AC%E5%93%88%E5%90%89%E5%88%A9%20%E8%93%9D%E6%A2%A6%E5%B2%9B&gl=PH&hl=en-US
+                - paragraph [ref=e1371]:
+                  - text: Displayed currencies may differ from the currencies used to book properties.
+                  - link "Learn more about currencies" [ref=e1372] [cursor=pointer]:
+                    - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PH
+                    - text: Learn more
+        - generic [ref=e1375]:
+          - generic [ref=e1376]: Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛
+          - generic [ref=e1377]:
+            - generic [ref=e1380] [cursor=pointer]:
+              - generic [ref=e1382]: ₱3,471
+              - generic [ref=e1383]: •
+              - generic [ref=e1384]: May 25 – 26
+            - button "View prices" [ref=e1386]:
+              - generic [ref=e1389]: View prices
+    - generic [ref=e1393]:
+      - generic:
+        - button "View larger map" [ref=e1396] [cursor=pointer]:
+          - img [ref=e1397]
+        - generic [ref=e1400]:
+          - button "Zoom in map" [ref=e1401] [cursor=pointer]:
+            - img [ref=e1402]
+          - button "Zoom out map" [ref=e1405] [cursor=pointer]:
+            - img [ref=e1406]
+      - generic [ref=e1408]:
+        - switch "Toggle reachability layer" [ref=e1409] [cursor=pointer]:
+          - generic [ref=e1414]:
+            - img [ref=e1415]
+            - img [ref=e1417]
+        - button "Off" [ref=e1421]:
+          - generic [ref=e1424]:
+            - img [ref=e1425]
+            - generic [ref=e1427]: "Off"
+            - img [ref=e1428]
+        - generic:
+          - button "Walk":
+            - generic:
+              - img
+              - text: Walk
+          - button "Drive":
+            - generic:
+              - img
+              - text: Drive
+        - generic [ref=e1436] [cursor=pointer]:
+          - slider "Reachability slider": "0"
+      - generic [ref=e1439]:
+        - generic [ref=e1441]:
+          - button "Transit" [ref=e1442] [cursor=pointer]:
+            - img [ref=e1445]
+          - tooltip [ref=e1449]: Transit
+        - generic [ref=e1451]:
+          - button "Areas for dining" [ref=e1452] [cursor=pointer]:
+            - img [ref=e1455]
+          - tooltip [ref=e1457]: Areas for dining
+        - generic [ref=e1459]:
+          - button "Attractions" [ref=e1460] [cursor=pointer]:
+            - img [ref=e1463]
+          - tooltip [ref=e1465]: Attractions
+        - generic [ref=e1467]:
+          - button "Areas for shopping" [ref=e1468] [cursor=pointer]:
+            - img [ref=e1471]
+          - tooltip [ref=e1474]: Areas for shopping
+      - generic [ref=e1476]:
+        - region "Map" [ref=e1477]
+        - generic [ref=e1478]:
+          - generic "Mahagiri Resort Nusa Lembongan / 马哈吉利 蓝梦岛, ₱3,471" [ref=e1519]:
+            - generic [ref=e1520]:
+              - generic [ref=e1521]:
+                - img [ref=e1523]
+                - generic [ref=e1529]: ₱3,471
+              - img [ref=e1530]
+          - iframe [ref=e1533]:
+            
+  - generic [ref=e1534]: Page loaded.

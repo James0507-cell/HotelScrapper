@@ -11,6 +11,7 @@ class PricingOffer:
     provider_name: str
     price: str
     booking_url: str
+    provider_logo_url: str = ""
     is_official: bool = False
 
 class MiniHotelScraper:
@@ -53,7 +54,10 @@ class MiniHotelScraper:
 
         async with async_playwright() as playwright:
             browser = await playwright.chromium.launch(headless=self.headless)
-            context = await browser.new_context(locale="en-US")
+            context = await browser.new_context(
+                locale="en-US",
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            )
             await Stealth().apply_stealth_async(context)
             page = await context.new_page()
             
@@ -66,116 +70,169 @@ class MiniHotelScraper:
                 await accept_google_dialogs(page)
                 await dismiss_google_dialogs(page)
 
+                # Scroll to ensure all prices are loaded
+                await page.evaluate(r'''async () => {
+                    for (let i = 0; i < 3; i++) {
+                        window.scrollBy(0, 1000);
+                        await new Promise(r => setTimeout(r, 500));
+                    }
+                }''')
+
                 # Extract offers using evaluate for high fidelity
                 data = await page.evaluate(r'''() => {
                     const results = [];
-                    // Find all price rows/blocks.
-                    const links = Array.from(document.querySelectorAll('a')).filter(a => {
-                        const text = a.innerText || a.getAttribute('aria-label') || '';
-                        return text.includes('Visit site');
+                    
+                    // 1. Identify the main pricing container to avoid ads/nearby/reviews
+                    const pricingContainer = Array.from(document.querySelectorAll('c-wiz')).find(cw => 
+                        cw.innerText.toLowerCase().includes('featured options') || 
+                        cw.innerText.toLowerCase().includes('all options')
+                    ) || document.querySelector('.xQwpfc') || document.body;
+
+                    // 2. Find elements that are likely pricing links or buttons within that container
+                    const elements = Array.from(pricingContainer.querySelectorAll('a, button[role="link"]')).filter(el => {
+                        const text = (el.innerText || el.getAttribute('aria-label') || '').toLowerCase();
+                        return text.includes('visit site') || text.includes('visit booking.com') || 
+                               text.includes('visit agoda') || text.includes('visit expedia');
                     });
 
-                    for (const link of links) {
-                        const container = link.closest('div[role="listitem"]') || link.parentElement.parentElement;
+                    const noise = ['visit site', 'official', 'website', 'view more', 'free cancellation', 
+                                 'reviews', 'customer service', 'breakfast', 'refundable', 'deals',
+                                 'room rates', 'more room', 'stay+ offers', 'unlock', 'book and earn',
+                                 'guest reviews', 'nightly', 'total', 'taxes', 'fees', 'guests', 'person', 'people'];
+
+                    for (const el of elements) {
+                        // Find the most relevant container for this pricing offer
+                        const container = el.closest('div[role="listitem"]') || 
+                                        el.closest('.KUIwfc') || 
+                                        el.closest('.IJxDxc') || 
+                                        el.parentElement.parentElement;
+                        
                         if (!container) continue;
 
-                        // Find provider name - look for text inside specific spans or images
-                        let providerName = "";
+                        const containerText = container.innerText;
+                        const priceMatch = containerText.match(/[₱$€£]\s?[\d,]+/);
+                        let price = priceMatch ? priceMatch[0] : "N/A";
                         
-                        // 0. Check aria-label of the link
-                        const ariaLabel = link.getAttribute('aria-label') || "";
-                        if (ariaLabel && ariaLabel.toLowerCase().includes('visit site')) {
-                            // Common pattern: "Visit site for [Provider Name]"
-                            const nameMatch = ariaLabel.match(/Visit site (?:for|at)\s+(.*)/i);
-                            if (nameMatch) providerName = nameMatch[1].trim();
+                        // Detect official site
+                        const isOfficial = containerText.toLowerCase().includes('official site') || 
+                                          containerText.toLowerCase().includes('official website') ||
+                                          (el.getAttribute('aria-label') || '').toLowerCase().includes('official');
+
+                        let providerName = "Unknown";
+                        
+                        // 1. Try aria-label (highest signal for specific links)
+                        const ariaLabel = el.getAttribute('aria-label') || "";
+                        if (ariaLabel) {
+                            const nameMatch = ariaLabel.match(/Visit site (?:for|at|on)\s+(.*)/i) || 
+                                            ariaLabel.match(/Visit\s+(.*)/i);
+                            if (nameMatch) {
+                                providerName = nameMatch[1].trim();
+                            }
                         }
-                        
-                        // 1. Check for 'Official' indicators
-                        const isOfficial = container.innerText.toLowerCase().includes('official') || 
-                                           container.innerText.toLowerCase().includes('website');
-                        
-                        // 2. Try to find the provider name in images
-                        if (!providerName || providerName === "Unknown") {
-                            const images = Array.from(container.querySelectorAll('img[alt]'));
-                            for (const img of images) {
-                                const alt = img.getAttribute('alt').trim();
-                                if (alt && alt.length > 2 && alt.length < 40 && !alt.toLowerCase().includes('visit site')) {
-                                    providerName = alt;
+
+                        // 2. Search container and ancestors for headers or logos
+                        if (providerName === "Unknown" || providerName === "site") {
+                            let curr = container;
+                            for (let i = 0; i < 5 && curr; i++) {
+                                const h3 = curr.querySelector('h3, h4');
+                                if (h3 && h3.innerText && h3.innerText.length < 60) {
+                                    providerName = h3.innerText.split('\n')[0].trim();
+                                    break;
+                                }
+                                
+                                const img = curr.querySelector('img');
+                                if (img && img.getAttribute('alt')) {
+                                    const alt = img.getAttribute('alt');
+                                    if (alt.length > 2 && !alt.toLowerCase().includes('logo') && 
+                                        !alt.toLowerCase().includes('visit site')) {
+                                        providerName = alt;
+                                        break;
+                                    }
+                                }
+                                curr = curr.parentElement;
+                            }
+                        }
+
+                        // 3. Look for plain text in container (first non-noise line)
+                        if (providerName === "Unknown" || providerName === "site") {
+                            const lines = containerText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+                            for (const line of lines) {
+                                const lowerLine = line.toLowerCase();
+                                if (line.length > 1 && line.length < 50 && 
+                                    !/[₱$€£]/.test(line) && 
+                                    !noise.some(n => lowerLine.includes(n))) {
+                                    providerName = line;
                                     break;
                                 }
                             }
                         }
-                        
-                        // 3. Look for a span that isn't the price and isn't the 'Visit site' text
-                        if (!providerName || providerName === "Unknown") {
-                            const candidateEls = Array.from(container.querySelectorAll('span, div'));
-                            // Filter for marketing text and other noise
-                            const noise = ['visit site', 'official', 'website', 'view more', 'free cancellation', 
-                                         'reviews', 'customer service', 'breakfast', 'refundable', 'deals',
-                                         'room rates', 'more room', 'stay+ offers', 'unlock', 'book and earn',
-                                         'guest reviews'];
-                                         
-                            for (const el of candidateEls) {
-                                if (el.children.length > 0) continue; // Prefer leaf nodes
-                                
-                                const text = el.innerText.trim();
-                                const lowerText = text.toLowerCase();
-                                
-                                if (text && 
-                                    text.length > 2 && 
-                                    text.length < 50 && 
-                                    !/[₱$€£]/.test(text) && 
-                                    !noise.some(n => lowerText.includes(n))) {
-                                    providerName = text;
-                                    break;
+
+                        // 4. Fallback: parse domain from URL
+                        if (providerName === "Unknown" || providerName === "site") {
+                            try {
+                                let urlStr = el.href || el.getAttribute('data-url') || "";
+                                if (urlStr) {
+                                    if (urlStr.startsWith('/')) urlStr = window.location.origin + urlStr;
+                                    const url = new URL(urlStr);
+                                    let host = url.hostname.replace('www.', '');
+                                    const parts = host.split('.');
+                                    const commonSubdomains = ['api', 'ph', 'm', 'mobile', 'en', 'id', 'id-id', 'com', 'google'];
+                                    let namePart = parts[0];
+                                    if (commonSubdomains.includes(namePart.toLowerCase()) && parts.length > 2) {
+                                        namePart = parts[1];
+                                    }
+                                    providerName = namePart.charAt(0).toUpperCase() + namePart.slice(1);
                                 }
-                            }
+                            } catch (e) {}
                         }
-                        
-                        if (isOfficial && (!providerName || providerName === "Unknown")) {
+
+                        providerName = providerName.replace(/Visit (?:site for )?/i, '').trim();
+                        if (isOfficial) {
                             providerName = "Official Website";
                         }
-
-                        // Refine provider name
-                        providerName = (providerName || "Unknown").split('\n')[0].trim();
-                        if (providerName.length > 60) providerName = providerName.substring(0, 60);
-
-                        // Find price - look for the span that matches common currency patterns
-                        let price = "N/A";
-                        const allSpans = Array.from(container.querySelectorAll('span, div'));
                         
-                        // Regex for price: currency symbol followed by numbers and optional commas
-                        const priceRegex = /[₱$€£]\s?[\d,]+/;
-                        
-                        const priceMatches = allSpans
-                            .map(s => s.innerText.trim())
-                            .filter(t => priceRegex.test(t))
-                            .sort((a, b) => a.length - b.length); // Shortest string usually the price itself
-                        
-                        if (priceMatches.length > 0) {
-                            price = priceMatches[0];
-                        } else {
-                            // Search the whole container text for a price pattern
-                            const fullText = container.innerText;
-                            const match = fullText.match(priceRegex);
-                            if (match) price = match[0];
+                        // Skip if name is still Unknown or generic 'Google' (unless it's truly official)
+                        if ((providerName.toLowerCase() === 'google' || providerName === 'Unknown') && !isOfficial) {
+                             continue;
                         }
 
-                        results.push({
-                            provider_name: providerName,
-                            price: price,
-                            booking_url: link.href,
-                            is_official: isOfficial
-                        });
+                        if (price !== "N/A" || isOfficial) {
+                            results.push({
+                                provider_name: providerName,
+                                price: price,
+                                booking_url: el.href || el.getAttribute('data-url') || "",
+                                provider_logo_url: container.querySelector('img') ? container.querySelector('img').src : "",
+                                is_official: isOfficial
+                            });
+                        }
                     }
                     return results;
                 }''')
 
                 for item in (data or []):
+                    # Robust deduplication: check provider and price
+                    is_dup = False
+                    for o in offers:
+                        # Same provider and price is almost certainly the same offer
+                        if o.provider_name == item['provider_name'] and o.price == item['price']:
+                            is_dup = True
+                            # If existing one has no URL but new one does, update it
+                            if not o.booking_url and item['booking_url']:
+                                o.booking_url = clean_google_redirect(item['booking_url'])
+                            break
+                        # Same URL is definitely dup
+                        if item['booking_url'] and o.booking_url == clean_google_redirect(item['booking_url']):
+                            is_dup = True
+                            break
+                    
+                    if is_dup:
+                        continue
+                        
                     offers.append(PricingOffer(
                         provider_name=item['provider_name'],
                         price=item['price'],
-                        booking_url=clean_google_redirect(item['booking_url']),
+                        booking_url=clean_google_redirect(item['booking_url']) or "",
+                        provider_logo_url=item['provider_logo_url'],
                         is_official=item['is_official']
                     ))
             finally:
