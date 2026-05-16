@@ -1,0 +1,140 @@
+[
+  {
+    "provider_name": "Mahagiri Resort Nusa Lembongan / \u9a6c\u54c8\u5409\u5229 \u84dd\u68a6\u5c9b",
+    "price": "N/A",
+    "booking_url": "https://www.mahagiriresortnusalembongan.com/",
+    "is_official": true
+  },
+  {
+    "provider_name": "Unknown",
+    "price": "\u20b15,057",
+    "booking_url": "https://www.google.com/aclk?sa=l&ai=DChsSEwiD08bq2byUAxVQm2YCHd7ZISwYACICCAEQBRoCc20&co=1&ase=2&gclid=EAIaIQobChMIg9PG6tm8lAMVUJtmAh3e2SEsEAoYASABEgJlAvD_BwE&cid=CAASuwHkaEmal4-B2CefO_ACJo0mfeMjveP_keMn2Ustl9I0xCEFWBv01uyWjdbjkHH2kYlWPKscQdnFfleqTBa_Y71PY2G9xyuxHq0fMMJBEyI1vHhaj4VkrRpkSgSfrZEM29717VQ7EZsGPCODiLcUs8JKZFFGMya7xFMNIvqdd85YTT1b_2koPt8H0-7e8bCipwYr224qeay961opX4LfiXsveSkK7EqDyse6DNxC3KpZCj6eG-kJqOR0zDpn&category=acrcp_v1_48&sig=AOD64_1IHOBfmR62Ym7uXlkBC3Z0JAi04w&adurl=",
+    "is_official": false
+  },
+  {
+    "provider_name": "Unknown",
+    "price": "\u20b15,057",
+    "booking_url": "https://www.google.com/aclk?sa=l&ai=DChsSEwiD08bq2byUAxVQm2YCHd7ZISwYACICCAEQCBoCc20&co=1&ase=2&gclid=EAIaIQobChMIg9PG6tm8lAMVUJtmAh3e2SEsEAoYASAEEgKHhvD_BwE&cid=CAASuwHkaEmal4-B2CefO_ACJo0mfeMjveP_keMn2Ustl9I0xCEFWBv01uyWjdbjkHH2kYlWPKscQdnFfleqTBa_Y71PY2G9xyuxHq0fMMJBEyI1vHhaj4VkrRpkSgSfrZEM29717VQ7EZsGPCODiLcUs8JKZFFGMya7xFMNIvqdd85YTT1b_2koPt8H0-7e8bCipwYr224qeay961opX4LfiXsveSkK7EqDyse6DNxC3KpZCj6eG-kJqOR0zDpn&category=acrcp_v1_48&sig=AOD64_0kN6GiBMiCpPwXAKEUbv8JXA8Q9g&adurl=",
+    "is_official": false
+  },
+  {
+    "provider_name": "Unknown",
+    "price": "\u20b15,057",
+    "booking_url": "https://www.google.com/aclk?sa=l&ai=DChsSEwiD08bq2byUAxVQm2YCHd7ZISwYACICCAEQCRoCc20&co=1&ase=2&gclid=EAIaIQobChMIg9PG6tm8lAMVUJtmAh3e2SEsEAoYASAFEgIUhPD_BwE&cid=CAASuwHkaEmal4-B2CefO_ACJo0mfeMjveP_keMn2Ustl9I0xCEFWBv01uyWjdbjkHH2kYlWPKscQdnFfleqTBa_Y71PY2G9xyuxHq0fMMJBEyI1vHhaj4VkrRpkSgSfrZEM29717VQ7EZsGPCODiLcUs8JKZFFGMya7xFMNIvqdd85YTT1b_2koPt8H0-7e8bCipwYr224qeay961opX4LfiXsveSkK7EqDyse6DNxC3KpZCj6eG-kJqOR0zDpn&category=acrcp_v1_48&sig=AOD64_2MFHZIYlIlWG0FuUlEfHlGMojCNw&adurl=",
+    "is_official": false
+  },
+  {
+    "provider_name": "Unknown",
+    "price": "\u20b13,581",
+    "booking_url": "https://www.google.com/aclk?sa=l&ai=DChsSEwiD08bq2byUAxVQm2YCHd7ZISwYACICCAEQARoCc20&co=1&ase=2&gclid=EAIaIQobChMIg9PG6tm8lAMVUJtmAh3e2SEsEAoYAiABEgJJVvD_BwE&cid=CAASuwHkaEmal4-B2CefO_ACJo0mfeMjveP_keMn2Ustl9I0xCEFWBv01uyWjdbjkHH2kYlWPKscQdnFfleqTBa_Y71PY2G9xyuxHq0fMMJBEyI1vHhaj4VkrRpkSgSfrZEM29717VQ7EZsGPCODiLcUs8JKZFFGMya7xFMNIvqdd85YTT1b_2koPt8H0-7e8bCipwYr224qeay961opX4LfiXsveSkK7EqDyse6DNxC3KpZCj6eG-kJqOR0zDpn&category=acrcp_v1_48&sig=AOD64_11TB2TR0LgbpVFv3kwcZpAL_k2lg&adurl=",
+    "is_official": false
+  },
+  {
+    "provider_name": "klook",
+    "price": "\u20b13,471",
+    "booking_url": "https://api.klktech.com/v1/meta/hotels/detail/570333/?hotelid=570333&check_in=2026-05-25&check_out=2026-05-26&aid=28539&campaignid=&adult_num=2&lead_time=9&child_num=0&childages=&room_num=1&google_site=localuniversal&length_of_stay=1&partner_currency=USD&click_type=hotel&click_price_total=3470.95&price_tax=602.52&price_fees=0.00&rate_key=1-22-2026-05-25%7C2026-05-26%7C10130237%7C90572141%7CV0_1013023&user_country=PH&click_currency=PHP&_currency=PHP&device=desktop&partner_hotelid=570333&language=en&audience_list=&verification=false&booking_source=cpc&isPromoted=0&utm_source=MSE&utm_medium=Google&utm_campaign=28539&utm_term=570333&utm_content=PHP&isAdClick=0&prid=Foreign-Other&arrival_fees=0.000&mse_trace_id=ZDVhYzZjYi04NzljY2M5LTE3Nzg4OTM3NTguZi5vOjE6MDoyOjA6MToxNDQ6MTQ1OkhL&mse_search_token=ZDVhYzZjYi04NzljY2M5LTE3Nzg4OTM3NTguZi5vOjE6MDoyOjA6MToxNDQ6MTQ1OkhL&price_total=USD-56.340&price_type=Inbound-desktop&klc_l1=MSE&klc_l2=Google&age=",
+    "is_official": false
+  },
+  {
+    "provider_name": "Traveloka.com",
+    "price": "\u20b13,538",
+    "booking_url": "https://www.traveloka.com/en-ph/hotel/search?spec=25-05-2026.26-05-2026.1.1.HOTEL_GEO.102746.Bali.2&hotelId=3000010018173&contexts=%7B%22accessCode%22:%2290975GHAD1305desktop%22%2C%22metasearchRequestId%22%3A%227a4d6bcf-41e0-4e22-a013-f905b0ebcd75%22%2C%22dateSelectionType%22%3A%22default%22%7D&metasearchId=GoogleHotelAdsUser&metasearchRateId=desktop&metasearchRatekey=sgyUU2M0LrnnpXh1LPwoI&priceDisplay=TOTAL&metasearchRefid=12345678910abcdefghijk@-&adType=0&PPA=0&hotelCampaign=1",
+    "is_official": false
+  },
+  {
+    "provider_name": "Unknown",
+    "price": "\u20b15,057",
+    "booking_url": "https://www.google.com/aclk?sa=l&ai=DChsSEwihs8bq2byUAxUdq2YCHZifCCEYACICCAEQBRoCc20&co=1&ase=2&gclid=EAIaIQobChMIobPG6tm8lAMVHatmAh2YnwghEAoYASABEgInrvD_BwE&cid=CAASuwHkaPqK2S7Va627Wwo_VlZZI7lIJTojGhCLtfUdHxQdZWVgjqedST49itIxsw4zVSfAoBjU-Ee5527bg-ZgNbnpBH7AMpTPpa-efdYMSUFqD6q0kl31w0XOtE9iSpP6mzVcgpHuZvCl6I9PawiB4pF6XyYC9dlhnU2OYoOIljux6h9pSGrGHDSFRqee16koZSlte9bGSm34ugZjFACH4uzpwRsKUU6EywZ9HqsRGYaQPNVUomYfOT0UqhId&category=acrcp_v1_48&sig=AOD64_0GJTRsTG4uQuiCDJ7-DDVxflajNQ&adurl=",
+    "is_official": false
+  },
+  {
+    "provider_name": "Unknown",
+    "price": "\u20b15,057",
+    "booking_url": "https://www.google.com/aclk?sa=l&ai=DChsSEwihs8bq2byUAxUdq2YCHZifCCEYACICCAEQCBoCc20&co=1&ase=2&gclid=EAIaIQobChMIobPG6tm8lAMVHatmAh2YnwghEAoYASAEEgJ_z_D_BwE&cid=CAASuwHkaPqK2S7Va627Wwo_VlZZI7lIJTojGhCLtfUdHxQdZWVgjqedST49itIxsw4zVSfAoBjU-Ee5527bg-ZgNbnpBH7AMpTPpa-efdYMSUFqD6q0kl31w0XOtE9iSpP6mzVcgpHuZvCl6I9PawiB4pF6XyYC9dlhnU2OYoOIljux6h9pSGrGHDSFRqee16koZSlte9bGSm34ugZjFACH4uzpwRsKUU6EywZ9HqsRGYaQPNVUomYfOT0UqhId&category=acrcp_v1_48&sig=AOD64_1TOgZvQ6XOT0SF7OdEV3oUP69t3g&adurl=",
+    "is_official": false
+  },
+  {
+    "provider_name": "Unknown",
+    "price": "\u20b15,057",
+    "booking_url": "https://www.google.com/aclk?sa=l&ai=DChsSEwihs8bq2byUAxUdq2YCHZifCCEYACICCAEQCRoCc20&co=1&ase=2&gclid=EAIaIQobChMIobPG6tm8lAMVHatmAh2YnwghEAoYASAFEgIz1PD_BwE&cid=CAASuwHkaPqK2S7Va627Wwo_VlZZI7lIJTojGhCLtfUdHxQdZWVgjqedST49itIxsw4zVSfAoBjU-Ee5527bg-ZgNbnpBH7AMpTPpa-efdYMSUFqD6q0kl31w0XOtE9iSpP6mzVcgpHuZvCl6I9PawiB4pF6XyYC9dlhnU2OYoOIljux6h9pSGrGHDSFRqee16koZSlte9bGSm34ugZjFACH4uzpwRsKUU6EywZ9HqsRGYaQPNVUomYfOT0UqhId&category=acrcp_v1_48&sig=AOD64_1-EUfjaWTbRaEzoBKYYhUllpkGNg&adurl=",
+    "is_official": false
+  },
+  {
+    "provider_name": "Unknown",
+    "price": "\u20b13,581",
+    "booking_url": "https://www.google.com/aclk?sa=l&ai=DChsSEwihs8bq2byUAxUdq2YCHZifCCEYACICCAEQARoCc20&co=1&ase=2&gclid=EAIaIQobChMIobPG6tm8lAMVHatmAh2YnwghEAoYAiABEgJB5PD_BwE&cid=CAASuwHkaPqK2S7Va627Wwo_VlZZI7lIJTojGhCLtfUdHxQdZWVgjqedST49itIxsw4zVSfAoBjU-Ee5527bg-ZgNbnpBH7AMpTPpa-efdYMSUFqD6q0kl31w0XOtE9iSpP6mzVcgpHuZvCl6I9PawiB4pF6XyYC9dlhnU2OYoOIljux6h9pSGrGHDSFRqee16koZSlte9bGSm34ugZjFACH4uzpwRsKUU6EywZ9HqsRGYaQPNVUomYfOT0UqhId&category=acrcp_v1_48&sig=AOD64_059fGF7zjf6qrTfX1S7jZU9WPUlQ&adurl=",
+    "is_official": false
+  },
+  {
+    "provider_name": "Unknown",
+    "price": "\u20b13,581",
+    "booking_url": "https://www.google.com/aclk?sa=l&ai=DChsSEwihs8bq2byUAxUdq2YCHZifCCEYACICCAEQAhoCc20&co=1&ase=2&gclid=EAIaIQobChMIobPG6tm8lAMVHatmAh2YnwghEAoYAiACEgJw5vD_BwE&cid=CAASuwHkaPqK2S7Va627Wwo_VlZZI7lIJTojGhCLtfUdHxQdZWVgjqedST49itIxsw4zVSfAoBjU-Ee5527bg-ZgNbnpBH7AMpTPpa-efdYMSUFqD6q0kl31w0XOtE9iSpP6mzVcgpHuZvCl6I9PawiB4pF6XyYC9dlhnU2OYoOIljux6h9pSGrGHDSFRqee16koZSlte9bGSm34ugZjFACH4uzpwRsKUU6EywZ9HqsRGYaQPNVUomYfOT0UqhId&category=acrcp_v1_48&sig=AOD64_0ozdZsTr9JEBEJxmwT-h3nzIYo-w&adurl=",
+    "is_official": false
+  },
+  {
+    "provider_name": "Unknown",
+    "price": "\u20b13,581",
+    "booking_url": "https://www.google.com/aclk?sa=l&ai=DChsSEwihs8bq2byUAxUdq2YCHZifCCEYACICCAEQAxoCc20&co=1&ase=2&gclid=EAIaIQobChMIobPG6tm8lAMVHatmAh2YnwghEAoYAiADEgLI6_D_BwE&cid=CAASuwHkaPqK2S7Va627Wwo_VlZZI7lIJTojGhCLtfUdHxQdZWVgjqedST49itIxsw4zVSfAoBjU-Ee5527bg-ZgNbnpBH7AMpTPpa-efdYMSUFqD6q0kl31w0XOtE9iSpP6mzVcgpHuZvCl6I9PawiB4pF6XyYC9dlhnU2OYoOIljux6h9pSGrGHDSFRqee16koZSlte9bGSm34ugZjFACH4uzpwRsKUU6EywZ9HqsRGYaQPNVUomYfOT0UqhId&category=acrcp_v1_48&sig=AOD64_3aYAKLTC4r5PGp-nb1kiLJEbPNww&adurl=",
+    "is_official": false
+  },
+  {
+    "provider_name": "klook",
+    "price": "\u20b13,471",
+    "booking_url": "https://api.klktech.com/v1/meta/hotels/detail/570333/?hotelid=570333&check_in=2026-05-25&check_out=2026-05-26&aid=28539&campaignid=&adult_num=2&lead_time=9&child_num=0&childages=&room_num=1&google_site=localuniversal&length_of_stay=1&partner_currency=USD&click_type=hotel&click_price_total=3470.95&price_tax=602.52&price_fees=0.00&rate_key=1-22-2026-05-25%7C2026-05-26%7C10130237%7C90572141%7CV0_1013023&user_country=PH&click_currency=PHP&_currency=PHP&device=desktop&partner_hotelid=570333&language=en&audience_list=&verification=false&booking_source=cpc&isPromoted=0&utm_source=MSE&utm_medium=Google&utm_campaign=28539&utm_term=570333&utm_content=PHP&isAdClick=0&prid=Foreign-Other&arrival_fees=0.000&mse_trace_id=ZDVhYzZjYi04NzljY2M5LTE3Nzg4OTM3NTguZi5vOjE6MDoyOjA6MToxNDQ6MTQ1OkhL&mse_search_token=ZDVhYzZjYi04NzljY2M5LTE3Nzg4OTM3NTguZi5vOjE6MDoyOjA6MToxNDQ6MTQ1OkhL&price_total=USD-56.340&price_type=Inbound-desktop&klc_l1=MSE&klc_l2=Google&age=",
+    "is_official": false
+  },
+  {
+    "provider_name": "Traveloka.com",
+    "price": "\u20b13,538",
+    "booking_url": "https://www.traveloka.com/en-ph/hotel/search?spec=25-05-2026.26-05-2026.1.1.HOTEL_GEO.102746.Bali.2&hotelId=3000010018173&contexts=%7B%22accessCode%22:%2290975GHAD1305desktop%22%2C%22metasearchRequestId%22%3A%227a4d6bcf-41e0-4e22-a013-f905b0ebcd75%22%2C%22dateSelectionType%22%3A%22default%22%7D&metasearchId=GoogleHotelAdsUser&metasearchRateId=desktop&metasearchRatekey=sgyUU2M0LrnnpXh1LPwoI&priceDisplay=TOTAL&metasearchRefid=12345678910abcdefghijk@-&adType=0&PPA=0&hotelCampaign=1",
+    "is_official": false
+  },
+  {
+    "provider_name": "Trip.com",
+    "price": "\u20b13,581",
+    "booking_url": "https://ph.trip.com/hotels/redirect?hotelid=5804437&city=723&shoppingid=MFbZD0ANZJK9&adult=2&children=0&ages=&checkin=2026-05-25&checkout=2026-05-26&curr=PHP&Allianceid=15214&Sid=1349480&prid=LANG_PH&trip_sub1=25_05_2026_1_localuniversal_5804437_PH_desktop_default___0_0-LANG_PH-landing&hpaopts=stand[H4sIAAAAAAAA_-OK5GKSYBJi4mCU8ud42_ZkKZsQu6GpmYGhgZHBJhGL1mbGAI4ZjFMXP2Jawci4g5HpACPTRUZbruuLP7xb5vCQkQEIGn6tdnjB-GHplTuMC1gYF7LG9B_6qlHW4iDF4-uWFOVi4OgX5eVtqcCo8bdr_gU2D8YgNmMTEzMj5ygZLubQYBfB497mnY4O0g5SzAEeAYpPRGRPPrXfY5_EmpqnG-CR0SvaxcjkwbiKkZ2L2cDIUIDpEyM_srnxZqaTmBhNAHIZFsnIAAAA]fgt[1]&br=3581.25&tf=645.78&display=incavg&locale=en_ph&crn=1&roomid=1689846637",
+    "is_official": false
+  },
+  {
+    "provider_name": "Cleartrip.com",
+    "price": "\u20b13,775",
+    "booking_url": "https://www.cleartrip.com/hotels/details/2060668?c=25052026|26052026&r=2,0&utm_source=GoogleHPA&utm_campaign=2060668&utm_medium=&utm_content=GoogleHPA&xtm_source=google&xtm_content=&xtm_medium=&xs=GoogleHPA&xm=hc-v2-1562831241",
+    "is_official": false
+  },
+  {
+    "provider_name": "hutchgo (Hutchison Travel Limited)",
+    "price": "\u20b13,602",
+    "booking_url": "https://www.hutchgo.com/affiliate/r.aspx?region=PH&lang_id=TL&product=RH&currency=PHP&check_in=25/05/2026&check_out=26/05/2026&affiliate_id=210029&banner_id=860018&u_id=&room=2_0_0&searchtype=HOTEL&code=1002841&tid=ca97afa8-83c2-46dd-94ff-36a98c8fb97d",
+    "is_official": false
+  },
+  {
+    "provider_name": "Tiket.com",
+    "price": "\u20b14,287",
+    "booking_url": "https://www.tiket.com/en-us/hotel/indonesia/mahagiri-resort-nusa-lembongan-202001550478077661?hotelID=d22991d6-188a-4dbf-b7fb-9fc1f28b31d5&checkin=2026-05-25&checkout=2026-05-26&adult=2&country=PH&device=desktop&lang=en&isAat=true&utm_source=google-hotel&utm_term=d22991d6-188a-4dbf-b7fb-9fc1f28b31d5&utm_medium=aff-meta&utm_campaign=Google-Hotel-0023-B2B-none-hotel&utm_external=aff&tag_meta_id=34412887&tag_meta_type=google-hotel&isRedirect=true&currency=PHP",
+    "is_official": false
+  },
+  {
+    "provider_name": "Booking.com",
+    "price": "\u20b15,057",
+    "booking_url": "https://www.booking.com/searchresults.en.html?dest_id=1858373&highlighted_hotels=1858373&dest_type=hotel&checkin=2026-05-25&checkout=2026-05-26&group_adults=2&req_adults=2&show_room=185837320_91994653_0_1_0_1091889&lang=en&selected_currency=PHP&exrt=0.00349983&ext_price_total=5056.67&ext_price_tax=956.67&xfc=IDR&hca=m&group_children=0&req_children=0&&no_rooms=1&ts=1778892302&edgtid=ZglkYj5YS-2PNhy5orbuZg&efpc=FESDWhREg1pw&utm_source=metagha&utm_medium=localuniversal&utm_campaign=PH&utm_term=hotel-1858373&utm_content=dev-desktop_los-1_bw-9_dow-Monday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-50_bc-ABxbRQ_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20260525_ppt-CgB&aid=2127705&label=metagha-link-LUPH-hotel-1858373_dev-desktop_los-1_bw-9_dow-Monday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-50_bc-ABxbRQ_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20260525_ppt-CgB",
+    "is_official": false
+  },
+  {
+    "provider_name": "Qantas Hotels",
+    "price": "\u20b14,264",
+    "booking_url": "https://www.qantas.com/hotels/properties/250234?adults=2&children=0&infants=0&checkIn=2026-05-25&checkOut=2026-05-26&utm_campaign=GoogleHotels&adType=0&utm_medium=organic-search&utm_source=Google-Hotels&utm_term=250234&hotelID=250234&hotel_campaign=",
+    "is_official": false
+  },
+  {
+    "provider_name": "Bluepillow.ph",
+    "price": "\u20b14,302",
+    "booking_url": "https://www.bluepillow.ph/search/5dc04105e24da41e9810703e?begin=2026-05-25&end=2026-05-26&block_id=-b,0VquHNIyN4kAw2pH7eIf25CJwDoJqtm9ILnXdWMUyW7cvEwir8VTFiNKNYBlGnd2,-bpex-Hotel&adults=2&childs=0&infants=0&childrens=0&country=PH&currency=PHP&language=en&source=localuniversal&utm_campaign=hotel&prid=foreign",
+    "is_official": false
+  },
+  {
+    "provider_name": "m\u00fcv AI",
+    "price": "\u20b14,302",
+    "booking_url": "https://muvtravel.com/xp-hotel?hotelID=108612087&checkinDay=25&checkinMonth=05&checkinYear=2026&nights=1&num-guests=2&checkoutDay=26&checkoutMonth=05&checkoutYear=2026&PROMO-CODE=98010",
+    "is_official": false
+  }
+]

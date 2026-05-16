@@ -80,56 +80,92 @@ class MiniHotelScraper:
                         if (!container) continue;
 
                         // Find provider name - look for text inside specific spans or images
-                        let providerName = "Unknown";
-                        // Look for a span that isn't the price and isn't the 'Visit site' text
-                        const candidateEls = Array.from(container.querySelectorAll('span, div, img[alt]'));
-                        for (const el of candidateEls) {
-                            const text = (el.innerText || el.getAttribute('alt') || "").trim();
-                            if (text && 
-                                text.length > 2 && 
-                                text.length < 40 && 
-                                !/[₱$€£]/.test(text) && 
-                                !text.includes('Visit site') && 
-                                !text.includes('Official') &&
-                                !text.includes('Website')) {
-                                providerName = text;
-                                break;
+                        let providerName = "";
+                        
+                        // 0. Check aria-label of the link
+                        const ariaLabel = link.getAttribute('aria-label') || "";
+                        if (ariaLabel && ariaLabel.toLowerCase().includes('visit site')) {
+                            // Common pattern: "Visit site for [Provider Name]"
+                            const nameMatch = ariaLabel.match(/Visit site (?:for|at)\s+(.*)/i);
+                            if (nameMatch) providerName = nameMatch[1].trim();
+                        }
+                        
+                        // 1. Check for 'Official' indicators
+                        const isOfficial = container.innerText.toLowerCase().includes('official') || 
+                                           container.innerText.toLowerCase().includes('website');
+                        
+                        // 2. Try to find the provider name in images
+                        if (!providerName || providerName === "Unknown") {
+                            const images = Array.from(container.querySelectorAll('img[alt]'));
+                            for (const img of images) {
+                                const alt = img.getAttribute('alt').trim();
+                                if (alt && alt.length > 2 && alt.length < 40 && !alt.toLowerCase().includes('visit site')) {
+                                    providerName = alt;
+                                    break;
+                                }
                             }
                         }
                         
-                        // Refine provider name if it's too long or empty
-                        providerName = providerName.split('\n')[0].trim();
-                        if (providerName.length > 50) providerName = providerName.substring(0, 50);
+                        // 3. Look for a span that isn't the price and isn't the 'Visit site' text
+                        if (!providerName || providerName === "Unknown") {
+                            const candidateEls = Array.from(container.querySelectorAll('span, div'));
+                            // Filter for marketing text and other noise
+                            const noise = ['visit site', 'official', 'website', 'view more', 'free cancellation', 
+                                         'reviews', 'customer service', 'breakfast', 'refundable', 'deals',
+                                         'room rates', 'more room', 'stay+ offers', 'unlock', 'book and earn',
+                                         'guest reviews'];
+                                         
+                            for (const el of candidateEls) {
+                                if (el.children.length > 0) continue; // Prefer leaf nodes
+                                
+                                const text = el.innerText.trim();
+                                const lowerText = text.toLowerCase();
+                                
+                                if (text && 
+                                    text.length > 2 && 
+                                    text.length < 50 && 
+                                    !/[₱$€£]/.test(text) && 
+                                    !noise.some(n => lowerText.includes(n))) {
+                                    providerName = text;
+                                    break;
+                                }
+                            }
+                        }
+                        
+                        if (isOfficial && (!providerName || providerName === "Unknown")) {
+                            providerName = "Official Website";
+                        }
+
+                        // Refine provider name
+                        providerName = (providerName || "Unknown").split('\n')[0].trim();
+                        if (providerName.length > 60) providerName = providerName.substring(0, 60);
 
                         // Find price - look for the span that matches common currency patterns
                         let price = "N/A";
                         const allSpans = Array.from(container.querySelectorAll('span, div'));
-                        // Sort by text length to find the most concise price string
+                        
+                        // Regex for price: currency symbol followed by numbers and optional commas
+                        const priceRegex = /[₱$€£]\s?[\d,]+/;
+                        
                         const priceMatches = allSpans
                             .map(s => s.innerText.trim())
-                            .filter(t => /^[₱$€£]\s?[\d,]+$/.test(t));
+                            .filter(t => priceRegex.test(t))
+                            .sort((a, b) => a.length - b.length); // Shortest string usually the price itself
                         
                         if (priceMatches.length > 0) {
                             price = priceMatches[0];
                         } else {
-                            // Fallback to searching for the first occurrence of a currency symbol
-                            const fallback = allSpans.find(s => /[₱$€£]/.test(s.innerText));
-                            if (fallback) {
-                                const match = fallback.innerText.match(/[₱$€£]\s?[\d,]+/);
-                                if (match) price = match[0];
-                            }
-                        }
-
-                        if (price === "N/A" && link.innerText.includes('₱')) {
-                             const match = link.innerText.match(/[₱$€£]\s?[\d,]+/);
-                             if (match) price = match[0];
+                            // Search the whole container text for a price pattern
+                            const fullText = container.innerText;
+                            const match = fullText.match(priceRegex);
+                            if (match) price = match[0];
                         }
 
                         results.push({
-                            provider_name: providerName || "Unknown",
+                            provider_name: providerName,
                             price: price,
                             booking_url: link.href,
-                            is_official: container.innerText.toLowerCase().includes('official')
+                            is_official: isOfficial
                         });
                     }
                     return results;
