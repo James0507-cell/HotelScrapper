@@ -776,6 +776,42 @@ async def extract_booking_url(page: Page, expected_price: str | None) -> str | N
     return None
 
 
+@dataclass
+class SearchSuggestion:
+    text: str
+    subtext: str | None = None
+    suggestion_type: str | None = None # e.g. 'hotel', 'city', 'region'
+
+async def extract_search_suggestions(page: Page) -> list[SearchSuggestion]:
+    """
+    Extracts search suggestions from the currently visible dropdown.
+    """
+    data = await page.evaluate('''() => {
+        const options = Array.from(document.querySelectorAll('[role="option"]'));
+        return options.map(o => {
+            const text = o.innerText || "";
+            const subtextEl = o.querySelector('span:last-child');
+            let subtext = subtextEl ? subtextEl.innerText : "";
+            
+            // Clean up subtext if it's just a repeat of the main text
+            if (subtext === text) subtext = "";
+            
+            // Try to guess type from icon or class
+            let type = 'place';
+            const html = o.innerHTML.toLowerCase();
+            if (html.includes('hotel') || html.includes('bed')) type = 'hotel';
+            else if (html.includes('city') || html.includes('location')) type = 'city';
+            
+            return {
+                text: text.split('\\n')[0].trim(),
+                subtext: subtext.trim(),
+                suggestion_type: type
+            };
+        });
+    }''')
+    
+    return [SearchSuggestion(**item) for item in (data or [])]
+
 async def extract_all_pricing_offers(page: Page) -> list[PricingOffer]:
     """
     Extracts ALL available unique pricing offers from the currently loaded page.

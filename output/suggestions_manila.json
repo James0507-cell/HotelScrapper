@@ -1,0 +1,52 @@
+[
+  {
+    "text": "The Manila Hotel",
+    "subtext": "",
+    "suggestion_type": "hotel"
+  },
+  {
+    "text": "manila peninsula",
+    "subtext": "",
+    "suggestion_type": "place"
+  },
+  {
+    "text": "manila prince hotel",
+    "subtext": "",
+    "suggestion_type": "hotel"
+  },
+  {
+    "text": "Manila Grand Opera Hotel",
+    "subtext": "925 Doroteo Jose St, Santa Cruz, Manila",
+    "suggestion_type": "hotel"
+  },
+  {
+    "text": "Manila Lotus Hotel",
+    "subtext": "1227 A. Mabini St, Ermita, Manila",
+    "suggestion_type": "hotel"
+  },
+  {
+    "text": "manila marriott hotel",
+    "subtext": "",
+    "suggestion_type": "hotel"
+  },
+  {
+    "text": "manila manor hotel",
+    "subtext": "",
+    "suggestion_type": "hotel"
+  },
+  {
+    "text": "Manila Rivercity Residences",
+    "subtext": "2004 A.Delas Alas, Santa Ana, Manila",
+    "suggestion_type": "city"
+  },
+  {
+    "text": "manila to davao flight",
+    "subtext": "",
+    "suggestion_type": "place"
+  },
+  {
+    "text": "manila to davao",
+    "subtext": "",
+    "suggestion_type": "place"
+  }
+]
